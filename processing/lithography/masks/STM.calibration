@@ -1,0 +1,21 @@
+STM calibration mask.
+
+A series of lines.  Label says they have been measured at 1.905 (microns)
+Lines cover an area about 2cmx4.4cm, and run across the short direction.
+This area was obviously made as several die on a stepper; where the die touch
+the registration is not perfect.
+
+Original 3.5" square mask obtained from Geoff Nunes:
+MASK GENERATION LAB
+NAME:  MCCORKLE, DATE:  09/20/89
+MASKSET;  STM CALIBRATION GRATING
+LEVEL:  LVL L1
+JOB #:  89.2350 DESIGN=2.00 MEAS=1.95
+CHROME MASTER
+Name:  MCORKLE, Date: 9/20/89, MASKSET
+
+COPY made at Dartmouth on a 4" square plate 5/4/95
+8s@15mW exposure, 30s puddle develop, 90s etch.
+Marked on mask:  LPGF15 MGL892350 GRID
+
+

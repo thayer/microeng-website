@@ -1,0 +1,12 @@
+The work presented here has been a collaborative effort between Dartmouth
+College and IBM Microelectronics.  Our force-based Kelvin Probe is based upon
+a non-contact atomic force microscope designed and built at IBM -- Yorktown.
+It consists of two control loops.  One control loop is used to maintain the
+probe/sample spacing such that the van der Waals (vdW) force gradient remains
+constant, yielding an estimate of the surface topography of the sample under
+study.  The second control loop is used to minimize the deflection of the
+probe's cantilever due to electrostatic forces.  From this feedback we obtain
+estimates of the work function difference (EPD) and capacitance (dC/dz).
+The system is able to detect lateral features as small as 25 nm.  The vdW loop
+has a sensitivity of 0.5 angstroms per square root Hertz and the EPD loop has
+a sensitivity of 5 mV per square root Hertz.

@@ -1,0 +1,34 @@
+Hayend Brownell, Zachary K. Keane, Chris Levey
+
+Here are the notes from the last run (7/31-8/1) making polarizers.  See you on Monday.  -Hayden
+
+Au on Ti on TPX (hand polished, ~10um deep scratches).
+
+Deposition:
+6e-6 Torr.
+10 sccm Ar flow.
+Ti @160W for 2 min into chamber to act as getter.
+Ti @160W for 30 sec.
+Au @60W for 3 min. (Note previous run indicated 6 min produced 5000A thickness.)
+
+Resist: S1813 @900 rpm for 5 sec, then @4000 rpm for 50 sec.
+
+Bake: 10 min @120 deg C.
+
+Expose:  9.5 sec @27 mW/cm^2.  Substrate was raised three turns (450 um) above focus position.  A dense, symmetric diffraction pattern was clearly visible.
+
+Develop:  MF913 puddle for 1 min.  Then rinse and spin @300 rpm for 35 sec followed by N2 and spin at 3500 rpm for 30 sec.
+
+Bake:  for 10 min @120 deg C.
+
+Etch:
+17s Gold Etch.
+16s Ti etch (1% HF in DI H20).  No visible effect.
+10s Gold.  Slightly transparent.
+5s Gold.  Better uniformity, center still more opaque.
+15s Ti.
+4s Gold.
+15s Ti.
+30s Ti.  Much clearer.  Light meter indicates 50% transmission.  Strong diffraction visible.  Lines look like the mask under the microscope (ignoring the large scratches).
+
+Strip.

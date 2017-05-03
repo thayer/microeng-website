@@ -1,0 +1,5 @@
+During scans of DRAM cells, the probe tip came close enough to the surface
+of the sample to deposit charge on oxide.  The effect of this static charge
+is clearly seen in all three measurement modes.  The charge has the most
+impact upon the EPD signal due to the lateral bending of surface energy bands
+in addition to the long range effects described earlier.

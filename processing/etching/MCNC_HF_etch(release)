@@ -1,0 +1,14 @@
+From: "David A. Koester" <koester@mcnc.org>
+
+The oxide release layer is PSG not LTO.  PSG etches considerably faster
+than LTO in concentrated HF.  I have some data that suggests the
+lateral etch rate (under structures) is as fast as 15-20 um/min.  the
+2.5 minutes is a conservative release time.  You may be able to do it
+in as little as 60 sec.  I've had pretty repeatable results releasing
+for 90 seconds.  But, with the gold metallurgy we are using now, there
+is no reason to hurry the release.  I would stick with 2.5 minutes.
+
+Dave
+
+
+

@@ -1,0 +1,43 @@
+PROTOCOL DL95a
+
+CLEAN(semicond grade solvents):
+10s flow acetone rinse (with pen markings down)
+10s flow TCA rinse
+10 min soak acetone
+10s flow acetone
+10s flow methanol
+blow dry UHP N2 gas
+10 minute at 120C bake dry
+
+LITHO
+spin on Shipley 1813 @700/4000RPM
+prebake 30 minutes at 120C
+expose 15s at 15mW
+develop 80s puddle+10s@200rpm
+rinse 60s@200-500rpm
+dry 60s@4000 rpm
+bake 30 minutes at 120C
+
+ETCH
+10s in metal etch (3:3:1:1 H3PO4:HNO3:CH3COOH:DI) w/ agitation
+(note: center clears in 3 s; outer ring in 6 s)
+strip in 60s in acetone or ACT (takes off 1st Cu layer) w/ agitation
+
+DL95b
+replace CLEAN with:
+30s flow IPA rinse spinning 700RPM
+30s flow DI rinse spinning 700RPM
+60s spin dry at 4000RPM with N2 flow for 10s.
+(note, acetone may cause pealing?)
+
+DL95c
+Samples are rougher (including pinholes) and thicker (1.4 microns). 
+as DL95b but
+(1) 30s flow Acetone spinning 700RPM first. 
+(2) eliminate 10s flow develop
+(3) ETCH as follows:
+80sec in FeCl3 solution (Radio Shack 7705080 full strength PCB etchant)
+(took about 50s to clear mostly, but still a bridge or two at 60s;
+after 80s no bridges, but lines a bit undercut; not the cleanest
+etch I've seen)
+(note, on a test sample the 3:3:1:1 took 5 minutes to clear.)

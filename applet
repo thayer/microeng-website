@@ -1,0 +1,7 @@
+<applet code=scroll.class width=600 height=25> 
+<param name=font_height value=18>
+<param name=colors value=1>
+<param name=scroll_text value="Wecome to the Thayer Microengineering Lab home page at Dartmouth College">
+<param name=scroll_speed value=100>
+</applet>
+

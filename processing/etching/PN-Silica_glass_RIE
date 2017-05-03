@@ -1,0 +1,21 @@
+Date: 15 Aug 94 15:21:51 EDT
+Subject: Re: RIE rate in glass
+To: cgl@coos.dartmouth.edu (Christopher Levey)
+
+--- You wrote:
+Do you know the RIE etch rate in BK7 glass, and do you know the etch ratio
+between resist and glass?
+--- end of quoted material ---
+  As I remember, the etch rate of glass under my RIE machien is on the order
+of ~50 to 100A per minute.
+   If you can live with quartz wafers. Etch rate for quartz wafer is much
+higher than glass. Probably in the range 1000A per minute or more.
+       If you want to etch quartz for about  1 micron thick, you can use
+phoresist as mask.
+	If the glass is not pure SiO2, forget about etch glass in plasma mode.  I
+tried this about two years ago and find out from other papers and my own
+experience that the etch rate is very slow because of the high impurity
+nature of glass.
+
+chia-lun
+

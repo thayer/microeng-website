@@ -1,0 +1,18 @@
+FILM:
+Use 3386dpi, normal density.  In dark field regions, light areas 
+(e.g. spaces between dark lines) are smaller than design (35+35u turns
+out 50+20).
+emulsion is less shiney.  curl is twd emulsion.
+place film on mask with curl such that it bows up in the middle.
+Use 300microns (*K) of pressure; soft contact mode.
+
+FIRST MASK:
+12s exposure, 30s develop, 60s rinse
+2s blanket exposure, 15s develop, 60s rinse
+20min@120C bake
+60s etch in CR7, strip in ACT
+sparse radial lines a bit overexposed,
+dense radial lines a bit underexposed.
+
+SECOND MASK:
+7s exposure; else same as first.

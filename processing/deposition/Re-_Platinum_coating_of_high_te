@@ -1,0 +1,19 @@
+From: barlow@birch.ee.vt.edu (Fred Barlow)
+Newsgroups: sci.materials
+Subject: Re: Platinum coating of high temperature substr
+Date: 21 Oct 1994 20:56:24 GMT
+Organization: Virginia Tech.
+
+Sounds like you have an adhesion problem.  Many metals like gold and silver 
+do not adhere well to most substrates like allumina.  One approach is to use 
+a thin adhesion layer of Cr or Ti (~ 50 - 100 Angstroms), since these metals 
+act like natural glues. Followed by a heat treatment at a few hundred deg
+degees celcius to promote adhesion.  
+I have used this process with evaporation and obtained excellent results on 
+allumina and glass substrates for both silver and gold, this may also work 
+with platnium.
+
+Good luck,
+
+Fred Barlow
+

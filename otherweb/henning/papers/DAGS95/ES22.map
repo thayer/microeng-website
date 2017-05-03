@@ -1,0 +1,14 @@
+#
+# Created by WebMap 1.0
+# Friday, April 7, 1995 at 6:00 PM
+# Format: NCSA
+#
+
+
+default /henning/henning.html
+circ /henning/papers/DAGS95/conceptual_model.html 72,161 183,235
+circ ./system.html 315,17 426,91
+circ ./measured_response.html 567,160 678,234
+circ ./agree.html 566,448 677,522
+circ ./predicted_response.html 315,583 426,657
+circ ./math_model.html 72,449 183,523

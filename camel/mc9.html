@@ -1,0 +1,316 @@
+<!DOCTYPE HTML SYSTEM "html.dtd">
+<HTML>
+<HEAD>
+<TITLE>Test and Electrical Micromechanical Elements</TITLE>
+</HEAD>
+<BODY>
+<H1>6. Test and Electrical Micromechanical Elements</H1>
+<P>Various mechanical and electrical test and measurement structures
+are  available in the Parameterized Micromechanical Element library and
+are  described in this chapter. Where appropriate, there are versions of
+the  element implemented on each of the structural layers. All
+geometrical  length parameters passed to the generators must be in µm
+units. Test  structres such as the Guckel rings and Euler columns can be
+used to  estimate the residual stress in the structural layers.</P>
+<P>The following test and electrical elements are currently available 
+in the CaMEL PME library:</P>
+<UL>
+<LI>Area Perimeter Test Structure - aptest
+</LI>
+<LI>Crossover Test Structures - cotest, coatest
+</LI>
+<LI>Euler Columns - dsbeam1, dsbeam2
+</LI>
+<LI>Guckel Rings - gring1, gring2, grings1, grings2
+</LI>
+<LI>Pad - pad
+</LI>
+</UL>
+<P>Some of the test structure elements include mechanical models of the
+ structures within them in order to allow mechanical parameters as
+inputs  to the element. It is also necessary to enter process dependent
+material  properties and layer thicknesses in order to allow these
+mechanical models  to be used.</P> 
+<HR>
+<H2>Table of Contents</H2>
+<UL>
+<LI><A HREF="#6.1"><B>6.1 Area-Perimeter Dielectric IsolationTest
+Structure Element: aptest</B></A>
+</LI>
+<LI><A HREF="#6.2"><B>6.2 Crossover Test Structure Element: cotest</B></A>
+</LI>
+<LI><A HREF="#6.3"><B>6.3   Crossover Test Structure Element: coatst</B></A>
+</LI>
+<LI><A HREF="#6.4"><B>6.4 Euler Column (Doubly Supported Beam)
+Elements: dsbeam1, dsbeam2</B></A>
+</LI>
+<LI><A HREF="#6.5"><B>6.5 Array of Euler Column Elements: dsbeams1,
+dsbeams2</B></A>
+</LI>
+<LI><A HREF="#6.6"><B>6.6 Guckel Ring Test Structure Element: gring1,
+gring2</B></A>
+</LI>
+<LI><A HREF="#6.7"><B>6.7 Array of Guckel Ring Elements: grings1,
+grings2</B></A>
+</LI>
+<LI><A HREF="#6.8"><B>6.8 Multilayer Pad Element: pad</B></A>
+</LI>
+</UL>
+<HR> 
+<H2><A NAME="6.1">6.1 Area-Perimeter Dielectric IsolationTest
+Structure Element: aptest</A></H2>
+<P>The <B>aptest</B> PME element generates an area-perimeter test 
+structure that can be used to test the dielectric properties of the 
+isolation layer between the first electrical connect layer and the 
+substrate. It can also be used to measure the resistance of the first 
+electrical connect layer. Probe pads are include in the structure to 
+allow electrical probing for measurements. An electrical connection  to
+the conductive substrate is required for dielectric measurements.  The
+origin of the cell is located at the lower left corner of the element. 
+The following parameters are used:</P>
+<PRE>
+  width:   width of electrical connect wire, µm
+  height:  serpentine height, µm
+  length:  serpentine half wavelength, µm
+  nw:      number of wavelengths, µm
+  name:    name of cell. 
+</PRE>
+<P>The element parameters can be selected to obtained the desired area
+and  perimeter for the structure.<BR>This can be used to study the
+effects of  etching the electrical connect layer on the dielectric
+properties of the  isolation layer.</P>
+<P>Element calling sequence:</P>
+<PRE>
+PME aptest(double width, double height, double length, int nw,
+           char *name)
+</PRE>
+<P><A HREF="c9.fig.1.gif"><IMG SRC="c9.fig.1.gif"></A></P>
+<P><B>Figure 21.</B> Area-perimeter dielectric isolation test
+structure  used to measure the dielectric properties of the isolation
+layer. It can  also be used to measure the resistance of the first
+electrical connect  layer. The pads at the two ends of the structure can
+be used to probe  the structure in a wafer testing station.</P> 
+<H2><A NAME="6.2">6.2 Crossover Test Structure Element: cotest</A></H2>
+<P>The <B>cotest</B> PME element generates a crossover test structure 
+that can be used to test electrical interconnection using bridges on 
+structural layers 1 and 2 to cross over lines on the first electrical 
+interconnect layer. The wires are anchored to the substrate except at 
+the bridges. The origin of the cell is located at the lower left corner 
+of the element. The following parameters are used:</P>
+<PRE>
+  p0width:  width of wire on first electrical connect layer, µm
+  p1width:  width of wire on first structural layer, µm
+  p2width:  width of wire on second structural layer, µm
+  name:  name of cell. 
+</PRE>
+<P>Element calling sequence:</P>
+<PRE>
+PME cotest(double p0width, double p1width, double p2width,
+           char *name)
+</PRE>
+<P><A HREF="c9.fig.2.gif"><IMG SRC="c9.fig.2.gif"></A></P>
+<P><B>Figure 22.</B> Crossover test element <B>cotest</B>. The
+cross-hairs  indicate the local origin of the cell. Pads are added to
+the wires to allow  electrical probing of the test structures.</P> 
+<H2><A NAME="6.3">6.3 Crossover Test Structure Element: coatst</A></H2>
+<P>The <B>coatst</B> PME element generates a crossover test structure 
+that can be used to test electrical interconnection using bridges on 
+structural layers 2 to cross over lines on structural layer 1. The wire 
+on structural layer 2 is anchored to the substrate everywhere except at 
+the bridges. The origin of the cell is located at the lower left corner 
+of the element. The following parameters are used:</P>
+<PRE>
+  p1width:  width of wire on first structural layer, µm
+  p2width:  width of wire on second structural layer, µm
+  name:  name of cell. 
+</PRE>
+<P>Element calling sequence;</P>
+<PRE>
+PME cotest(double p1width, double p2width, char *name)
+</PRE>
+<P><A HREF="c9.fig.3.gif"><IMG SRC="c9.fig.3.gif"></A></P>
+<P><B>Figure 23.</B> Crossover test element <B>coatst</B>. The
+cross-hairs  indicate the local origin of the cell. Pads are added to
+the wires to allow  electrical probing of the test structures. In this
+case a horizontal wire  on structural layer 2 crosses over the anchored,
+vertical wire on  structural layer 1.</P> 
+<H2><A NAME="6.4">6.4 Euler Column (Doubly Supported Beam) Elements:
+dsbeam1, dsbeam2</A></H2>
+<P>The <B>dsbeam1</B> and <B>dsbeam2</B> PME elements generate doubly
+ supported beam test structures. This element can be used to estimate 
+the residual strain in a film with a compressive residual strain. 
+Generally, an array of beams with varying lengths are used to determine 
+the critical buckling length for the residual strain in the structural 
+layer of interest. Hence, the name, Euler columns, for these test 
+structures. The origin of the cell is located at the center of the 
+beam. The following parameters are used:</P>
+<PRE>
+  blength:  length of doubly supported beam, µm
+  bwidth:   width of doubly supported beam, µm
+  asize:    size of anchor supports, µm
+  name:     name of cell. 
+</PRE>
+<P>The beam parameters are chosen to set the critical buckling strain
+of  the beam and hence the residual compressive strain that it would
+detect.  If the thickness of the structural layer used is larger than
+the width of  the beam, lateral buckling will occur; i.e., buckling in
+the plane of the  wafer. Otherwise, buckling will occur out of the plane
+of the wafer.</P>
+<P>Element calling sequence:</P>
+<PRE>
+PME dsbeam1(double blength, double bwidth, double asize, char *name)
+PME dsbeam2(double blength, double bwidth, double asize, char *name)
+</PRE>
+<P><A HREF="c9.fig4.gif"><IMG SRC="c9.fig.4.gif"></A></P>
+<P><B>Figure 24.</B> Doubly supported beam element generated by 
+<B>dsbeam1</B> or <B>dsbeam2</B>. The critical compressive residual 
+strain value at which the beam will buckle upon release is determined 
+by the beam length, <I>blength</I>, and the smaller cross-sectional 
+dimension of the beam.</P> 
+<H2><A NAME="6.5">6.5 Array of Euler Column Elements: dsbeams1,
+dsbeams2</A></H2>
+<P>The <B>dsbeams1</B> and <B>dsbeams2</B> PME elements generate sets
+ of doubly supported beam test structures on structural layer 1 and 
+structural layer 2, respectively. This element can be used to estimate 
+the residual strain in a film with a compressive residual strain
+<A HREF="c9.html#FN1">(1)</A>. The origin of the cell is located at the
+ left end of the set of beams. The following parameters are used:</P>
+<PRE>
+  e0min:   minimum residual strain
+  e0max:   maximum residual strain
+  dele0:   residual strain step size 
+  bwidth:  width of doubly supported beam, µm
+  height:  thickness of structural layer of the beam, µm
+  asize:   size of anchor supports, µm
+  name:    name of cell. 
+</PRE>
+<P>The element uses the residual strain range and step size specified
+to  determine the beam lengths of the array of doubly supported beams.
+The  lengths are chosen such that the critical strain that the beams can
+ support before buckling corresponds to the desired value of residual 
+strain to be detected. For beams clamped at both ends, the Euler 
+buckling criterion for the compressive strain in the film </P>
+<PRE>	<A HREF="c9.eq.1.gif"><IMG SRC="c9.eq.1.gif"></A></PRE>
+<P>is used, where <I>L</I> is the length, and <I>h</I> the height of
+the  beam (the minimum of bwidth and height parameters specified). The
+anchored  ends of the beam are considered ideal clamped ends and the
+elasticity of  the supports is not modelled. The beam parameters are
+chosen to set the  critical buckling strain of the beam and hence the
+residual compressive  strain that it would detect. If the thickness of
+the structural layer used  is larger than the width of the beam, lateral
+buckling will occur; i.e.,  buckling in the plane of the wafer.
+Otherwise, buckling will occur out of  the plane of the wafer.</P>
+<P>Element calling sequence;</P>
+<PRE>
+PME dsbeams1(double e0min, double e0max, double dele0, double bwidth,
+             double height, double asize, char *name)
+PME dsbeams2(double e0min, double e0max, double dele0, double bwidth,
+             double height, double asize, char *name)
+</PRE>
+<P><A HREF="c9.fig.5.gif"><IMG SRC="c9.fig.5.gif"></A></P>
+<P><B>Figure 25.</B> Array of doubly supported beams with specified 
+critical strains generated by the <B>dsbeams1</B> or <B>dsbeams2</B> 
+element.</P> 
+<H2><A NAME="6.6">6.6 Guckel Ring Test Structure Element: gring1,
+gring2</A></H2>
+<P>The <B>gring1</B> and <B>gring2</B> elements generate a single 
+"Guckel" ring test structure on structural layer 1 and  structural layer
+2, respectively. These ring structures can be used  to estimate the
+residual strain in a film with tensile residual strain.  An array of
+rings with different radii are used to estimate the critical  radius at
+which buckling occurs in the cross beam of the test structure  and hence
+infer the tensile residual stress present in the structural  film. The
+origin of the element is located at the center of the ring.  The
+following parameters are used:</P>
+<PRE>
+  radius:  mean radius of ring, µm
+  bring:   width of ring, µm
+  bbeam:   width of cross beam, µm
+  asize:   size of anchor supports, µm
+  name:    name of cell. 
+</PRE>
+<P>The ring parameters are chosen to set the critical buckling strain
+of  the cross beam and hence the residual tensile strain that it would
+detect.  If the thickness of the structural layer used is larger than
+the width of  the cross beam, lateral buckling will occur; i.e.,
+buckling in the plane  of the wafer. Otherwise, buckling will occur out
+of the plane of the  wafer.</P>
+<P>Element calling sequence:</P>
+<PRE>
+PME gring1(double radius, double bring, double bbeam, double asize,
+           char *name)
+PME gring2(double radius, double bring, double bbeam, double asize,
+           char *name)
+</PRE>
+<P><A HREF="c9.fig.6.gif"><IMG SRC="c9.fig.6.gif"></A></P>
+<P><B>Figure 26.</B> Guckel ring test structure element used for 
+estimating residual strain in tensile films.</P> 
+<H2><A NAME="6.7">6.7 Array of Guckel Ring Elements: grings1, grings2</A></H2>
+<P>The <B>grings1</B> and <B>grings2</B> elements generate an array
+of  "Guckel" ring test structures on structural layer 1 and  structural
+layer 2, respectively. These ring structures can be used  to estimate
+the residual strain in a film with tensile residual  strain<A HREF="c9.html#FN2"
+>(2)</A>. The origin of the element is  located at the left extreme of
+the of the element. The following  parameters are used:</P>
+<PRE>
+  e0min:   minimum residual strain
+  e0max:   maximum residual strain
+  dele0:   residual strain step size 
+  bring:   width of ring, µm
+  bbeam:   width of cross beam, µm
+  asize:   size of anchor supports, µm
+  height:  thickness of structural layer, µm
+  nu:      Poisson's ratio for structural film
+  name:    name of cell. 
+</PRE>
+<P>The ring parameters are calculated for the critical strain values 
+desired using a mechanical model of the test structure
+<A HREF="c9.html#REF98459">1 </A>. If the thickness of the structural 
+layer used is larger than the width of the cross beam, lateral buckling 
+will occur; i.e., buckling in the plane of the wafer. Otherwise,
+buckling  will occur out of the plane of the wafer.</P>
+<P>Element calling sequence:</P>
+<PRE>
+PME grings1(double e0min, double e0max, double dele0, double bring,
+            double bbeam, double asize, double height, double nu,
+            char *name)
+PME grings2(double e0min, double e0max, double dele0, double bring,
+            double bbeam, double asize, double height, double nu,
+            char *name)
+</PRE>
+<P><A HREF="c9.fig.7.gif"><IMG SRC="c9.fig.7.gif"></A></P>
+<P><B>Figure 27</B>. Array of Guckel ring test structures used for 
+estimating the residual stress in a tensile film.</P> 
+<H2><A NAME="6.8">6.8 Multilayer Pad Element: pad</A></H2>
+<P>The <B>pad</B> element generates a pad for wafer probe or wire bond
+ purposes. It has a stack of layers electrically connecting the first 
+electrical connect layer, first structural layer, second structural 
+layer, and the second (and final) electrical connect layer. The origin 
+of the element is located at the center of the pad. The parameters
+passed  to the element are:</P>
+<PRE>
+  padw:  pad width, µm
+  name:  name of pad cell. 
+</PRE>
+<P>Element calling sequence:</P>
+<PRE>
+PME pad(double padw, char *name)
+</PRE>
+<P><A HREF="c9.fig.8.gif"><IMG SRC="c9.fig.8.gif"></A></P>
+<P><B>Figure 28.</B> Pad element layout and cross-section.</P>
+<H3>Footnotes</H3>
+<DL>
+<DT><A NAME="FN1">(1)</A></DT>
+<DD>Guckel H, Randazzo T, and Burns D W, "A  simple technique for the
+determination of mechanical strain in thin films  with applications to
+polysilicon," J. Appl. Phys. 57, 1671 (1985)
+</DD>
+<DT><A NAME="FN2">(2)</A></DT>
+<DD>Guckel H, Burns D, Rutigliano C, Lovell E,  and Choi B, "Diagnostic
+microstructures for the measurement of  intrinsic strain in thin films,"
+J. Micromech. Microeng. 2 (1992)  86-95.
+</DD>
+</DL>
+<P><A NAME="ENDFILE"> </A></P>
+</BODY>
+</HTML>

@@ -1,0 +1,19 @@
+Direct Write e-beam procedure:
+
+SUPERPAINT: generate image
+Document info to resize file (choose pixel units)
+Export as TIFF file
+Fetch to northstar
+leapto or login on lombard (or ns135-139)
+mac2link MACFILE LINKFILE
+*On a ns machine with HD floppy drive (eg. RS6000):
+dosformat
+unalias doswrite
+unalias dosread
+doswrite UNIXFILE DOSFILE
+dosdir
+
+ALTERNATIVE:
+after mac2link, fetch back to macintosh and use DOSmounter or
+apple file exchange to write onto a DOS formatted disk.
+

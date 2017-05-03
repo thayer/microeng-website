@@ -1,0 +1,60 @@
+# Created by Web/map 1.0 
+# Monday, February 20, 1995 at 4:52 PM 
+# Format: NCSA 
+#
+default map/default.html
+rect equipment/furnace/furnace.html 44,145 81,202
+rect equipment/furnace/bubbler.html 43,124 83,144
+rect map/nitrogen.html 360,95 380,130
+rect map/argon.html 362,135 375,173
+rect map/oxygen.html 362,174 376,212
+rect map/forming.gas.html 362,212 376,249
+rect map/helium.html 360,249 378,267
+poly map/water.html 68,84 8,84 8,137 28,137 28,97 69,97 68,84 
+rect map/water.html 164,83 201,94
+circle map/LN2.html 256,108 289,142
+rect map/passthrough.html 22,139 41,157
+rect equipment/furnace/lpcvd.html 76,238 178,272
+rect map/lpcvd.html 12,239 73,270
+rect map/processing 15,206 188,234
+rect map/processing 18,273 218,298
+rect map/laser.html 294,186 309,257
+rect map/laser.ablation.html 255,212 310,267
+circle map/shower.html 145,299 170,323
+rect equipment/acid.cabinet.html 178,299 228,324
+rect map/corridor 71,100 231,120
+rect equipment/ebeam/ebeam.html 269,280 311,369
+rect map/acidhood.html 21,324 60,409
+rect equipment/RCA/RCA.hood.html 136,324 173,407
+rect map/organichood.html 182,325 223,407
+rect equipment/RIE/RIE.html 260,416 280,452
+rect equipment/plasma/plasma.html 280,416 314,452
+rect equipment/RTA/RTA.html 275,457 313,492
+rect equipment/RTA/RTA.html 325,446 368,494
+rect map/tacky.mat 324,370 371,418
+rect map/tacky.mat 148,498 193,544
+rect map/bench 155,552 201,571
+poly map/storage2.html 210,423 112,423 112,493 142,493 142,453 210,453 210,423 
+rect map/storage1 111,500 142,569
+rect map/gowning.html 112,585 140,631
+rect map/passthrough.html 120,640 144,657
+rect map/passthrough.html 198,561 212,583
+rect map/gowning.html 112,570 195,587
+rect map/oven.html 329,501 369,524
+rect equipment/maskaligner 337,615 372,642
+rect map/microscope.html 312,608 331,630
+rect map/MAC 250,610 267,629
+poly map/ellipsometer.html 206,612 226,613 227,629 265,630 264,644 207,644 206,612 
+rect map/particlecount.html 265,495 275,510
+rect equipment/spinner/spinner.html 263,500 319,537
+rect map/lithography.html 239,539 351,604
+rect map/window 376,586 385,642
+rect map/tools 289,117 320,141
+rect map/genproc 23,281 212,294
+rect map/genproc 20,210 185,233
+rect map/litho 219,540 358,595
+rect map/service 70,98 227,122
+rect map/ssml 5,17 385,50
+rect map/ssml 11,671 383,697
+rect equipment/sputtering/sputtertools.html 100,165 200,202
+

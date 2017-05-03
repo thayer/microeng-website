@@ -1,0 +1,158 @@
+From cgl@coos.dartmouth.edu Sun Apr 16 19:08:08 1995
+Received: from coos.dartmouth.edu by northstar.dartmouth.edu (8.6.8.1/4.2)
+	id TAA28214; Sun, 16 Apr 1995 19:08:05 -0400
+Received: by coos.dartmouth.edu (5.65/DEC-Ultrix/4.3)
+	id AA03991; Sun, 16 Apr 1995 19:08:05 -0400
+From: cgl@coos.dartmouth.edu (Christopher G. Levey)
+Message-Id: <9504162308.AA03991@coos.dartmouth.edu>
+Subject: Re: Cornell's Supposed Nanotechnology Breakthrough (fwd)
+To: cgl@northstar.dartmouth.edu
+Date: Sun, 16 Apr 1995 19:08:04 -0400 (EDT)
+Reply-To: c.levey@Dartmouth.EDU
+X-Mailer: ELM [version 2.4 PL23beta2]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 7648      
+Status: RO
+
+Forwarded message:
+>From mems@ISI.EDU  Fri Apr 14 12:44:29 1995
+Message-Id: <199504141631.AA10289@zephyr.isi.edu>
+Date: Fri, 14 Apr 1995 08:05:41 -0500
+From: sam8@cornell.edu (Scott A. Miller)
+Subject: Re: Cornell's Supposed Nanotechnology Breakthrough
+To: MEMS@ISI.EDU
+
+>Date: Tue, 11 Apr 1995 13:48:56 -0500 (EST)
+>From:OXFORDCOMPUT@delphi.com
+>To: MEMS@ISI.EDU
+>Subject: Cornell's Supposed Nanotechnology Breakthrough
+>
+>April 11, 1995
+>
+>Can someone tell me what the breakthrough is? I do not see in the
+>press release the news of any new work. The use of STM's to store data
+>at very high densities is well known, see, for example, "Technology of
+>Proximal Probe Lithography" by Christie Marrian (ed.), SPIE IS10,
+>1993.
+>
+>Also, since they say they can scan an area 1 x 1 um, but it takes a micro-
+>actuator 100 x 100 um to do this, the utilization of the storage medium is
+>only 1/10,000 -- very, very inefficient. Also, the data rate, as the press
+>release noted is very (very) slow, so it will take thousands of such probes
+>running in parallel to give the data rate of current disk drives.
+>
+>-- Steve Morton, Oxford Computer, Inc., Oxford, CT
+>
+
+
+Dear Steve,
+
+In answer to your question: Can someone tell me what the breakthrough is?
+
+Yes I can, but the press release you read does not convey the information.
+The breakthrough is that we have fabricated an integrated, micro-STM with an
+xyz actuator and integrated tip and we demonstrated that it can function as a
+scanning tunneling microscope (STM) (Yang Xu, Scott A. Miller, and Noel C.
+MacDonald, "Microelectromechanical Scanning Tunneling Microscope," American
+Physical Society March Meeting, San Jose, CA, Mar. 20-24, 1995.  Bulletion of
+the American Physical Society , vol 40, No. 1, p. 63).  Further we have reduced
+the size of the STM to about 200 micrometers on-a-side with xyz actuators and
+tip (s); we now have a fully integrated, very high tip density silicon process
+(K.A. Shaw, et al., Sensors and Actuators A 40, 63 (1994))and(Z. L. Zhang and
+N. C. MacDonald, J. Micromech. Microeng. 2, 31 (1992)) to make arrays of
+MICROSTMs and MICROAFMs. Most important we have a process technology that now
+works for this application. Also, the technology can scale to 100,000's of tips
+and some architectures provide very fast read out of the data, but this
+information is not part of the statement you read.  Again our contribution is
+the development of integrated xyz microactuators with integrated tips in
+silicon technology.  Furthermore the technology can be scaled to massively
+parallel probe architectures.
+
+Our STM is small enough to be an array element for a massively parallel
+STM/AFM architecture (again that's the point) -including an 'on-chip',
+integrated z position microsensor for AFM (no external light source or mirror
+is required)- and is compatible with silicon processing techniques.
+Furthermore, each xyz actuator can support many tips (maybe up to 100) - not
+just one tip per actuator - see for example a 25 tip array on one XYZ actuator
+([1] Z. Lisa Zhang and N. C. MacDonald, "Integrated Silicon Process for
+Micro-Dynamic Vacuum Field Emission Cathodes,"  J. Vac. Sci. Technol.,Vol. B
+11(6), pp. 2538-2543, (Nov/Dec. 1993). [2] Z. L. Zhang and N. C. MacDonald, J.
+Micromech. Microeng. 2, 31 (1992)).  As is pointed out in "Technology of
+Proximal Probe Lithography" by Christie Marrian (ed.), SPIE IS10,1993, page 7
+and page 30, the only practical way to use proximal probes in lithography and
+data storage is to operate arrays of tips in parallel. The point is we have
+realized a single crystal silicon process with integrated tips, xyz actuators
+and electrical contacts on moving structures.  This is the paradigm we have
+been working on for 8 or 9 years.  Fast, highly integrated xyz microactuators
+with integrated tips is the game -no assembly and integrated transistors on the
+moving structure (J. J. Yao et al., Sensors and Actuators A 40, 77 (1994)) for
+addressing!  Silicon is a great choice for such a device or array of devices
+for massively parallel information storage or massively parallel lithography
+etc.
+
+We have demonstrated tip-arrays with 5 micrometer spacing using the
+same process used to make the working microSTM ([1]  J. P. Spallas and N. C.
+MacDonald, "Self-aligned Silicon Field Emission Cathode Arrays formed by
+selective, lateral thermal oxidation of silicon,"  J. Vac. Sci. Technol., Vol.
+B 11 (2), pp. 437-440, (Mar./Apr. 1993). [2]  S. Arney and N. C. MacDonald,
+"Formation of Submicron Silicon on Insulator Structures by Lateral Oxidation of
+Substrate-Silicon Islands", J. Vac. Sci. Technol. B:6 (1), 341-345, (Jan/Feb
+1988).).  Furthermore, with the same technology tips or
+small arrays of tips can be spaced 25-50 micrometers apart and integrated with
+individual z micro-actuators; so one xy manipulator can support many tips but
+each tip would have a seperate z actuator.  Contacts, isolation, interconnects,
+and transistors (for amplifiers) have been fabricated on moving single
+crystal silicon beams  with our silicon MEMS technology  (Z. L. Zhang and N. C.
+MacDonald, J. Vac. Sci. Technol. B 11, 2538 (1993))  Yes, we need all the
+pieces  to produce massively parallel tip-array architecture's and now we have
+them - refer to the publications etc..  Here we finally demonstrated an image
+with our microSTM to show that all the integrated pieces work.
+
+It's an all or nothing technology for massively parallel scan-probe array
+architecture's! You must have all the pieces.  In addition, we have
+demonstrated a very sensitive' integrated  Single Crystal Silicon torsional
+cantilever technology (both STMs incorporate this z actuator) which is useful
+for array architecture's.  So the 'big deal' is the integrated micro STM works;
+it is made using a robust single crystal silicon MEMS process;  one xy(z)
+actuactor can support many tips using our process depending on the
+architecture; it is a highly integrated, batch fabricated technology;  and all
+the pieces have now been demonstrated. Other questions (you could ask) are can
+we make these suspended silicon structures over an area a few mms on-a-side,
+and can we make actuators that move 50 or so micrometers per tip? Fortunately
+the answer is now yes to both questions. We have recently demonstrated a
+suspended large area actuator (4mm x 5mm) that produces 10 milliNewtons of
+force using the same technology used to make the microSTM (M. T. A. Saif and
+N. C. MacDonald, [1]"Design Considerations for Large  MEMS," Proceedings  paper
+2448-10; 1995  North American Conference on Smart Structures and Materials, San
+Diego, Ca., 26 February - 3 March 1995;  M. T. A Saif and N. C. MacDonald. [2]
+`A Milli-Newton Micro-Loading Device" accepted for Transducers '95, June 25-29,
+Stockholm, Sweden, June 25 - 29, 1995.); so things are finally looking positive
+for making large arrays of tips that move in xyz over a 50 micrometer x 50
+micrometer area per tip and cover a total area (with all the tips) of at least
+5 mm x 5mm - all the tips and microactuators are mounted on a large, suspended
+and planar single crystal silicon structure.
+
+Steve, Give me a call if you need additional information or discussion.
+
+Regards, Noel
+
+Prof. Noel C. MacDonald, Cornell University
+(607) 255-3388.
+or contact
+Scott A. Miller; Cornell University, School of Electrical Engineering; 409
+Phillips Hall,Ithaca, NY 14853;Phone: (607) 255-7377; FAX: (607) 254-4565;
+E-mail:  sam8@cornell.edu
+*************************
+
+
+ 
+
+
+-- 
+--Chris Levey
+  Solid State Microengineering Lab, Thayer School, Dartmouth College
+  email: chris.levey@Dartmouth.EDU
+  www:   http://hypatia.dartmouth.edu/levey.html
+

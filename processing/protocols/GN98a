@@ -1,0 +1,66 @@
+Au electrodes
+
+PREVIOUSLY WITH BRENT BECKER:  16 leads Ti/Au on <100> Si.  fab done 2/20/98.
+Liftoff in stil acetone incomplete after 15 min.  Ultrasonic acetone, find
+peeled film dissolves into fine particles, so would have been better
+to change acetone with already removed film before ultrasonic.
+After 2hr find 75% of devices are ok.  others have small regions of 
+incomplete liftoff.  Geoff and Brent are happy; I'd like to try
+ACT next time.  May need more overhang in photoresist.  cgl. 
+
+7/7/98
+100 Si p-type 3-10 ohm-cm.
+OXIDE
+wafer 1: 1200C 5 min (840A)
+wafer 2: 250s 750A
+wafer 3: 250s 685A
+
+
+PHOTOLITH  standard shipley 1813.  2.5 turns pressure.
+wafers1-2 6 s exposure.  Too long; should be equal space and line; see only about 20%/80% space/PR.  (part of the problem is that they are not equal in the mask).
+
+New bowl.
+
+wafer3: 4.5 s exposure.  Better.  Perhaps 35%/65%, though some spots in clear region could be underexposure or could be a glitch in the rinse (water dried on sample).  Exposed entire wafer except one edge, developed, rinsed off in ACT.  Clean except near edge.  
+Respin on photoresist.  Beautiful PR spin (one splashbk). 
+4.0s exposure. Looks great except at edge where some of the first printing pattern remains.
+
+wafer4: 5 s exposure.  Some ok (30/70?), a few contacts have very small gap.
+
+BEST for future:  4 second exposure.
+
+LIFTOFF  wafer #4 in ACT.  
+Little action without ultrasound.  
+15 min in ultrasound and 
+devices look good.
+
+
+7/14/98  
+NOTE:  The mask has features smaller than we'd like, so.  We are pushing
+the exposure down as short as we can get away with to try and enlarge them.
+This makes us much more sensitive to resist thickness variations.
+
+Wafers 5-  250s 1200C oxide.
+
+Wafer 5: 4100RPM 4s exposure.  Underexposed; spots in clear region.
+Start over (blanket expose 10 sec, develop, wash in ACT)
+?RPM
+
+Wafer 6: 4000RPM? 4.5s exposure. Large blobs of PR left in clear region, probably where
+splashback streaks were.  Add a second 1 minute of develop.  All these
+defects are gone, and fingers are OK, though not much larger than the mask
+(they were quite nice after the first develop).
+
+Wafer 7: 3900RPM?  Keep exposure up for good sidewalls, but reduce develop.  
+5s exposure.  Start with 30s develop.  Quite incomplete--add 15s. Still some
+PR particularly in small lines.  Add 15s (now 60s total develop). 
+
+Wafer 8: 3900RPM?  5s exposure, 60s develop.  Looks good. (maybe the slightly
+thicker PR does better with 5s exposure; 13200A vs 13000A thickness.
+
+Wafer 9: 3900RPM.  5s exposure in HP mode (previous in standard mode).
+Looks better yet.
+
+Wafer 10:  3900RPM.  5s exposure in HP mode.  Note, the wafer dropped off 
+more quickly after contact than usual. Great--as good as #9.
+

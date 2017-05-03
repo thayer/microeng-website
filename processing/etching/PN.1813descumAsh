@@ -1,0 +1,44 @@
+
+Message: 6
+Date: Mon, 19 Jan 2009 03:54:50 +0200
+From: Kagan Topalli <kagan@metu.edu.tr>
+Subject: Re: [mems-talk] Descum and ashing recipes
+To: General MEMS discussion <mems-talk@memsnet.org>
+Message-ID: <4973DD6A.2050300@metu.edu.tr>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+
+Dear Evelyn,
+
+For descum of S1813;  300 W, 300 mT, 30 secs works well.
+The lower powers should also work if you increase the duration.  You can 
+also try 150 W, 300 mT, 1 min.
+
+For ashing of S1813; you may increase the power level to 500 W if 
+possible. You can increase the pressure to 600 mT.  The duration may 
+change according to the thickness of the photoresist, but 30 minutes 
+will be OK if you apply 300 W.
+
+Good luck,
+Regards,
+
+Kagan TOPALLI, Ph. D.
+Senior Research Engineer
+METU-MEMS Center
+Middle East Technical University
+TR-06531 Ankara Turkey
+Phone: +90 312 210 44 09 or +90 312 210 23 40
+Fax: +90 312 210 23 04
+http://www.mems.eee.metu.edu.tr/~topalli/
+
+
+Evelyn B wrote:
+I would like to know how to develop recipes for descum and ashing of 3000PY
+and 1813 resists on Alumina and MgO substrates using any type of equipment.
+I know both processes are used for residue cleaning but I would like to know
+how to develop the recipe myself.  In other words, how to select the power
+level (W), Volumetric Flow Rate (sccm), duration (minutes), pressure (mT),
+etc. as applicable to a system.
+
+Thanks,
+EVELYN BENABE
+

@@ -1,0 +1,24 @@
+MUMPs8
+layer	thick	stress	resistivity
+	micron	MPa	Ohm-cm
+Nitride	.558	133T
+Poly0	.470	8.0C
+Oxide1	2.04
+Poly1	1.98	14.1C	1.6E-3
+Oxide2	.613	(to be .75 in MUMPs9)
+Poly2	1.54	10.3C	2.5E-3
+Metal	.520	166T	3.5E-6
+
+MUMPS18:
+Film    Thickness       Std.    Sheet Resis.    Stress
+        (A)             Dev.    (ohm/sqr)       (MPa)
+Nitride 6060            174     --              160 (T)
+Poly 0  5017            24      26.3            29 (C)
+Ox 1    19653           1019    --              --
+Poly 1  19655           505     9.77            9 (C)
+Ox 2    8032            280     --              --
+Poly 2  15379           57      15.0            13 (C)
+Metal   5262            130     0.0540          50 (T)
+
+
+

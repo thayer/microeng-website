@@ -1,0 +1,17 @@
+8 wafers RCA clean (DI low) One is not clean.
+
+1 wafer RTA 1200C (actual 1200-1230) 3*300s 
+find: 1209 (n=1.459), 1214A (n=1.455)center and 1193A, 1208A 1cm from edge.
+deposit (new xtal) 400A Ti then break vac (due to loose boat connection)
+then shadow one edge w/ Al foil piece and 50A Tifollowed by 1750A Au.
+Alphastep indicates about 300A Ti and 400A Au.
+Standard 1813 litho (6s exposure), etch in Au etch for 10s.  Ti not etched.
+
+4 wafers in dry O2 for 5hr at 1070C(?). 3070A (2950A at edge)
+
+Trouble etching Ti (or TiO).  Measures 2kohm/square (Au measures 1 ohm/square)
+Al etch fails.  Cr mask etch fails.
+Si etch works.  70% HNO3, 25%HAc, 5% HF.  30 s etches through Ti film (about 300A)
+(note, 2 minutes goes through Ti plus 600A of oxide).
+
+

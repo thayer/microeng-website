@@ -1,0 +1,58 @@
+<html>
+<head><title>L-Edit UNIX</title></head>
+<body>
+<h1> L-Edit for UNIX at Dartmouth</h1><p>
+<hr>
+<a href="ledit.capturegif.html">Grabbing a GIF image</a> of an L-Edit layout in UNIX
+<hr>
+<h2> Configuring and running L-Edit on Northstar</h2>
+<p>
+Put these definitions in your .cshrc.local file on northstar:
+<pre>
+alias germain  'xhost +germain >/dev/null; exec xterm -geom 80x24+0+0 -e telnet germain &'
+alias ledit '/usr/tanner/bin.hp700/ledit &'
+</pre>
+Then, to activate these definitions, type "source .cshrc.local".  You need
+only do this the first time; when you login next time these will be defined
+automatically.
+<p>
+When run with the above alias, L-Edit will look for and 
+store files in your home directory.  You can copy the MCNC 
+technology files to your northstar directory as follows
+(ledit defaults to the file ledit.tdb on startup):
+<pre>
+cd
+cp ~sslab/mpmems.tdb ledit.tdb
+cp ~sslab/mpmems.xst mpmems.xst
+</pre>
+Now, the fastest way to run L-Edit is from Germain (the hp just
+outside Ted Cooley's office). There you need only type 
+<pre>
+ledit
+</pre>
+from an xterm window.
+
+You can also run from any unix machine which supports x-windows;
+type the following in an xterm window on your machine:
+<pre>
+germain
+</pre>
+That will bring up a new xterm window for germain.  In this new window, type
+your name and password, then
+<pre>
+setenv DISPLAY yourmachinename:0.0 
+ledit
+</pre>
+where yourmachinename is the name of the unix machine you sat
+down at.  That should do it.  If you get some message about color 
+scheme being wrong, you may be running another program such as netscape 
+which conflicts with the ledit colors; exit all other programs and
+try typing "ledit" again.
+<p>
+<hr>
+<h3><a href="ledit.html"> L-Edit Overview </a></h3> <p>
+<p>
+<hr>
+<p><ADDRESS>Christopher.G.Levey@dartmouth.edu</ADDRESS>
+</body></html>
+

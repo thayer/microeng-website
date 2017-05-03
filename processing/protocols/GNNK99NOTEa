@@ -1,0 +1,15 @@
+10/28/88 Niyaz notes:
+
+1. There is an oxide layer on "fresh"  GaAs samples and GaAs samples which
+stood in the hood for a long time (few months) after being treated.
+This oxide protects GaAs from etching by the gold etch (10g KI, 2.5g I2, 100ml
+H2O). If one removes oxide with HF 10% solution, for example, then gold etch
+etches the GaAs with the rate of ~100 Angst/sec at room temperature. We cannot
+reuse wafers until natural oxide grows back.
+
+2.  Recently I have etched GaAs wafer with sulfuric acid solution
+(H2SO4(96%):H202(30%):H2O in the proportion 3:1:40; rate 200 Angst/min) in
+order to remove some surface layer on purpose. Sulfuric acid solution also
+removes GaAs oxide. That is why I have observed etching effect by gold etch so
+clearly recently.
+

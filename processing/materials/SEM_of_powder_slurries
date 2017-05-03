@@ -1,0 +1,368 @@
+Newsgroups: sci.techniques.microscopy
+Path: dartvax.dartmouth.edu!news.bu.edu!decwrl!pa.dec.com!tethys.ph.albany.edu!tivol
+From: tivol@tethys.ph.albany.edu
+Message-ID: <009866F0.5E3D9CA0.11600@tethys.ph.albany.edu>
+Subject: SEM of powder slurries
+Date: Mon, 24 Oct 1994 17:51:41 EDT
+X-Received: by usenet.pa.dec.com; id AA29100; Mon, 24 Oct 94 15:30:28 -0700
+X-Received: by pobox1.pa.dec.com; id AA05179; Mon, 24 Oct 94 15:30:22 -0700
+X-Received: from mse.engin.umich.edu by inet-gw-3.pa.dec.com (5.65/10Aug94)
+        id AA22678; Mon, 24 Oct 94 15:27:29 -0700
+X-Received: by mse.engin.umich.edu with SMTP;24 Oct 1994 18:24:49 U
+X-To: microscopy@aaem.amc.anl.gov
+Lines: 24
+
+Dear Robin,
+        I have just started to look at clay mineral particles on the HVEM, a
+TEM rather than an SEM.  The colleague investigating clay from the bottom of
+the Hudson river collects a sample of the sediment, washes it and settles it.
+During the settling, she collects fractions at various times; these are
+label-
+led for their nominal sizes--  >5mu, 2mu, <2mu and <<2mu.  I had difficulties
+getting good dispersal on a carbon-coated mesh grid at first, but I found
+that
+if I put a drop of poly-l-lysine on the grid and let it dry, I could then
+agi-
+tate the suspension of clay particles and put a 5 mu-liter drop on the grid.
+This gave me very good dispersion of both the largest and the smallest parti-
+cles.  I must emphasize that this is my first venture with anything like
+this,
+so listen to the real experts if any respond.  (I forgot to say that the 5
+mu-
+liter drop I put on the grid was just air dried.)  I am aware that clay mine-
+rals' structures change when they dry, but we wanted to try the simplest
+thing
+first.  Good luck.
+                                Yours,
+                                Bill Tivol
+
+
+==========================================================================
+
+Newsgroups: sci.techniques.microscopy
+Path: dartvax.dartmouth.edu!news.bu.edu!olivea!decwrl!pa.dec.com!imatge.sct.ub.es!yves
+From: yves@imatge.sct.ub.es ("Yves Maniette")
+Message-ID: <1275.yves@imatge.sct.ub.es_POPMail/PC_3.2.2>
+Subject: Re: SEM of powder slurries
+Date: Tue, 25 Oct 94 13:26:43 CST
+X-Received: by usenet.pa.dec.com; id AA12916; Tue, 25 Oct 94 05:30:49 -0700
+X-Received: by pobox1.pa.dec.com; id AA12254; Tue, 25 Oct 94 05:30:40 -0700
+X-Received: from mse.engin.umich.edu by inet-gw-3.pa.dec.com (5.65/10Aug94)
+        id AA21737; Tue, 25 Oct 94 05:25:55 -0700
+X-Received: by mse.engin.umich.edu with SMTP;25 Oct 1994 08:23:51 U
+X-Popmail-Charset: Spanish
+X-To: microscopy@aaem.amc.anl.gov
+Lines: 61
+
+For Robin Griffin
+
+On Mon, 24 Oct 94 14:12:00 CDT, Griffin, Robin wrote:
+
+>
+>Help!
+>
+>We would like to characterize ceramic powders that are in an aqueous 
+>solution.   We need to know if the powders are individual powders or 
+>agglomerates.  Does anyone have any suggestion on SEM sample prep?   Is 
+>there a drying technique that leaves the particles well dispersed?
+>
+>Also, what is the typical TEM sample prep techniques used for ceramic 
+>powders?
+
+
+
+I usually use the following technique for preparing powder samples for TEM. 
+It could however be used also for SEM preparation. 
+
+1. Put the powder sample in a small becher with ethanol, in rather high 
+concentration. 
+
+2. prepare another small becher (20 cc) filled with clean distilled water, 
+nearly overful. You should get the feeling that adding one more drop of 
+water would get it overflow... The best is to have a cylindrical becher, 
+without the pouring part.
+
+3. manage in order to have the reflexion of a white fluorescent tube light 
+on the surface of the water. This will help you later in seeing where the 
+particles are on the surface of the water.
+
+4. drop one tiny drop of your ethanol suspension on the water. The drop 
+will expand on the water surface, and you will get a film of sample on the 
+surface.
+
+5. Have a TEM grid with carbon film prepared, take it with tweezers, get it 
+touch the water surface, wher the sample is (here you need a good eye, and 
+the fluorescent tube dicussed above). When removing the grid, orient it at 
+45 degrees, so that only a small drop of water gets stuck to it, on one 
+edge. allow then this drop of water to touch a filter paper. The water will 
+be thus removed instantaneously, and nearly no further drying will be be 
+necessary. Hence pollution problems will be avoided. The sample particles 
+stuck on the film won't get away with the water. 
+
+
+Note. 
+
+Instead of the becher filled with ethanol, you may as well use an 
+agata mortar. About the dispersion of particles, it might however be 
+possible that it is changed depending on the solution. Surely water and 
+ethanol do not behave the same way.
+
+If you have any further question, do not hesitate to get in touch with me 
+directly.  
+
+Yves MANIETTE
+UNIVERSITAT DE BARCELONA - SERVEIS CIENTIFICO TECNICS - UNITAT ESCA-TEM
+        Carrer Lluis Sole i Sabaris, s/n - 08028 Barcelona Espana.
+                Tel +34 3 402 1695 - Fax +34 3 339 3798
+
+
+==========================================================================
+
+Newsgroups: sci.techniques.microscopy
+Path: dartvax.dartmouth.edu!news.bu.edu!olivea!decwrl!pa.dec.com!imatge.sct.ub.es!yves
+From: yves@imatge.sct.ub.es ("Yves Maniette")
+Message-ID: <1275.yves@imatge.sct.ub.es_POPMail/PC_3.2.2>
+Subject: Re: SEM of powder slurries
+Date: Tue, 25 Oct 94 13:26:43 CST
+X-Received: by usenet.pa.dec.com; id AA12916; Tue, 25 Oct 94 05:30:49 -0700
+X-Received: by pobox1.pa.dec.com; id AA12254; Tue, 25 Oct 94 05:30:40 -0700
+X-Received: from mse.engin.umich.edu by inet-gw-3.pa.dec.com (5.65/10Aug94)
+        id AA21737; Tue, 25 Oct 94 05:25:55 -0700
+X-Received: by mse.engin.umich.edu with SMTP;25 Oct 1994 08:23:51 U
+X-Popmail-Charset: Spanish
+X-To: microscopy@aaem.amc.anl.gov
+Lines: 61
+
+For Robin Griffin
+
+On Mon, 24 Oct 94 14:12:00 CDT, Griffin, Robin wrote:
+
+>
+>Help!
+>
+>We would like to characterize ceramic powders that are in an aqueous 
+>solution.   We need to know if the powders are individual powders or 
+>agglomerates.  Does anyone have any suggestion on SEM sample prep?   Is 
+>there a drying technique that leaves the particles well dispersed?
+>
+>Also, what is the typical TEM sample prep techniques used for ceramic 
+>powders?
+
+
+
+I usually use the following technique for preparing powder samples for TEM. 
+It could however be used also for SEM preparation. 
+
+1. Put the powder sample in a small becher with ethanol, in rather high 
+concentration. 
+
+2. prepare another small becher (20 cc) filled with clean distilled water, 
+nearly overful. You should get the feeling that adding one more drop of 
+water would get it overflow... The best is to have a cylindrical becher, 
+without the pouring part.
+
+3. manage in order to have the reflexion of a white fluorescent tube light 
+on the surface of the water. This will help you later in seeing where the 
+particles are on the surface of the water.
+
+4. drop one tiny drop of your ethanol suspension on the water. The drop 
+will expand on the water surface, and you will get a film of sample on the 
+surface.
+
+5. Have a TEM grid with carbon film prepared, take it with tweezers, get it 
+touch the water surface, wher the sample is (here you need a good eye, and 
+the fluorescent tube dicussed above). When removing the grid, orient it at 
+45 degrees, so that only a small drop of water gets stuck to it, on one 
+edge. allow then this drop of water to touch a filter paper. The water will 
+be thus removed instantaneously, and nearly no further drying will be be 
+necessary. Hence pollution problems will be avoided. The sample particles 
+stuck on the film won't get away with the water. 
+
+
+Note. 
+
+Instead of the becher filled with ethanol, you may as well use an 
+agata mortar. About the dispersion of particles, it might however be 
+possible that it is changed depending on the solution. Surely water and 
+ethanol do not behave the same way.
+
+If you have any further question, do not hesitate to get in touch with me 
+directly.  
+
+Yves MANIETTE
+UNIVERSITAT DE BARCELONA - SERVEIS CIENTIFICO TECNICS - UNITAT ESCA-TEM
+        Carrer Lluis Sole i Sabaris, s/n - 08028 Barcelona Espana.
+                Tel +34 3 402 1695 - Fax +34 3 339 3798
+
+
+==========================================================================
+
+Newsgroups: sci.techniques.microscopy
+Path: dartvax.dartmouth.edu!news.bu.edu!decwrl!pa.dec.com!ml.wpafb.af.mil!WALCKSD
+From: WALCKSD@ml.wpafb.af.mil
+Message-ID: <9410251526.AA25717@riker.ml.wpafb.af.mil>
+Reply-To: WALCKSD@ml.wpafb.af.mil
+Subject: SEM of powder slurries
+Date: Tue, 25 OCT 94 11:25:10 EST
+X-Received: by usenet.pa.dec.com; id AA17247; Tue, 25 Oct 94 19:02:15 -0700
+X-Received: by pobox1.pa.dec.com; id AA24618; Tue, 25 Oct 94 19:01:53 -0700
+X-Received: from mse.engin.umich.edu by inet-gw-1.pa.dec.com (5.65/10Aug94)
+        id AA11869; Tue, 25 Oct 94 18:56:24 -0700
+X-Received: by mse.engin.umich.edu with SMTP;25 Oct 1994 21:50:51 U
+X-In-Reply-To: Message from {rgriffin@eng.uab.edu}:ddn:wpafb of 10-24-94
+X-To: microscopy@aaem.amc.anl.gov, rgriffin@eng.uab.edu
+Lines: 63
+
+Hi Robin,
+
+You should contact John Mansfield at Michigan.  They have an Electroscan 
+SEM that will allow you to look at the powders while in the aquaeous 
+solution.  I'm sure that he can set you straight on whether this might 
+be an appopriate application.
+
+For drying, you might want to talk to some of the biological people 
+there.  If the problem is with surface tension bring the particles 
+together when they dry,  contact John Panitz at the Univ. of New Mexico.  
+He has been licking the surface tension problem of putting biological 
+molecules on the surfaces of metal tips for a number of years.  He uses 
+a fast freezing mechnaism that he designed for doing this.  He presented 
+a talk in New Orleans at MSA.
+
+I have also been doing some microtoming of powders for use as EDS 
+standards.  I tried using G1 epoxy (Epoxy Technology EpoTek 353ND) and 
+doing it by routine dimpling and ion milling, but there was quite a bit 
+of porosity in the epoxy after setting.  There is a guy here that has 
+done coated SiC fibers encapsulated in epoxy (G1) and used the tripod 
+polisher.  He has gotten some good results after ion milling at low 
+angles.  (You can get a special stub for the Duomill for low angle 
+milling.)  To use at 200 kV, I have to put a thin coat of carbon on the 
+microtomed samples, but it doesn't seem to affect my k-factors.  Of 
+course if you are after the oxygen or other light elements, this would 
+be a problem for you.  At 100 kV, the resin used for microtoming is a 
+lot more stable and you don't have to coat with carbon.
+
+Also, in the three MRS "How to" books on TEM sample preparation, there 
+are several methods presented for powders.
+
+Call me if you have questions.
+
+Regards,
+
+Scott
+
+---------------------- Replied Message Body ----------------------
+Date: 10-24-94  4:40pm 
+From: {rgriffin@eng.uab.edu}:ddn:wpafb
+  To: WALCKSD:ml:wpafb, SCHELTFJ:ml:wpafb
+Subj: SEM of powder slurries
+Orig-Author: {"Griffin, Robin" <rgriffin@eng.uab.edu>}:ddn:wpafb
+-----------------------------------------------------------
+
+Help!
+
+We would like to characterize ceramic powders that are in an aqueous 
+solution.   We need to know if the powders are individual powders or 
+agglomerates.  Does anyone have any suggestion on SEM sample prep?   Is 
+there a drying technique that leaves the particles well dispersed?
+
+Also, what is the typical TEM sample prep techniques used for ceramic 
+powders?
+
+
+
+
+
+
+
+     
+
+
+==========================================================================
+
+Newsgroups: sci.techniques.microscopy
+Path: dartvax.dartmouth.edu!news.bu.edu!decwrl!pa.dec.com!ttown.apci.com!stetsjr
+From: stetsjr@ttown.apci.com (James R. Stets)
+Message-ID: <9410251309.AA27854@ttown.apci.com>
+Subject: Re: TEM/SEM of powders
+Date: Tue, 25 Oct 94 09:09:11 -0400
+X-Received: by usenet.pa.dec.com; id AA13607; Tue, 25 Oct 94 06:30:25 -0700
+X-Received: by pobox1.pa.dec.com; id AA12777; Tue, 25 Oct 94 06:30:20 -0700
+X-Received: from mse.engin.umich.edu by inet-gw-3.pa.dec.com (5.65/10Aug94)
+        id AA26370; Tue, 25 Oct 94 06:28:57 -0700
+X-Received: by mse.engin.umich.edu with SMTP;25 Oct 1994 09:27:45 U
+X-To: microscopy@aaem.amc.anl.gov
+Lines: 27
+
+
+In response to R. Griffin's inquiry about sample prep for powders:
+
+A powder in aqueous solution can be added dropwise to a culture tube
+containing methanol.  The culture tube is in a rack inside an ultra-
+sonic bath to disperse the particles.  After a minute or two, the 
+solution can be dropped on to an SEM stub or a TEM grid using an
+eye dropper or capillary tube open at both ends.  I like to use a
+polished SEM stub because it has a smooth surface and makes it
+easier to see the particles.  If you are using a TEM grid, place
+the grid on top of 2 sheets of lens tissue before dropping the 
+dispersion on to the grid; this will quickly wick away the 
+solvent and keep the particles reasonably dispersed.
+
+You can try other solvents (like hexane) but they may not be
+compatible with water (the particles tend to flocculate).
+Methanol or Ethanol usually work better in an aqueous solution.
+
+The main idea is to disperse the partcles ultrasonically, then
+use a volatile solvent which will evaporate quickly before the
+particles have a chance to re-agglomerate.
+
+                                Jim Stets
+                                Air Products and Chemicals, Inc.
+                                Allentown, PA
+                                stetsjr@ttown.apci.com
+
+
+==========================================================================
+
+Newsgroups: sci.techniques.microscopy
+Path: dartvax.dartmouth.edu!news.bu.edu!olivea!decwrl!pa.dec.com!mcmail.cis.mcmaster.ca!hudakjm
+From: hudakjm@mcmail.cis.mcmaster.ca (John M Hudak)
+Subject: SEM of powder slurries.
+Message-ID: <Pine.3.89.9410251433.B3134-0100000@mcmail>
+Date: Tue, 25 Oct 1994 14:51:06 +0059 (EDT)
+X-Received: by usenet.pa.dec.com; id AA16082; Tue, 25 Oct 94 18:32:42 -0700
+X-Received: by pobox1.pa.dec.com; id AA24338; Tue, 25 Oct 94 18:32:18 -0700
+X-Received: from mse.engin.umich.edu by inet-gw-1.pa.dec.com (5.65/10Aug94)
+        id AA10541; Tue, 25 Oct 94 18:29:37 -0700
+X-Received: by mse.engin.umich.edu with SMTP;25 Oct 1994 21:26:13 U
+X-To: microscopy@aaem.amc.anl.gov
+X-Mime-Version: 1.0
+X-Content-Type: TEXT/PLAIN; charset=US-ASCII
+Lines: 27
+
+
+
+        We quite frequently have to do SEM of many different kinds of 
+powders.  The problem with putting a drop of suspended particles on a stub 
+is that surface tension draws the particles into clumps as the liquid 
+dries.  This is the technique that I use:
+        1.  Make a very dilute suspension of the particles in methanol.
+            You may have to determine the concentration by trial and error
+            but it is very low.
+        2.  Set up a vacuum filtration system using 10mm dia. Nuclepore
+            filter membranes.  I use filters with a pore size of 0.1um.
+        3.  Vacuum filter a few drops of the suspension through the 
+            membrane.
+        4.  Mount the filter on a stub and coat.
+        
+        By vacuum filtering, the liquid leaves the particles almost 
+immediately so that surface tension doesn't have a chance to form 
+clumps.  Nuclepore is the best filter to use because it is a sieve with 
+small holes on a flat background which makes it easier to see the particles.
+ 
+____________________________________________________________________
+John Hudak                                       hudakjm@mcmaster.ca
+I.M.R. - Electron Optics
+McMaster University, Hamilton, Ontario, Canada
+
+
+

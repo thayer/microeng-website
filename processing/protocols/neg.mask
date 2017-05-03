@@ -1,0 +1,24 @@
+TO make a netative copy of a mask:
+
+Remove positive pr from chrome plate in ACT
+Dry in 120C oven for 5 minutes.
+HCR120 negative resist:  dispense  full pipette
+let spread for 10 seconds
+spin 6 sec at 700 RPM, 60s at 4000-RPM (expect .95 microns).
+soft bake at 70C for 6 minutes.
+expose 2seconds at 10mW/cm2 (that's an overexposure--may not be necessary, but it's hard to expose less with our lamp; 6mW/cm2 causes it to extinguish).
+develop is critical else get particles of PR depositing everywhere.
+(this may only occur if use a DI rinse instead of butyl acetate)
+20sec puddle with full pipette of developer
+20sec 150rpm, 2 pipettes of developer
+10sec 700rpm, 1 pipette of developer
+20sec 700rpm, 2 pipettes of n butyl acetate
+5sec 4000rpm, 1 pipette n butyl acetate (unnecessar?)
+(actual was about 30sec dev at 150-700, then 2 on nbutyl acetate at 4000)
+60sec 4000rpm dry
+hardbake 8 min at 125C
+etch mask in CR7 for about 2 minutes.
+strip with microstrip at 70C (neither microstrip at RT nor ACT at 70C work)
+
+
+

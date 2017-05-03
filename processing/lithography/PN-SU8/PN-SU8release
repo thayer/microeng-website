@@ -1,0 +1,340 @@
+From cgl@nimbus.dartmouth.edu  Tue Jan 29 16:40:33 2002
+Return-Path: <cgl@nimbus.dartmouth.edu>
+Received: from nimbus.dartmouth.edu (nimbus.dartmouth.edu [129.170.16.33])
+	by thayer.dartmouth.edu (8.11.6/8.11.6) with ESMTP id g0TLeX627342
+	for <microeng@thayer.dartmouth.edu>; Tue, 29 Jan 2002 16:40:33 -0500
+Received: (from cgl@localhost)
+	by nimbus.dartmouth.edu (8.9.3/8.9.3) id QAA27744
+	for microeng@thayer.dartmouth.edu; Tue, 29 Jan 2002 16:40:32 -0500
+Received: from kronos.mems-exchange.org (kronos.mems-exchange.org [132.151.8.1])
+	by nimbus.dartmouth.edu (8.9.3/8.9.3) with ESMTP id PAA18206
+	for <cgl@coos.dartmouth.edu>; Tue, 29 Jan 2002 15:53:17 -0500
+Received: from localhost ([127.0.0.1] helo=kronos.mems-exchange.org)
+	by kronos.mems-exchange.org with esmtp (Exim 3.12 #1)
+	id 16VfF9-0000yu-00; Tue, 29 Jan 2002 15:52:39 -0500
+Received: from [63.72.7.224] (helo=mail.MCMASTER.LOCAL) by
+  kronos.mems-exchange.org with esmtp (Exim 3.12 #1) id 16Vcni-00072C-00
+  for mems-talk@memsnet.org; Tue, 29 Jan 2002 13:16:10 -0500
+content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Message-ID: <62102CCF2078D311BE5200508B2CC9573ACA0A@mail.MCMASTER.LOCAL>
+Thread-Topic: mems-talk digest, Vol 1 #172 - 6 msgs
+Thread-Index: AcGo5r8rnYaSVlLNTC2N8ZnagiqpyAAB4P4w
+From: "Mark Shaw" <mshaw@microchem.com>
+To: <mems-talk@memsnet.org>
+Subject: [mems-talk] Negative Resist
+Sender: mems-talk-admin@memsnet.org
+Errors-To: mems-talk-admin@memsnet.org
+X-BeenThere: mems-talk@memsnet.org
+X-Mailman-Version: 2.0.8
+Precedence: bulk
+Reply-To: mems-talk@memsnet.org
+List-Help: <mailto:mems-talk-request@memsnet.org?subject=help>
+List-Post: <mailto:mems-talk@memsnet.org>
+List-Subscribe: <http://mail.mems-exchange.org/mailman/listinfo/mems-talk>,
+	<mailto:mems-talk-request@memsnet.org?subject=subscribe>
+List-Id: General MEMS discussion <mems-talk.memsnet.org>
+List-Unsubscribe: <http://mail.mems-exchange.org/mailman/listinfo/mems-talk>,
+	<mailto:mems-talk-request@memsnet.org?subject=unsubscribe>
+List-Archive: <http://mail.mems-exchange.org/pipermail/mems-talk/>
+Date: Tue, 29 Jan 2002 13:16:06 -0500
+X-Status: 
+X-Keywords:                  
+X-UID: 8
+Status: RO
+
+Dear Peng Jin,
+
+
+I am replying to your question concerning your desire to work with a
+negative resist that can easily be removed in a standard photoresist
+stripper....My company, MicroChem Corp, manufactures a negative tone
+photoresist called SU-8 which is widely used in the MEMS area but up
+till now has had some issues related to the stripping, especially after
+electroplating....We have recently developed a release layer that is
+spin coated onto the seed layer/substrate and baked, then the SU-8 is
+applied and processed as per normal...A very short development step is
+then performed to develop out the release layer, in either O2 Plasma or
+an aqueous developer such as Shipley MF319....The electroplating step
+can then be performed followed by immersion in either a developing
+solution (MF319) or a NMP based stripper such as Remover PG or Shipley's
+1165 Remover which dissolves the release layer, leaving behind the
+electroplated feature....
+
+If you have any further questions or if you need additional information
+including a sample please contact me at 617-965-5511 ext. 308 or via
+email at mshaw@microchem.com
+
+Thanks and best regards,
+
+Mark Shaw
+Technical Sales & Applications Support
+MicroChem Corp.
+
+
+
+Hi, friends,
+
+In my research project, I need to find a kind of negative photoresist
+which
+must be easy to remove by acetone or other chemical solvent. Could
+anyone give
+me some idea about it?
+
+Thanks.
+
+Peng Jin
+
+-----Original Message-----
+From: mems-talk-request@memsnet.org
+[mailto:mems-talk-request@memsnet.org]
+Sent: Tuesday, January 29, 2002 12:01 PM
+To: mems-talk@memsnet.org
+Subject: mems-talk digest, Vol 1 #172 - 6 msgs
+
+
+Send mems-talk mailing list submissions to
+	mems-talk@memsnet.org
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	http://mail.mems-exchange.org/mailman/listinfo/mems-talk
+or, via email, send a message with subject or body 'help' to
+	mems-talk-request@memsnet.org
+
+You can reach the person managing the list at
+	mems-talk-admin@memsnet.org
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of mems-talk digest..."
+
+
+Today's Topics:
+
+   1. heating up metals (Yahong Yao)
+   2. RE: Teflon foil. (Heiko van der Linden)
+   3. Negative Photoresist (Peng Jin)
+   4. Oil bath (harry .)
+   5. EEPROM is sensor interface circuits. (li gang)
+   6. Re: Negative Photoresist (Paolo Bondavalli)
+
+--__--__--
+
+Message: 1
+From: "Yahong Yao" <hhelen@hotmail.com>
+To: mems-talk@memsnet.org
+Date: Tue, 29 Jan 2002 04:53:53
+Subject: [mems-talk] heating up metals
+Reply-To: mems-talk@memsnet.org
+
+Hello All,
+
+When metals are heated up, some change from solid to liquid then to
+vapor
+(for example, Au, Al, Ni...), and some change form solid to vapor
+directly
+(Cr).  I am wondering where I can find a list of such information for
+commonly used metals.  Thanks a lot.
+
+Yahong
+
+
+
+
+_________________________________________________________________
+Send and receive Hotmail on your mobile device: http://mobile.msn.com
+
+--__--__--
+
+Message: 2
+From: "Heiko van der Linden" <h.j.vanderlinden@el.utwente.nl>
+To: <mems-talk@memsnet.org>
+Subject: RE: [mems-talk] Teflon foil.
+Date: Tue, 29 Jan 2002 09:13:56 +0100
+Organization: MESA+ Research Institute, Twente University
+Reply-To: mems-talk@memsnet.org
+
+Hi Nathalia,
+
+Thank you for your kind email. I have sent a message to durafilm to see
+if they can supply me with the foil I need.
+
+Regards,
+Heiko van der Linden
+
+*******************************
+MESA+ Research Institute
+      Twente University
+         P.O. Box 217
+     7500 AE Enschede
+       The Netherlands
+*******************************
+
+
+-----Original Message-----
+From: mems-talk-admin@memsnet.org [mailto:mems-talk-admin@memsnet.org]
+On Behalf Of Nathalia
+Sent: Saturday, January 26, 2002 12:34 AM
+To: mems-talk@memsnet.org
+Subject: [mems-talk] Teflon foil.
+
+
+Hi Heiko,
+
+depending on the teflon you're looking for, Durafilm might have it.
+Write me an email if you need more info/their webpage.
+(nathalia@sensors.stanford.edu).
+
+Regards,
+Nathalia
+http://transducers.stanford.edu
+_______________________________________________
+mems-talk@memsnet.org mailing list: to unsubscribe or change your list
+options, visit http://mail.mems-exchange.org/mailman/listinfo/mems-talk
+Hosted by the MEMS Exchange, providers of MEMS processing services.
+Visit us at http://www.mems-exchange.org/
+
+--__--__--
+
+Message: 3
+From: "Peng Jin" <P.Jin@bham.ac.uk>
+To: <mems-talk@memsnet.org>
+Date: Tue, 29 Jan 2002 10:33:58 -0000
+Subject: [mems-talk] Negative Photoresist
+Reply-To: mems-talk@memsnet.org
+
+Hi, friends,
+
+In my research project, I need to find a kind of negative photoresist
+which
+must be easy to remove by acetone or other chemical solvent. Could
+anyone give
+me some idea about it?
+
+Thanks.
+
+Peng Jin
+
+--__--__--
+
+Message: 4
+From: "harry ." <kq1972@hotmail.com>
+To: mems-talk@memsnet.org
+Date: Tue, 29 Jan 2002 13:58:15 +0000
+Subject: [mems-talk] Oil bath
+Reply-To: mems-talk@memsnet.org
+
+Dear MEMS-members,
+
+Does anyone know what company can manufacture an etching tank with the
+circulated oil bath that can keep the solution temperature constant?
+Thanks!
+
+Regards,
+harry
+
+
+
+_________________________________________________________________
+MSN Photos is the easiest way to share and print your photos:
+http://photos.msn.com/support/worldwide.aspx
+
+--__--__--
+
+Message: 5
+From: "li gang" <memslg@hotmail.com>
+To: mems-talk@memsnet.org
+Date: Tue, 29 Jan 2002 22:11:34 +0800
+Subject: [mems-talk] EEPROM is sensor interface circuits.
+Reply-To: mems-talk@memsnet.org
+
+Dear all,
+
+I readed some papers about sensor interface circuits, and found
+that EEPROM is widely used in them. Could you recommand some
+papers and books, which state the EEPROM's function in sensor
+interface circuits in depth?
+
+Thanks in advace,
+
+Sincerely,
+
+Li Gang
+
+
+_________________________________________________________________
+Get your FREE download of MSN Explorer at
+http://explorer.msn.com/intl.asp.
+
+--__--__--
+
+Message: 6
+Date: Tue, 29 Jan 2002 16:08:19 +0100
+From: Paolo Bondavalli <paolo.bondavalli@thalesgroup.com>
+Organization: THALES LCR
+To: mems-talk@memsnet.org
+Subject: Re: [mems-talk] Negative Photoresist
+Reply-To: mems-talk@memsnet.org
+
+Hi Peng,
+The best is BCB by DowCorning.
+I also know PDMS by Wackerchemie or Gelest but it's quite difficult to
+obtain.
+Bye
+
+Peng Jin a icrit :
+
+> Hi, friends,
+>
+> In my research project, I need to find a kind of negative photoresist
+which
+> must be easy to remove by acetone or other chemical solvent. Could
+anyone
+give
+> me some idea about it?
+>
+> Thanks.
+>
+> Peng Jin
+> _______________________________________________
+> mems-talk@memsnet.org mailing list: to unsubscribe or change your list
+> options, visit
+http://mail.mems-exchange.org/mailman/listinfo/mems-talk
+> Hosted by the MEMS Exchange, providers of MEMS processing services.
+> Visit us at http://www.mems-exchange.org/
+
+--
+*********************************************************
+Dr. Paolo Bondavalli
+R&D Engineer
+LABCOM - Laboratoire Interconnexions Optiques et MEMS
+THALES (ex THOMSON-CSF) CORPORATE RESEARCH CENTER
+Domaine de Corbeville,
+Route Departementale 128
+F91404 ORSAY
+(FRANCE)
+Tel : 01 69 33 08 63
+Fax : 01 69 33 08 62
+Email : Paolo.Bondavalli@thalesgroup.com
+**********************************************************
+Disclaimer: Opinions expressed herein are my own and may
+  not represent those of my employer.
+**********************************************************
+
+
+--__--__--
+
+_______________________________________________
+mems-talk mailing list
+mems-talk@memsnet.org
+http://mail.mems-exchange.org/mailman/listinfo/mems-talk
+
+
+End of mems-talk Digest
+_______________________________________________
+mems-talk@memsnet.org mailing list: to unsubscribe or change your list
+options, visit http://mail.mems-exchange.org/mailman/listinfo/mems-talk
+Hosted by the MEMS Exchange, providers of MEMS processing services.
+Visit us at http://www.mems-exchange.org/
+

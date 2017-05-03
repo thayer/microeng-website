@@ -1,0 +1,60 @@
+7/96: Goal: Ice FET using highly conducting wafers 
+for back gate (~10E19 doping).  About 1200A gate oxide, 
+Ti/Au pattern source/drain, ice active layer.  
+For a start, make two samples using etching as VFP96a, plus one
+using liftoff (VFP95b, but negmask nor neg photoresist)
+
+WAFERS: <111> n type <.003 ohm-cm 360-400 micron (Crysteco/Reticon As13*2x (qty 16 from Wafernet 6/19)
+
+Verify ohmic contacts using indium solder (high doping implies tunneling throughschottky barrier).  Linear IV +_1V (w/ 100ohm series).
+
+7/16/96
+Cleave <111> from wafernet.  Cleave is perpendiuclar to the major flat.  Saved a piece which shows both cleave planes (NOT RCA CLEANED).
+Etch small piece in 13%HF.  Immediate beading on polished side; 4 minutes to bead on back side in HF.  Back nolonger beads in DI rinse.
+
+7/17/96
+Strip oxide in HF.
+RCA Clean all 16 wafers (also clean 8 from part 31225 n type 3-5ohm-cm; 
+not used for this work).
+
+Dry oxide at 1010C for about 2 hr (as in VFP95b) flow 2SCFH; 
+400C at 11:40AM, 540C at 11:46, 690C at 11:52, 837C at noon.
+Turn down at 2:06pm; 789C at 2:45, 690 at 3:05.
+Move to furnace edge at 3:25 (at 640C).  Royal blue.
+1366A (1.462=n@6328), 1391(1.458=n@8300) (2% variation center to edge)
+
+Make neg. mask.  
+Defect in one device (large);  not particularly nice looking mask.
+
+7/18
+Deposit Ti/Au in Wilder evaporator.  Two wafers at once.
+Inficon:  150A of Ti, 600A of Au.  Allphastep says ~900A total.
+Looks good.
+
+7/19
+Two wafers; #2 had gold on both sides of flat.
+#1 cleaned DI/Acetone/Methanol+1min hotplate, 3min cool.  Shipley 1813PR.
+Exposed with wrong mask (defects).  Stripped with ACT, cleaned with DI,
+dried 1min hotplate, 3min cool.  
+Correct mask  has one large device off the side.
+Shipley 1813PR, 6s@15mW/cm2, 60sdev.  Looks good.
+
+#2 blow clean, Shipley 1813PR...as #1
+
+#1: 10s of Au etch at room temperature; just the slightest 
+cloud of Au left.  Add 15 s and it's clear.
+30s in fresh Si etch  70% HNO3, 25%HAc, 5% H at room temperature;
+maybe a bit much; photoresist attacted rather badly, but looks like the Au held up fine.
+Strip in ACT at room temperature. Verify resistivity away from features is off
+scale on Fluke (>40Mohm over 2mm), and that some oxide has etched 
+(so all Ti is gone).  1170A of oxide left of the original 1368A. 
+Also checked Au resistivity on the partial device; saw 180 ohms
+from pad to end of one line (breaking through photoresist).
+
+#2 as above but 21s in Au etch and 10s in Si etch to avoid any possible
+attack of Au surface by Si etch.  At end 1367A, 1390A (i.e. no loss).
+Maybe didn't get all the Ti.  Ohmmeter reads >40Mohm
+Should have etched another 5 seconds, but already stripped.
+
+Both samples look reasonably good.  #1 has a large defect in the partial
+device.

@@ -1,0 +1,3327 @@
+From cgl@coos.dartmouth.edu  Wed Jun 16 17:34:40 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id RAA29644
+	for <cgl@coos.dartmouth.edu>; Wed, 16 Jun 1999 17:34:40 -0400
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.3+DND/8.9.3) with ESMTP id RAA18162
+	for <c.levey@Dartmouth.EDU>; Wed, 16 Jun 1999 17:34:40 -0400 (EDT)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id RAA29640;
+	Wed, 16 Jun 1999 17:34:39 -0400
+Date: Wed, 16 Jun 1999 17:34:39 -0400
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199906162134.RAA29640@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Wed Jun 16 17:34:38 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id RAA29630
+	for <cgl@coos.dartmouth.edu>; Wed, 16 Jun 1999 17:34:36 -0400
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id LAA17232
+	for mems-out-list; Wed, 16 Jun 1999 11:31:18 -0700 (PDT)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id LAA17228
+	for <mems-out@darkstar.isi.edu>; Wed, 16 Jun 1999 11:31:12 -0700 (PDT)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id LAA02670;
+	Wed, 16 Jun 1999 11:31:11 -0700 (PDT)
+Posted-Date: Tue, 15 Jun 1999 11:53:55 -0700 (PDT)
+Message-Id: <9906161831.AA00154@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA00154>; Wed, 16 Jun 99 11:31:10 PDT
+Date: Tue, 15 Jun 1999 11:53:55 -0700 (PDT)
+From: Li Shi <lishi@newton.Berkeley.EDU>
+Subject: Re: Does TMAH attack Al, Cr, or Pt?
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: Li Shi <lishi@newton.Berkeley.EDU>, mems-cc@ISI.EDU
+
+Hi,
+
+I have compiled all the responses regarding compatibility of Al, 
+Cr, and Pt in TMAH as following. I appreciate all the suggestions. 
+
+Li Shi
+
+Date: Mon, 31 May 1999 13:27:30 -0700 (PDT)
+From: Matthew Hills <hills@buttons.Stanford.EDU>
+To: lishi@crystal.Stanford.EDU
+Subject: Re: Does TMAH attack Al, Cr, or Pt?
+
+TMAH can attack Al.
+
+It can be used for silicon etching if dopants are added to passivate
+the aluminum.  see:
+  http://transducers.stanford.edu/stl/Publications/PDF-files/ErnoThesis.pdf
+
+TMAH is present in developer and even in the low concentrations there will
+do some etching of the aluminum.  In the presence of other metals this
+etching can be dramatically enhanced.  (exposed Ti and Aluminum is a bad
+combination, for instance...)
+
+Matt
+
+Date: Tue, 1 Jun 1999 07:19:41 -0700
+From: Linda Whittelsey <linda@xros.com>
+To: Li Shi <lishi@crystal.Stanford.EDU>
+Subject: RE: Does TMAH attack Al, Cr, or Pt?
+
+    [The following text is in the "iso-8859-1" character set]
+    [Your display is set for the "US-ASCII" character set]
+    [Some characters may be displayed incorrectly]
+
+Dilute TMAH will attack Al, but not Cr or Pt.  People often use TMAH based
+developers such as AZ300MIF as an Al etchant.  AZ makes a positive developer
+that will not attack Al (Simply called AZ 1:1 Developer)I am not sure if
+more concentrated TMAH will attack Cr.  About the only thing that will
+attack Pt is Aqua Regia.
+
+Date: Tue, 01 Jun 1999 12:58:10 -0700
+From: tim slater <tim@xros.com>
+To: Li Shi <lishi@crystal.Stanford.EDU>
+Subject: Re: Does TMAH attack Al, Cr, or Pt?
+
+platinum and chrome aer OK indefinitely, but the material the chrome is
+deposited on will maybe be affected.  aluminum is REPORTEDLY ok after a
+sufficient amount of aluminum is dissolved into the TMAH bath, but i've
+never verified that experimentally myself (as you may know, sometimes other
+researchers' results are not as useful as they seem from journal paper!).
+i think you have to dissolve a lot of aluminum into the bath.  suggest you
+avoid aluminum if at all possible.
+
+cheers, have fun!
+
+Tim
+
+Date: Sat, 05 Jun 1999 19:50:29 +0100
+From: Tom Rust <trust@nanochip.com>
+To: Li Shi <lishi@newton.me.berkeley.edu>, mems-cc@ISI.EDU
+Subject: Re: Does TMAH attack Al, Cr, or Pt?
+
+Li Shi wrote:
+>
+> Could anyone tell me whether TMAH attacks Al, Cr, or Pt? THanks.
+>
+> Li Shi
+>
+>
+TMAH does etch Al. Ever wonder why there are faint etch marks in Al
+layers after you've stripped resist from misaligned wafers? The TMAH in
+the developer.
+--
+Tom Rust
+Nanochip Inc
+Box 13249
+
+Date: Tue, 8 Jun 1999 08:54:45 -0400
+From: Robert_Antaki@Mitel.COM
+To: lishi@newton.me.berkeley.edu
+Subject: Re: Does TMAH attack Al, Cr, or Pt?
+
+
+
+
+From:  Robert Antaki@MITEL on 06/08/99 08:54 AM
+>From what I recall of my master's
+TMAH at about 25% and around 80C etches Al and Cr.  It does no etch Pt.
+I heard of additives that reduce dramatically Al etching, but I don't know
+the details.
+Some is linked to predissolved Silicon in the TMAH.
+
+regards,
+Robert  Antaki
+
+Date: Tue, 8 Jun 1999 17:20:37 -0500
+From: dan.w.chilcott@delphiauto.com
+To: lishi@newton.me.berkeley.edu
+Subject: Pt,Cr,Al and TMAH
+
+Hello,
+
+I have not tried TMAH with Pt, Cr, or Al but I have some information which
+might be of interest to you.
+
+First,  I have worked with Pt lines on sensors and I don't think that TMAH
+would attack it since EDP and KOH do not significantly attack the metal.
+If TMAH does attack the metal then let me know since the only other wet
+etchant for Pt is aqua regia at 90 C.
+
+Cr's compatibility with TMAH I do not know.
+
+There are several papers which discuss how to keep TMAH from attacking
+Aluminum.  The first papers used powdered silicon then this migrated to the
+Aluminum.  The first papers used powdered silicon then this migrated to the
+addition of chemicals to replace the powdered silicon.  You may find it
+hard to get a combination which doesn't attack silicon while giving a good
+siicon bulk etch.  If you are only removing poly from filled trenches or
+something than you should be fine.
+
+ 
+
+From cgl@coos.dartmouth.edu  Fri Jun 11 14:30:56 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id OAA11443
+	for <cgl@coos.dartmouth.edu>; Fri, 11 Jun 1999 14:30:56 -0400
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.3+DND/8.9.3) with ESMTP id OAA03239
+	for <c.levey@Dartmouth.EDU>; Fri, 11 Jun 1999 14:30:55 -0400 (EDT)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id OAA11438;
+	Fri, 11 Jun 1999 14:30:54 -0400
+Date: Fri, 11 Jun 1999 14:30:54 -0400
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199906111830.OAA11438@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Fri Jun 11 14:30:53 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id OAA11430
+	for <cgl@coos.dartmouth.edu>; Fri, 11 Jun 1999 14:30:52 -0400
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id IAA16265
+	for mems-out-list; Fri, 11 Jun 1999 08:27:42 -0700 (PDT)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id IAA16260
+	for <mems-out@darkstar.isi.edu>; Fri, 11 Jun 1999 08:27:42 -0700 (PDT)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id IAA08723;
+	Fri, 11 Jun 1999 08:27:41 -0700 (PDT)
+Posted-Date: Thu, 10 Jun 1999 14:00:52 -0400
+Message-Id: <9906111527.AA26854@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA26854>; Fri, 11 Jun 99 08:27:40 PDT
+Date: Thu, 10 Jun 1999 14:00:52 -0400
+From: Jer-Liang Andrew Yeh <jy33@cornell.edu>
+Subject: [SUMMARY]isotropic etch recipe for silicon dioxide but aluminum 
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: Jer-Liang Andrew Yeh <jy33@cornell.edu>, mems-cc@ISI.EDU
+
+Hi Colleaques,
+
+        I appreaciates all the information which is summarized as
+follows.
+
+later,
+Andrew
+
+[1]
+Date: Sun, 6 Jun 1999 18:25:36 -0700 (PDT)
+From: Xing Yang <xing@touch.micron.caltech.edu>
+To: andrewy@anise.ee.cornell.edu
+Subject: Re: isotropic etch recipe for silicon dioxide without attacking
+
+aluminum
+
+You can buy some chemicals named "Pad Etch". They are made for etching
+contact windows in SiO2 layer on top of Al layer.
+
+Hope this helps.
+
+Xing Yang
+ACLARA BioSciences
+
+[2]
+Date: Mon, 7 Jun 1999 08:55:17 +0100
+From: Matthias Heschel <MH@mail.mic.dtu.dk>
+To: 'Jer-Liang Yeh' <andrewy@anise.ee.cornell.edu>
+Subject: RE: isotropic etch recipe for silicon dioxide without attacking
+a
+luminum
+
+I know of a dry etch technique I used several times: reactive ion
+etching in a CF4 plasma. If you need good selectivity to silicon you
+should add CHF3. Aluminum is not attacked at all.
+Good luck,
+
+Matthias
+
+________________________________________________________________________
+
+Matthias Heschel
+Microelectronics Center
+Technical University of Denmark, Bldg. 345 east
+DK-2800 Lyngby
+phone (direct): +45 45256308
+phone (switchboard): +45 45934610
+fax: +45 45887762
+http://www.dtu.dk/mic
+
+[3]
+Date: Mon, 7 Jun 1999 11:20:12 EDT
+From: BobHendu@aol.com
+To: andrewy@anise.ee.cornell.edu
+Subject: Re: isotropic etch recipe for silicon dioxide without attacking
+
+aluminum
+
+Try buffered oxide etch at maybe 10:1 ratio. Di water and ammonium
+fluoride.
+Bob
+
+[4]
+Date: Tue, 8 Jun 1999 15:21:49 -0400
+From: Marisa Ahmad <mahmad@semiconductor.com>
+To: 'Jer-Liang Yeh' <andrewy@anise.ee.cornell.edu>
+Subject: RE: isotropic etch recipe for silicon dioxide without attacking
+a
+luminum
+
+You can use a buffered HF etch that will not etch Al (like BOE or
+Transene).
+This will be isotropic of course (wet etches) but will work if you
+aren't
+trying to look deep.   If you want to see several layers simulataneously
+you
+will have to use an anisotropic etch
+
+If you have access to an RIE, you can use any fluorine chemistry (SF6,
+CHF3,
+CF4)to etch silicon dioxide anisotropically (dry etches).   None of them
+
+will touch aluminum (although sputtering will occur eventually).  For
+maximun etch rates use a mixture with 10% O2 added.  If you are looking
+very
+deep (more than two layers) you will need a deep etching ICP-RIE.
+
+Good luck,
+
+Marisa
+
+ 
+
+From cgl@coos.dartmouth.edu  Thu Jun 10 14:21:02 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id OAA10257
+	for <cgl@coos.dartmouth.edu>; Thu, 10 Jun 1999 14:21:02 -0400
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.3+DND/8.9.3) with ESMTP id OAA19095
+	for <c.levey@Dartmouth.EDU>; Thu, 10 Jun 1999 14:21:01 -0400 (EDT)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id OAA10253;
+	Thu, 10 Jun 1999 14:21:00 -0400
+Date: Thu, 10 Jun 1999 14:21:00 -0400
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199906101821.OAA10253@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Thu Jun 10 14:20:56 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id OAA10242
+	for <cgl@coos.dartmouth.edu>; Thu, 10 Jun 1999 14:20:55 -0400
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id IAA09389
+	for mems-out-list; Thu, 10 Jun 1999 08:21:04 -0700 (PDT)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id IAA09385
+	for <mems-out@darkstar.isi.edu>; Thu, 10 Jun 1999 08:21:03 -0700 (PDT)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id IAA19865;
+	Thu, 10 Jun 1999 08:20:56 -0700 (PDT)
+Posted-Date: Wed, 02 Jun 1999 17:09:49 -0500
+Message-Id: <9906101520.AA14100@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA14100>; Thu, 10 Jun 99 08:20:56 PDT
+Date: Wed, 02 Jun 1999 17:09:49 -0500
+From: "Z. Jamie Yao" <z-yao1@raytheon.com>
+Subject: Re: ahdesion layer for gold
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: "Z. Jamie Yao" <z-yao1@raytheon.com>, mems-cc@ISI.EDU
+
+Marc,
+
+I assume you wet etch the Cr under Au.  The undercut problem is due to an
+electrochemical reaction known as "galvanic reaction".  The reaction occurs
+whenever there are two dissimilar metals in contact and one of them is
+being wet etched.  The etching of Cr, in your case, is accelerated by the
+existence of Au.  Try TiW (10/90) as an adhesion layer and etch it in
+H2O2.  It works well for us.
+
+Good luck,
+
+Jamie Yao
+
+Marc Llaguno wrote:
+
+> I'm having problems with etching a 10 nm Cr adhesion layer under 200
+> nm of gold. we always seem to get several microns of undercut. Is this
+> because of the gold thickness? Could there be adhesion problems between
+> gold and chrome for this thickness?
+> any suggestions/comments will be appreciated.
+>
+> Marc Llaguno
+> University of Pennsylvania
+>
+>
+
+ 
+
+From cgl@coos.dartmouth.edu  Sat Jun  5 15:50:45 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id PAA24887
+	for <cgl@coos.dartmouth.edu>; Sat, 5 Jun 1999 15:50:45 -0400
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.3+DND/8.9.3) with ESMTP id PAA04063
+	for <c.levey@Dartmouth.EDU>; Sat, 5 Jun 1999 15:50:44 -0400 (EDT)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id PAA24878;
+	Sat, 5 Jun 1999 15:50:43 -0400
+Date: Sat, 5 Jun 1999 15:50:43 -0400
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199906051950.PAA24878@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Sat Jun  5 15:50:41 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id PAA24868
+	for <cgl@coos.dartmouth.edu>; Sat, 5 Jun 1999 15:50:40 -0400
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id KAA00574
+	for mems-out-list; Sat, 5 Jun 1999 10:11:33 -0700 (PDT)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id KAA00569
+	for <mems-out@darkstar.isi.edu>; Sat, 5 Jun 1999 10:11:33 -0700 (PDT)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id KAA05594;
+	Sat, 5 Jun 1999 10:11:31 -0700 (PDT)
+Posted-Date: Sun, 30 May 1999 09:08:39 -0700
+Message-Id: <9906051711.AA13352@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA13352>; Sat, 5 Jun 99 10:11:31 PDT
+From: StClair Loren <L.StClair@elvisions.com>
+Subject: RE: SU-8 help
+Date: Sun, 30 May 1999 09:08:39 -0700
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: StClair Loren <L.StClair@elvisions.com>, mems-cc@ISI.EDU
+
+
+Mr. Kriechbaum,
+
+I have worked extensively with SU-8 developing full process conditions and
+generating spin curves for all SU-8 grades.  Application notes are available
+for your 150 micron process as well as other SU-8 grades.  These reports are
+available from Electronic Visions upon request.  Please request by email
+through info@elvisions.com <mailto:info@elvisions.com>  or call 602-437-9492
+for your copy.
+Regards,
+
+Loren St. Clair
+Staff Engineer
+Electronic Visions
+
+Phone: (602)-437-9492 x 121
+Fax: (602)-437-9435
+
+Email: mailto:l.stclair@elvisions.com <mailto:l.stclair@elvisions.com> 
+
+	-----Original Message-----
+	From:	Kristopher L Kriechbaum [SMTP:klk+@andrew.cmu.edu]
+	Sent:	Monday, May 24, 1999 9:59 AM
+	To:	MEMS@ISI.EDU
+	Subject:	SU-8 help
+
+	Hi everyone,
+
+	I am using SU-8 to fabricate microparts.  I have checked the web
+pages
+	and read some papers, but I am still having difficulty.  My main
+problem
+	is obtaining the correct thickness (about 150 microns).  Another
+problem
+	is with my exposure.  I can't seem to find the right dose.  Any help
+	would be greatly appreciated.
+
+	Thanks in advance,
+
+	Kristo Kriechbaum
+	Carnegie Mellon University 
+	 
+ 
+
+From cgl@coos.dartmouth.edu  Fri Jun  4 14:57:24 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id OAA29569
+	for <cgl@coos.dartmouth.edu>; Fri, 4 Jun 1999 14:57:24 -0400
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.3+DND/8.9.3) with ESMTP id OAA19524
+	for <c.levey@Dartmouth.EDU>; Fri, 4 Jun 1999 14:57:23 -0400 (EDT)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id OAA29565;
+	Fri, 4 Jun 1999 14:57:23 -0400
+Date: Fri, 4 Jun 1999 14:57:23 -0400
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199906041857.OAA29565@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Fri Jun  4 14:57:21 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id OAA29552
+	for <cgl@coos.dartmouth.edu>; Fri, 4 Jun 1999 14:57:19 -0400
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id IAA22085
+	for mems-out-list; Fri, 4 Jun 1999 08:46:57 -0700 (PDT)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id IAA22080
+	for <mems-out@darkstar.isi.edu>; Fri, 4 Jun 1999 08:46:57 -0700 (PDT)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id IAA08530;
+	Fri, 4 Jun 1999 08:46:53 -0700 (PDT)
+Posted-Date: Thu, 27 May 1999 18:17:27 +0200
+Message-Id: <9906041546.AA04627@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA04627>; Fri, 4 Jun 99 08:46:52 PDT
+From: "Reimer, Klaus" <reimer@isit.fhg.de>
+Subject: Graytone Lithography
+Date: Thu, 27 May 1999 18:17:27 +0200
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: "Reimer, Klaus" <reimer@isit.fhg.de>, mems-cc@ISI.EDU
+
+Dear Dr. Johnson,
+
+concerning your e-mail you send around on May, 20th, where you asking
+for other options for grayscale lithography than Canyon Materials'HEBS,
+I can answere with YES.
+
+At ISIT we improve and apply graytone lithography utilizing an
+inexpensive one-step lithographic method using a raster-screend
+(graytone) quartz-Cr reticle, with subresolution pixel elements. This
+typ of mask you can get at any commercial mask shop and you are able to
+mix graytone structures with digital once. Graytone specific is only the
+design of the subresolution pixel arrays. For this we developed a
+software tool called GRADED which we use in house. This tool takes
+account of all nonlinear process characteristics which happens during
+the graytone exposure like e.g. resist contrast. In addition we have a
+resist process available allowing thicknesses up to 20 um. Combining
+these two technologies we are able to fabricate fluid jets, shaped
+electrodes for electrostatic drives, shaped mirrors, shaped gratings,
+refractive and diffractive optical elements. We also transfere this
+structures in silicon e.g. for IR-applications or make replicas of these
+structures in Polycarbonat together with an industrial partner.
+
+For more detailed information there are some publications available:
+- Proc. SPIE Vol. 3008, p. 279-299, San Jose 1997
+- Proc. SPIE Vol. 3226, p. 6, Austin, 1997
+- Proc. of Int. Conf. on Optic & Electronics at IRDE, India, 9-12 Dec,
+1998
+
+or look at our web-side:
+http://www.isit.fhg.de/english/mst/DOE.html
+http://www.isit.fhg.de/english/mst/graytone.html
+
+I you have some more questions, please do not hesitate to phone or
+e-mail me.
+
+Kind Regards
+
+  Klaus Reimer
+
+_____________________________________
+Dr. Klaus Reimer
+Fraunhofer-Institut f|r Siliziumtechnologie
+Fraunhoferstrasse 1
+D-25524 Itzehoe 
+Germany
+Tel.: 	+49 4821 174506
+FAX 	+49 4821 174251
+e-Mail	reimer@isit.fhg.de
+Internet	http://www.isit.fhg.de
+___________________________________________
+
+ 
+
+From cgl@coos.dartmouth.edu  Wed May 26 01:33:22 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id BAA25543
+	for <cgl@coos.dartmouth.edu>; Wed, 26 May 1999 01:33:22 -0400
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.3+DND/8.9.3) with ESMTP id BAA06171
+	for <c.levey@Dartmouth.EDU>; Wed, 26 May 1999 01:33:21 -0400 (EDT)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id BAA25539;
+	Wed, 26 May 1999 01:33:21 -0400
+Date: Wed, 26 May 1999 01:33:21 -0400
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199905260533.BAA25539@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Wed May 26 01:33:19 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id BAA25531
+	for <cgl@coos.dartmouth.edu>; Wed, 26 May 1999 01:33:18 -0400
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id TAA14436
+	for mems-out-list; Tue, 25 May 1999 19:41:56 -0700 (PDT)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id TAA14431
+	for <mems-out@darkstar.isi.edu>; Tue, 25 May 1999 19:41:55 -0700 (PDT)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id TAA05687;
+	Tue, 25 May 1999 19:41:54 -0700 (PDT)
+Posted-Date: Mon, 24 May 1999 08:44:06 PDT
+Message-Id: <9905260241.AA02914@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA02914>; Tue, 25 May 99 19:41:54 PDT
+Date: Mon, 24 May 1999 08:44:06 PDT
+From: Philip Floyd <floyd@parc.xerox.com>
+Subject: Re: Pyrex 7740
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: Philip Floyd <floyd@parc.xerox.com>, mems-cc@ISI.EDU
+
+You can try:
+
+Swift Glass Co.
+P.O.  Box 879
+Elmira, NY 14092
+(607)733-7166  Voice
+(607) 732-5829 FAX
+
+Phil
+
+
+
+At 08:53 PM 5/20/99 PDT, Wiranto, Goib - WIRGY001 wrote:
+>Dear all,
+>
+>I'm looking for 50 pcs of 1 mm thick, 2 by 2 inch, single side polished Pyrex
+>glass for 
+>anodic bonding with silicon.
+>
+>If anyone can give me names and addresses of companies or suppliers for such
+>material
+>will be very much appreciated.
+>
+>Thank you very much.
+>
+>Goib Wiranto
+>Microelectronics Centre
+>University of South Australia
+>Mawson Lakes, SA 5095
+>Australia
+>email: WIRGY001@students.unisa.edu.au
+> 
+>
+>
+***********************************
+Philip D. Floyd, Ph.D.
+Member of the Research Staff
+Electronic Materials Laboratory
+Xerox Palo Alto Research Center
+3333 Coyote Hill Rd., 35-1170
+Palo Alto, CA 94304
+Voice: 650-812-4129
+FAX:   650-812-4105
+E-mail:floyd@parc.xerox.com
+***********************************
+
+ 
+
+From cgl@coos.dartmouth.edu  Thu May 20 17:28:24 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id RAA29758
+	for <cgl@coos.dartmouth.edu>; Thu, 20 May 1999 17:28:24 -0400
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.3+DND/8.9.3) with ESMTP id RAA11699
+	for <c.levey@Dartmouth.EDU>; Thu, 20 May 1999 17:28:24 -0400 (EDT)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id RAA29754;
+	Thu, 20 May 1999 17:28:23 -0400
+Date: Thu, 20 May 1999 17:28:23 -0400
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199905202128.RAA29754@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Thu May 20 17:28:21 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id RAA29746
+	for <cgl@coos.dartmouth.edu>; Thu, 20 May 1999 17:28:20 -0400
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id LAA04837
+	for mems-out-list; Thu, 20 May 1999 11:47:58 -0700 (PDT)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id LAA04833
+	for <mems-out@darkstar.isi.edu>; Thu, 20 May 1999 11:47:57 -0700 (PDT)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id LAA02193;
+	Thu, 20 May 1999 11:47:55 -0700 (PDT)
+Posted-Date: Thu, 20 May 1999 08:41:13 +0100
+Message-Id: <9905201847.AA08379@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA08379>; Thu, 20 May 99 11:47:54 PDT
+Reply-To: "Ranganathan Nagarajan" <nathan@ime.org.sg>
+From: "Ranganathan Nagarajan" <nathan@ime.org.sg>
+Subject: Re: Bosch process
+Date: Thu, 20 May 1999 08:41:13 +0100
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+
+You will find all the details in the web given below:
+http://fatmac.ee.cornell.edu/~defish/avstalk/lookup.cgi?num=2&action=0
+
+Regards
+Ranga
+----- Original Message ----- 
+From: <phylitho@samsung.co.kr>
+To: <MEMS@ISI.EDU>
+Sent: Wednesday, May 19, 1999 8:15 AM
+Subject: Bosch process
+
+
+> I am interested in Si deep trech etch using Bosch process.
+> Is there anyone that knows the patent number about Bosch process.
+> 
+> Thank you.
+> 
+> Dongwan Kim
+> 
+
+ 
+
+From cgl@coos.dartmouth.edu  Wed May 19 00:04:42 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id AAA07581
+	for <cgl@coos.dartmouth.edu>; Wed, 19 May 1999 00:04:42 -0400
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.3+DND/8.9.3) with ESMTP id AAA09391
+	for <c.levey@Dartmouth.EDU>; Wed, 19 May 1999 00:04:41 -0400 (EDT)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id AAA07577;
+	Wed, 19 May 1999 00:04:40 -0400
+Date: Wed, 19 May 1999 00:04:40 -0400
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199905190404.AAA07577@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Wed May 19 00:04:38 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id AAA07566
+	for <cgl@coos.dartmouth.edu>; Wed, 19 May 1999 00:04:36 -0400
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id RAA20759
+	for mems-out-list; Tue, 18 May 1999 17:43:37 -0700 (PDT)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id RAA20755
+	for <mems-out@darkstar.isi.edu>; Tue, 18 May 1999 17:43:36 -0700 (PDT)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id RAA18971;
+	Tue, 18 May 1999 17:43:35 -0700 (PDT)
+Posted-Date: Tue, 18 May 1999 17:10:33 -0700 (PDT)
+Message-Id: <9905190043.AA16163@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA16163>; Tue, 18 May 99 17:43:35 PDT
+Date: Tue, 18 May 1999 17:10:33 -0700 (PDT)
+From: vikas Galhotra <ricky_25@yahoo.com>
+Subject: Replies to question about "Patterning of silicon nitride using KMER resist
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: vikas Galhotra <ricky_25@yahoo.com>, mems-cc@ISI.EDU
+
+Hello Colleagues:
+
+I wanted to thank everyone out there who responded to my question about
+patterning of Silicon Nitride.  A lot of you have asked for any
+information that I get from the MEMS community about this question. 
+Attached please find the original question that I asked and various
+replies that I received. 
+
+I also wanted to point out the book where I found that Silicon Nitride
+can be etched using sodium hydroxide solution.  The Title of the book
+is "Handbook of Metal Etchants" by Perrin Walker and William H. Tarn
+from CRC Press.  ISBN 0-8493-3623-6
+
+The recipe as they have written is as follows :
+"NaOH :90 g
+H2O :250 ml
+Temperature: boiling
+Rate of etching :180 A/min
+Resist used : KMER
+
+Glycerin or etylene glycol can be added for additional rate control."
+Some other good references that this book points out are as follows : 
+7 Wurzbach, J A & Grunthaner, F J --- J of Appl Physics, 130, 690
+(1983)
+7 Hess, D W ---J of Vac Sci Technology, A(2), 243, (1984)
+7 Kurtz, F et al ---- J of Electrochemical Society, 113, 1452 (1966)
+
+--------------------------------------------------------------------------------------------------------------------------
+Original Question
+
+Hello Colleagues:
+
+I am looking for a photoresist to pattern silicon nitride thin film. 
+Specifically I wanted to use KMER resist as it goes well with dilute
+NaOH solution which I am planning to use as an etchant for silicon
+nitride. If someone can give me some information where to get this KMER
+resist from, I will appreciate that very much.
+
+Alternatively If someone can suggest 
+(1) some other photoresist that goes well with dilute solution of NaOH 
+or 
+(2) some other etchant for silicon nitride (other then anything that
+contains HF)
+
+I will be very thankful.  
+
+My e-mail address is "ricky_25@yahoo.com"
+
+Thanks in advance
+
+Vikas Galhotra
+
+Research Scientist
+TiNi Alloy Company
+------------------------------------------------------
+Reply (1)
+
+Hi Vikas,
+
+I'm assuming you can't use plasma etch, which is the standard nitride
+etch process.  There are chemistries that are highly selective to
+oxide, which can be grown under the nitride, if you're trying not to
+damage the
+Silicon surface.  Wet etching nitride is rarely used by anyone, though
+it is commonly stripped with concentrated HF.
+
+The only nitride etch I've ever used is phosphoric acid (which must be
+refluxed to maintain it's concentration).  Oxide (LTO or some other
+deposited film) can be used as a mask, and some other metals may also
+be suitable (check a standard metal corrosion reference for
+compatibility). I wasn't aware that NaOH etched nitride, but I'd be
+interested in any references you have.
+
+Sorry I can't be of any more help.  Good luck.
+
+Marc Straub
+Advanced Technology Development
+Visteon Automotive Systems, Ford Motor Company
+E- mail:  "mstraub1@visteon.com"
+
+
+----------------------------------------------------
+Reply (2)
+
+I did experiment to etch silicon nitride with 49% HF and the etch rate
+is about 150 A/min.  I just used AZ 1512 to make patterns but as for
+hard bake i hard-baked it at 140 C so it went well until etching 2000
+A.
+you wanna use KMER resist but i don't know about that so I also wanna
+get info thank you to read.
+
+jae hong LIM" <johnbaptize@hotmail.com
+
+----------------------------------------------------
+Reply (3)
+
+By using dry etching (SF6 for example) in a RIE, any resist will have a
+selectivity of at least 5. But it may not suit your needs... otherwise
+wet etching nitride is done with a good selectivity to oxide (I guess
+it is why you don't want HF) using hot (near boiling point) H3PO4 acid.
+However you need a recirculating bath to keep the concentration steady
+or the selectivity drops. Fume hood the least you should use... Usually
+standard photoresist sustain the treatment too, with a good selectivity
+(at least 2, I guess, but I don't know:-).
+
+Franck
+
+Franck CHOLLET <fa-chollet@imre.org.sg
+
+------------------------------------------------------
+Reply (4)
+
+We have been getting good results with phosphoric acid (H3PO4) as it
+does not attack the resists very much.
+
+If you get info on resists compatible with dilute NaOH/KOH, please do
+Pass it on to me.
+
+Regards,
+
+-Ashutosh-
+
+================================================================================
+        Ashutosh Shastry                Research Associate,     
+        #30, Vihar House, IIT,          Microelectronics Group,
+                                        Department of Electrical
+Engineering,
+        Powai, MUMBAI, INDIA-76.        I.I.T. Bombay, INDIA 400 076.
+
+                                        Phone:091-22-5783655
+
+------------------------------------------------------
+
+Reply (5)
+
+RIE plasma etch is the best way to etch silicon nitride and maintain
+photoresist integrity. Any commercial positive photoresist will be
+better  than KMER. That hasn't been used since I mixed the stuff up
+back in
+1970. I believe it was made by Kodak if you want to find it, but it was
+a rubber based negative working pr that really didn't have too many
+good properties. I think KTFR fell in the same catagory.  If you want
+to talk etchants and dry etch of silicon nitride give me a call at
+480-968-8818.  
+
+Bob Henderson
+
+BobHendu@aol.com
+
+-----------------------------------------------------
+
+Reply (6)
+
+Hi,
+
+I am interested in the etching of Si3N4. Are you sure that the NaOH can
+etch Si3N4? , and usual photoresist can resist for the etching? Please
+let me know about wet etching ( I know dry ) of nitride, and
+Could you please forward re-mail on this matter to me?
+
+Thanks,
+
+Mori
+
+Kiyotaka Mori mori@Glue.umd.edu
+
+-------------------------------------------------------
+
+
+_____________________________________________________________
+Do You Yahoo!?
+Free instant messaging and more at http://messenger.yahoo.com
+ 
+
+From cgl@coos.dartmouth.edu  Tue May 18 00:37:03 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id AAA18508
+	for <cgl@coos.dartmouth.edu>; Tue, 18 May 1999 00:37:03 -0400
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.3+DND/8.9.3) with ESMTP id AAA05106
+	for <c.levey@Dartmouth.EDU>; Tue, 18 May 1999 00:37:02 -0400 (EDT)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id AAA18503;
+	Tue, 18 May 1999 00:37:02 -0400
+Date: Tue, 18 May 1999 00:37:02 -0400
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199905180437.AAA18503@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Tue May 18 00:37:00 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id AAA18495
+	for <cgl@coos.dartmouth.edu>; Tue, 18 May 1999 00:36:59 -0400
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id SAA11064
+	for mems-out-list; Mon, 17 May 1999 18:37:47 -0700 (PDT)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id SAA11059
+	for <mems-out@darkstar.isi.edu>; Mon, 17 May 1999 18:37:46 -0700 (PDT)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id SAA17629;
+	Mon, 17 May 1999 18:37:45 -0700 (PDT)
+Posted-Date: 	Sat, 15 May 1999 12:36:56 -0600
+Message-Id: <9905180137.AA02495@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA02495>; Mon, 17 May 99 18:37:45 PDT
+Date: 	Sat, 15 May 1999 12:36:56 -0600
+From: Ken Westra <ken@amc.ab.ca>
+Reply-To: ken@amc.ab.ca
+Subject: SUMMARY: SEM Lithography
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+
+Awhile ago, I posted a request for information on purchasing a SEM
+lithography system. I have finally summarized what people emailed me and
+what I learned while purchasing this machine.
+
+  A SEM lithography system is a SEM with an add-on control system for
+lithography. Almost all academic e-beam lithography is done this way.
+And it works. Lots of groups routinely do 50 nm lithography in PMMA with
+these machines. 
+
+ There are two suppliers of the add-on control hardware/software for
+e-beam lithography: Raith and Nabity (see their web pages). Raith sells
+a full product line, from the low end add-on controller to turn-key
+e-beam lithography machines with laser stages. I am only going to
+discuss what we were interested in: e-beam lithography over small areas.
+(The Nabity system and the Raith Quantum). The interesting thing is that
+the installed base for these two systems are very geographic: Raith is
+Europe and Nabity is North America. Since I'm in North America, most of
+the people I talked to were Nabity users. Both systems appear to be
+comparible, both in price and operating characterisitics. The Nabity
+system has a large happy customer base, while I had difficulty
+contacting the Raith customer base.
+
+  My comments on which SEM to purchase are strongly based on my
+conversations with Joe Nabity. He has been very helpful in giving advice
+on what is needed in an SEM. We are users of e-beam lithography. That
+is, we want to make structures, but we are not interested in doing R and
+D in ebeam lithography. For this reason (and financial ones), we did not
+look at FE-SEM based e-beam lithography. It just seems to me that it
+will take a few years for all the instrument bugs to be worked out with
+Fe-SEMs. 
+
+  For our needs the perfect machine is a high end LaB6, 40 KV SEM. The
+problem is that with the advent of FE-SEMs, most of the microscope
+manufacturers no longer manufacture high end SEMs that are not FESEMs.
+The only two left are Phillips and LEO. And LEO is ending the
+manufacturing of their machine. This leaves either the purchase of a new
+Phillips or the purchase of a used SEM. Used SEMs will do the job, it
+just not as nice looking as a new one. We hope to go with a new machine.
+
+
+    Ken Westra
+    Manager/Staff Scientist
+    MicroFab at the University of Alberta
+ 
+
+From cgl@coos.dartmouth.edu  Mon May 17 15:53:17 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id PAA01523
+	for <cgl@coos.dartmouth.edu>; Mon, 17 May 1999 15:53:17 -0400
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.3+DND/8.9.3) with ESMTP id PAA25462
+	for <c.levey@Dartmouth.EDU>; Mon, 17 May 1999 15:53:16 -0400 (EDT)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id PAA01506;
+	Mon, 17 May 1999 15:53:15 -0400
+Date: Mon, 17 May 1999 15:53:15 -0400
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199905171953.PAA01506@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Mon May 17 15:53:13 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id PAA01491
+	for <cgl@coos.dartmouth.edu>; Mon, 17 May 1999 15:53:12 -0400
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id JAA05498
+	for mems-out-list; Mon, 17 May 1999 09:23:47 -0700 (PDT)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id JAA05494
+	for <mems-out@darkstar.isi.edu>; Mon, 17 May 1999 09:23:41 -0700 (PDT)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id JAA17182;
+	Mon, 17 May 1999 09:23:40 -0700 (PDT)
+Posted-Date: 	Sat, 15 May 1999 12:15:07 -0600
+Message-Id: <9905171623.AA26105@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA26105>; Mon, 17 May 99 09:23:40 PDT
+Date: 	Sat, 15 May 1999 12:15:07 -0600
+From: Ken Westra <ken@amc.ab.ca>
+Reply-To: ken@amc.ab.ca
+Subject: SUMMARY: Purchasing a Deep Si Etchers 
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+
+Awhile ago, I posted a request for information on purchasing a deep Si
+etcher. I have finally summarized what people emailed me and what I
+learned while purchasing this machine.
+
+  Our need was for a RIE that can etch deep anistropic structures in
+many different materials. To do this, we needed a ICP RIE. A deep Si
+etcher is simply a ICP RIE that either runs the Bosch Si process or has
+a cryogenic chuck. There are four suppliers of 'turn key' ICP RIE
+machines: Plasmatherm, STS, Oxford, and Alcatel (they all have web
+pages). These system will perform the desired process right out of the
+box. This makes these systems expensive. Budgetary quotes range from $
+375 K US to $ 550K US. There are other companies (typically small
+companies) that will sell you a RIE with a ICP source on top. Axic and
+Trionics (spelling ?) are examples. These system will probably need alot
+of process development and possibly equipment modification to work
+properly. However, the cost is much less. For a university, this is a
+option (Also, it sounds like a nice master's thesis).
+
+  From a construction and maintenance point of view, the turnkey ICP RIE
+systems (STS, Plasmatherm, Oxford, and Alcatel), appear to be very
+similar. The people who e-mailed me and those who I talked to were all
+happy with the machines they purchased (regardless of who made it). For
+system that were not in use 24 hours/day, the maintenance costs were all
+reasonable (about what you would expect for a complex vacuum system),
+with the only issue being problems with the turbo pumps). I did not talk
+to the people who run these machines in production).
+
+  From a Si etch process point of view there are differences between the
+machines. I am not an expert at deep Si etching, but this is my
+understanding: Anistropic Si structures can be etched by either the
+Bosch process (a patented gas chemistry) or a cryogenic chuck. The Bosch
+process allows for very high aspect ratio/deep Si etches, however the
+side walls are scalloped. The cryogenic chuck has smoother sidewalls,
+but the etch depth and aspect ratio are not as good as the Bosch
+process. The Bosch process has been licensed by PlasmaTherm, STS, and
+Alcatel And the cryogenic chuck is on the Oxford and Alcatel machines.
+
+Prices: 
+  These machines are very expensive. For a pure Si etching application,
+there are a number of comapnies and universities selling Deep Si etching
+services. If we were only going to etch Si, this the route we would have
+taken. Since we want to do many materials, we needed to bite the bullet
+and spend the money. 
+  
+  The initial quotes from all the companies should be considered
+budgetary, that is a beginning place for negotiation. There is quite a
+bit of room for movement on the prices. The prices that various places
+paid for their systems is 'known', you need to ask around. From my
+experience, the Oxford system was the least expensive and we purchased
+the Oxford system.
+
+  Ken Westra
+  Manager/Staff Scientist
+  MicroFab at the University of Alberta
+ 
+
+From cgl@coos.dartmouth.edu  Mon May 17 15:30:31 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id PAA00979
+	for <cgl@coos.dartmouth.edu>; Mon, 17 May 1999 15:30:30 -0400
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.3+DND/8.9.3) with ESMTP id PAA18338
+	for <c.levey@Dartmouth.EDU>; Mon, 17 May 1999 15:30:30 -0400 (EDT)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id PAA00975;
+	Mon, 17 May 1999 15:30:29 -0400
+Date: Mon, 17 May 1999 15:30:29 -0400
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199905171930.PAA00975@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Mon May 17 15:30:27 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id PAA00967
+	for <cgl@coos.dartmouth.edu>; Mon, 17 May 1999 15:30:26 -0400
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id JAA05428
+	for mems-out-list; Mon, 17 May 1999 09:21:12 -0700 (PDT)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id JAA05422
+	for <mems-out@darkstar.isi.edu>; Mon, 17 May 1999 09:21:11 -0700 (PDT)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id JAA16811;
+	Mon, 17 May 1999 09:21:10 -0700 (PDT)
+Posted-Date: 	Sat, 15 May 1999 11:45:49 -0600
+Message-Id: <9905171621.AA26056@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA26056>; Mon, 17 May 99 09:21:09 PDT
+Date: 	Sat, 15 May 1999 11:45:49 -0600
+From: Ken Westra <ken@amc.ab.ca>
+Reply-To: ken@amc.ab.ca
+Subject: SUMMARY: Suppliers of Hot Embossers
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+
+Awhile ago, I posted a request for information on purchasing a hot
+embosser. I have finally summarized what people emailed me and what I
+learned while purchasing this machine.
+
+  There is only a single supplier of hot embossers designed for
+micromachining applications; Jenoptik (they have a web page). There are
+other companies that supply hot embossrs, but they are for more
+tradiational industries. It is unclear if these other machines will do
+what the MEMS community needs. I received e-mail from people who were
+considering building their own machines, but I don't know how that has
+progressed.
+
+  The feeling in the MEMS community is that the present Jenoptik
+machines are R and D/small production run machines, not machines for
+mass production. This isn't surprizing considering the infancy of the
+plastic MEMS field. I would assume as soon as someone needs a production
+machine, that a comapny somewhere will offer it.
+
+   Ken Westra
+   Manager/Staff Scientist
+   MicroFab at the University of Alberta
+ 
+
+From cgl@coos.dartmouth.edu  Sun May 16 18:51:46 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id SAA07125
+	for <cgl@coos.dartmouth.edu>; Sun, 16 May 1999 18:51:46 -0400
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.3+DND/8.9.3) with ESMTP id SAA17430
+	for <c.levey@Dartmouth.EDU>; Sun, 16 May 1999 18:51:45 -0400 (EDT)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id SAA07118;
+	Sun, 16 May 1999 18:51:44 -0400
+Date: Sun, 16 May 1999 18:51:44 -0400
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199905162251.SAA07118@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Sun May 16 18:51:42 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id SAA07103
+	for <cgl@coos.dartmouth.edu>; Sun, 16 May 1999 18:51:41 -0400
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id NAA00184
+	for mems-out-list; Sun, 16 May 1999 13:18:41 -0700 (PDT)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id NAA00177
+	for <mems-out@darkstar.isi.edu>; Sun, 16 May 1999 13:18:40 -0700 (PDT)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id NAA07966;
+	Sun, 16 May 1999 13:18:38 -0700 (PDT)
+Posted-Date: Fri, 14 May 1999 10:59:31 +0200 (MET DST)
+Message-Id: <9905162018.AA17352@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA17352>; Sun, 16 May 99 13:18:38 PDT
+Date: Fri, 14 May 1999 10:59:31 +0200 (MET DST)
+From: Dirk De Bruyker <Dirk.DeBruyker@esat.kuleuven.ac.be>
+Subject: Re: Rapid printing of high lines
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: Dirk De Bruyker <Dirk.DeBruyker@esat.kuleuven.ac.be>,
+        mems-cc@ISI.EDU
+
+On Thu, 13 May 1999, Marc A. Unger wrote:
+
+> The mold can be made in less than a day, but the mask (for the
+> photolithography) still takes time (a few days).  If there is a printer 
+> than can print ~10 um high lines, that would obviously a lot faster.  And
+> why not prototype as fast as possible?
+> 
+> We are already investigating the use of thick resist.  Anyone happen to 
+> know a set of conditions for patterning an AZ type resist at 10-20 microns
+> thick?
+
+Using Hoechst's AZ4562, we get 12 micron patterns with the following
+conditions:
+
+-80" spinning at 1000 rpm
+-30' softbake at 100C
+-90" illumination at 5 mW/cm2
+-developing using AZ531 developer
+-hardbake
+
+
+Dirk De Bruyker
+
+K.U.Leuven, Dept. Esat-Micas
+Kard. Mercierlaan 94, B-3001 Leuven, Belgium
+Tel: +32 16 32 1700      Fax: +32 16 32 1975
+E-mail:   Dirk.DeBruyker@esat.kuleuven.ac.be
+http://www.esat.kuleuven.ac.be/~debruyke
+
+
+ 
+
+From cgl@coos.dartmouth.edu  Wed May  5 02:55:50 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id CAA19997
+	for <cgl@coos.dartmouth.edu>; Wed, 5 May 1999 02:55:50 -0400
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.3+DND/8.9.3) with ESMTP id CAA11099
+	for <c.levey@Dartmouth.EDU>; Wed, 5 May 1999 02:55:49 -0400 (EDT)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id CAA19993;
+	Wed, 5 May 1999 02:55:49 -0400
+Date: Wed, 5 May 1999 02:55:49 -0400
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199905050655.CAA19993@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Wed May  5 02:55:47 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id CAA19985
+	for <cgl@coos.dartmouth.edu>; Wed, 5 May 1999 02:55:46 -0400
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id VAA00958
+	for mems-out-list; Tue, 4 May 1999 21:21:14 -0700 (PDT)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id VAA00953
+	for <mems-out@darkstar.isi.edu>; Tue, 4 May 1999 21:21:13 -0700 (PDT)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id VAA12244;
+	Tue, 4 May 1999 21:21:12 -0700 (PDT)
+Posted-Date: 	Tue, 04 May 1999 08:28:00 -0600
+Message-Id: <9905050421.AA13364@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA13364>; Tue, 4 May 99 21:21:11 PDT
+Date: 	Tue, 04 May 1999 08:28:00 -0600
+From: Mike Colgan <mikec@amc.ab.ca>
+Reply-To: mikec@amc.ab.ca
+Subject: Summary of Ledit and Postscript for Masks
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+
+Thanks to everyone who answered my questions regarding increasing
+postscript output resolution for Ledit.  It seems that convertors are a
+common thing, both home-made and commercial.  I haven't had a chance to
+try all of these programsm but I've summarized those that were suggested
+below.
+
+The most common program suggested PostCIF/linkCAD.  PostCIF was a
+shareware program developed by Daniel Gehriger, it has since been
+commercialized under the product name linkCAD ($500).  Jason Cole was
+kind
+enough to pass my question along to Daniel Gehriger, who replied with
+the following response concerning linkCAD's resolution: 
+
+> The theoretical resolution is always 0.001 microns, or 25'400'000 dpi.
+> 
+> PostScript calculates in 72dpi units. To convert from nanomters to 1/72
+> inches, LinkCAD tells the PostScript processor to multiply the units by
+> 2.83464566929E-6. The calculation is done with very high precision and the
+> actual limiting factor is the printer's resolution.
+> 
+> If the printer has a resolution of 4800 dpi, the minimum feature size and
+> the maximum error would be approx. 5.29 microns. The annoying thing is when
+> you have repeated structures (comb structures), alignment masks and so on.
+> Because 1/4800 is not an integer multiple of 0.001 microns, you'll get an
+> interference pattern, which will offset your structure by 5.29 microns at
+> every wavelength.
+> 
+> >From the enclosed spreadsheet you'll find that the wavelength at 4800 dpi is
+> roughly 84mm (depends on how you round,     this only gives an
+> approximation, if you round down, you'll get 42mm). So, if for instance you
+> have a comb structure, you'll get nice digits (even though with an error of
+> 5.29 microns) - but after approx 80mm you'll get an offset of one dot.
+> Annoying. You'll say, no problem - 80mm is large enough. Correct, but you
+> don't know where the absolute zero of the printer is. It may happen anywhere
+> on your design.
+> 
+> Your friend will be able to make masks with a precision of 5.3 microns, but
+> if he relies on alignement and repetitive structures he'll definitely meet
+> Moiri. It's not a limitation of LinkCAD, it's the result of you calculating
+> in inches and we in meters... Even if I changed the internal units to
+> something like mils, this would only help if you drew your design in mils
+> and exported it in a format supporting mils (*NOT* GDS-II, *NOT* CIF - they
+> are both metric. Only DXF because it doesn't have units).
+> 
+> Just a note at the end: the spreadsheet seems to say that it is better to
+> use a low resolution printer as the wavelength goes up. Well, yes you get
+> less interference, but you'll have a larger error, too.
+> 
+> I wonder why L-Edit limits output resolution. They probably wanted to speed
+> up the PostScript processing in the printer.
+> 
+> Regards,
+> 
+> Daniel
+> 
+> P.S. Bay Technolgy has evaluation copies of LinkCAD, so he can try it out
+> for 30 days.
+> 
+
+Internet addresses for PostCIF and linkCAD are:
+
+PostCIF-  http://dmtwww.epfl.ch/~dgehrige/postcif.html
+linkCAD-  http://www.bay-technology.com/linkcad.htm
+
+Another commercial program that was mentioned was LASI.  This one seems
+to be one of the cheaper commercial ones around ($100).  It also
+includes some CAD software for editing.
+
+LASI-     http://www.engboi.uidaho.edu/lan-group/jbaker/wwwbook/book.htm
+
+The next commercial program suggested was Xchange ($795).  Apparently it
+works quite well.  A demo is available at:
+
+Xchange-  http://www.neostech.com
+
+A free program was written by Justin Mansell.  It is available at:
+
+cif2ps-   http://www.wavefrontsciences.com  under the Micro-Optics
+category
+
+The last downloadable program was in perl code.  It was written by
+Timothy Pfafman.  It can be found at:
+
+perl code- http://micromachine.stanford.edu/~tep/software/cif2ps/
+
+Several others offered to provide me with their own code if I could find
+nothing else.  It seems there is no shortage of knowledge in this area.  
+Other suggestions included using various graphics programs to read in 
+
+Thank you's go out once again to all of those who sent responses.  I
+hope this helps out some other people as well.
+-- 
+Michael Colgan
+University of Alberta- MicroFab
+#318 Newton Research Bldg.
+Edmonton, AB
+Canada T6G 2G7
+Telephone:	(780) 492-5570 Ext. 273
+Fax:		(780) 492-1643
+e-mail:		mikec@amc.ab.ca
+ 
+
+From Niyaz.N.Khusnatdinov@Dartmouth.EDU  Fri Apr 30 11:47:33 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id LAA01104
+	for <cgl@coos.dartmouth.edu>; Fri, 30 Apr 1999 11:47:33 -0400
+Received: from donner.Dartmouth.EDU (donner.dartmouth.edu [129.170.208.3])
+	by mailhub.dartmouth.edu (8.9.3+DND/8.9.3) with ESMTP id LAA25786
+	for <cgl@coos>; Fri, 30 Apr 1999 11:47:32 -0400 (EDT)
+Message-id: <22553037@donner.Dartmouth.EDU>
+Date: 30 Apr 1999 11:47:32 EDT
+From: Niyaz.N.Khusnatdinov@Dartmouth.EDU (Niyaz N. Khusnatdinov)
+Subject: Re: liftoff
+To: cgl@coos.dartmouth.edu (Christopher Levey)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+Status: OR
+
+Hi, Chris,
+
+Here are some notes which I did while working on the =
+photolithography last time. Is it a raw text of course.=20
+Hope you can place something on web.
+Niyaz.
+
+The text follows:
+______________________________________
+
+Some notes on the procedures of photolithography.
+
+1. Turn on UV lamp.=20
+-To do that: open AIR, VACUUM valves, turn on power ON on the right =
+panel from the microscope.
+-Turn timer on (right side).
+-Turn lamp power ON on the left side.
+
+2. Clean masks (might have some dust and dirt).
+- Put aspen on, glasses on, gloves on.
+- Place  masks into blue holders.
+- Put masks into ACT for more then 1 minute, shake periodically. =
+Use ACT clean, and baker for ACT clean.
+- Wash masks with DI water.
+- Blow with dry nitrogen to dry
+- Bring masks over clean bench without talking.
+
+3. Put mask into mask holder, push button VACUUM MASK on the right =
+to keep mask on holder. Place mask holder with mask into aligner.
+
+4. Put photoresist Shipley S1813 on wafer.
+- Turn POWER on on the spinner. See =
+http://thayer.dartmouth.edu/~microeng/equipment/spinner/spinner.html=
+
+- Hit POWER RESET button.
+- Voltmeter on.
+- Use two buttons START, STOP to start and stop spinning.
+- Put wafer and wafer holder in spinner and center them.
+- Set T1, T2, f1, f2
+- Spill photoresist while wafer rests. Use not more then half of =
+glass tube.
+- Hit START and wait until spinning stops.
+- Transfer wafer onto hotplate at 120 C and bake for 3 minutes.
+- Cool wafer for 3-5 minutes on cold wafer holder (clean before).
+
+5. Meanwhile check UV LAMP intensity.
+- remove any miscellaneous wafers
+- Raise the lever.
+- Hit button DS. Hit EXPOSURE.
+- Intensity should rise to 26.4 mW/cm2. It is 20% more then was =
+before, thus exposure time should be 20% less, i.e. 4 seconds =
+(before was 6 seconds).
+
+6. Align wafer.=20
+- Focus on mask.
+- Slide the mask aside.
+- Bring wafer into sharp view and lower it by two turns
+- Bring mask and wafer into "contact" and make final alignment.=20
+- Bring wafer 3 turns up while checking that alignment remains =
+intact.
+
+7. Push EXPOSURE to exposure the wafer.
+
+8. Developing.
+- f1=3D600 for T1=3D54 s, f2 =3D 2000 for T2=3D60s
+- spill evenly starting from the center while wafer is in rest
+- wait  60 seconds
+- hit START button
+- wash with DI water while spinning on low.
+
+From cgl  Fri Apr 23 15:28:20 1999
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id PAA13618
+	for cgl; Fri, 23 Apr 1999 15:28:20 -0400
+From: "Christopher G. Levey" <cgl>
+Message-Id: <199904231928.PAA13618@coos.dartmouth.edu>
+Subject: http://www-bsac.eecs.berkeley.edu/db/etch.pdf
+To: cgl (Christopher G. Levey)
+Date: Fri, 23 Apr 1999 15:28:19 -0400 (EDT)
+Reply-To: c.levey@Dartmouth.EDU
+X-Mailer: ELM [version 2.4 PL23beta2]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Status: OR
+
+
+-- 
+--Chris Levey
+  Director, Microengineering Lab
+  Thayer School, Dartmouth College
+  email: chris.levey@Dartmouth.EDU
+  http://hypatia.dartmouth.edu/levey.html
+
+From cgl  Sat Apr 17 20:27:10 1999
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id UAA09215
+	for cgl; Sat, 17 Apr 1999 20:27:10 -0400
+From: "Christopher G. Levey" <cgl>
+Message-Id: <199904180027.UAA09215@coos.dartmouth.edu>
+Subject: reflow 150C (fwd)
+To: cgl (Christopher G. Levey)
+Date: Sat, 17 Apr 1999 20:27:10 -0400 (EDT)
+Reply-To: c.levey@Dartmouth.EDU
+X-Mailer: ELM [version 2.4 PL23beta2]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Status: OR
+
+--- Christopher G. Levey WROTE:
+>From cgl@coos.dartmouth.edu  Fri Mar 14 16:56:43 1997
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199703142156.QAA08582@coos.dartmouth.edu>
+Subject: reflow 150C
+To: c.levey@coos.dartmouth.edu
+Date: Fri, 14 Mar 1997 16:56:40 -0500 (EST)
+Reply-To: c.levey@dartvax.dartmouth.edu
+X-Mailer: ELM [version 2.4 PL23beta2]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+
+
+Susan reflow at 150C
+
+-- 
+--Chris Levey
+  Director, Microengineering Lab
+  Thayer School, Dartmouth College
+  email: chris.levey@Dartmouth.EDU
+  http://hypatia.dartmouth.edu/levey.html
+
+
+-- 
+--Chris Levey
+  Director, Microengineering Lab
+  Thayer School, Dartmouth College
+  email: chris.levey@Dartmouth.EDU
+  http://hypatia.dartmouth.edu/levey.html
+
+From cgl  Sat Apr 17 20:08:32 1999
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id UAA08886
+	for cgl; Sat, 17 Apr 1999 20:08:32 -0400
+From: "Christopher G. Levey" <cgl>
+Message-Id: <199904180008.UAA08886@coos.dartmouth.edu>
+Subject: iDow Corning Slygard 184 Silicone/Elastomer Kit.
+To: cgl (Christopher G. Levey)
+Date: Sat, 17 Apr 1999 20:08:31 -0400 (EDT)
+Reply-To: c.levey@Dartmouth.EDU
+X-Mailer: ELM [version 2.4 PL23beta2]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Status: OR
+
+
+-- 
+--Chris Levey
+  Director, Microengineering Lab
+  Thayer School, Dartmouth College
+  email: chris.levey@Dartmouth.EDU
+  http://hypatia.dartmouth.edu/levey.html
+
+From Christopher.A.Berven@Dartmouth.EDU  Sat Apr 10 13:57:11 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id NAA23907
+	for <cgl@coos.dartmouth.edu>; Sat, 10 Apr 1999 13:57:11 -0400
+Received: from dasher.Dartmouth.EDU (dasher.dartmouth.edu [129.170.208.6])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with SMTP id NAA16324
+	for <cgl@coos>; Sat, 10 Apr 1999 13:57:10 -0400 (EDT)
+Message-id: <16898126@dasher.Dartmouth.EDU>
+Date: 10 Apr 99 13:57:10 EDT
+From: Christopher.A.Berven@Dartmouth.EDU (Christopher A. Berven)
+Subject: Re: CB soak
+To: cgl@coos.dartmouth.edu (Christopher Levey)
+Status: OR
+
+--- You wrote:
+WE were just about to try it when I wrote.
+WE did have a problem with some rips in the photoresist both
+near and well away from features, but I'm not sure of the
+polish on the substrates (glass) the student was using.
+
+Your exposure time is much longer than I'd have expected.
+Even at 120C bake (that makes the resist much less sensitive and
+requires longer exposures), we usually use more like 6 seconds.
+What happens with the profile for shorter times?
+
+We did the soak in the spinner (vented), but I'm not completely
+happy with that either; would rather standardize on using the hood, 
+perhaps with the hood light off.
+
+Did you also find a working recipe for toluene?
+--- end of quote ---
+
+I purposely used a longer exposure to improve the undercut.  My goal was to
+have the mask reproduced in the CB soaked layer.  Shorter exposures resulted in
+less undercut (wider base, with about same overhang layer width).
+
+I would not know what to expect when applying this CB soak recipe to a glass
+substrate.  Any one or all of the paramters might need to be re-optimized.
+
+Is it possible to get a small fume removal hood in the room next to or over the
+spinner so that we can do CB soaks and such there?
+
+I gave up on the tolulene soak, I did not have the time to pursue it at the
+time.
+
+Sometime soon I will be over to make some more devices.  Then, we will know for
+sure how robust a recipe I came up with.
+
+Chris
+
+From cgl@coos.dartmouth.edu  Wed Apr  7 00:43:28 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id AAA15117
+	for <cgl@coos.dartmouth.edu>; Wed, 7 Apr 1999 00:43:28 -0400
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with ESMTP id AAA02277
+	for <c.levey@Dartmouth.EDU>; Wed, 7 Apr 1999 00:43:27 -0400 (EDT)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id AAA15113;
+	Wed, 7 Apr 1999 00:43:27 -0400
+Date: Wed, 7 Apr 1999 00:43:27 -0400
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199904070443.AAA15113@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Wed Apr  7 00:43:25 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id AAA15104
+	for <cgl@coos.dartmouth.edu>; Wed, 7 Apr 1999 00:43:23 -0400
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id RAA08678
+	for mems-out-list; Tue, 6 Apr 1999 17:37:47 -0700 (PDT)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id RAA08673
+	for <mems-out@darkstar.isi.edu>; Tue, 6 Apr 1999 17:37:46 -0700 (PDT)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id RAA10986;
+	Tue, 6 Apr 1999 17:37:44 -0700 (PDT)
+Posted-Date: Mon, 5 Apr 1999 17:06:13 -0400
+Message-Id: <9904070037.AA20812@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA20812>; Tue, 6 Apr 99 17:37:43 PDT
+From: "Chialun" <chialun@mems-issys.com>
+Subject: Summary: Glass drilling methods
+Date: Mon, 5 Apr 1999 17:06:13 -0400
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: "Chialun" <chialun@mems-issys.com>, mems-cc@ISI.EDU
+
+Dear MEMS community,
+    Here's a summary of responses to my original question of glass drilling
+technology.  I have found nine possible methods for machining glass wafer.
+I also list contact info or service links forwared to me.  Hope this helps
+to people who are interested in this issue.  Thank you all for your inputs.
+
+Glass machining methods,    potential for large production,    smoothness,    conical or tapered profile
+1. Mechanical drilling             no                                                   rough                no
+2. Ultrasonic drilling                yes                                                 rough                yes
+3. Laser drilling                       yes                                                smooth             yes
+    (eximer and CO2)
+4. Micro-sandblasting            yes                                                (?)                      yes
+    (Crystal Mark, Mems, Inc)
+5. Ultrasonic drilling w/EDM  ?                                                    no                      no
+    (Prof. Masuzawa team in Tokyo University)
+6. FIB                                       ?                                                    smooth              yes
+7. FIB enhanced etching        yes                                                unknown           unknown
+   (Norsam Technologies)
+8. Selective etching with photosensitive glass (Foturan)
+                                                  yes                                                unknown           unknown
+9. chemical-assisted laser etching
+    (Revise Inc., DARPA project)
+                                                  unknown                                        unknown           unknown
+-----------------------------------------------------------------
+Resources and links:
+Foturan glass link:
+http://www.schottglass.com/FOTURAN.HTM
+chemical-assisted laser etching:
+http://www.revise.com/
+
+Micro-sandblasting:
+Crystal Mark Inc.
+613 Justin Ave.
+Glendale, CA 91201-2396
+Tel: 800/659-7926
+Fax: 818/247-3574
+
+Micro-sandblasting:
+MEMSINC:  www.memsinc.com
+
+Ultrasonic drilling:
+Bullen Ultrasonics http://www.bullen-ultrasonics.com/
+
+FIB enhanced etching:
+Norsam Technologies
+Ph#  (503) 640-0586
+Fax# (503) 640-8117
+
+Laser driling:
+Accu-Tech Laser Processing.
+1175 Linda Vista Drive
+San Marcos, CA 92069
+(760) 744-6692
+
+Laser drilling:
+Laser Machining Inc,
+Sommerset Wisconsin.
+1-800-77laser
+
+Alberta Microelectronics :  www.amc.ab.ca
+
+http://www.insaco.com/frames.html
+Mr. Scott D. Mittle @
+INSACO, Inc.
+1365 Canary Road
+PO Box 9006
+Quakertown, PA 18951-9006
+215-536-3500 Phone
+215-536-7750 Fax
+sdm@insaco.com e-mail
+---------------------------------------------------
+I would like to express my gratitude for those who have responded to the
+issue and in no accordance to credit, they are
+Albert. K. Henning
+Alexander Shenderov
+Constant Reyerse
+Craig R. Friedrich
+Erol Harvey
+Franck Chollet
+Fu Yongqi
+Hyoung J. Cho
+Jayant Neogi
+John Klemic
+John West
+Robert Okojie
+Shekhar Bhansali
+------------------------------------------------
+Chia-Lun Tsai, Ph.D.
+   Research Scientist
+   Integrated Sensing Systems, Inc.
+   387 Airport Industrial Dr.
+   Ypsilanti, MI 48198
+   Phone: (734) 547-9896, Ext.115
+   Fax: (734) 547-9964
+   Email: chialun@mems-issys.com
+   http://www.mems-issys.com/
+
+
+
+
+ 
+
+From cgl@coos.dartmouth.edu  Fri Apr  2 23:22:50 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id XAA10050
+	for <cgl@coos.dartmouth.edu>; Fri, 2 Apr 1999 23:22:50 -0500
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with ESMTP id XAA30065
+	for <c.levey@Dartmouth.EDU>; Fri, 2 Apr 1999 23:22:50 -0500 (EST)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id XAA10046;
+	Fri, 2 Apr 1999 23:22:49 -0500
+Date: Fri, 2 Apr 1999 23:22:49 -0500
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199904030422.XAA10046@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Fri Apr  2 23:22:47 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id XAA10038
+	for <cgl@coos.dartmouth.edu>; Fri, 2 Apr 1999 23:22:46 -0500
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id RAA05551
+	for mems-out-list; Fri, 2 Apr 1999 17:16:21 -0800 (PST)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id RAA05546
+	for <mems-out@darkstar.isi.edu>; Fri, 2 Apr 1999 17:16:21 -0800 (PST)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id RAA17523;
+	Fri, 2 Apr 1999 17:16:19 -0800 (PST)
+Posted-Date: Fri, 02 Apr 1999 16:30:42 -0800
+Message-Id: <9904030116.AA22508@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA22508>; Fri, 2 Apr 99 17:16:19 PST
+Date: Fri, 02 Apr 1999 16:30:42 -0800
+From: Marvin Zai <zai@ant.trc.omron.co.jp>
+Subject: SUMMARY - PDMS answers
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: Marvin Zai <zai@ant.trc.omron.co.jp>, mems-cc@ISI.EDU
+
+To all, 
+
+Here is a summary of the answers I received concerning PDMS.  A big
+THANK YOU to all those who helped!!!   Marvin
+
+MY ORIGINAL POSTING:
+
+Dear MEMS experts,
+I am interested in using PDMS films for microfluidics, deposited onto
+glass or sputtered SiO2.  My questions are:
+
+1- PDMS is said to bond well to different materials, and to itself, so
+that bonding can be conducted at very low temperatures. Is this true?
+2- does the glass or SiO2 surface need treatment prior to PDMS
+spin-coating to enhance adhesion?   If so, please describe a procedure.
+3- how to change the wetting characteristics of the films?
+4- how thick a single film of PDMS can be deposited practically without
+cracking?
+5- how to handle and dispose of this material?  is PDMS toxic?
+
+Thank you.  Marvin Zai
+OMRON CORPORATION, Research and Development Headquarters, Tsukuba-city,
+Japan
+
+--------------------------------------
+
+Date: Fri, 26 Mar 1999 08:21:45 +0100
+From: LINDER Vincent <vincent.linder@csem.ch>
+
+Hello,
+
+My name is Vincent Linder, PhD student working in collaboration with
+several partner in Neuchatel and around (Switzerland). I'm actually
+using Pdms, but I'm not experienced in film deposition of Pdms on
+surfaces. Anyway, there are some hints that might help you:
+
+Pdms binds to glass, silicium, plasitics, ... but the binding is
+reversible.  Hence when Pdms is polymerized, you can peel it off the
+surface (provided that the film is thick enough and the surface doesn't
+have high aspect ratio structures). Pdms binding requires that both
+surfaces are clean (dust free), no high tenperature are required.
+Wetting properties are actually difficult to change, seems that plasma
+treatement can produce hydrophilic surfaces, but these surfaces
+undergoes reconstitution within hours or weeks. Pdms is not toxic (human
+implent are made of some kind of Pdms), but must be handled with care to
+avoid contamination of the monomers in lab.
+
+Best regards,  Vincent Linder
+
+=============================
+Subject:  RE: Deposition of PDMS films
+Date: Mon, 29 Mar 1999 09:12:24 +1000
+From: "Wilson, Alan" <Alan.Wilson@dsto.defence.gov.au>
+
+Answers in text below
+ 
+> 1- PDMS is said to bond well to different materials, and to itself, so
+>    that bonding can be conducted at very low temperatures. Is this true?
+Yes.  Adheres well at room temperature. A cured PDMS film aheres very
+nicely
+to clean SiO2.
+
+> 2- does the glass or SiO2 surface need treatment prior to PDMS spin-coating
+>   to enhance adhesion?  If so, please describe a procedure.
+I recall that brief exposure in an oxygen plasma enhanced adhesion for
+cured
+PDMS films. Since it is a siloxane anything that promotes a clean oxide
+surface will enhance adhesion.
+
+> 3- how to change the wetting characteristics of the films?
+No direct knowledge on this. PMDS is rather viscous. It flows better at
+higher temperature but of course cures faster.
+
+> 4- how thick a single film of PDMS can be deposited practically without cracking?
+I have made gaskets up to 20mm thick and 20mm high essentially by
+pouring
+the PDMS into a level mold and then letting gravity do the rest.
+
+> 5- how to handle and dispose of this material?  is PDMS toxic?
+Ask the manufacturer but I do not recall any particularly stringent
+handling procedures.
+
+=======================================
+
+Subject: RE: Deposition of PDMS films
+Date: Fri, 26 Mar 1999 09:06:49 -0500
+From: David Duffy <DDuffy@GameraBioscience.com>
+
+**Marvin
+**Answers below
+
+1- PDMS is said to bond well to different materials, and to itself, so
+   that bonding can be conducted at very low temperatures. Is this true?
+
+**PDMS adheres very well to any surface containing silanol groups,
+including glass and Si, by plasma oxidizing both surfaces prior to
+bringing them into contact. Details in Duffy et al. Analytical Chemistry
+1998, 70 (23), pp 4974-4984. 
+
+2- does the glass or SiO2 surface need treatment prior to PDMS
+spin-coating to enhance adhesion?  If so, please describe a procedure.
+**again plasma oxidation migt help
+
+3- how to change the wetting characteristics of the films?
+**Details of changing surface chemistry are given in the Anal Chem paper
+
+4- how thick a single film of PDMS can be deposited practically without
+cracking?
+**Details of spin coating are given in Jackman, Duffy, Cherniavskaya and
+Whitesides in an article due to be published soon by Langmuir (March
+30th I think)
+
+5- how to handle and dispose of this material?  is PDMS toxic?
+**Its very safe if a little messy.
+
+**Hope this helps  **david,
+ 
+
+From cgl@coos.dartmouth.edu  Fri Apr  2 20:16:05 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id UAA08511
+	for <cgl@coos.dartmouth.edu>; Fri, 2 Apr 1999 20:16:05 -0500
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with ESMTP id UAA32502
+	for <c.levey@Dartmouth.EDU>; Fri, 2 Apr 1999 20:16:04 -0500 (EST)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id UAA08507;
+	Fri, 2 Apr 1999 20:16:03 -0500
+Date: Fri, 2 Apr 1999 20:16:03 -0500
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199904030116.UAA08507@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Fri Apr  2 20:16:01 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id UAA08499
+	for <cgl@coos.dartmouth.edu>; Fri, 2 Apr 1999 20:16:00 -0500
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id OAA01279
+	for mems-out-list; Fri, 2 Apr 1999 14:29:39 -0800 (PST)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id OAA01275
+	for <mems-out@darkstar.isi.edu>; Fri, 2 Apr 1999 14:29:38 -0800 (PST)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id OAA03359;
+	Fri, 2 Apr 1999 14:29:36 -0800 (PST)
+Posted-Date: Fri, 2 Apr 1999 17:09:29 +0200
+Message-Id: <9904022229.AA21630@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA21630>; Fri, 2 Apr 99 14:29:35 PST
+Date: Fri, 2 Apr 1999 17:09:29 +0200
+From: Wouter van der Wijngaart <wouter@e.kth.se>
+Subject: Replies on RIE of glass request
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: Wouter van der Wijngaart <wouter@e.kth.se>, mems-cc@ISI.EDU
+
+Dear MEMS society,
+Here are the replies I got untill now for recipes for isotropic glass etching:
+
+REQUEST:
+
+>Has any of you heard of /experience with Deep Reactive Ion Etching of
+>glass/pyrex/quartz substrates ?
+>We want to etch in the range 20-100 5m with vertical sidewalls.
+>Which mask materials should be used ?
+>Any comments and/or etch recipes are welcome !
+
+ANSWERS:
+
+Yes,  try Norsam, www.Norsam.com.  You can use photoresist as mask material.
+Regards,
+Chia-Lun Tsai, Ph.D.
+   Research Scientist
+   Integrated Sensing Systems, Inc.
+   387 Airport Industrial Dr.
+   Ypsilanti, MI 48198
+   Phone: (734) 547-9896, Ext.115
+   Fax: (734) 547-9964
+   Email: chialun@mems-issys.com
+   http://www.mems-issys.com/
+
+
+
+I did some research on this and found from STS that the DRIE machine they
+make is not capable of silica DRIE.
+Justin Mansell 	|	"Only a risk tests the reality of a belief"
+Ginzton Laboratory	|			- C. S. Lewis
+445 Via Palou St.	|
+Stanford, CA 94305	|
+
+
+
+Please check www.triontech.com. Depending on thickness we may be able to offer
+solution to you. Probably need He cooling for backside of wafer and proceed
+with rather slow etch to keep temp cool. Bob Henderson 602-968-8818
+
+
+
+CHF3 is often used for etching SiO2.
+I have had good results using both nickel and chromium as masking materials
+for deep plasma etch applications.  Aluminum can also be used but, but
+unless it is sufficiently thick you may sputter it away before your etch is
+complete.
+
+
+
+>>RIE  parameters for pyrex 7740 glas:
+>>7 sccm O2
+>>72 sccm SF6
+>>pressure: 60 milliTorr
+>>Power: 150 W
+>etch speed: 15 5m in 6 hours (might be higher using more power). They claim
+>anisotropic...
+>problem: it gives "teflon" on the chamber walls, which peel off. Quite
+>contaminating...
+
+
+
+----------------------------------------------------
+Wouter van der Wijngaart
+Kungl. Tekniska Hvgskolan	Tel:	+46 - (0)8 - 790 66 13
+S3, Elektrisk mdtteknik	Fax:	+46 - (0)8 - 10 08 58
+100 44  Stockholm		Minicall:	+46 - (0)740 - 26 71 28
+Sweden			e-mail:	wouter@s3.kth.se
+http://www.s3.kth.se/instrlab/staff/wouterw.html
+----------------------------------------------------
+ 
+
+From cgl@coos.dartmouth.edu  Tue Mar 30 02:06:05 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id CAA24061
+	for <cgl@coos.dartmouth.edu>; Tue, 30 Mar 1999 02:06:05 -0500
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with ESMTP id CAA09941
+	for <c.levey@Dartmouth.EDU>; Tue, 30 Mar 1999 02:06:04 -0500 (EST)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id CAA24057;
+	Tue, 30 Mar 1999 02:06:04 -0500
+Date: Tue, 30 Mar 1999 02:06:04 -0500
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199903300706.CAA24057@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Tue Mar 30 02:06:02 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id CAA24049
+	for <cgl@coos.dartmouth.edu>; Tue, 30 Mar 1999 02:06:01 -0500
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id UAA06549
+	for mems-out-list; Mon, 29 Mar 1999 20:10:34 -0800 (PST)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id UAA06543
+	for <mems-out@darkstar.isi.edu>; Mon, 29 Mar 1999 20:10:33 -0800 (PST)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id UAA11939;
+	Mon, 29 Mar 1999 20:10:31 -0800 (PST)
+Posted-Date: Fri, 26 Mar 1999 11:38:56 EST
+Message-Id: <9903300410.AA15759@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA15759>; Mon, 29 Mar 99 20:10:31 PST
+From: FieldJC@aol.com
+Date: Fri, 26 Mar 1999 11:38:56 EST
+Subject: Re: SiO_2 RIE
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: FieldJC@aol.com, mems-cc@ISI.EDU
+
+My advice on this would be to add a very low flow of Oxygen. I have quite a
+bit of expereince plaama etching oxide films, and very thick films are the
+worst due to the polymer formation,redeposit situation. Typically a pure cf4
+flow should not be a polymern issue, so this is a bit perplexing. The oxygen
+consumes carbon in the reaction, keeping the critical carbon-fluorine ratio
+outside the polymer formation point. The general rule of thumb for these
+higher pressure RIE  (parallel plate) type processes is that if the c/f ratio
+is 1/3 you are fine. If it goes to 1/2 you are on the edge. If the issue is
+selectivity to an underlying Silicon layer you have to walk that tightrope,
+but diampnd should have better selectivity-this I am guessing. The diamond is
+a carbon film, but I have no idea whether the crystal structure would keep the
+carbon constrained. Adding oxygen is not good for stopping on carbon,
+obvioulsy. Alos, keep the flow very low, in your mix maybe 3 sccm or less. The
+oxygen can be a sputtering enhancer, which would attack the aluminum, and
+result in aluminum-oxide which will really deposit. Some competting reactions
+and mechanisms here. With high pressure RIE, you are better off playing with
+chemistries than trying to control the physical aspect of the etch.
+
+Good luck
+ 
+
+From cgl@coos.dartmouth.edu  Tue Mar 30 01:57:58 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id BAA23996
+	for <cgl@coos.dartmouth.edu>; Tue, 30 Mar 1999 01:57:58 -0500
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with ESMTP id BAA25355
+	for <c.levey@Dartmouth.EDU>; Tue, 30 Mar 1999 01:57:58 -0500 (EST)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id BAA23992;
+	Tue, 30 Mar 1999 01:57:57 -0500
+Date: Tue, 30 Mar 1999 01:57:57 -0500
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199903300657.BAA23992@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Tue Mar 30 01:57:55 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id BAA23984
+	for <cgl@coos.dartmouth.edu>; Tue, 30 Mar 1999 01:57:54 -0500
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id TAA05700
+	for mems-out-list; Mon, 29 Mar 1999 19:45:06 -0800 (PST)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id TAA05695
+	for <mems-out@darkstar.isi.edu>; Mon, 29 Mar 1999 19:45:05 -0800 (PST)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id TAA08567;
+	Mon, 29 Mar 1999 19:45:03 -0800 (PST)
+Posted-Date: Thu, 25 Mar 1999 08:30:13 +0100
+Message-Id: <9903300345.AA15279@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA15279>; Mon, 29 Mar 99 19:45:03 PST
+Date: Thu, 25 Mar 1999 08:30:13 +0100
+From: Philipp Quaderer <vip@onlinestore.com>
+Reply-To: vip@onlinestore.com
+Subject: Re: 6" Quartz Wafers
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+
+Try Applied Ceramics
+
+http://www.aceramic.com/
+
+Tel 510 249 9700
+Contact: Matt Sertic
+
+Best regards
+Philipp
+
+Reza Ghodssi wrote:
+
+> Hi,
+>
+> I am looking for 6" quartz wafers. If you know of any
+> suppliers/venders, please let me know. I will appreciate it.
+>
+> Regards,
+>
+> --Reza
+>
+> =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+> Reza Ghodssi, Ph.D.
+> Massachusetts Institute of Technology
+> Microsystems Technology Laboratories            Phone: (617) 253-2597
+> 60 Vassar Street                                Fax:   (617) 253-9606
+> Room 39-561                                     E-mail: ghodssi@mtl.mit.edu
+> Cambridge, MA 02139
+> =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+>
+>
+
+ 
+
+From cgl@coos.dartmouth.edu  Tue Mar 30 01:50:09 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id BAA23909
+	for <cgl@coos.dartmouth.edu>; Tue, 30 Mar 1999 01:50:08 -0500
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with ESMTP id BAA02483
+	for <c.levey@Dartmouth.EDU>; Tue, 30 Mar 1999 01:50:07 -0500 (EST)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id BAA23904;
+	Tue, 30 Mar 1999 01:50:07 -0500
+Date: Tue, 30 Mar 1999 01:50:07 -0500
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199903300650.BAA23904@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Tue Mar 30 01:50:05 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id BAA23891
+	for <cgl@coos.dartmouth.edu>; Tue, 30 Mar 1999 01:50:03 -0500
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id TAA05823
+	for mems-out-list; Mon, 29 Mar 1999 19:49:47 -0800 (PST)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id TAA05819
+	for <mems-out@darkstar.isi.edu>; Mon, 29 Mar 1999 19:49:46 -0800 (PST)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id TAA09153;
+	Mon, 29 Mar 1999 19:49:45 -0800 (PST)
+Posted-Date: Thu, 25 Mar 1999 11:51:25 -0800
+Message-Id: <9903300349.AA15371@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA15371>; Mon, 29 Mar 99 19:49:45 PST
+Date: Thu, 25 Mar 1999 11:51:25 -0800
+From: Dian Tanaka <tsicut@pacbell.net>
+Reply-To: tsicut@pacbell.net
+Subject: Re: 6" Quartz Wafers
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+
+Hello Reza,
+
+Here are a few companies you can call for the quartz wafers. Good Luck!!
+
+Cal-Glass for Research
+Cost Mesa, CA	714-546-7250
+
+GE Quartz Inc.
+Willoughby, OH	800-327-3481
+
+Quartz Scientific
+Fairport Harbor, OH	440-354-2186
+
+United Silica Products, Inc.
+Franklin, NJ	973-209-8854
+
+If you happen to need a dicing blade to cut or groove the quartz let me
+know. We represent Asahi Diamond which manufacture diamond dicing blades
+that are used to cut silicon, glass, GaAs and of course quartz.
+Also we give Universities a 10% discount on any of our blades. If you
+would like I can send you some information on our various blades.
+ 
+
+From cgl@coos.dartmouth.edu  Tue Mar 23 02:02:40 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id CAA20774
+	for <cgl@coos.dartmouth.edu>; Tue, 23 Mar 1999 02:02:40 -0500
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with ESMTP id CAA32118
+	for <c.levey@Dartmouth.EDU>; Tue, 23 Mar 1999 02:02:40 -0500 (EST)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id CAA20770;
+	Tue, 23 Mar 1999 02:02:39 -0500
+Date: Tue, 23 Mar 1999 02:02:39 -0500
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199903230702.CAA20770@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Tue Mar 23 02:02:37 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id CAA20762
+	for <cgl@coos.dartmouth.edu>; Tue, 23 Mar 1999 02:02:36 -0500
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id UAA00614
+	for mems-out-list; Mon, 22 Mar 1999 20:17:29 -0800 (PST)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id UAA00610
+	for <mems-out@darkstar.isi.edu>; Mon, 22 Mar 1999 20:17:29 -0800 (PST)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id UAA01607;
+	Mon, 22 Mar 1999 20:17:28 -0800 (PST)
+Posted-Date: Mon, 15 Mar 1999 07:41:32 +0100
+Message-Id: <9903230417.AA14323@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA14323>; Mon, 22 Mar 99 20:17:27 PST
+Date: Mon, 15 Mar 1999 07:41:32 +0100
+From: Reinhard Buchhold <buchhold@rcs1.urz.tu-dresden.de>
+Reply-To: Reinhard Buchhold <buchhold@rcs1.urz.tu-dresden.de>
+Subject: Re: Polysilicon - piezoresistive coefficients
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+
+Hi,
+the coefficients depend strongly on technology. Usually, K-factors are
+given (relative change in resistance = K * strain). Here are some data:
+p-Si: Kl = 25 (for NA = 10^19 cm-3)
+      Kt = -5 (for NA = 10^19 cm-3)
+n-Si: Kl = -25 (for NA = 10^19 cm-3)
+      Kt = 3 (for NA = 10^20 cm-3)
+English references are:
+ Seto: Journal of Applied Physics. 47 (1976) 11, pp. 4780-4783
+ Germer: Sensors and Actuators. 4 (1983), pp. 183-189
+ Detry: Transducers'85. pp. 278-280
+ Binder: Sensors and Actuators. 4 (1983), pp. 527-536
+ Germer: Sensors and Actuators. 7 (1985), pp. 135-142
+ French: Transucers'85. pp. 281-283
+ Schubert: Sensors and Actuators. 11 (1987), pp. 145-155
+More references are available in German.
+With best regards,
+Reinhard Buchhold
+
+----------------------------------------------------------
+Dresden University of Technology
+Institute of Solid-State Electronics
+01062 Dresden, Germany
+Phone: +49 351 463 5378
+Fax:   +49 351 463 2320
+http://141.30.124.127
+----------------------------------------------------------
+> I'm looking for the transverse and the longitudinal piezoresistive
+> coefficients in the case using polysilicon thin film .... Thanks ...
+
+
+
+
+> _________________________________________________________
+> DO YOU YAHOO!?
+> Get your free @yahoo.com address at http://mail.yahoo.com
+
+
+
+
+ 
+
+From cgl@coos.dartmouth.edu  Tue Feb 23 20:04:01 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id UAA13187
+	for <cgl@coos.dartmouth.edu>; Tue, 23 Feb 1999 20:04:01 -0500
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with ESMTP id UAA03521
+	for <c.levey@Dartmouth.EDU>; Tue, 23 Feb 1999 20:04:00 -0500 (EST)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id UAA13183;
+	Tue, 23 Feb 1999 20:04:00 -0500
+Date: Tue, 23 Feb 1999 20:04:00 -0500
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199902240104.UAA13183@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Tue Feb 23 20:03:58 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id UAA13175
+	for <cgl@coos.dartmouth.edu>; Tue, 23 Feb 1999 20:03:57 -0500
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id OAA28564
+	for mems-out-list; Tue, 23 Feb 1999 14:20:59 -0800 (PST)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id OAA28560
+	for <mems-out@darkstar.isi.edu>; Tue, 23 Feb 1999 14:20:59 -0800 (PST)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id OAA17776;
+	Tue, 23 Feb 1999 14:20:57 -0800 (PST)
+Posted-Date: Mon, 22 Feb 1999 17:23:18 -0500
+Message-Id: <9902232220.AA12469@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA12469>; Tue, 23 Feb 99 14:20:57 PST
+From: bchen@atmi.com
+Date: Mon, 22 Feb 1999 17:23:18 -0500
+Subject: 6" SiN/Si supplier
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: bchen@atmi.com, mems-cc@ISI.EDU
+
+
+
+Dear Memsers,
+
+Here are the responses about 6" low-stres nitride coating service.  I was
+looking for a US supplier, but thought that it'll be useful if all get to
+know who can do it out there.
+
+     Cornell (www.cnf.cornell.edu) is bringing the process up.
+     Penn State (www.emprl.psu.edu) has a process with undefined stress
+level.
+     UC Santa Barbara (www.nanotech.ucsb.edu) has a PECVD process with
+undefined stress level.
+     MCNC (mems.mcnc.org) is currently qualifying their process.
+     IMEC (www.imec.be) has wafer lines at 6" (upgrading to 8").
+     IBMT (www.ibmt.fhg.de) has a PECVD process with defined (unspeicified)
+stress.
+     Polishing Company of America (www.pcasilicon.com) outsources: LPCVD @
+1 GPa and PECVD @ -400 MPa.
+     Virginia Semiconductor (www.virginiasemi.com) outsources: "high"
+stress.
+
+Barry Chen
+Sr. Research Engineer, ATMI
+voice (203) 794-1100
+fax (203) 830-4116
+
+
+ 
+
+From cgl@coos.dartmouth.edu  Tue Feb 23 19:41:25 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id TAA12828
+	for <cgl@coos.dartmouth.edu>; Tue, 23 Feb 1999 19:41:25 -0500
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with ESMTP id TAA22407
+	for <c.levey@Dartmouth.EDU>; Tue, 23 Feb 1999 19:41:25 -0500 (EST)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id TAA12824;
+	Tue, 23 Feb 1999 19:41:24 -0500
+Date: Tue, 23 Feb 1999 19:41:24 -0500
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199902240041.TAA12824@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Tue Feb 23 19:41:23 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id TAA12816
+	for <cgl@coos.dartmouth.edu>; Tue, 23 Feb 1999 19:41:21 -0500
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id NAA27367
+	for mems-out-list; Tue, 23 Feb 1999 13:35:48 -0800 (PST)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id NAA27362
+	for <mems-out@darkstar.isi.edu>; Tue, 23 Feb 1999 13:35:47 -0800 (PST)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id NAA11970;
+	Tue, 23 Feb 1999 13:35:46 -0800 (PST)
+Posted-Date: Sun, 21 Feb 1999 07:11:27 PST
+Message-Id: <9902232135.AA11615@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA11615>; Tue, 23 Feb 99 13:35:45 PST
+From: "Marvin Zai" <marvinzai@hotmail.com>
+Subject: Compilation of answers for - Au Wire Bonding question
+Date: Sun, 21 Feb 1999 07:11:27 PST
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: "Marvin Zai" <marvinzai@hotmail.com>, mems-cc@ISI.EDU
+
+To show my gratitude to all those who answered my query, here
+is a compilation of the answers I received.
+
+My original question was:
+> 
+> Dear MEMS experts,
+> 
+> I would like to get some advice about Au wire bonding, as I am new to
+>  the field of packaging.
+> 
+> I wish to bond to Al pads on my chip, sputter-deposited onto PZT films
+> (1 micron thick).  I have tried this, but have so far failed: either
+> the first ball bonding does not stick to my Al film, or this film
+> sticks to the Au wire and lifts off from the PZT film surface.  I have
+> tested different power and time settings, but again, all in vain.
+> 
+> I am using 1000A thick Al pads, and I am slightly reluctant to use a
+> thicker film, since the whole structure is already rather stressed.
+> 
+> Any comments, suggestions, and information, like the conventional film
+> thickness range and materials used for top metallisation, are most
+> welcome. I thank you all for your time.
+> 
+> Marvin
+
+HERE ARE THE ANSWERS...
+
+
+From: Michael Young <acsensor@acsensor.com>  Save Address  Block Sender
+Reply-To: acsensor@acsensor.com
+To: Marvin Zai <marvinzai@hotmail.com>, mems-cc@ISI.EDU
+Subject: Re: Help needed for    -     Au wire bonding
+Date: Thu, 18 Feb 1999 22:26:48 -0800
+
+
+1000A Al is way too thin for good thermosonic bonding.  You may want to
+try thermocompression bonding.  Also, you may want to deposit an
+adhesion layer prior to Al deposition, such as TiW.
+
+Call me if you need more help.
+
+Michael Young
+ACSI
+949-4538988
+http://www.acsensor.com
+
+
+
+
+From: kyuhos@samsung.co.kr  Save Address  Block Sender
+To: marvinzai@hotmail.com
+Subject: (4d@e)Help_needed_for____-_____Au_wire_bonding
+Date: Fri, 19 Feb 1999 15:54:25 +0900
+
+
+Dear Marvin
+
+I'd like recommand that it would be better to increase the Al 
+thickness(about
+8000A).
+and the temperature of wire bonder's hot plate will be 120 to 150 degree 
+C.
+
+hope to good result and your response, thank you a lot.
+
+
+
+
+
+From: C S Premachandran <prem@ime.org.sg>  Save Address  Block Sender
+To: 'Marvin Zai' <marvinzai@hotmail.com>, 
+"'mems-cc@ISI.EDU'"<mems-cc@ISI.EDU>
+Subject: RE: Help needed for    -     Au wire bonding
+Date: Fri, 19 Feb 1999 15:05:52 +0800
+
+
+I feel your Al metal adhesion is not so good otherwise it would not have
+come out from PZT. If  you can improve the adhesion I think you can work 
+it
+out. Also try to measure the Al thickness variation , it may not be 
+1micron
+across the bond pad. 
+
+Prem
+
+
+
+The problem is probably not the thickness of the Al layer, but the 
+energy
+absorbing PZT layer. 
+If you can, use a structured layer of PZT and do your bond pads in a 
+different
+area.
+
+
+Torsten
+torsten.eggers@uni-bremen.de
+
+
+
+Marvin,
+
+Your best course of action is to "let the experts do it".  Contact at 
+least
+two wirebonder manufacturers and send them samples to try.  They may 
+even do
+it for free. If the experts can't do it, then you will need to change 
+your
+surface topology.  Run the aluminum off the PZT, and on to a more stable
+surface such as your substrate. If this is not possible, perhaps a 
+designed
+experiment should be performed.  I can help with this if you need it.
+
+Good luck and best regards,
+
+Mike Mattes
+ <A 
+HREF="http://members.aol.com/MicroMech1/index.htm">MicroMechatronics</A>
+MicroMech1@aol.com
+
+
+
+
+You might talk with a wire bonder manufacturer such as Kulicke and Soffa 
+in
+Horsham PA, even if you don't use their bonder at this point.  They have 
+been
+doing wire bonding equipment since the 1960's, so they know quite abit 
+about
+the subject.
+
+John West
+Microcosm Technologies
+www.memcad.com
+johnwest@memcad.com
+
+
+
+
+______________________________________________________
+Get Your Private, Free Email at http://www.hotmail.com
+ 
+
+From Christopher.Levey@Dartmouth.EDU  Mon Feb 15 15:25:00 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id PAA04114
+	for <cgl@coos.dartmouth.edu>; Mon, 15 Feb 1999 15:24:59 -0500
+Received: from dasher.Dartmouth.EDU (dasher.dartmouth.edu [129.170.208.6])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with SMTP id PAA20499
+	for <cgl@coos>; Mon, 15 Feb 1999 15:24:59 -0500 (EST)
+Message-id: <14615290@dasher.Dartmouth.EDU>
+Date: 15 Feb 99 15:24:59 EST
+From: Christopher.Levey@Dartmouth.EDU (Christopher Levey)
+Reply-To: c.levey@Dartmouth.EDU
+Subject: s1813liftoff
+To: cgl@coos.dartmouth.edu (Christopher Levey)
+Status: OR
+
+
+
+http://fy.chalmers.se/assp/snl/public/wproc/S1813Liftoff.html
+
+[Image] Back to SnL Help Home [Image] Back to working processes front page
+
+SnL Help pages - working processes
+
+----------------------------------------------------------------------------
+
+Photolithography Liftoff
+
+using Shipley S-1813 positive resist with Toluene
+
+----------------------------------------------------------------------------
+
+Photoresist Shipley S-1813 (positive) used together with Toluene as a
+surface modifier to produce an undercut edge profile to ensure good liftoff.
+(See the references below) This is similar to the well-known Chlorobenzene
+process,
+but it is using a non-chlorinated solvent so save the environment, following
+the
+EU 'substitution-rule' to phase out the usage of chlorinated substances
+whenever possible.
+ 
+(Last update: 971113)
+
+     1. Clean substrate
+     2. spin resist S-1813 @ 4000 rpm
+     3. Soft bake,  90 C on hot plate for 1 min
+
+Steps 4 - 6 in order to remove thick resist on edges of wafer
+
+     4. Expose through edge removal mask, 10 mW/cm^2 for 30 sec
+     5. Develop in MF322 for 20 sec
+     6. Rinse in DI water
+
+Steps 7 - 11 for pattern exposure
+
+     7. Expose through pattern mask, 10 mW/cm^2 for 8 sec
+     8. Soak in Toluene for 1 min
+     9. Blow dry and drybake, 90C on hotplate for 15 s
+     10. Develop in MF322 for 20-30 sec
+     11. Rinse in DI water
+     12. Blow dry.
+     13. Ash at 50W 250mTorr Oxygen for 30 s
+
+ 
+Comments:
+ 
+Produces a nice undercut profile. To maintain the good edge profile, be
+careful not to ash too strongly, and do NOT postbake.
+ 
+The process above is used on YBCO with a gold cap layer. Exposure time
+may have to be modified in accordance with the reflectivity of your
+substrate material.
+ 
+Toluene is a non-chlorinated solvent, which is better for the environment,
+but it is still a dangerous chemical, possibly carcinogenic. Be careful.
+
+----------------------------------------------------------------------------
+References:
+
+Modified soaking solvent for single resist lift-off structures, Hamel-CJ,
+Weed-DR, IBM-Technical-Disclosure-Bulletin. vol.21, no.8, Jan. 1979, 3103
+
+Single-step optical lift-off process, Hatzakis-M, Canavello-BJ, Shaw-JM,
+IBM-Journal-of-Research-and-Development. vol.24, no.4, July 1980, 452-60
+
+Thin film process for Nb/NbO/sub x//(Pb-In-Au) Josephson junction devices,
+Salmi-J, Knuutila-J, Seppa-H, Immonen-P, Thin-Solid-Films. vol.126, no.1-2,
+12 April 1985, 77-81
+
+Local Source: Floriana Lombardi, lombardi@fy.chalmers.se
+
+----------------------------------------------------------------------------
+Bengt Nilsson, nilsson@fyvax6.fy.chalmers.se
+Rickard Larsson, ril@fy.chalmers.se
+
+ 
+
+From cgl@coos.dartmouth.edu  Tue Feb  9 22:52:46 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id WAA18597
+	for <cgl@coos.dartmouth.edu>; Tue, 9 Feb 1999 22:52:46 -0500
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with ESMTP id WAA22940
+	for <c.levey@Dartmouth.EDU>; Tue, 9 Feb 1999 22:52:45 -0500 (EST)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id WAA18593;
+	Tue, 9 Feb 1999 22:52:45 -0500
+Date: Tue, 9 Feb 1999 22:52:45 -0500
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199902100352.WAA18593@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Tue Feb  9 22:52:44 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id WAA18585
+	for <cgl@coos.dartmouth.edu>; Tue, 9 Feb 1999 22:52:43 -0500
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id PAA18727
+	for mems-out-list; Tue, 9 Feb 1999 15:46:06 -0800 (PST)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id PAA18722
+	for <mems-out@darkstar.isi.edu>; Tue, 9 Feb 1999 15:46:05 -0800 (PST)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id PAA21202;
+	Tue, 9 Feb 1999 15:46:04 -0800 (PST)
+Posted-Date: Tue, 9 Feb 1999 09:41:04 -0600
+Message-Id: <9902092346.AA28180@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA28180>; Tue, 9 Feb 99 15:46:04 PST
+From: "Ramadas, Padmaja" <ramadas@ti.com>
+Subject:  NiFe equipment
+Date: Tue, 9 Feb 1999 09:41:04 -0600
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: "Ramadas, Padmaja" <ramadas@ti.com>, mems-cc@ISI.EDU
+
+CALTEK sales for Ni/Fe plating equipment.
+
+3130 De La Cruz Blvd., Suite 130, Santa Clara CA 95054 TEL (408)-988-5153 Fax (408)/988-1950
+I hope this information is helpful.
+
+Regards,
+
+Padmaja
+
+Padmaja Ramadas						(972)-927-1108 (w)
+Texas Instruments Incorporated			(972)-995-8787(fax)
+Microcomponents Technology Center		ramadas@ti.com
+Semiconductor Research & Development
+P.O. Box 655012						
+M/S 945										
+Dallas, Texas  75265
+
+
+> -----Original Message-----
+> From:	Kees Schetters [SMTP:Kees.Schetters@onstream.nl]
+> Sent:	Tuesday, February 02, 1999 5:41 AM
+> To:	'ramadas@ti.com'
+> Subject:	NiFe equipment
+> 
+> Eindhoven 990202
+> 
+> Dear Sir,
+> 
+> Thank you for your replay.
+> 
+> Do you have the ( E-mail ) adress of CALTEK ?
+> 
+> Regards
+> 
+> Kees Schetters
+> 
+> ONSTREAM BV
+> 
+> E-mail : kees.schetters@onstream.nl
+ 
+
+From cgl@coos.dartmouth.edu  Tue Feb  9 22:50:17 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id WAA18566
+	for <cgl@coos.dartmouth.edu>; Tue, 9 Feb 1999 22:50:16 -0500
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with ESMTP id WAA28436
+	for <c.levey@Dartmouth.EDU>; Tue, 9 Feb 1999 22:50:16 -0500 (EST)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id WAA18562;
+	Tue, 9 Feb 1999 22:50:15 -0500
+Date: Tue, 9 Feb 1999 22:50:15 -0500
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199902100350.WAA18562@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Tue Feb  9 22:50:12 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id WAA18554
+	for <cgl@coos.dartmouth.edu>; Tue, 9 Feb 1999 22:50:10 -0500
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id PAA18667
+	for mems-out-list; Tue, 9 Feb 1999 15:42:01 -0800 (PST)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id PAA18664
+	for <mems-out@darkstar.isi.edu>; Tue, 9 Feb 1999 15:42:01 -0800 (PST)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id PAA20368;
+	Tue, 9 Feb 1999 15:41:59 -0800 (PST)
+Posted-Date: Tue, 9 Feb 1999 09:08:14 +0100 
+Message-Id: <9902092341.AA28127@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA28127>; Tue, 9 Feb 99 15:41:59 PST
+From: SILLON Nicolas <NSILLON@sorbier.cea.fr>
+Subject: Electrodepositable photoresist
+Date: Tue, 9 Feb 1999 09:08:14 +0100 
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: SILLON Nicolas <NSILLON@sorbier.cea.fr>, mems-cc@ISI.EDU
+
+Hello,
+I'm trying to use the shipley electrodepositable photoresist PEPR 2400.
+During first tests, I obtain a layer on my wafer, but when I want to dry it,
+the photoresist seems to lose adherence and after 5 minutes there is only
+dust of resist on it. 
+Did anybody try such a resist, and had the same problem?
+Thanks for suggestions or ideas.
+
+
+SILLON Nicolas
+CEA / Leti
+DMITEC / SIA / ES
+Tel:   04 76 88 36 01
+Fax:  04 76 88 94 56
+nsillon@cea.fr
+ 
+
+From cgl@coos.dartmouth.edu  Tue Feb  9 22:50:00 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id WAA18535
+	for <cgl@coos.dartmouth.edu>; Tue, 9 Feb 1999 22:50:00 -0500
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with ESMTP id WAA01624
+	for <c.levey@Dartmouth.EDU>; Tue, 9 Feb 1999 22:49:59 -0500 (EST)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id WAA18531;
+	Tue, 9 Feb 1999 22:49:59 -0500
+Date: Tue, 9 Feb 1999 22:49:59 -0500
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199902100349.WAA18531@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Tue Feb  9 22:49:57 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id WAA18523
+	for <cgl@coos.dartmouth.edu>; Tue, 9 Feb 1999 22:49:56 -0500
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id PAA18788
+	for mems-out-list; Tue, 9 Feb 1999 15:48:58 -0800 (PST)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id PAA18783
+	for <mems-out@darkstar.isi.edu>; Tue, 9 Feb 1999 15:48:57 -0800 (PST)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id PAA21573;
+	Tue, 9 Feb 1999 15:48:50 -0800 (PST)
+Posted-Date: Wed, 10 Feb 1999 00:22:11 +0530 (IST)
+Message-Id: <9902092348.AA28247@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA28247>; Tue, 9 Feb 99 15:48:50 PST
+Date: Wed, 10 Feb 1999 00:22:11 +0530 (IST)
+From: Ashutosh Shastry  <as@ee.iitb.ernet.in>
+Subject: Re: Better resolution for desktop publishing masks
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: Ashutosh Shastry  <as@ee.iitb.ernet.in>, mems-cc@ISI.EDU
+
+
+
+Hello,
+
+	There have been quite a few queries about my prevous mail so I
+thought of mailing some details to the group.
+
+1. It is SciTek 3130.  There could be other high resolution printers which
+are routinely used by Offset printers in Bombay who cater to ad ajencies
+to provide images in print.
+
+2. Bromides is an option.  You can decide positive or negative while
+firing.  The postscript file can be used to get either output.
+
+3. If you specify SCREEN PRINTING then emulsion is down.
+   If you specify OFFSET PRINTING then emulsion is up.
+
+4. The film is TRANSPARENT to uv and the printed lines are NOT. We've
+directly used it for lithography and got good results. 
+
+Hope this info is useful.  
+
+Regards,
+
+-Ashutosh-
+
+
+
+On Mon, 8 Feb 1999, George Raicevich wrote:
+
+> 
+> Dear Ashutosh
+> 
+> I was very interested in what you had to say regarding the Infra Red (IR) 
+> printer.
+> 
+> I would like to try an find one locally to try out for making some chrome 
+> on quarzt masks for an excimer laser.  Do you have any more details on the 
+> brand or type of printer , what the output consists of (bromides ?) whether 
+> you can specify positive or negative , whether the image can be placed on 
+> the under side or the top side of the film.  Also I want to use the image 
+> for a contact print 1:1 on the quartz mask that requires UV light. I wonder 
+> if the film used on the IR print is transparent to UV ?
+> 
+> I would be grateful for any advice, and can summarize  the results for the 
+> MEMS net . Thanks
+
+================================================================================
+	Ashutosh Shastry 		Graduate Student,	
+	#30, Vihar House, IIT,		School of Biomedical Engineering,
+	Powai, MUMBAI-76.		I.I.T. Bombay.
+
+	Microlelectronics Staff Room,  Phone/Fax: 578 3655 or 5782545 extn 8471 
+	EE Dept., I.I.T. BOMBAY.	Fax: 579 3707
+
+===============================================================================
+	Dream as if you will live forever
+					  Live as if you will die today.
+================================================================================
+
+
+ 
+
+From cgl@coos.dartmouth.edu  Sat Feb  6 17:17:11 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id RAA07103
+	for <cgl@coos.dartmouth.edu>; Sat, 6 Feb 1999 17:17:11 -0500
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with ESMTP id RAA29207
+	for <c.levey@Dartmouth.EDU>; Sat, 6 Feb 1999 17:17:11 -0500 (EST)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id RAA07099;
+	Sat, 6 Feb 1999 17:17:10 -0500
+Date: Sat, 6 Feb 1999 17:17:10 -0500
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199902062217.RAA07099@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Sat Feb  6 17:17:05 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id RAA07091
+	for <cgl@coos.dartmouth.edu>; Sat, 6 Feb 1999 17:17:03 -0500
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id LAA18913
+	for mems-out-list; Sat, 6 Feb 1999 11:20:11 -0800 (PST)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id LAA18908
+	for <mems-out@darkstar.isi.edu>; Sat, 6 Feb 1999 11:20:10 -0800 (PST)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id LAA25755;
+	Sat, 6 Feb 1999 11:20:03 -0800 (PST)
+Posted-Date: Sat, 6 Feb 1999 01:43:44 +0530 (IST)
+Message-Id: <9902061920.AA00205@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA00205>; Sat, 6 Feb 99 11:20:02 PST
+Date: Sat, 6 Feb 1999 01:43:44 +0530 (IST)
+From: Ashutosh Shastry  <as@ee.iitb.ernet.in>
+Subject: Re: Better resolution for desktop publishing masks
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: Ashutosh Shastry  <as@ee.iitb.ernet.in>, mems-cc@ISI.EDU
+
+
+You could use IR printer which has a resolution of more than 10000 DPI. 
+Offset Printers who make the master copy usually have this printing
+facility. 
+
+With this we at I.I.T. Bombay have been regularly using this technique for
+mask making and getting reliable results upto 5 microns.
+
+Wish you all the best.
+
+-Ashutosh Shastry-
+
+On Thu, 4 Feb 1999, John R Lodmell wrote:
+
+> 	I have recently used a commercial printer to make a mask on printer's 
+> film.  He used a Linotronic printer with 2540 dpi.  The mask gave us about 25 
+> micron resolution, which I understand is pretty typical. 
+> 	I would really like about 10 micron resolution, but our 
+> photolithography system does not have reduction capability (only 1:1).  Does 
+> anyone know how to get closer to 10 microns?  Try to find higher dpi 
+> capabilities?  Commercially available reduction to make a new mask from the 
+> existing mask?
+> 	Any suggestions would be appreciated.
+> 
+> John Lodmell
+> John.Lodmell@aero.org
+>  
+> 
+
+================================================================================
+	Ashutosh Shastry 		Graduate Student,	
+	#30, Vihar House, IIT,		School of Biomedical Engineering,
+	Powai, MUMBAI-76.		I.I.T. Bombay.
+
+	Microlelectronics Staff Room,  Phone/Fax: 578 3655 or 5782545 extn 8471 
+	EE Dept., I.I.T. BOMBAY.	Fax: 579 3707
+
+===============================================================================
+	Dream as if you will live forever
+					  Live as if you will die today.
+================================================================================
+
+ 
+
+From cgl@coos.dartmouth.edu  Fri Jan  8 00:56:30 1999
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id AAA23869
+	for <cgl@coos.dartmouth.edu>; Fri, 8 Jan 1999 00:56:30 -0500
+Received: from coos.dartmouth.edu (coos.dartmouth.edu [129.170.16.50])
+	by mailhub.dartmouth.edu (8.9.1+DND/8.9.1) with ESMTP id AAA15594
+	for <c.levey@Dartmouth.EDU>; Fri, 8 Jan 1999 00:56:29 -0500 (EST)
+Received: (from cgl@localhost)
+	by coos.dartmouth.edu (8.8.8/8.8.8) id AAA23865;
+	Fri, 8 Jan 1999 00:56:28 -0500
+Date: Fri, 8 Jan 1999 00:56:28 -0500
+From: "Christopher G. Levey" <cgl@coos.dartmouth.edu>
+Message-Id: <199901080556.AAA23865@coos.dartmouth.edu>
+To: c.levey@coos.dartmouth.edu, cgl@northstar.dartmouth.edu
+Status: OR
+
+>From mems-mgr@ISI.EDU  Fri Jan  8 00:56:26 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id AAA23857
+	for <cgl@coos.dartmouth.edu>; Fri, 8 Jan 1999 00:56:24 -0500
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id TAA25547
+	for mems-out-list; Thu, 7 Jan 1999 19:04:32 -0800 (PST)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id TAA25543
+	for <mems-out@darkstar.isi.edu>; Thu, 7 Jan 1999 19:04:31 -0800 (PST)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id TAA09747;
+	Thu, 7 Jan 1999 19:04:27 -0800 (PST)
+Posted-Date: Wed, 6 Jan 1999 17:08:41 -0500 
+Message-Id: <9901080304.AA15171@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA15171>; Thu, 7 Jan 99 19:04:27 PST
+From: "Vig, John" <Vig@mail1.monmouth.army.mil>
+Subject: RE: Help on Si-Etch Phenomenon.
+Date: Wed, 6 Jan 1999 17:08:41 -0500 
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: "Vig, John" <Vig@mail1.monmouth.army.mil>, mems-cc@ISI.EDU
+
+Also, do a search at <www.ieee.org/uffc/fc>.  There you will find abstracts
+of many papers dealing with the etching of quartz crystals (including
+several of mine ;-) )..........John Vig.
+
+-----Original Message-----
+From: Karin Hermansson [mailto:karin.hermansson@swipnet.se]
+Sent: Monday, December 21, 1998 6:43 AM
+To: MEMS@ISI.EDU
+Subject: SV: Help on Si-Etch Phenomenon.
+
+
+Hi,
+
+There has been some work done on it, that's for sure. Check:
+
+"Anisotropic etching of z-cut quartz", by C. Hedlund, U. Lindberg, and J.
+Svderkvist (J. Micromech. Microeng. 3, 65 (1993))
+
+"Etch rates of Crystallographic Planes in Z-cut Quartz; Experiments and
+Simulation", by P. Rangsten, C. Hedlund, I.V. Katardjiev, and Y. Bdcklund
+(J. Micromech. Microeng. some of the 1997 or early 1998 issues)
+
+There should be some more, but I don't seem to have the references here now.
+Make a search on the names given above. Also, there should be references in
+these papers.
+
+They are still doing some quartz micromachining in Uppsala, as far as I
+know. You could try contacting Pelle Rangsten
+(pelle.rangsten@angstrom.uu.se) or Christer Hedlund
+(christer.hedlund@angstrom.uu.se). I am sure they can give you a lot more
+references.
+
+Good luck!
+
+Karin
+
+>
+> ----------
+> From: 	PC :jiao@med.edl.melco.co.jp
+> Sent: 	Thursday, December 17, 1998 2:48:29 AM
+> To: 	MEMS@ISI.EDU
+> Subject: 	Re: Help on Si-Etch Phenomenon.
+> Auto forwarded by a Rule
+>
+> Hi there,
+>
+> Is there anybody knows how to "micromachine" quartz? Any reference is
+> also appreciated. Thanks!
+>
+> JIAO, JW
+>
+>
+>
+>
+
+ 
+ 
+
+From JSISTO@MicrotronicsInc.COM  Tue Dec  1 11:03:26 1998
+Received: from mailhub.dartmouth.edu (mailhub [129.170.16.6])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id LAA09084
+	for <cgl@coos.dartmouth.edu>; Tue, 1 Dec 1998 11:03:26 -0500
+Received: from voicenet.com (mail12.voicenet.com [207.103.0.6])
+	by mailhub.dartmouth.edu (8.8.8+DND/8.8.8) with SMTP id LAA11340
+	for <Christopher.Levey@dartmouth.edu>; Tue, 1 Dec 1998 11:03:17 -0500 (EST)
+Received: (qmail 29801 invoked from network); 1 Dec 1998 16:02:56 -0000
+Received: from yardley153-pri.voicenet.com (HELO sisto) (207.103.136.117)
+  by mail12.voicenet.com with SMTP; 1 Dec 1998 16:02:56 -0000
+Message-Id: <2.2.32.19981201160432.0068bab8@popmail.voicenet.com>
+X-Sender: jsisto@popmail.voicenet.com (Unverified)
+X-Mailer: Windows Eudora Pro Version 2.2 (32)
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Date: Tue, 01 Dec 1998 11:04:32 -0500
+To: Christopher.Levey@Dartmouth.EDU
+From: "John J. Sisto" <JSISTO@MicrotronicsInc.COM>
+Subject: Photomasks
+Status: OR
+
+Dear Mr. Levey:
+
+Allow me to introduce myself, my name is John J. Sisto and I am the V.P. of
+Operations for Microtronics, Inc.  Microtronics is a manufacture of
+High-Quality, Fast-Turnaround Photomasks.  While I was viewing the Thayer
+School of Engineering Web Site, I came across your name and thought that you
+may have some interests in the products offered through Microtronics.  If
+this information is not of any interest to you, I am truly sorry for any
+inconvenience that I may have brought to you.  If you know of any
+individuals in the Thayer School of Engineering that may benefit from this
+information, I would be very appreciative if you would provide them a copy
+of this email.
+
+Microtronics has been manufacturing High-Quality, Fast-Turnaround photomasks
+for more than twenty-five years.  Industries served by Microtronics include
+Integrated Circuits, Resistor Networks, Hybrid Circuits, RF Transistors and
+Power Devices.  In addition to providing our services and products to the
+industries mentioned, Microtronics supplies numerous educational
+institutions with our photomasks.  Microtronics can provide Thayer School of
+Engineering industry competitive pricing with typical lead times of five to
+seven business days.  Our dedication toward Quality, On-Time Delivery and
+Customer Service is second to none.  Some of the Products offered through
+Microtronics include:
+
+        PROJECTION MASTERS
+	       Geometry down to 0.6 microns for our Optical process.
+	       Geometry down to 1.0 microns for our Direct Write Laser process.
+	       Spot sizes of 0.10 and 0.25 microns.
+	TOOLING & COPY PLATES
+		Soda-Lime, LE and Quartz.
+		Sizes 3.0 to 7.0 inches square.
+	STEPPER RETICLES
+	DIRECT WRITE HYBRID CIRCUITS
+		Sizes up to 6 inches square.
+	CAD SERVICES
+		Digitizing and Color Plotting.
+		Data Conversion.
+
+Should you have any interests in any of the products offered by Microtronics
+or require any additional information, I would be very happy to speak with
+you.  If you would be interested in obtaining a quotation and have a data
+file available, simply attached the data file to an email message and send
+it to SALES@MicrotronicsInc.COM.  I am sure that you would be very pleased
+with Microtronics products.  At this time, I would like to thank you for
+your time and for allowing me to share this information with you.  Please do
+not hesitate to contact me, if I can be of any assistance.
+
+Sincerely,
+
+John J. Sisto
+VP Operations
+
+Microtronics, Inc.
+103 Penns Trail
+Newtown, PA 18940
+Tel.: (215) 968-5058
+Fax:  (215) 860-9705
+
+
+From mems-mgr@ISI.EDU  Mon Nov  8 21:04:34 1999
+Received: from darkstar.isi.edu (darkstar.isi.edu [128.9.128.127])
+	by coos.dartmouth.edu (8.8.8/8.8.8) with ESMTP id VAA03849
+	for <cgl@coos.dartmouth.edu>; Mon, 8 Nov 1999 21:04:33 -0500
+Received: (from daemon@localhost)
+	by darkstar.isi.edu (8.8.7/8.8.6) id PAA07918
+	for mems-out-list; Mon, 8 Nov 1999 15:20:11 -0800 (PST)
+Received: from tnt.isi.edu (tnt.isi.edu [128.9.128.128])
+	by darkstar.isi.edu (8.8.7/8.8.6) with ESMTP id PAA07914
+	for <mems-out@darkstar.isi.edu>; Mon, 8 Nov 1999 15:20:10 -0800 (PST)
+Received: from k2.isi.edu (k2.isi.edu [128.9.128.136])
+	by tnt.isi.edu (8.8.7/8.8.6) with SMTP id PAA27643;
+	Mon, 8 Nov 1999 15:20:07 -0800 (PST)
+Posted-Date: Sat, 08 Nov 1997 17:53:42 +0800
+Message-Id: <9911082320.AA08651@k2.isi.edu>
+Received: by k2.isi.edu (4.1/4.0.3-4)
+	id <AA08651>; Mon, 8 Nov 99 15:20:07 PST
+Date: Sat, 08 Nov 1997 17:53:42 +0800
+From: zw <zw@itsvr.sim.ac.cn>
+Mime-Version: 1.0
+Subject: suumary: problem about KOH etching....
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+To: MEMS@ISI.EDU
+X-Url: http://mems.isi.edu/mems.html 
+Reply-To: zw <zw@itsvr.sim.ac.cn>, mems-cc@ISI.EDU
+Status: O
+
+Here's the all answers I received about KOH etching techniques.
+Thank all who helped me!
+                                                 zhengwei
+Dear colleagues,
+
+Now I am working on etching silicon wafer with KOH. I want to reduce the
+
+thickness of silicon wafer to about 100 microns. But I found, after that
+
+process
+the surface of silicon became so worse that I could not continue my
+work.
+
+ Anyone can help me on  KOH etching techniques?
+Thank you very much!
+
+                                                              zhengwei
+
+Hi!
+I'm not sure if this helps.. but my colleague Jun Li
+<jnli@seas.upenn.edu>
+observed that if we start KOH etching from a polished face.. the surface
+
+quality of the etched surface remains good for etches upto 200 micon
+deep!
+In short the end surface quality is dependant, inter alia, on the
+starting
+quality of that face.
+Hope this helps.
+Nilesh
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Nilesh D. Mankame
+
+Dept of Mech Engg. & App. Mechanics. |297, Towne Bldg, 220 S.33rd
+street,
+School of Engg. & App. Science.      |Philadelphia, PA 19104-6315. USA.
+University of Pennsylvania.          |Tel:(215) 898-4825
+Fax:(215)573-6334.
+Office : 327 Towne Bldg              |Manufacturing Tech lab, T168-B
+______________________________________________________________________________
+
+
+
+There is evidence in the literature (J. Micormech Microeng. Vol 5 1995
+209-218 S.A. Campbell et at.  "Inhibition of pyramid formation in the
+etching of Si p<100> in aqueous potassium hydroxide-isopropanol") that
+addition of IPA and saturation of oxygen allows etching with nm type RMS
+
+surface roughness.
+
+Do you need to use KOH?  Can you use an etch which is isotropic?  There
+is
+some evidence (specifically by Zarowin and the CMP process) that an
+isotropic etch actually can improve the polish.  Try a mixture of nitric
+
+acid, water, and buffered hydrofluoric acid.  I use 250:100:25 and get
+about 0.5 microns per minute at room temperature.  The biggest "problem"
+is
+bubble formation.  If the etch is too fast (too much HF in my
+configuration), bubbles mask the etch.
+
+
+
+                                                                Justin.
+
+Justin Mansell          |       "Only a risk tests the reality of a
+belief"
+Ginzton Laboratory      |                       - C. S. Lewis
+445 Via Palou St.       |
+Stanford, CA 94305      |       (650) 723-2666 (fax)    (650) 725-2284
+(office)
+
+
+Hello Zhengwei,
+If your intention is to reduce the thickness of Si wafers, you could (1)
+use a mixture of HF + HNO3 + DIW, (2)
+back-grind / CMP your wafers.
+
+Jaideep
+
+KOH tends to produce surface that is very rough. A company named SEZ
+located
+in Arizona has a tool for thinning wafers with a smooth surface.  They
+use HF
+and have a special way to wet process the backside of the wafer while
+protecting the front side. They may have ability to provide you with
+finished
+wafers. I know of a company in San Jose that can do the same thing using
+a
+special lapping process if you are interested.  Bob Henderson
+bobhendu@aol.com
+
+Hi Zhengwei,
+
+In order to prevent roughening of the Si surface during KOH etching add
+to
+KOH solution Isopropyl alcohol - IPA (if the volume of solution is 2l,
+500ml of IPA will do)  which is the wetting etchant and removes the
+bubbles from the wafer
+surface during etching. You can also use megasonic sound or mechanical
+stirring toremove the bubbles from the surface.
+
+Regards,
+
+Andrew Prochaska
+
+Dear zhengwei,
+After etching the silicon, VSI has found that a touch polishing for a
+short amount of time works really well.
+Ronnie Phelix
+Sales & Marketing
+Virginia Semiconductor
+Phone : 540-373-2900
+Fax : 540-371-0371
+
+Try a little IPA added to solution as surfactant
+  Brian P. Czimback
+     (607) 974-1879
+     CzimbackBP@corning.com
+
+Zhengwei,
+
+It is not a good idea to thin Si wafers with KOH due to its anisotropic
+etch
+of Si.  I am afraid that I can not provide any help on KOH etching.
+However, I know of  one method of thinning wafers, that is, mechanical
+grinding.  There are several commercial services in the United States
+such
+as Virginia semiconductor and Spin Technologies.  Yield is an issue
+however
+since 100 micron thick Si wafers are very fragile.
+
+Good Luck,
+
+
+Hi,zhengwei
+   one of my co-worker forward your question about KOH to me.I do found
+the starting surface affect the end result when i did KOH from polish
+side of wafer. what is your test result? by the way. what kind of
+research you are doing?
+take care.
+Jun
+
+Hi,
+Our laboratory is familiar with etching silicon wafer with KOH. We often
+etch a single
+crystal silicon to about 20~30um. The surface of silicon is very good
+after etching.
+The roughness is about 350A. The etching temperature is about 78C, and
+the
+concentration of KOH is about 40%. You may try it.
+
+
+            xingyie@21cn.com
+
+
+ 
+

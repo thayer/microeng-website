@@ -1,0 +1,9 @@
+Images from scans of DRAM cells.  The presence of ionics was believed to be
+causing devices to fail.  One failing site was scanned before and after a
+baking process.  Prior to the bake, an anomalous feature was imaged in the
+dC/dz signal, but not in the vdW or EPD signals.  The extent of the feature
+was dependent upon the magnitude of the AC signal, indicating a charge
+problem.  After baking for two hours, the anomalous feature disappeared,
+which we attribute to activation of the ions.  Electrical tests performed
+on a different sample showed that the devices no longer failed after the
+baking process.

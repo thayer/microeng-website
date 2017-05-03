@@ -1,0 +1,100 @@
+From cgl@nimbus.dartmouth.edu  Fri Jan 25 10:31:33 2002
+Return-Path: <cgl@nimbus.dartmouth.edu>
+Received: from nimbus.dartmouth.edu (nimbus.dartmouth.edu [129.170.16.33])
+	by thayer.dartmouth.edu (8.11.6/8.11.6) with ESMTP id g0PFVX604013
+	for <microeng@thayer.dartmouth.edu>; Fri, 25 Jan 2002 10:31:33 -0500
+Received: (from cgl@localhost)
+	by nimbus.dartmouth.edu (8.9.3/8.9.3) id KAA04704
+	for microeng@thayer.dartmouth.edu; Fri, 25 Jan 2002 10:31:33 -0500
+Received: from kronos.mems-exchange.org (kronos.mems-exchange.org [132.151.8.1])
+	by nimbus.dartmouth.edu (8.9.3/8.9.3) with ESMTP id OAA24014
+	for <cgl@coos.dartmouth.edu>; Thu, 24 Jan 2002 14:04:33 -0500
+Received: from localhost ([127.0.0.1] helo=kronos.mems-exchange.org)
+	by kronos.mems-exchange.org with esmtp (Exim 3.12 #1)
+	id 16TpAF-0000Nu-00; Thu, 24 Jan 2002 14:03:59 -0500
+Received: from smtp02.mrf.mail.rcn.net ([207.172.4.61]) by
+  kronos.mems-exchange.org with esmtp (Exim 3.12 #1) id 16ToYB-0007bT-00
+  for mems-talk@memsnet.org; Thu, 24 Jan 2002 13:24:39 -0500
+Received: from web02.mrf.mail.rcn.net ([207.172.4.46] helo=smtp.rcn.com)
+  by smtp02.mrf.mail.rcn.net with smtp (Exim 3.33 #10) id
+  16ToY9-0006EG-00 for mems-talk@memsnet.org; Thu, 24 Jan 2002 13:24:37
+  -0500
+X-Originating-IP: [199.174.193.210]
+From: Karl Cazzini <karlcazzini@rcn.com>
+Organization: Private Email
+To: mems-talk@memsnet.org
+Subject: Re: [mems-talk] Thin PMMA layer
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Message-Id: <E16ToY9-0006EG-00@smtp02.mrf.mail.rcn.net>
+Sender: mems-talk-admin@memsnet.org
+Errors-To: mems-talk-admin@memsnet.org
+X-BeenThere: mems-talk@memsnet.org
+X-Mailman-Version: 2.0.8
+Precedence: bulk
+Reply-To: mems-talk@memsnet.org
+X-Reply-To: karlcazzini@rcn.com
+List-Help: <mailto:mems-talk-request@memsnet.org?subject=help>
+List-Post: <mailto:mems-talk@memsnet.org>
+List-Subscribe: <http://mail.mems-exchange.org/mailman/listinfo/mems-talk>,
+	<mailto:mems-talk-request@memsnet.org?subject=subscribe>
+List-Id: General MEMS discussion <mems-talk.memsnet.org>
+List-Unsubscribe: <http://mail.mems-exchange.org/mailman/listinfo/mems-talk>,
+	<mailto:mems-talk-request@memsnet.org?subject=unsubscribe>
+List-Archive: <http://mail.mems-exchange.org/pipermail/mems-talk/>
+Date: Thu, 24 Jan 2002 13:24:37 -0500
+X-Status: 
+X-Keywords:                  
+X-UID: 6
+Status: RO
+
+I would suggest the following course of action:
+
+50 grams / Liter PMMA in xylene, or cyclohexanol. PLace in clean sealed bottle.  Sonicate until the PMMA pellets have dissolved completely (approx. 3 hours). Remove solution from US bath and allow to stand overnight. This removes cavitation bubbles within the solution. Place clean Si substrate on spin coater vacuum chuck, set rotation for approx. 10000rpm. Deposit solution using pipette, being careful to load substrate completely to the edges. Initiate the rotation.  Spin for about 60 seconds, remove and bake film at 60 degrees celsius for 1 hour. 
+
+10000rpm should give you approximately 100nm thickness, especially at 50g per liter polymer solution concentration.
+You will need to measure the thickness using a stylus profilometer. For thicker films, prism coupling (mode line spectroscopy) is most accurate. I would suggest that you spin several films, from the same stock solution at various speeds and have them all measured. A graph of thickness vs. spin speed should allow interpolation (extrapolation) for specific film parameters.
+
+Regards,
+
+K. Cazzini (Ph.D)
+Senior Scientist
+Alcon Laboratories Inc. 
+> 
+> From: "Matthias Kruse" <matthias.kruse@uni-essen.de>
+> Date: 2002/01/24 Thu AM 10:52:08 EST
+> To: mems-talk@memsnet.org
+> Subject: [mems-talk] Thin PMMA layer
+> 
+> Hello!
+> 
+> I need an thin layer of PMMA on silicon. Round about 50-100 nm. 
+> Does anybody have an idea?
+> 
+> Thanx a lot
+> 
+> 
+> **********************************
+> Dipl.-Chem. Matthias Kruse
+> Institut fuer Anorganische Chemie
+> Fachbereich 8
+> Universitaet Essen
+> Universitaetsstr. 5-7
+> 45117 Essen
+> 
+> Tel.  +49 (0)201 183-4515
+> Fax.  +49 (0)201 183-4195
+> email matthias.kruse@uni-essen.de
+> ***********************************
+> _______________________________________________
+> mems-talk@memsnet.org mailing list: to unsubscribe or change your list
+> options, visit http://mail.mems-exchange.org/mailman/listinfo/mems-talk
+> Hosted by the MEMS Exchange, providers of MEMS processing services.
+> Visit us at http://www.mems-exchange.org/
+_______________________________________________
+mems-talk@memsnet.org mailing list: to unsubscribe or change your list
+options, visit http://mail.mems-exchange.org/mailman/listinfo/mems-talk
+Hosted by the MEMS Exchange, providers of MEMS processing services.
+Visit us at http://www.mems-exchange.org/
+

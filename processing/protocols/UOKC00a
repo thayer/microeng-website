@@ -1,0 +1,15 @@
+Two samples (fiber preforms)
+Double sided lithography on each.
+Sample diameter is .6 inch, thickness .5mm
+
+Evaporate Ti/gold on each side (100A on one side, 500A on other; unmeasured)
+
+3/16/00
+Spin photoresist on one side @4000RPM with NO initial prespin, 
+bake, blanket expose reverse side  10s and
+develop it to get rid of ridge of PR creap under bottom of sample
+during the first spin.
+
+Spin photoresist on other side (o=ring contacts nonvaluable part of 
+sample); 4s@9000RPM+60s@4000RPM.  bake 10 min at 120.
+Align and expose 4.5 s.  Deveop 1min puddle.

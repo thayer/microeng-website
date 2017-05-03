@@ -1,0 +1,47 @@
+Date: 26 Oct 93 11:30:34 EDT
+From: Chia-Lun.Tsai@Dartmouth.EDU (Chia-Lun Tsai)
+Subject: Re: processing notes
+To: cgl@coos.dartmouth.edu (Christopher Levey)
+Status: OR
+
+RIE  Processing Note:
+1. Past experience:
+     Pressure:  550 mmTorr
+     Gas:  95% CF4 + 5% O2
+     Power:  20 Watts
+     Target : 1.1 um undoped polysilicon
+     Etch time: ~7 to 8 min.
+     Etch rate:~1400 A/min
+
+2. For heavily boron doped polysilicon
+     RIE etch condition: same as above
+     Etch time:  ~30 min
+     Etch rate: ~150 A /min or less
+
+
+References:
+   Wayne M. Moreau., Semiconductor Lithography principles, practices, and
+materials,     pp.727,728
+
+---------------------
+Dopant effects of plasma etching:
+
+P-poly Si (10^20/cm^3)  Etch rate 300 A/min   CF4 etchant
+
+P-poly Si (10^21/cm^3)  Etch rate 230 A/min   CF4 etchant
+
+Undoped poly Si  Etch rate 1300A/min   C2F6-Cl2 etchant
+
+Text from pp. 727:
+"the doping of silicon and silicon dioxide can also significantly influence
+the etch rate[551].  n-type doping increases the etch rate while p-type
+doping inhibits it [630,711]. .....,. Matsumoto [347,348] suggested that  the
+more volatile P, As, or B halides are responsible for increase etching;".
+
+[551] Japanese patent 59,33,830, Chem. Abstr. 101, 46318 (1984)
+[630] L. Baldi and D. Beardo, J. Appl. Phys. 57, 2221 (1985)
+[711]Y Lee, M. Chen, and  A, Bright, Appl. Phys. Lett. 46, 260 (1985)
+
+
+chia-lun
+

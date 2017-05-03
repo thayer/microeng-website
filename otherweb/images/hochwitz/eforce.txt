@@ -1,0 +1,12 @@
+The electrostatic force that deflects the cantilever is similar to the
+force on the plates of a capacitor, given by the equation shown above.
+It is proportional to the square of the voltage between the probe and
+sample, and the spatial derivative of the total capacitance.  In the SKPM,
+the total voltage consists of externally applied voltages and the work
+function difference (WFD) of the materials.  The cantilever is deflected
+via an applied AC voltage, which is detected with an interferometer.  The
+magnitude of deflection is proportional to the capacitance, the peak AC
+voltage, and the WFD.  The magnitude may be minimized by applying a DC
+voltage equal to the WFD.  The probe interacts with multiple sites on the
+sample, so the resulting DC voltage becomes an average of many WFDs and
+capacitances.

@@ -1,0 +1,22 @@
+From: Chia-Lun.Tsai@Dartmouth.EDU (Chia-Lun Tsai)
+Subject: RIE processing notes 10/26/93
+To: cgl@coos.dartmouth.edu (Christopher Levey)
+Status: OR
+
+The quality of the ploysilicon film I deposited today is very good and I etch
+the poly successfully using RIE etch.  Here is the RIE etch condition :
+  0. poly film thickness: 1.0 micron
+ 1.Power:20 Watts
+ 2.Gas : ~95% CF4,  flow: ~12Sccm
+             ~5% O2, flow: ~1 Sccm
+ 3.Pressure: Adjust CF4 to 470 mmTorr then add O2 to 510mmTorr.
+ 4. Time: 18 min
+ 5.  Est. etch rate: ~500 A/min
+
+  The RIE etch was very uniform and photoresist was holding on very well.  In
+the past,  10% O2 gas was used.  Etch rate at that condition was about
+1000A/min but resist usually burn off after about 8 min of etching.
+
+Note for the Litho. process:
+   Expose time : 9sec
+

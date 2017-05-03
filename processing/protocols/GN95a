@@ -1,0 +1,19 @@
+GN95a:AFM calibration target.
+05/08/95
+Oxide ridges on Si.  
+
+Mask:  /levey/ssml/processing/lithography/masks/STM.calibration
+
+Sample 1 (pattern offset to avoid resist defect)
+120s@1200C for 460A oxide.  Add 60s for (555A).
+Standard litho for Shipley PR but 7s exposure, 60s develop
+Etch in 5%HF (in NH4F) until bead + 10% (about 1.5 min)
+FINAL:  535A modulation
+555A ridges; estimate 20A in channels (may grow a bit with time).
+
+Sample 2 (etched blob near edge where PR removed with acetone)
+380A oxide.  same litho, but remove some PR at edge to allow ellip of etched region.
+After etch/strip, 10s in RTA at 1200C.
+FINAL:  315A modulation
+385A ridges; measured 70A channels.  channel height should be stable w/ time.
+

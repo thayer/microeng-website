@@ -1,0 +1,54 @@
+<H1>Dry Oxide Instructions</H1>
+
+<B><H4>1)  Purge furnace with Argon or Nitrogen gas.<BR></B></H4>
+a)  Turn on the gas into the system from the tanks.<BR>
+b)  Make sure that nitrogen is flowing straight into the furnace (see figure).<BR>
+c)  Turn the gas flowing through the furnace up to about 10 SCFH (turn
+back down after about 10 minutes--see step 5).
+<P><IMG SRC="bubblerconnect.GIF" align=right>
+<H4><B>
+
+<H4><B>2)  Load the wafer.<BR></B></H4>
+a)  Place the wafer into one of the appropriate slots in the quartz tray.<BR>
+b)  Load the wafers into the furnace right away; no appreciable oxide will grow at 400C, and it's a good idea to continue the purge after the wafers are inside.  Gently load the tray into the furnace with the tray holder and slide it into the center third of the furnace with the quartz rod.<BR>
+c)  Place the cap on the end of the furnace.<P>
+
+<H4><B>3)  Turn up the furnace.<BR></B></H4>
+
+a)  turn the furnace up to the desired temperature remembering that T(desired) - 200&#176;C = T(dial).<BR>
+b)  Make sure that the output power goes to 5 and +/-50 dials are set at 200 and 500.<P>
+
+<H4><B>4)  After adequate purge (about 10 minutes), turn down the N2 gas flow to about 1 SCFH.<P></B></H4>
+
+<H4><B>5)  Start the dry oxide process.<BR></B></H4>
+a)  Wait until the furnace is up to the desired temperature (the output power fluctuates about the center of the dial). 
+b)  Switch from N2 to O2 on the gas input on the side of the bubbler box. 
+c) Turn the O2 gas flow rate up to about 4.5 SCFH.<BR>
+d)  Start the timer as soon as soon as the O2 starts bubbling through the water.<P>
+
+<H4><B>6)  Turn down the O2 gas flow.<BR></B></H4>
+Once the furnace is purged with the oxyten (about 10 mintues), turn the O2 gas flow rate down to about 1 SCFH.  (Unless you are doing a very short run in which case you will do this step as step 8b.)<BR>
+
+<H4><B>7)  Turn off the bubbler.<BR></B></H4>
+a)  Once the timer goes off at the approved time switch back from O2 to N2 gas input on the bubbler connection going straight into the furnace.<BR>
+b)  Turn the N2 flow back up to about 4.5 SCFH or whatever flow rate it was when it initially first flowed through the bubbler.<BR>
+
+<H4><B>9)  Turn down the furnace.<BR></B></H4>
+a)  After the furnace is again purged with nitrogen, turn down the furnace to the &quot;OFF&quot; temperature of 400\A1\C.<BR>
+b)  Turn down the N2 flow to 1 SCFH.<P>
+
+<IMG SRC="bubbler.GIF" align=right>
+<H4><B>10)  Unload the furnace.<BR></B></H4>
+a)  Once the furnace is below 500C (about 60-90 minutes), use the insulated gloves to take the cap off of the end of the furnace tube.<BR>
+b)  Taking the quartz rod, slide the tray out to the end of the tube.<BR>
+c)  Wait 5 minutes.<BR>
+d)  Using the gloves AND the aluminum tray holder, slide the tray completely out of the furnace tube and into the glass cooling tube to the right of the furnace.<BR>
+e)  Wait 5 minutes or until the tray is cool.<BR>
+f)  Slide the tray out of the cooling tube and set it down on the aluminum sheets.<BR>
+g)  Using wafer tongs, remove the wafer from the tray.<P>
+
+<H4><B>11)  Turn off the N2 gas.<BR></B></H4>
+a)  Turn off O2 valve near furnace (flow to zero)<BR>
+b)  Turn the O2 and N2 valves near tanks.<P>
+<A href="../../home.html">Return to Microengineering Lab Homepage</A>
+

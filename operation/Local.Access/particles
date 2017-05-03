@@ -1,0 +1,21 @@
+Class 1000 area:
+LOCATION	DATE	       CNT TIME	#/FT^3
+^lumon supply	10/11/95	12m	500
+^lumon supply	10/11/95	100m	633
+abl chmbr tble	10/11/95	30m	450
+	
+
+
+location	date		time	.5um	.7um	1um	5um
+____________________________________________________________________
+litho spnr	8/13/03		6min	77	14	12	0
+litho mskalg			6min	68	6	2	0
+ebeam evap			6 min	390	80	46	7
+organic hood			6 min	226	30	16	1
+
+litho spnr	4/23/09		(2*3m)	116	0	0	0
+litho ellips			(2*3m)	44	0	0	0
+ebeam evap			(2*3m)	650	130	30	10
+organic hood			(2*3m)	352	66	40	22
+acid hood			(6*1m)	324	78	66	18
+rca hood			(3*2m)	732	198	126	45

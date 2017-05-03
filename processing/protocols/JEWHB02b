@@ -1,0 +1,28 @@
+
+Subject: TPX exposures
+5/09/02
+Hayden Brownell, Zachary Keane
+Printing 2um lines on 4um centers over 2inch diameter substrate.
+
+Substrates (2):  Machine polished TPX disks (2inch diameter x 3mm thick, polished by Mineral Optics in Wilder, VT) coated with 10nm Cr and 250nm Au with M. Wybourne's evaporator at 1*10^-6 mBar by Jie Qin.  
+
+Prebake for 10min @90C.
+S1813 resist:  5s@900rpm, 60s @4000rpm.
+Bake 10min @90C.
+Cleaned mask.
+Expose 6s @203W/25.8mW.  Substrate raised 3 full turns from focus.
+Develop with MF319 for 60s then DI for 35s@300rpm then N2 @3700rpm for 60s.
+Postbake for 5min @90C.
+Gold etch for 60s.
+CR7 etch for 7-8s.
+Remove resist with ACT.
+
+Comments:  One of the resist spins had to be redone due to a dust
+particle.  The exposures look very good.  More uniform thasn last time
+(2/18/02).  One of the substrates looks good (the best so far) after
+etch, though probably the gold  is slightly over
+
+Note:  To remove a bad resist spin, puddle with acetone for ~10s then
+slow spin @300rpm followed by DI and blow dry.
+	  To clean the mask, soak in ACT for 3min then thoroughly rinse
+	  with DI, blow dry.

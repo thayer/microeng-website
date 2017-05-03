@@ -1,0 +1,15 @@
+interdigited electrode mask
+40 microns=(line+space).
+August 1, 1995
+normal density film from laserlab (film thickness 100 microns = .68 divisions)
+12s exposure@15mW/cm2
+30s puddle develop TMAH
+60s rinse DI
+2.5s blanket UV exposure
+15s puddle develope TMAH
+60s rinse DI
+50s etch CR7s
+120s strip ACT
+NOTES:  the blanket develop was effective in eliminating some
+bridges between the electrodes which were caused by bubbles in
+the lino film.

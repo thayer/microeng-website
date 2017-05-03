@@ -1,0 +1,103 @@
+#October 30, 1995
+#A.K. Henning
+#
+#FLOOPS deck to simulate the implant and diffusion of phosphorus into
+#the gate and source-drain area of the ES194 mask/process set.
+#
+#
+#<<<< INITIALIZATION >>>>
+#
+line y loc=-0.5 tag=lft spacing=0.1
+line y loc=0.45        spacing=0.1
+line y loc=1.05        spacing=0.1 tag=gate
+line y loc=1.4         spacing=0.1
+line y loc=2.0 tag=rht spacing=0.1
+
+# ==============================ABV TAG
+line x loc=-1.98943 tag=abv spacing=0.25
+#==============================Poly Thickness
+line x loc=-0.97384943 tag=poly spacing=0.25
+line x loc=0.0 tag=top spacing=0.01
+#==================================Oxide Thickness
+line x loc=0.05087979               spacing=0.01 tag=mid
+line x loc=3.0 tag=bot 
+
+region photo=az ylo=lft yhi=rht xlo=abv xhi=poly
+region poly ylo=lft yhi=rht xlo=poly xhi=top
+region oxide ylo=lft yhi=rht xlo=top xhi=mid
+region silicon ylo=lft yhi=rht xlo=mid xhi=bot
+
+init conc=1e16 boron 
+
+
+#
+#<<<< MASK THE POLY GATE >>>>
+#
+machine etch clear
+machine deposit clear
+
+#================================Photoresist Mask Edge
+machine nam=mask1 photor=az photolith lef=1.49571919 rig=2.5 sha=0.05 rat=0.2
+
+etch machine=mask1 time=10.0 dt=1.0 movie = {
+    plot.2d bound fill grid vec=Velocity vlen=0.1
+}
+
+#
+#<<<< ETCH THE POLY GATE >>>>
+#
+
+#@@@@@@@@@@@@@@@@@@@@@@@@Poly Etch rate
+machine etch name=polyetch poly rate=0.00 aniso
+machine etch name=polyetch poly rate=0.05 iso
+
+#@@@@@@@@@@@@@@@@@@@@@@@@@Poly Etch time
+etch machine=polyetch time=22.0  dt=1.0 movie = {
+    plot.2d bound fill grid vec=Velocity vlen=0.1
+}
+
+#
+#<<<< ETCH THE GATE OXIDE OVER THE SOURCE-DRAIN >>>>
+#
+
+machine etch name=oxideetch oxide rate=0.00 aniso
+#===================================Oxide etch rate
+machine etch name=oxideetch oxide rate=0.01024711 iso
+
+#===================================Oxide etch time
+etch machine=oxideetch time=5.38093811 dt=1.0 movie = {
+    plot.2d bound fill grid vec=Velocity vlen=0.1
+}
+
+strip photores=az
+
+#
+#<<<< IMPLANT THE SOURCE-DRAIN >>>>
+#
+
+implant phosph dose=1e10 energy=100 adapt smooth
+#===@@@@@@======@@@@@@@========@@@Implant dose & Energy
+implant phosph dose=1e15 energy=97.7957699 
+
+#
+#<<<< ANNEAL THE IMPLANT >>>>
+#
+#=================================Anneal time & temp.
+diffuse time=30.4053389 temp=985.448666 wet
+
+select z=Boron-Phosphorus
+
+puts [open "/afs/northstar.dartmouth.edu/u96/psr/t0append.test" w] [append a [interp silicon x=0.05 val=0.0] [interp silicon x=0.051 val=0.0] [interp silicon x=0.052 val=0.0] [interp silicon x=0.053 val=0.0] [interp silicon x=0.054 val=0.0] [interp silicon x=0.055 val=0.0] [interp silicon x=0.056 val=0.0] [interp silicon x=0.057 val=0.0] [interp silicon x=0.058 val=0.0] [interp silicon x=0.059 val=0.0] [interp silicon x=0.060 val=0.0] ]
+
+
+
+
+
+
+
+
+
+
+
+
+

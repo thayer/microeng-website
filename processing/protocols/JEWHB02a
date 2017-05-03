@@ -1,0 +1,32 @@
+TPX polished by Mineral Optics (Wilder VT).
+Cr (100A)/Au(2000A) deposited in physics by Chris Berven thermal evaporator.
+Pressure 5*10-6 torr.
+
+Rinsed in DI, dried in 12C oven 5 minutes.  Cooled 5 minutes.
+Spin on S1813, bake 10 mintues at 90C.
+Expose 8s at 26.4mW.  Overexposed; no line is some regions.
+Dissolve off PR with acetone, clean, dry bake, cool, respin.
+Expose 6.5s.  Good except one area 10% of sample where 
+no lines (overexposed)  Best exposure probably between these were there
+not a defect preventing contact.
+
+* NOTE:  11/15 run found new PR, 90C bake 8s exposure good.  At that time had ad
+hesion problems.  See mask aligner log.
+
+
+Subject: TPX exposures
+2/18/02
+Hayden Brownell
+Printing 2um lines on 4um centers over 2inch diameter substrate.
+
+Substrates (3):  Machine polished TPX disks (2inch diameter x 3mm thick, polished by Mineral Optics in Wilder, VT) coated with 10nm Cr and 200nm Au with M. Wybourne's evaporator at 1*10^-6 mBar.  
+
+Prebake for 10min @90C.
+S1813 resist:  5s@900rpm, 60s @4000rpm.
+BAKE 10min @90C.
+Expose 6s @207W/26.0mW.  Substrate raised 3 full turns from focus.
+Develop with MF319 for 60s then DI for 35s@300rpm then N2 @3700rpm for 60s.
+Postbake for 5min @90C.
+
+All three exposures look good!
+

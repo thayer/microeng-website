@@ -1,0 +1,25 @@
+plot.xy min = {1 0.0} max = {3600 0.75}  x.axis = "time" y.axis = <P>
+"thickness"<P>
+
+
+foreach temp { 1200 1100 1000 } {<P>
+    line x loc=0.0 tag=top spacing=0.02<P>
+    line x loc=1.0 spacing=0.05 tag=bot <P>
+
+    region silicon xlo=top xhi=bot <P>
+
+    init  <P>
+
+    #plot the oxide thickness as a function of time <P>
+    point.xy x = 0.0 y = 0.0 name = Thick$temp move <P>
+    diffuse temp= $temp wet quiet time=120 movie = { <P>
+	set bot [interface oxide /silicon] <P>
+	set top [interface oxide /gas] <P>
+	set thick [expr $bot - $top] <P>
+	point.xy x = $time y = $thick name = Thick$temp<P>
+    }<P>
+}<P>
+
+
+
+

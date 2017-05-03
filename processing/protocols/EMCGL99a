@@ -1,0 +1,60 @@
+5/4 Au/i
+about 6000A total.
+AU etched in about 10 seconds, but left a brown film.
+Au started to peel on rinse.
+13%BHF didn't seem to take off the brown film.  Back into
+AU etch; that didn't either, but it peeled more.
+
+
+Neg photoresist for wells.
+Spin 900rmp 4 s, 4000rpm 60s
+bake 90C 15 min
+expose 1s.
+develop puddle 1min
+rinse n butyl acetate slowly dispense 15s.
+lots of spots in regions.  Should rinse longer, or perhaps spin slowly
+ 8 lines more (79%). Press <space> for more, 'i' to return. 
+Message 162/3836  From Christopher G. Levey                               Page 2
+
+lots of spots in regions.  Should rinse longer, or perhaps spin slowly
+with some dev first.
+
+
+5/4 Say want .2mg.  2g/cm^2. =E-4cm^3  area=5x5mm = .250cm^2 .5E-3cm deep
+--> 1.24E-4cm^3.  5microns deep minimum.
+
+try 15 min in 13%BHF (based on .18micron/min in 5%) for 7 microns deep.
+looked ok after 10 min, but photoresist peeled after 15 min.
+Nevertheless grooves look ok.
+
+Strip with microstrip at 100C. (ACT did not work)
+
+5/11/99 
+4 cover slips
+2 min Ti deposition at 130W DC after 1.0 E-5 torr
+positive PR. 4 sec exp[osure, 1 min develop
+sample 1 photoresist uneven spin due to holder and applying while spinning; need
+ed two minutes to develope around edges
+samples 2-4 normal.
+B sss
+A
+10s etch clears 5%HFin DI (BHF doesn't seem to work--2min in 12%BHF and no etch)
+Etch for 20s.
+Sample 2 PR was on backside.
+
+Pos photoresist
+4000rpm spin.
+85C bake oven 5 minutes
+1s exposur
+1min dev (slow wash one full pipette)
+45s rinse first in dev, then mix, then butyl acetate, spin 300rpm
+bake hotplate 140C
+
+HF etch one at 8 min, 2 at 12 min 12%BHF.
+All seem to have lost PR early. puzzle.
+ONe left--bake again at 145 for 4 minutes.
+WIll try again withy NEW BHF.
+
+5/3/99 Etch on 2" glass disk for wells: 15min 13% BHF.
+got 8.5 microns deep wells.
+

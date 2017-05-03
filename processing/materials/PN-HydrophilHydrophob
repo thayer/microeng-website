@@ -1,0 +1,112 @@
+From cgl@nimbus.dartmouth.edu  Tue Jan 15 18:09:11 2002
+Return-Path: <cgl@nimbus.dartmouth.edu>
+Received: from nimbus.dartmouth.edu (nimbus.dartmouth.edu [129.170.16.33])
+	by thayer.dartmouth.edu (8.11.6/8.11.6) with ESMTP id g0FN9B612975
+	for <microeng@thayer.dartmouth.edu>; Tue, 15 Jan 2002 18:09:11 -0500
+Received: (from cgl@localhost)
+	by nimbus.dartmouth.edu (8.9.3/8.9.3) id SAA20910
+	for microeng@thayer.dartmouth.edu; Tue, 15 Jan 2002 18:09:11 -0500
+Received: from kronos.mems-exchange.org (kronos.mems-exchange.org [132.151.8.1])
+	by nimbus.dartmouth.edu (8.9.3/8.9.3) with ESMTP id OAA13056
+	for <cgl@coos.dartmouth.edu>; Tue, 15 Jan 2002 14:11:38 -0500
+Received: from localhost ([127.0.0.1] helo=kronos.mems-exchange.org)
+	by kronos.mems-exchange.org with esmtp (Exim 3.12 #1)
+	id 16QYz9-0004Na-00; Tue, 15 Jan 2002 14:11:03 -0500
+Received: from [195.125.154.130] (helo=majestix.suss.de) by
+  kronos.mems-exchange.org with esmtp (Exim 3.12 #1) id 16QXsE-00043v-00
+  for mems-talk@memsnet.org; Tue, 15 Jan 2002 12:59:51 -0500
+Received: by majestix with Internet Mail Service (5.5.2650.21) id
+  <CYY1322A>; Tue, 15 Jan 2002 18:55:51 +0100
+Message-ID: <DA92AF8A1AF4D4119D60009027276907157356@majestix>
+From: "Runkel, Frank" <F.Runkel@suss.de>
+To: "'mems-talk@memsnet.org'" <mems-talk@memsnet.org>
+MIME-Version: 1.0
+X-Mailer: Internet Mail Service (5.5.2650.21)
+Content-Type: text/plain; charset="us-ascii"
+X-Converted-To-Plain-Text: from multipart/alternative by demime 0.98e
+X-Converted-To-Plain-Text: Alternative section used was text/plain
+Subject: [mems-talk] AW: mems-talk digest, Vol 1 #151 - Yanying Feng
+Sender: mems-talk-admin@memsnet.org
+Errors-To: mems-talk-admin@memsnet.org
+X-BeenThere: mems-talk@memsnet.org
+X-Mailman-Version: 2.0.5
+Precedence: bulk
+Reply-To: mems-talk@memsnet.org
+List-Help: <mailto:mems-talk-request@memsnet.org?subject=help>
+List-Post: <mailto:mems-talk@memsnet.org>
+List-Subscribe: <http://mail.mems-exchange.org/mailman/listinfo/mems-talk>,
+	<mailto:mems-talk-request@memsnet.org?subject=subscribe>
+List-Id: General MEMS discussion <mems-talk.memsnet.org>
+List-Unsubscribe: <http://mail.mems-exchange.org/mailman/listinfo/mems-talk>,
+	<mailto:mems-talk-request@memsnet.org?subject=unsubscribe>
+List-Archive: <http://mail.mems-exchange.org/pipermail/mems-talk/>
+Date: Tue, 15 Jan 2002 18:55:46 +0100
+X-Status: 
+X-Keywords:                  
+X-UID: 2
+Status: RO
+
+Hi Yanying,
+
+HMDS (hexamethyldisilazane) treatment makes a Si-wafer's surface hydrophobic
+and can be easily removed with a standard alkaline developer. Thus, the
+following recipe will lead to the desired pattern of hydrophilic and
+hydrophobic areas:
+- HMDS treatment of the Si wafer
+- resist coating (e.g. AZ 1512) and patterning by optical lithography
+- resist develop with a standard alkaline developer (e.g. AZ 400K)
+- resist removal with solvent (e.g. acetone)
+
+This is exactly what Marty did when he stripped his exposed wafer (see
+#154).
+
+Frank
+
+--------------------------------------------
+SUSS MicroTec 
+Applications Center Europe
+Frank Runkel
+Schleissheimer Str. 90
+85748 Garching
+Germany
+Fon	+49 89 32007 - 302
+Fax	+49 89 32007 - 390
+email	f.runkel@suss.de
+
+
+> Message: 3
+> Date: Sun, 13 Jan 2002 20:37:10 +0800
+> From: Yanying Feng <fengyy@post.pim.tsinghua.edu.cn>
+> To: memsGROUP <mems-talk@memsnet.org>
+> Organization: Tsinghua University
+> Subject: [mems-talk] If there is any method to make some domains
+> hydrophobic and the
+>  others hydrophilic in microchannels?
+> Reply-To: mems-talk@memsnet.org
+> 
+> Dear Lady or Gentlmen:
+>      I want to form some surface pattern of hydrophility in
+> microchannels.Is there any method to make some domains hydrophobic and the
+> other hydrophilic in silicon microchannels? The microchannel is
+> constructed by bonding a silicon substrate with etched channels to a Pyrex
+> glass coverslip. Thank you any way!
+>         
+>                    
+> With best regards
+> 
+>             Yanying Feng
+>             fengyy@post.pim.tsinghua.edu.cn
+> ________________________________________________________
+> MEMS Lab
+> Department of Precision Instruments and Mechanology
+> Tsinghua University
+> Beijing
+> P. R. China
+> 100084
+> _________________________________________________________
+_______________________________________________
+mems-talk@memsnet.org mailing list: to unsubscribe or change your list
+options, visit http://mail.mems-exchange.org/mailman/listinfo/mems-talk
+Hosted by the MEMS Exchange, providers of MEMS processing services.
+Visit us at http://www.mems-exchange.org/
+

@@ -1,0 +1,27 @@
+1/20/00
+Ti/Gold on 2" glass substrate from C&H sales 
+Sputtered: lookup november? 
+
+Litho:
+Substrate directly on spinner.
+Shipley 1813
+5s@900RPM, 60s@4000RPM
+softbake 10min @120C in oven  cool >5min
+expose 4.5s @26.4mW/cm3; 
+(mask file 1/13/00? 150micron lines 150micron spaces.)
+dev 60sec in MF319, rinse 60s, spin dry.
+etch in gold etch (I) 20-30s?  until "bluish"
+etch in 5%HF in DI for 45 seconds (clear at 30s)
+looks good,though some gold underetch (a few microns)?
+strip in ACT.
+
+
+1/27
+Photoresist--S1813(+)
+5s @900RPM, 60sat 3000RPM
+exposure for 4.5s
+Develope (MF319), 60s puddle, rinse 60s@400RPM, then 60s at 3000RPM.
+gold etch (about 50s until colors off)
+Ti etch in Zoe's 5%HF (about 40s)
+ACT wash off the rest photoresist (about 40s).
+

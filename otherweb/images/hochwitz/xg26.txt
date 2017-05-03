@@ -1,0 +1,7 @@
+Images from scans of boron doped squares in a silicon substrate.  The vdW
+images show the etched surface from the wafer processing, and correspond
+to the size of the implant window (outlined in green on the lower images).
+The top set of images shows what appears to be a loop dislocation, colored
+with the diffusion of dopants out of the implant area.  The bottom set of
+images shows the EPD signal has larger effective area, due to the convolution
+effect and lateral diffusion of the implanted dopants.

@@ -1,0 +1,104 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Geoff Nunes">
+   <meta name="GENERATOR" content="Mozilla/4.61 [en] (Win98; I) [Netscape]">
+   <title>L-Edit and X-Win32</title>
+</head>
+<body background="../../images/si7x7.jpg" nosave>
+
+<h1>
+Below is a copy of instructions Prof. Geoff Nunes wrote for accessing our UNIX L-Edit from a PC using X-Win32(
+<a href="http://www.dartmouth.edu/~mesospm/manual/protocols/ledit.html">
+link</a>
+ to his document):
+</h1> 
+<h2>
+Using the Unix version of L-Edit.</h2>
+The following are instructions for using the Unix version of L-Edit.&nbsp;
+They are not actually instructions on L-Edit itself.&nbsp; For that, borrow
+a manual from Nunes.
+<br>&nbsp;
+<h3>
+Initial Set Up&nbsp; (one time only stuff)</h3>
+
+<ul>
+<li>
+Sit at one of our PC's with X-Win32 installed.&nbsp; The latest version
+is 4.1.2.</li>
+
+<li>
+telnet to the Northstar machine germain</li>
+
+<li>
+edit (emacs is good) your .cshrc.local file (or create one) to have the
+following two lines:</li>
+
+<ul><tt>alias egeus&nbsp; 'exec xterm -geom 80x24+0+0 -ls -display egeus:0'</tt>
+<br><tt>alias ledit '/usr/tanner/bin.hp700/ledit &amp;'</tt></ul>
+NOTE:&nbsp; you can add additional lines for other machines you might be
+sitting at.
+<li>
+Copy the file ledit.tdb from my account to yours.&nbsp; If you plan to
+do all your mask work in a directory called mymasks, the command (assuming
+mymasks exists) is</li>
+
+<ul><tt>cp ~gnunes/public/ledit.tdb ~/mymasks</tt></ul>
+</ul>
+
+<h3>
+Every time</h3>
+
+<ul>
+<li>
+Launch X-Util32</li>
+
+<li>
+Click on the Colors menu and verify that "PseudoColor support in TrueColor
+mode" is selected.</li>
+
+<li>
+Launch X-Win32</li>
+
+<li>
+Use your favorite telnet application to login to germain.&nbsp; cd to your
+chosen working directory.</li>
+
+<li>
+Type egeus (or whatever).&nbsp; In a few moments, an xterm window should
+appear on your desktop.</li>
+
+<li>
+In the xterm window, type ledit.&nbsp; An L-Edit window should appear.</li>
+
+<li>
+You might want to read the X-Win32 help file about 3-button mouse support/emulation,
+since you need a 3-button mouse to use this version of L-Edit.</li>
+</ul>
+
+<h3>
+Problems</h3>
+
+<ul>
+<li>
+If an L-Edit window fails to appear, and after a minute or so you get a
+message like</li>
+
+<br><tt>>LicenseServ: Cannot talk to the LicenseServ server on host >>localhost&lt;&lt;</tt>
+<br><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Server not running??</tt>
+<br>then send a <b><i>polite</i></b> e-mail to Mike Fromberger asking him
+to re-start it.
+<li>
+If you get a message that looks like</li>
+
+<br><tt>germain >Can't get 16 colors in 4 planes, using B/W</tt>
+<br><tt>X Error of failed request:&nbsp; BadMatch (invalid parameter attributes)</tt>
+<br><tt>&nbsp; Major opcode of failed request:&nbsp; 62 (X_CopyArea)</tt>
+<br><tt>&nbsp; Serial number of failed request:&nbsp; 529</tt>
+<br><tt>&nbsp; Current serial number in output stream:&nbsp; 556</tt>
+<br>then you don't have "PseudoColor support in TrueColor mode" selected.&nbsp;
+See the instructions above.</ul>
+
+</body>
+</html>

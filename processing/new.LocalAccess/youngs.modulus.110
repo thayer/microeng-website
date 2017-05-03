@@ -1,0 +1,139 @@
+From cgl@coos.dartmouth.edu Sun Apr 16 19:08:50 1995
+Received: from coos.dartmouth.edu by northstar.dartmouth.edu (8.6.8.1/4.2)
+	id TAA28231; Sun, 16 Apr 1995 19:08:47 -0400
+Received: by coos.dartmouth.edu (5.65/DEC-Ultrix/4.3)
+	id AA04024; Sun, 16 Apr 1995 19:08:46 -0400
+From: cgl@coos.dartmouth.edu (Christopher G. Levey)
+Message-Id: <9504162308.AA04024@coos.dartmouth.edu>
+Subject: Re:  Young's modulus for (110) silicon (fwd)
+To: cgl@northstar.dartmouth.edu
+Date: Sun, 16 Apr 1995 19:08:46 -0400 (EDT)
+Reply-To: c.levey@Dartmouth.EDU
+X-Mailer: ELM [version 2.4 PL23beta2]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 1095      
+Status: O
+
+Forwarded message:
+>From mems@ISI.EDU  Thu Apr 13 19:42:33 1995
+Message-Id: <199504132332.AA26840@zephyr.isi.edu>
+Date: Thu, 13 Apr 1995 17:35:57 -0400
+From: oster@madonna.mit.edu
+Subject: Re:  Young's modulus for (110) silicon
+To: MEMS@ISI.EDU
+
+     A good reference for Silicon Young's Modulus:
+
+           J.J. Wortman and R. A. Evans, "Youngs' Modulus, Shear Modulus and
+           Poisson's Ratio in Silicon and Germanium", J. Applied Physics,
+           Vol. 36, No. 1, Jan, 1965, pp 153-156.
+
+
+Thanks,
+Peter Osterberg
+
+*******************************************************************************
+Peter Osterberg	       		email:  oster@mtl.mit.edu
+PhD Grad Student, EECS 		URL:    "http://www-mtl.mit.edu/bin/user?oster"
+MIT Rm 39-665	     		OFFICE: (617)253-0725    FAX:  (617)253-9606
+Cambridge, MA 02139  		HOME:   (617)648-2934
+*******************************************************************************
+ 
+
+
+-- 
+--Chris Levey
+  Solid State Microengineering Lab, Thayer School, Dartmouth College
+  email: chris.levey@Dartmouth.EDU
+  www:   http://hypatia.dartmouth.edu/levey.html
+
+From cgl@coos.dartmouth.edu Sun Apr 16 19:08:21 1995
+Received: from coos.dartmouth.edu by northstar.dartmouth.edu (8.6.8.1/4.2)
+	id TAA28220; Sun, 16 Apr 1995 19:08:19 -0400
+Received: by coos.dartmouth.edu (5.65/DEC-Ultrix/4.3)
+	id AA04013; Sun, 16 Apr 1995 19:08:18 -0400
+From: cgl@coos.dartmouth.edu (Christopher G. Levey)
+Message-Id: <9504162308.AA04013@coos.dartmouth.edu>
+Subject: Re:  Young's modulus for (110) silicon (fwd)
+To: cgl@northstar.dartmouth.edu
+Date: Sun, 16 Apr 1995 19:08:17 -0400 (EDT)
+Reply-To: c.levey@Dartmouth.EDU
+X-Mailer: ELM [version 2.4 PL23beta2]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 2383      
+Status: O
+
+Forwarded message:
+>From mems@ISI.EDU  Thu Apr 13 19:26:31 1995
+Message-Id: <199504132315.AA26266@zephyr.isi.edu>
+Date: Thu, 13 Apr 1995 15:51:51 -0700
+From: gjohnson@phobos.ME.Berkeley.EDU (G. C. Johnson)
+Subject: Re:  Young's modulus for (110) silicon
+To: MEMS@ISI.EDU
+
+Silicon is a cubic crystal; as such a measure such as "Young's modulus"
+is insufficient to describe its anisotropic behavior.  In terms of
+modeling, one should use an anisotropic elastic description for the
+material either in the crystal axes ([100],[010],[001] directions as
+base directions for the elastic constants) or in axes which may be
+more natural for the problem you are looking at.  In your case, you
+are dealing with {110} wafers, which would make the [110], [1,-1,0] and
+[001] crystal directions more natural, perhaps.  Note that in this
+case, you will have the "x_1" direction normal to the wafer, and "x_2 &
+x_3" will lie in the plane of the wafer.  In this orientation, the
+material appears orthotropic rather than cubic, so it requires a few
+more constants to characterize.  In either case, the elastic constants
+are well known.
+
+If you choose to use the cubic crystal axes ([100], [010], [001]), the 
+6x6 stiffness tensor is (in units of GPa),
+
+	[  166   64   64   0    0    0  ]
+	[   64  166   64   0    0    0  ]
+	[   64   64  166   0    0    0  ]
+C_ij =  [    0    0    0  80    0    0  ]
+	[    0    0    0   0   80    0  ]
+ 	[    0    0    0   0    0   80  ]
+
+(In other words, C_11 = 166 GPa, C_12 = 64 GPa, C_66 = 80 GPa.)
+
+
+If you choose to use the rotated axes ([110], etc.), the stiffness tensor
+is
+
+	[  194   35   64   0    0    0  ]
+	[   35  194   64   0    0    0  ]
+	[   64   64  166   0    0    0  ]
+C_ij =  [    0    0    0  80    0    0  ]
+	[    0    0    0   0   80    0  ]
+ 	[    0    0    0   0    0   51  ]
+
+
+The recent dissertation by Peter Krulevitch (1994, Mechanical Engineering, U.C.
+Berkeley) discusses the issues of material modeling for various problems.
+It may be of some help in sorting this out.
+
+I hope this helps!
+
+George C. Johnson
+Department of Mechanical Engineering
+University of California
+Berkeley, CA  94720-1740
+
+510-642-3371 (phone)
+510-642-6163 (fax)
+gjohnson@me.berkeley.edu 
+
+ 
+
+
+-- 
+--Chris Levey
+  Solid State Microengineering Lab, Thayer School, Dartmouth College
+  email: chris.levey@Dartmouth.EDU
+  www:   http://hypatia.dartmouth.edu/levey.html
+

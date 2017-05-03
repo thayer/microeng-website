@@ -1,0 +1,106 @@
+From cgl@nimbus.dartmouth.edu  Mon Jan 14 17:57:56 2002
+Return-Path: <cgl@nimbus.dartmouth.edu>
+Received: from nimbus.dartmouth.edu (nimbus.dartmouth.edu [129.170.16.33])
+	by thayer.dartmouth.edu (8.11.6/8.11.6) with ESMTP id g0EMvu607017
+	for <microeng@thayer.dartmouth.edu>; Mon, 14 Jan 2002 17:57:56 -0500
+Received: (from cgl@localhost)
+	by nimbus.dartmouth.edu (8.9.3/8.9.3) id RAA18496
+	for microeng@thayer.dartmouth.edu; Mon, 14 Jan 2002 17:57:55 -0500
+Received: from kronos.mems-exchange.org (kronos.mems-exchange.org [132.151.8.1])
+	by nimbus.dartmouth.edu (8.9.3/8.9.3) with ESMTP id OAA15650
+	for <cgl@coos.dartmouth.edu>; Mon, 14 Jan 2002 14:40:43 -0500
+Received: from localhost ([127.0.0.1] helo=kronos.mems-exchange.org)
+	by kronos.mems-exchange.org with esmtp (Exim 3.12 #1)
+	id 16QCxo-0000hI-00; Mon, 14 Jan 2002 14:40:12 -0500
+Received: from riverside.seas.ucla.edu ([164.67.100.93]) by
+  kronos.mems-exchange.org with esmtp (Exim 3.12 #1) id 16QAdI-00089Z-00
+  for mems-talk@memsnet.org; Mon, 14 Jan 2002 12:10:53 -0500
+Received: from localhost (fowler@localhost) by riverside.seas.ucla.edu
+  (8.8.8+Sun/8.8.8(seas-sun-0001)) with ESMTP id JAA17847 for
+  <mems-talk@memsnet.org>; Mon, 14 Jan 2002 09:10:46 -0800 (PST)
+From: Mighty Platypus <fowler@seas.ucla.edu>
+To: mems-talk@memsnet.org
+Subject: Re: [mems-talk] AZ5214
+In-Reply-To: <000801c1994d$70ca4440$de286981@BUCKY26>
+Message-ID: <Pine.GSO.4.21.0201140904140.17225-100000@riverside.seas.ucl
+  a.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Sender: mems-talk-admin@memsnet.org
+Errors-To: mems-talk-admin@memsnet.org
+X-BeenThere: mems-talk@memsnet.org
+X-Mailman-Version: 2.0.5
+Precedence: bulk
+Reply-To: mems-talk@memsnet.org
+List-Help: <mailto:mems-talk-request@memsnet.org?subject=help>
+List-Post: <mailto:mems-talk@memsnet.org>
+List-Subscribe: <http://mail.mems-exchange.org/mailman/listinfo/mems-talk>,
+	<mailto:mems-talk-request@memsnet.org?subject=subscribe>
+List-Id: General MEMS discussion <mems-talk.memsnet.org>
+List-Unsubscribe: <http://mail.mems-exchange.org/mailman/listinfo/mems-talk>,
+	<mailto:mems-talk-request@memsnet.org?subject=unsubscribe>
+List-Archive: <http://mail.mems-exchange.org/pipermail/mems-talk/>
+Date: Mon, 14 Jan 2002 09:10:46 -0800 (PST)
+X-IMAPbase: 1012340847 9
+X-Status: 
+X-Keywords:                       
+X-UID: 1
+Status: RO
+
+Here are a couple of Image Reversal recipes I use. I find that the second
+one works a little better for me. Also, these are in shorthand, so some
+things might be missing. The equipment I use may be different than what
+you use, so don't take it literally.
+
+This is Junghoon's recipe for image reversal with AZ 5214.
+
+1. cleaning : 5:1 Piranha / 10 min --> rinse --> --> blow dry --> hot
+plate 145~150C / 10 min
+2. HMDS 3-4min
+3. PR coating /AZ5214 / 4000rpm/ 30sec --> soft baking (100C, 1min)
+4. Karl suss exposure / 16 ~ 18 sec (I= 6.0 mW/cm^2)
+5. Hotplate 100C, 2 min
+6. Flood exposure, 120 sec
+7. Develop, AZ400K 1:5, short time (~20 sec.) --> hot plate 90C/ 20 sec
+
+
+
+This is Cho's recipe for image reversal with AZ 5214.
+
+1. cleaning : 5:1 Piranha / 10 min --> rinse --> blow dry --> hot plate
+145~150C / 10 min
+2. HMDS 3-4min
+3. PR coating /AZ5214 / 4000rpm/ 30sec --> soft baking (100C, 1min)
+4. Karl suss exposure / 18 sec (I= 6.0 mW/cm^2)
+5. Hotplate 100C, 45 sec
+6. Flood exposure, 180 sec
+7. Develop, AZ400K 1:5, short time --> hot plate 90C/ 20 sec
+8. Hard Bake.
+
+
+Jesse Fowler              
+  UCLA/MAE Dept., 420 Westwood Plaza, Room 18-121, ENGR IV
+  Los Angeles, CA 90095-1597 | (310)825-3977
+"Rule #6: There is no rule #6" -- Monty Python
+"ARTICLE SIX:  THIS ARTICLE IS ABOLISHED" -- Constitution of Afghanistan
+
+On Wed, 9 Jan 2002, shaoning wrote:
+
+> Hello, everybody,
+> 
+> Does anyone know the contact info of manufacturer or vendor of AZ5214
+> photoresist? It is said it can be reversed from positive to negative polarity
+> by different baking. Thank you very much for every information.
+> 
+> Shaoning
+> _______________________________________________
+> mems-talk@memsnet.org mailing list: to unsubscribe or change your list
+> options, visit http://mail.mems-exchange.org/mailman/listinfo/mems-talk
+> Hosted by the MEMS Exchange, providers of MEMS processing services.
+> Visit us at http://www.mems-exchange.org/
+_______________________________________________
+mems-talk@memsnet.org mailing list: to unsubscribe or change your list
+options, visit http://mail.mems-exchange.org/mailman/listinfo/mems-talk
+Hosted by the MEMS Exchange, providers of MEMS processing services.
+Visit us at http://www.mems-exchange.org/
+

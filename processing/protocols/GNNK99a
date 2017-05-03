@@ -1,0 +1,64 @@
+Some notes on the procedures of photolithography.
+
+1. Turn on UV lamp.=20
+-To do that: open AIR, VACUUM valves, turn on power ON on the right =
+panel from the microscope.
+-Turn timer on (right side).
+-Turn lamp power ON on the left side.
+
+2. Clean masks (might have some dust and dirt).
+- Put aspen on, glasses on, gloves on.
+- Place  masks into blue holders.
+- Put masks into ACT for more then 1 minute, shake periodically. =
+Use ACT clean, and baker for ACT clean.
+- Wash masks with DI water.
+- Blow with dry nitrogen to dry
+- Bring masks over clean bench without talking.
+
+3. Put mask into mask holder, push button VACUUM MASK on the right =
+to keep mask on holder. Place mask holder with mask into aligner.
+
+4. Put photoresist Shipley S1813 on wafer.
+- Turn POWER on on the spinner. See =
+http://thayer.dartmouth.edu/~microeng/equipment/spinner/spinner.html=
+
+- Hit POWER RESET button.
+- Voltmeter on.
+- Use two buttons START, STOP to start and stop spinning.
+- Put wafer and wafer holder in spinner and center them.
+- Set T1, T2, f1, f2
+- Spill photoresist while wafer rests. Use not more then half of =
+glass tube.
+- Hit START and wait until spinning stops.
+- Transfer wafer onto hotplate at 120 C and bake for 3 minutes.
+- Cool wafer for 3-5 minutes on cold wafer holder (clean before).
+
+5. Meanwhile check UV LAMP intensity.
+- remove any miscellaneous wafers
+- Raise the lever.
+- Hit button DS. Hit EXPOSURE.
+- Intensity should rise to 26.4 mW/cm2. It is 20% more then was =
+before, thus exposure time should be 20% less, i.e. 4 seconds =
+(before was 6 seconds).  ***added 10/29/99:  4s is underexposed,
+optimum is 7s.
+
+6. Align wafer.=20
+- Focus on mask.
+- Slide the mask aside.
+- Bring wafer into sharp view and lower it by two turns
+- Bring mask and wafer into "contact" and make final alignment.=20
+- Bring wafer 3 turns up while checking that alignment remains =
+intact.
+
+7. Push EXPOSURE to exposure the wafer.
+
+8. Developing.
+- f1=3D600 for T1=3D54 s, f2 =3D 2000 for T2=3D60s
+- spill evenly starting from the center while wafer is in rest
+- wait  60 seconds
+- hit START button
+- wash with DI water while spinning on low.
+
+
+
+NOTE: see also GNNK99aNOTE

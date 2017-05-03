@@ -1,0 +1,26 @@
+12/6/95  NEG PHOTORESIST
+
+TEST WAFER (leftover es194 w/ only oxide)
+Spin HCR120 neg photoresist at 4000RPM
+bake hotplate 90C 3 min
+expose 15mW/cm2 2sec
+develop 20s puddle, 35s H20 rinse at 1000RPM, 60s dry @4000RPM
+OBSERVE something inhomo across wafer...fringes on wafer; 
+fringe pattern is on 1" scale. green-red-green-blue
+alphastep gives 7000A features (PR should be 9000 microns thick).
+
+SAMPLE WAFER:
+CEMAT ptype <100> 1-10 ohm-cm 331-431micron thick
+previously RCA cleaned
+Dry oxide at 1010C for about 2hr.
+wafer looks like it was not cleaned well; some residue visible
+Get:  1202A n(6328A)=1.46, n(8300A)=1.460
+Spin HCR120 at 3000RPM this time (for thicker resist)
+bake hotplate 90C 3 min
+expose 15mW/cm2 2sec
+develop 20s puddle, 35s n butyl acetate.   rinse at 1000RPM, 60s dry @4000RPM
+also see fringe pattern on this.  
+In addition, see clouds of defects a few microns in size.
+Uncertain whether they came from original wafer (unclean) or from
+develop/rinse.  Additional rinse w/ butyl acetate does not help.
+

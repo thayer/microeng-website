@@ -1,0 +1,137 @@
+From cgl@nimbus.dartmouth.edu  Tue Jan 29 13:14:52 2002
+Return-Path: <cgl@nimbus.dartmouth.edu>
+Received: from nimbus.dartmouth.edu (nimbus.dartmouth.edu [129.170.16.33])
+	by thayer.dartmouth.edu (8.11.6/8.11.6) with ESMTP id g0TIEq626277
+	for <microeng@thayer.dartmouth.edu>; Tue, 29 Jan 2002 13:14:52 -0500
+Received: (from cgl@localhost)
+	by nimbus.dartmouth.edu (8.9.3/8.9.3) id NAA27734
+	for microeng@thayer.dartmouth.edu; Tue, 29 Jan 2002 13:14:52 -0500
+Received: from kronos.mems-exchange.org (kronos.mems-exchange.org [132.151.8.1])
+	by nimbus.dartmouth.edu (8.9.3/8.9.3) with ESMTP id KAA12864
+	for <cgl@coos.dartmouth.edu>; Tue, 29 Jan 2002 10:07:45 -0500
+Received: from localhost ([127.0.0.1] helo=kronos.mems-exchange.org)
+	by kronos.mems-exchange.org with esmtp (Exim 3.12 #1)
+	id 16VZqs-0002eI-00; Tue, 29 Jan 2002 10:07:14 -0500
+Received: from mtiwmhc24.worldnet.att.net ([204.127.131.49]) by
+  kronos.mems-exchange.org with esmtp (Exim 3.12 #1) id 16VONP-0001LR-00
+  for mems-talk@memsnet.org; Mon, 28 Jan 2002 21:52:03 -0500
+Received: from LOCALNAME ([12.89.145.165]) by mtiwmhc24.worldnet.att.net
+  (InterMail vM.4.01.03.27 201-229-121-127-20010626) with SMTP id
+  <20020129025119.LPKW13117.mtiwmhc24.worldnet.att.net@LOCALNAME> for
+  <mems-talk@memsnet.org>; Tue, 29 Jan 2002 02:51:19 +0000
+X-Sender: ECSIK@postoffice.worldnet.att.net
+X-Mailer: Windows Eudora Light Version 1.5.2
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: mems-talk@memsnet.org
+From: Igor Kadija <ECSIK@worldnet.att.net>
+Subject: Re: [mems-talk] Electroplating Gold
+Message-Id: <20020129025119.LPKW13117.mtiwmhc24.worldnet.att.net@LOCALNA
+  ME>
+Sender: mems-talk-admin@memsnet.org
+Errors-To: mems-talk-admin@memsnet.org
+X-BeenThere: mems-talk@memsnet.org
+X-Mailman-Version: 2.0.8
+Precedence: bulk
+Reply-To: mems-talk@memsnet.org
+List-Help: <mailto:mems-talk-request@memsnet.org?subject=help>
+List-Post: <mailto:mems-talk@memsnet.org>
+List-Subscribe: <http://mail.mems-exchange.org/mailman/listinfo/mems-talk>,
+	<mailto:mems-talk-request@memsnet.org?subject=subscribe>
+List-Id: General MEMS discussion <mems-talk.memsnet.org>
+List-Unsubscribe: <http://mail.mems-exchange.org/mailman/listinfo/mems-talk>,
+	<mailto:mems-talk-request@memsnet.org?subject=unsubscribe>
+List-Archive: <http://mail.mems-exchange.org/pipermail/mems-talk/>
+Date: Tue, 29 Jan 2002 02:51:21 +0000
+X-Status: 
+X-Keywords:                  
+X-UID: 7
+Status: RO
+
+Dear Sonia,
+if you still have the problem of rough gold plating you may need to
+re-evaluate your plating process.  The quality of your plating including
+roughness, uniformity, purity, density, electrical properties etc, depends
+in general on a number of parameters. To mention a few, not necesarily in
+order of importance:
+1. plating temperature
+2. current density (usually expressed in mA/cm2 or A/dm2 or A/ft2 and
+refering   to the area of MEMS patterns on the wafer to be electroplated)
+3. current mode (DC, pulse, reverse pulse etc.)
+4. electroplating solution composition, additives and quality of maintenance
+5. cell/equipment design (anode geometry, anode position, tank shape etc.)
+6. mixing/stirring conditions
+7. quality of the seed layer 
+8. quality of the adhesion layer
+9. quality of photoresist material
+10. quality of imaging
+11. pre-plating steps, cleaning, rinsing etc.
+12. MEMS design, geometry,  etc. 
+
+Your rough finish may be there for a number of reasons.  Most probably your
+current density was OK, since you wanted to grow (I suppose, advised by the
+supplier) 2 microns/20 min, corresponding to 1.5- 2.0 mA/cm2 (most Golds are
+in the range of 1-10 mA/cm2). If your mixing was reasonable and you have an
+adequate plating cell and, your photoresist is adequately processed and, the
+pattern is a simple step-and-repeat pattern with small aspect ratio or there
+is no pattern at all and, you have properly cleaned and rinsed your wafer
+and, the roughness is uniform across the wafer, you probably have the
+problem with either solution maintenance (you should establish solution
+quality with the Hull Cell, a simple test to determine solution quality and
+performance prior to electroplating of the wafer; suppliers sometimes
+provide the service and help re-establish the solution), or the specific
+solution you use to perform the plating actually delivers that finish at 2
+micron thickness (how rough is rough, RMS?)or, the seed layer and/or
+adhesion layer are inadequate. If your contact with solution supplier for
+advice as already suggested by others (Stonas, Berg, Desta, e-mails) did not
+produce a satisfactory result I suggest that you take care/verify  the above
+parameters. I hope this helps. Good luck!
+Sincerely,
+Igor Kadija
+ecsik@worldnet.att.net
+www.fibrotools.com
+201/670-8397
+
+At 03:23 PM 1/25/02 +0000, you wrote:
+>Dear All,
+>
+>I am trying to electroplate gold on top of silica: for that I sputtered a
+>few nm Ti and then few nm of gold on top of the silica and place that in
+>the electroplating solution at 50C. I used a current of 50mA that will
+>give us around 2 micron thick layer of gold in 20min.
+>
+>The surface appear with a lot of roughness.... Could somebody give me some
+>advice? Am I using the correct parameters for current and temperature to
+>get an uniform layer?
+>
+>Thank you very much for your help!
+>
+>Sonia.
+>
+>*****************************************************
+>
+>Sonia Garcia-Blanco
+>
+>Department of Electronics and Electrical Engineering
+>University of Glasgow
+>Oakfield Ave.
+>G12 8LT
+>Glasgow
+>
+>Phone:
+>   Office: (0141) 339 8855 ext 0101
+>   Lab:    (0141) 330 6014
+>Email: sgblanco@elec.gla.ac.uk
+>
+>****************************************************
+>_______________________________________________
+>mems-talk@memsnet.org mailing list: to unsubscribe or change your list
+>options, visit http://mail.mems-exchange.org/mailman/listinfo/mems-talk
+>Hosted by the MEMS Exchange, providers of MEMS processing services.
+>Visit us at http://www.mems-exchange.org/
+_______________________________________________
+mems-talk@memsnet.org mailing list: to unsubscribe or change your list
+options, visit http://mail.mems-exchange.org/mailman/listinfo/mems-talk
+Hosted by the MEMS Exchange, providers of MEMS processing services.
+Visit us at http://www.mems-exchange.org/
+

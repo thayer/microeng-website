@@ -1,0 +1,6 @@
+The images above are scans of a silicon substrate in regions near field
+oxide.  The oxide has been removed, so only the silicon is being imaged.
+The dC/dz signal shows what appear to be dislocations in the substrate
+between the surface and back electrode.  There is an indication in the
+vdW signal that the faults lie near the surface.  The dislocations appear
+to have no measurable impact upon the EPD signal.

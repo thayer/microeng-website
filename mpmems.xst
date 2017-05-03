@@ -1,0 +1,48 @@
+# This is the cross-section process definition file
+
+# for use with MCNC MUMPs process for surface micromachined
+
+# prototypes for August 1993 and after.
+
+# Each depth unit is about 1/4 micron.
+
+#
+
+#       L-Edit
+
+#Step Layer Name   Depth  Label Comment
+
+#--------------------------------------------------
+
+gd   -                 20    -    #  1. Deposit Substrate
+
+gd   -		        2    -    #  2. Deposit Nitride
+
+gd   "POLY0"            2    -    #  3. Deposit POLY0
+
+e    "Not POLY0"        2    -    #  4. Deposit POLY0
+
+gd   -                  8    -    #  6. Deposit First Oxide
+
+e    DIMPLE             3    -    #  7. 
+
+e    "ANCHOR1"          8    -    #  8.
+
+gd   "POLY1"            8    -    #  9. Deposit POLY1
+
+e    "Not POLY1"        8    -    # 10.
+
+gd   -                  2    -    # 11. Deposit Second Oxide
+
+e    "POLY1_POLY2_VIA"  2    -    # 12.
+
+e    "ANCHOR2"         10    -    # 13.
+
+gd   "POLY2"            6    -    # 14. Deposit POLY2
+
+e    "Not POLY2"        6    -    # 15.
+
+gd   "METAL"            2    -    # 16. Deposit METAL
+
+e    "Not METAL"        2    -    # 17. 
+

@@ -1,0 +1,124 @@
+From cgl@nimbus.dartmouth.edu  Wed Jan 16 11:58:55 2002
+Return-Path: <cgl@nimbus.dartmouth.edu>
+Received: from nimbus.dartmouth.edu (nimbus.dartmouth.edu [129.170.16.33])
+	by thayer.dartmouth.edu (8.11.6/8.11.6) with ESMTP id g0GGwt617062
+	for <microeng@thayer.dartmouth.edu>; Wed, 16 Jan 2002 11:58:55 -0500
+Received: (from cgl@localhost)
+	by nimbus.dartmouth.edu (8.9.3/8.9.3) id LAA21674
+	for microeng@thayer.dartmouth.edu; Wed, 16 Jan 2002 11:58:54 -0500
+Received: from kronos.mems-exchange.org (kronos.mems-exchange.org [132.151.8.1])
+	by nimbus.dartmouth.edu (8.9.3/8.9.3) with ESMTP id JAA18352
+	for <cgl@coos.dartmouth.edu>; Tue, 15 Jan 2002 09:54:51 -0500
+Received: from localhost ([127.0.0.1] helo=kronos.mems-exchange.org)
+	by kronos.mems-exchange.org with esmtp (Exim 3.12 #1)
+	id 16QUyi-0007tB-00; Tue, 15 Jan 2002 09:54:20 -0500
+Received: from [63.161.97.104] (helo=magellan.evgroup.com) by
+  kronos.mems-exchange.org with smtp (Exim 3.12 #1) id 16QE7J-0003Ft-00
+  for mems-talk@memsnet.org; Mon, 14 Jan 2002 15:54:05 -0500
+Received: by MAGELLAN with Internet Mail Service (5.5.2653.19) id
+  <4F7LF6MG>; Mon, 14 Jan 2002 13:53:58 -0700
+Message-ID: <1DD2B880949BD311907B0050040C0A2437131E@MAGELLAN>
+From: Brubaker Chad <c.brubaker@evgroup.com>
+To: mems-talk@memsnet.org
+Subject: RE: [mems-talk] adhesives
+MIME-Version: 1.0
+X-Mailer: Internet Mail Service (5.5.2653.19)
+Content-Type: text/plain; charset="us-ascii"
+X-Converted-To-Plain-Text: from multipart/mixed by demime 0.98e
+X-Converted-To-Plain-Text: Alternative section used was text/plain
+Sender: mems-talk-admin@memsnet.org
+Errors-To: mems-talk-admin@memsnet.org
+X-BeenThere: mems-talk@memsnet.org
+X-Mailman-Version: 2.0.5
+Precedence: bulk
+Reply-To: mems-talk@memsnet.org
+List-Help: <mailto:mems-talk-request@memsnet.org?subject=help>
+List-Post: <mailto:mems-talk@memsnet.org>
+List-Subscribe: <http://mail.mems-exchange.org/mailman/listinfo/mems-talk>,
+	<mailto:mems-talk-request@memsnet.org?subject=subscribe>
+List-Id: General MEMS discussion <mems-talk.memsnet.org>
+List-Unsubscribe: <http://mail.mems-exchange.org/mailman/listinfo/mems-talk>,
+	<mailto:mems-talk-request@memsnet.org?subject=unsubscribe>
+List-Archive: <http://mail.mems-exchange.org/pipermail/mems-talk/>
+Date: Mon, 14 Jan 2002 13:53:57 -0700
+X-Status: 
+X-Keywords:                  
+X-UID: 4
+Status: RO
+
+There are actually a wide variety of materials that could be used for this
+process, depending on the process you wish to use to apply the material.
+Off of the top of my head, I can think of three basic types:
+
+1. Thermoplastic film:  This would be a film that would be applied through
+application of heat and pressure.  Various materials are WaferGrip (wax,
+heat release - Dynatex), StayStik (general adhesive, high temp, solvent
+release - Cookson), Ablestik (general adhesive, low temp, solvent release).
+
+2. Thermoplastic spin on material:  This is a material that would be spun on
+using a resist coater (in some cases, requiring modification).  Various
+materials: photoresist, GenTak (general adhesive, various grades, solvent
+release - General Chemical), Staystick - paste form (see above)
+
+3. Dry Film Materials - This would be a film that is applied via a tape roll
+(either manually, or by a taping machine).  Only one comes to mind at the
+moment:  Revalpha (Nitto Denko). This is effectively a tape with adhesive
+material on both sides.  However, this is a thermal release film, meaning
+that, when a certain threshold temperature is reached (depending on grade),
+one side of the adhesive will undergo a chemical reaction that will cause
+the material to become gaseous, allowing a total release of the substrate.
+This may be the best case for thin substrates, as there will be little to no
+"peeling" force required to remove the substrate.
+
+Best Regards, 
+
+Chad Brubaker
+
+ <<...OLE_Obj...>> 
+
+EV Group-Technology, Tel: (602) 437 9492 x 111, Fax: (602) 437 9435
+E-mail: C.Brubaker@evgroup.com <mailto:c.brubaker@evgroup.com>, Web:
+www.EVGroup.com, 01/14/02
+
+ <<Chad W Brubaker (E-mail).vcf>> 
+
+ -----Original Message-----
+From: 	kaustubh bhate [mailto:kaustubhbhate@yahoo.com] 
+Sent:	Friday, December 21, 2001 10:24 AM
+To:	mems-talk@memsnet.org
+Subject:	[mems-talk] adhesives
+
+Hi Everybody,
+I am trying to bond some pre-thinned wafers (200um
+thick) with LPCVD nitride on it (1000A) - to a normal
+wafer substrate(500um ) thick.I need a temporary
+bonding adhesive which I should be able to remove
+after I have done some etching/lithography steps on
+the pre-thinned wafers.
+
+Does anybody know of commercially available adhesives
+that I can use for this? I need an adhesive which is
+very  simple in it's application and ideally would
+like something which I can just apply in-between the
+two wafers and then stick them together and later
+should be able to de-bond them easily too.
+
+Kaustubh Bhate.
+
+=====
+Check out Yahoo! Shopping and Yahoo! Auctions for all of
+your unique holiday gifts! Buy at http://shopping.yahoo.com
+or bid at http://auctions.yahoo.com
+_______________________________________________
+mems-talk@memsnet.org mailing list: to unsubscribe or change your list
+options, visit http://mail.mems-exchange.org/mailman/listinfo/mems-talk
+Hosted by the MEMS Exchange, providers of MEMS processing services.
+Visit us at http://www.mems-exchange.org/
+
+[demime 0.98e removed an attachment of type application/octet-stream which had a name of Chad W Brubaker (E-mail).vcf]
+_______________________________________________
+mems-talk@memsnet.org mailing list: to unsubscribe or change your list
+options, visit http://mail.mems-exchange.org/mailman/listinfo/mems-talk
+Hosted by the MEMS Exchange, providers of MEMS processing services.
+Visit us at http://www.mems-exchange.org/
+

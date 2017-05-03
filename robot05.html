@@ -1,0 +1,182 @@
+<html>
+<title>Dartmouth College MicroRobots</title>
+<h2><center> Dartmouth College MicroRobots</center> </h2>
+<h3>
+These MicroRobots are one tenth the thickness of human hair, about as wide as a hair, and shorter than the sharp point of a thumb tack, yet they can be remotely controlled to navigate anywhere on a surface.  Integrated in this small package are a wireless power and control signal receiver, walking actuator, steering actuator, and on-board state memory.
+</h3>
+<p>
+An interdiscplinary team of engineers and computer scientists at Dartmouth
+have made the world's smallest untethered mobile robots.  These robots can
+be remote controlled to walk anywhere on a special surface. The robots
+move forward with an inch-worm like gait, bending one step at a time.  
+They turn by snapping down a foot on the end of a steering arm; 
+motion then pivots arount the fixed foot.   
+An operator can control forward motion and turning with a sequence of 
+commands through a wireless tramsmission that also powers the motion.
+There is a <i>potential</i> for very precise position control; the average step 
+size is a minute 12nm, about .01% of a hair diameter. However, 
+the robots take over ten thousand steps a second and continue their motion
+for over half an hour with no sign of fatigue, with net motion of
+over one foot in length.  That represents over 30 million steps; 
+a human taking that many steps would go over half way around the world.
+<p>
+<a href="microrobot/MicroRoboDance.avi">Micro Robot Dance</a> choreographed to the Blue Danube waltz (Strauss), demonstrates independent control of two of our microrobots.
+<p>
+These microrobots were all designed at Dartmouth using Thayer School tools and techniques, fabricated in part by a foundary service with all remaining fabrication, tuning, and operation in the Thayer School Microengineering Lab.  All videos of these microrobots have been recorded at Thayer School of Engineering.
+
+<p> <a href="DeviceSEM_3.jpg"><img src="DeviceSEM_3.jpg" width=350 align="right" border=5></a>
+<p> FIGURE TO THE RIGHT:  This SEM image shows the <b>untethered scratch drive actuator (A)</b> used for propulsion, and the <b>cantilevered steering arm (B)</b> which can be lowered to provide a turning pivot.  The wavey lines the robot sits on
+are the insulated interdigitated electrode array which transmits power and control signals to the robot. 
+<p>
+<a href="robotDdots.avi">Movie of robot tracing a Dartmouth "D"</a>.  In this movie, the dots and text are overlays added to the video after the fact.  The underlying video of the robot motion is unedited except that it is shown twice actual speed.  The curved portion utilizes both turning and straight motion gaits.  The robot is 250 microns long and 10 microns high.
+<p>
+Movie of robot looping corners of a square. Shown twice actual speed.
+<a href="Square4h_2xb.mov">.mov file</a> (2 Mbytes), or
+<a href="Square4h_2xb.avi">.avi file</a> (8 Mbytes). 
+Additional video archived at <a href="http://www.cs.dartmouth.edu/reports/TR2005-553.CD/">Dartmouth Technical Report 553</a>
+<p>
+Publications: 
+<ul>
+<li><a href="http://ijr.sagepub.com">International Journal of Robotics Research</a>
+<ul>
+<li> 2013: V32, p218-246, <a href="http://ijr.sagepub.com/content/32/2/218.abstract">Planning and Control for Microassembly of Structures Composed of Stress-Engineered MEMS Microrobots</a>, DOI: 10.1177/0278364912467486
+</ul>
+<li><a href="http://www-bsac.eecs.berkeley.edu/~muller/jmems.web/"> Journal of Microelectromechanical Systems</a>
+<ul>
+<li>2008:  <a href="microrobot/jmems08.pdf">Planar Microassembly by Parallel Actuation of MEMS Microrobots</a>    (DOI: 10.1109/JMEMS.2008.924251) 
+<li>2006:  <a href="microrobot/jmems06.pdf">An Untethered, Electrostatic, Globally-Controllable MEMS Micro-Robot</a>    (DOI: 10.1109/JMEMS.2005.863697) 
+<li>2003:  <a href="microrobot/JMEMS03.pdf">Power Delivery and Locomotion of Untethered Microactuators </a>    (DOI: 10.1109/JMEMS.2003.821468) 
+</ul>
+<li> <a href="http://www.springer.com/series/5208">Springer Tracts on Advanced Robotics</a>
+<ul>
+<li> 2010: V57, Algorithmic Foundations of Robotics VIII, WAFR,
+<a href="microrobot/WAFR09.pdf">Simultaneous Control of Multiple MEMS Microrobots</a>,
+   (DOI: 10.1007/978-3-642-00312-7_5)
+<li> 2007:  V28, Robotics Research, ISRR, 
+<a href="microrobot/ISRR05.pdf">A Steerable, Untethered, 250 × 60 µm MEMS Mobile Micro-Robot</a>
+   (DOI: 10.1007/978-3-540-48113-3_31)
+<li> 2005:  V15, Robotics Research, ISRR, 
+<a href="microrobot/ISRR03.pdf">
+Untethered Micro-Actuators for Autonomous Micro-robot Locomotion: Design, Fabrication, Control, and Performance.</a>
+   (DOI: 10.1007/11008941_54)
+</ul>
+
+<li>
+Also in the popular press, e.g. <a href="http://www.pcmag.com/article2/0,1895,1884619,00.asp">PC Magazine</a> December 6, 2005, page 26.
+</ul>
+<p>
+Features:
+<ul>
+<li>60x250x10 micro-meter robot made of polycrystaline silicon and chromium
+<li>Utilizes <b>surface micromachining</b> (MEMS) with <a href="sems.html"><b>stress engineering</b></a> to produce out-of-plane curl.
+<li>Monolithic fabrication from poly-silicon includes on-board:
+<ul>
+<li>power and control signal pickup, 
+<li>decoding and state memory (electro-mechanical), and
+<li>locomotion and turning.
+</ul>
+<li>Two gaits:  
+<ul>
+<li><b>forward walking:</b>  MEMS Scratch Drive propulsion only, and
+<li><b>turning:</b> Propulsion and Turning Arm both deployed.
+</ul>
+<li>12nm average step size.
+<li>Operation demonstrated at 16kHz (not an intrinsic speed limit).
+<li>Teleoperation alows motion anywhere on a plane.
+<li>Moves on an insulated substrate with submerged interdigitated electrodes.
+<li>Control is one-wire (plus ground) with <i>four level logic</i>, and is independent of robot position or orientation on substrate surface.
+</ul>
+Device Fabrication:
+<ul>
+Designs sent to <a href="http://www.memscap.com/memsrus/crmumps.html">MEMSCAP MUMPS</a> foundary service:
+<ul> <li> Polycrystaline Silicon base devices (planar)</ul>
+<p>
+In the <a href="http://engineering.dartmouth.edu/microengineering">Dartmouth Thayer Microengineering Laboratory</a>.
+<ul> <li><a href="sems.html">Stress engineering</a> through chromium deposition and patterning,
+<li>Device insulator growth and patterning  
+<li>Device release and delivery to operating substrate
+<li>Substrate metalization, patterning, dielectric depostion
+<li>Device actuation and testing
+<li>Video microscope images 
+<li>Routine Scanning Electron Microscope (SEM) images
+</ul>
+<p>
+In the <a href="http://www.dartmouth.edu/~emlab/"> Dartmouth Rippel Electron Microscope Lab</a>:
+<ul>
+<li>Highest Resolution Scanning Electron Microscope images  
+</ul>
+</ul>
+<hr>
+<p> <a href="SteeringArm.jpg"><img src="SteeringArm.jpg" width=250 align="right" border=5></a>
+<b>The Dartmouth Research Team</b>
+<br>
+The work is fundamentally interdsicplinary, involving electrical, mechanical, and chemical engineering, materials science, and computer science.  It is representative of the groundbreaking work that comes from Dartmouth College, where strong interactions between departments are encouraged, and Thayer School of Engineering at Dartmouth, where there are no traditional departments to create  boundaries between electrical, mechanical, chemical, and other types of engineering.  
+The research team includes:
+<p>
+<b>Students</b> (those who do the hard work):
+<ul>
+<li>
+<b>Craig McGray</b>*: the Dartmouth graduate student who did most of the initial lab work in the 
+<a href="http://engineering.dartmouth.edu/microengineering">Dartmouth Thayer Microengineering Laboratory</a> on the single untethered MEMS robots.  
+[*now at the National Institute of Standards and Technology
+(<a href="http://www.nist.gov/">NIST</a>) in Gaithersburg, Md.].
+<li>
+<b>Igor Paprotny*</b>: the Dartmouth graduate student extended this work
+to interactions between robots, including assembly of multi-robot structures.[*now a professor at the University of Illinois-Chicago]
+<li>
+<b>Richard Rohl</b>*: a Dartmouth summer intern who designed a vacuum 
+micro-probe to 
+facilitate moving and testing of these robots on multiple surfaces [*work done
+at Dartmouth Thayer School while on leave from Cornell University as part of
+a NSF sponsored Research Research Experience for Undergraduates (REU program)].
+<li>
+<b>Shara Feld</b> and <b>Ellen Pettigrew</b>: Dartmouth undergraduates who have worked on larger (1mm) scale versions of these robots and related
+devices.
+</ul>
+<b>Faculty</b>(alphabetical):
+<ul>
+<li>
+<b>Prof. Bruce Donald*</b>  
+<br>PI and lead on robotics, control, robot interaction, and security applications.  [*now at Duke University]: 
+<li>
+<b>Prof. Christopher Levey</b>, Director, Dartmouth Thayer Microengineering Lab: <br>Lead on electromechanical design, robot fabrication/processing, robot testing, and microscopy.
+<li>
+<b>Prof. Daniela Rus</b>*: 
+<br>Lead on self-reconfigurable robotic applications [*now at MIT]:  
+</ul>
+
+<!--
+This collaboration includes:
+Dartmouth Computer Science [Bruce Donald and Daniela Rus groups (Rus is now at MIT)], and the Dartmouth Thayer School of Engineering [Microengineering Lab and Levey group]. 
+Primary work on these robots was by Dartmouth graduate student <b>Craig McGray</b> [now at <a href="http://www.nist.gov/">NIST</a> (the National Institute of Standards and Technology) in Gaithersburg, Md.], 
+with followup from students Igor Paprotny, and REU summer student Richard Rohr.
+-->
+
+
+<p>The work was funded in part by the <a href="http://www.dhs.gov/dhspublic/">Department of Homeland Security</a>, 
+<a href="http://www.ojp.usdoj.gov/odp/">Office of Domestic Preparedness</a>
+ through Dartmouth's <a href="http://www.ists.dartmouth.edu/">Institute for Security Technology Studies</a> (ISTS),
+ and by the Thayer School of Engineering.
+</ul>
+<center>
+<table border=6>
+<tr>
+<td>
+<a href="http://www.dartmouth.edu">
+<img src="icons/dc-icon.gif"></a>
+</td>
+<td>
+<a href="http://engineering.dartmouth.edu">
+Dartmouth Engineering</a>
+</td>
+<td>
+<a href="http://engineering.dartmouth.edu/microengineering">
+Microengineering Lab</a>
+<td>
+<a href="http://engineering.dartmouth.edu/microengineering/levey.html">Levey Homepage</a>
+<td>
+<a href=" http://www.cs.dartmouth.edu/~brd/equipment.html">Donald lab (CS)</a>
+</td>
+</tr>
+</table>
+<p>

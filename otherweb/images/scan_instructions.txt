@@ -1,0 +1,46 @@
+On the computer in Bosworth attached to the Color OneScanner:
+
+1)  Open the application Ofoto--it's on the hard drive.  Two windows will immediately 
+open:  Untitled 1 and Scan Controls. 
+
+2)  Place your picture face down on the scanner.  
+
+3)  In the Scan Controls window:
+
+    	Set Calibration to Laser Writer IINT.
+	Choose Manual instead of Auto.
+	Adjust Scan DPI and Print DPI as you desire.
+
+		NOTE:  the higher the DPI you choose, the more memory your scan will 
+		use and the difference in quality of scan is slight.  I recommend using 100 
+		or 135 for both scan DPI and print DPI.  Adjusting the bits, however, 
+		causes drastic changes.  I recommend leaving both the scan bits and the 
+		print bits at 8:G.  
+
+4)  Click on Prescan--scan of your image should appear in the Untitled window.
+
+5)  Go to Image on the top menu bar to straighten, sharpen, focus, rotate, flip or invert 
+your scan as needed.
+
+6)  Adjust dotted-line box to surround only that which you would like included in your 
+scan.
+
+7)  In Scan Controls window, click on Scan.  More detailed scan of selected material will 
+appear in Untitled window.
+
+8)  Use Image again to make final changes.  Resizing is available under Image, as well as 
+previously mentioned capabilities.  To crop without rescanning, select preferred area to 
+scan with the dotted-line box and go to Edit/Crop.
+
+9)  If top left corner of Untitled window says Rescan Recommended, click again on Scan 
+in the Scan Controls window.  
+
+10)  To save, go to File/Save.  Choose the file format you would like to save as--probably 
+PICT or TIFF.
+
+11)  To do another scan, go to File/New and begin with step #1.
+
+
+		NOTE:  for color scans, choose a calibration such that color photo is 
+		selected.  There are a few that work.  Leave Auto selected instead of 
+		changing to Manual and perform the rest of the steps as stated above.

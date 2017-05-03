@@ -1,0 +1,46 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="Microsoft Word 98">
+<TITLE>Files:  Your entire layout, including hierarchy of objects, cells, layer names, and design rules is stored in each Tanner L-Edi</TITLE>
+</HEAD>
+<BODY>
+
+<FONT FACE="Times" SIZE=5>
+<P>&nbsp;</P>
+<B><P>L-Edit Quick Reference</B>&#9;&#9;&#9;&#9;&#9;ENGS85, April 2001</P>
+
+<B><P>Files</B>:  Your entire layout, including hierarchy of objects, cells, layer names, and design rules is stored in each Tanner L-Edit data format (.tdb) format file. Several files may be open in L-Edit; make sure you are editing the one you intend to edit.  Cells can not be instanced (referenced) between files, but may be copied between files using the copy command; in that case, all instanced cells are also copied to the new file.  In the non-student version of L-Edit you can also import/export to CIF and GDSII formats (used for mask making).  These formats do not preserve data such as design rule specifications, so you should always keep a copy of your file in .tdb format as well.  Instructions for inexpensive mask generation are at:</P>
+<P>&#9;<B>http://thayer.dartmouth.edu/~microeng/ledit/leditlrmask.html</P>
+</B><P>NOTE:  there are a number of other rules you must follow to generate these masks (positive quadrant, not too many vertices in polygons, &#133;); these are specified at this link.</P>
+
+<B><P>Objects:</B> The shapes that can be drawn on the layout such as</P>
+<P>rectangles, wires, as shown on the <I>drawing toolbar</I>. I'd suggest not using circles, particularly if you want to do Design Rule Checking (DRC) or use derived layers. </P>
+
+<B><P>Manhattan Geometry:</B>  Objects with only 90 degree angles.  Click <I>drawing tool</I> more than once to change drawing mode to 45 or all angle.</P>
+
+<B><P>Layers:</B> Each object belongs to a layer; the different colors and stipple patterns in the layer pallet each represent a different layers; each layer will either be printed as a single mask or used to derive a mask layer.  When files are for masks, the layers are changed to meet the CIF or GDSII specifications (e.g. three letter layer names shown in the CIF setup).  Hint:  one way to change all objects in a layer to another is to save as CIF, then read it back in with a different layer name translation.</P>
+<B><P>Derived Layers:</B>  Layers generated from user drawn layers using logical functions.  Derived layers don't function with non-manhattan or 45 degree geometries.  L-Edit uses derived layers for DRC.</P>
+
+<B><P>Cells:</B> Basic building blocks (like subroutines); they contain a collection of objects on any number of layers, and other cells.  Changing a cell will cause the change to propagate to all instances of that cell throughout your layout</P>
+
+<B><P>Instances:</B> Instances are references to cells (like a subroutine call).  An instance of cell BEAM in cell SPRING indicates where the BEAM is to be placed in the SPRING, how many times it is to be repeated in an array, and how it is to be scaled from the original (this information is available through Edit Object on the instance).  Note that instances are not simple copies; if the reference cell changes, all instances also change. </P>
+
+<B><P>Design Rules:</B> L-Edit can automatically check your design for errors by following design rules set out for the process.  Design rules specify the requirements for making reliable devices. They account for mask misalignment, process variations, etc. The design rules specify the smallest feature size, line width, object spacing and enclosure, etc. </P>
+
+<P>
+Frequently used <B>shortcuts</B> </FONT><FONT FACE="Times">(for Mac use COMMAND rather than CNTRL key):</P>
+</font><pre>
+HOME	Exactly fill screen with entire cell
++ / -                    Zoom IN / Zoom OUT
+z (then drag a box)      Zoombox fills screen
+CTRL-E (select first)    Edit Object (size, layer,...)/Instance (scale, repeats,...)
+CTRL-O                   Open a FILE
+O                        Open a CELL (if a cell is first selected, it will 
+                         be highlighted in the list).  File can be specified,
+                         so this is a way to shift between open files.
+I                        Instance a cell
+C                        Copy a cell (allows file-to-file copy)
+Space                    Redraw
+</pre>
+</HTML>

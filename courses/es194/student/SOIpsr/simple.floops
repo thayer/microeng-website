@@ -1,0 +1,33 @@
+line x loc=-0.5 tag=top spac=0.1
+line x loc=0.0 tag=int spac=0.1
+line x loc=2.0 tag=bot spac=0.1
+
+line y loc=-1.0 tag=left spac=0.1
+line y loc=0.0 tag=mid spac=0.1
+line y loc=1.0 tag=right spac=0.1
+
+region silicon xlo=int xhi=bot ylo=left yhi=right
+region oxide xlo=top xhi=int ylo=left yhi=mid
+region photores=az xlo=top xhi=int ylo=mid yhi=right
+
+init arsen conc=1.0e15
+
+strip photo=az
+
+plot.2d grid
+
+implant arsenic dose=5.0e15 energ=60 
+
+strip oxide
+
+diffuse time=30 temp=1100 movie = {
+    plot.2d grid
+    sel z=log10(Arsenic)
+#    contour val=15
+color max=20 min=15 num=5 low=white high=blue
+#    contour val=16
+#    contour val=17
+#    contour val=18
+#    contour val=19
+#    contour val=20
+}

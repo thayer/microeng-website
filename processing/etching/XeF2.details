@@ -1,0 +1,121 @@
+From cgl@coos.dartmouth.edu Mon Apr 24 13:03:55 1995
+Received: from coos.dartmouth.edu by northstar.dartmouth.edu (8.6.8.1/4.2)
+	id NAA17164; Mon, 24 Apr 1995 13:03:52 -0400
+Received: by coos.dartmouth.edu (5.65/DEC-Ultrix/4.3)
+	id AA18638; Mon, 24 Apr 1995 13:03:51 -0400
+From: cgl@coos.dartmouth.edu (Christopher G. Levey)
+Message-Id: <9504241703.AA18638@coos.dartmouth.edu>
+Subject: no subject (file transmission)
+To: cgl@northstar.dartmouth.edu
+Date: Mon, 24 Apr 1995 13:03:50 -0400 (EDT)
+Reply-To: c.levey@Dartmouth.EDU
+X-Mailer: ELM [version 2.4 PL23beta2]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 4247      
+Status: RO
+
+>From mems@ISI.EDU  Fri Mar 24 17:01:21 1995
+Received: by venera.isi.edu (5.65c/5.61+local-21)
+	id <AA07768>; Fri, 24 Mar 1995 13:40:18 -0800
+Received: from zephyr.isi.edu by venera.isi.edu (5.65c/5.61+local-21)
+	id <AA07764>; Fri, 24 Mar 1995 13:40:17 -0800
+Received: by zephyr.isi.edu (5.65c/5.61+local-17)
+	id <AA05045>; Fri, 24 Mar 1995 13:40:15 -0800
+Message-Id: <199503242140.AA05045@zephyr.isi.edu>
+Date: Thu, 23 Mar 1995 20:21:25 -0800
+From: pister@ICSL.UCLA.EDU (Kris Pister)
+Subject: XeF2 followup
+To: MEMS@ISI.EDU
+Status: OR
+
+Since my first XeF2 post last month, I have had many inquiries about
+this silicon etchant.  Many of the same questions have been asked
+several times, so it seems appropriate that I should summarize here.
+
+ksjp
+
+** How did you find XeF2 in the first place?
+ While discussing TMAH+silicic acid as a possible CMOS post-process
+etchant, a colleague of mine, Eli Yablonovitch, suggested that XeF2
+might be just the thing we were looking for.  We spent several days
+calling chemical supply and excimer laser companies, all of whom
+denied that XeF2 could exist, and we ultimately gave up.  Several weeks
+later, in a discussion on polysilicon stringer etching, Mike Hecht of
+JPL mentioned that he had used XeF2 to etch 300 microns of silicon
+and stop on 50 Angstroms of SiO2, and that XeF2 could be purchased
+from PCR (see below).  Mike reassembled his old reactor at JPL, and we
+etched the first CMOS chip together at UCLA.
+
+** it sublimates [...] is the gas fed into an evacuated chamber?
+Yes, we have a small glass bell jar on an aluminum plate with ports
+for N2, a vacuum pump, manometer, and the XeF2 line.  For reasons that
+are as yet unclear, we get the best performance when we pulse etch
+(pump/etch/pump) rather than allow a constant flow of gas into the
+chamber.
+
+** What does it etch?  Not etch?
+Etches silicon and polysilicon at up to 10 microns per minute.
+Does not etch (at all, as far as we can tell):
+  photoresist
+  thermal oxide, PSG, BPSG
+  aluminum
+  gold
+  NiTi (supplied courtesy TiNi Alloy Co.)
+  Si3N4 (haven't tested low stress yet)
+  acrylic
+
+** It sounds like this is a 'dry' etch
+Yes, and an extremely gentle one.  We have undercut some structures
+that are so fragile they can be destroyed by blowing on the chip,
+but which survive the etch.  No liquid or adhesion forces.
+
+** Are there any tricks?
+Dehydrate your sample (e.g. 140C for 10 minutes) before etching,
+otherwise you may have problems with the formation of a polymer-like
+film on the silicon surface.  Neil Bartlett (discoverer of the first
+noble gas compound in 1962) thinks that this film is probably the
+silicon equivalent of PTFE.
+
+** How much anisotropy, if any, can you achieve?
+Close to none.  The etch is nearly isotropic.
+
+** How smooth are the sidewalls and bottom surfaces
+Very rough.  All surfaces show something like 1-2 microns roughness.
+
+** Is it safe?
+On contact with moisture, it turns to xenon and HF, but at the room
+temperature sublimation rate, this produces a hazard comparable to
+an open beaker of HF - caution is necessary.
+
+** Where can I buy it and how much does it cost?
+PCR Inc
+P.O. Box 1466
+Gainsville, FL 32602
+(904) 376-8246
+      371-6246 (fax)
+The cost is $45/gm, which may seem expensive, but the etch is
+extremely efficient, and one gram of XeF2 can last for many etches.
+Also, the cost goes down rapidly with larger orders to a few dollars
+per gram.
+
+** What are some of the references?
+M.H. Hecht, et al., "A novel X-ray photoelectron spectroscopy study of the
+   Al/SiO2 interface", J. Appl. Phys, 57(12), 1985, pp5256-5261.
+E. Hoffman, et al., "3D structures with piezoresistive sensors in
+   standard CMOS", MEMS 95, pp.288-293.
+F.A. Houle, "Dynamics of SiF4 desorption during etching of silicon by
+   XeF2", J.Chem Phys. 87(3) pp1866-1872.
+D.E. Ibbotson, et al., "Comparison of XeF2 and F-atom reactions with Si and
+   SiO2", Appl. Phys. Lett. 44(12), 1984, pp.1129-1131.
+H.F. Winters, J.W. Coburn, "The etching of silicon with XeF2 vapor",
+   Appl.Phys Lett. 34(1), 1979, pp.70-73.
+
+** Can you send me some papers on this?
+We can send you our MEMS 95 paper, which doesn't give much detail about
+XeF2, but does describe our etch setup and procedure.  Send me email
+if you want a copy.
+ 
+
+

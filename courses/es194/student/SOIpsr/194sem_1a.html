@@ -1,0 +1,63 @@
+<TITLE>SOI Seminar - Reason 1</TITLE>
+<BODY BACKGROUND = "chalk.jpg" TEXT = "804020">
+<H2>Parasitic Capacitance Explained</H3>
+<H3>
+
+Any chunk of CMOS circuitry can be modeled with resistance-capacitance 
+networks.  Each transistor is represented by a capacitance at the gate and a 
+resistance across the channel.  Wires (segments of metal or polysilicon) also 
+have both a resistance and capacitance with respect to the substrate.  Thus we 
+can take the following simple circuit
+
+
+<IMAGE SRC = "194sem_tedpic.gif"><P>
+
+
+and model it using RC networks, for the case in which the output switches from 
+high to low.<P>
+
+
+<IMAGE SRC = "194sem_schemepic.gif"><P>
+
+
+Where V0 = Vdd, R0 and C0 represent the resistance and capacitance of the 
+wire, R1 represents the resistance of the driving transistor channel, and C1 
+represents the capacitance of the gates being charged.  If we lump these 
+components together as R and C, we can calculate that the voltage across C1, 
+which represents the input voltage of the second inverter, will go as<P>
+
+
+Vin2 = V0*exp(-t/RC)
+
+<P>
+
+The delay in the system is proportional to RC.  For this reason, designers 
+would like to minimize resistances and capacitances in CMOS circuits.<P>  But 
+how does one determine the resistance and capacitance of a wire? 
+ <P>Resistance is given by<P>
+
+<I>R = (rho)L/tw<P></I>
+
+Where L, t, and w are the length, thickness and width of the wire.  Since 
+thickness is typically fixed by the fabrication technology, resistance is 
+proportional to L/w, so we can refer to the resistance of wires in a given 
+technology as x <I>ohms/square.</I>  In terms of fabrication, the only factors 
+which affect resistance are the resistivity of the wire material and its 
+thickness.  <P>
+
+To get an estimate of parasitic capacitance, we will use an oversimplified 
+model.  Consider a wire to be a parallel plate capacitor, with the substrate 
+acting as the bottom plane.  The equation for capacitance of a parallel plate 
+arrangement is<P>
+
+<I>C = (epsilon0)A/d<P></I>
+
+In this expression, d refers to the distance from the conducting substrate. 
+ This is the key factor which motivated the interest in silicon-on-insulator. 
+ Because, if we can increase the distance of the wires from the conducting 
+plane of the substrate, or eliminate the conducting substrate altogether, 
+capacitance can be significantly reduced.  Since resistance is not affected, 
+this indicates that we should be able to build faster circuits using SOI.<P>
+
+<I><A HREF = "194sem_1.html">Back to Outline - I</A>
+

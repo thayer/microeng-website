@@ -1,0 +1,175 @@
+MOST RECENT AT BOTTOM:
+
+Si wafers w/ 650A Ti sputtered.
+Observe wafer pieces:  lots of Si particles from scratching numbers.
+Some fiber and other particles.
+Note:  #7a and 3a are similar in previous processing.
+
+**Argon anneal
+#1 Clean #1 using 3 minutes ultrasonic acetone, DI rinse spray ~1min., 
+NOTE:  THIS SHOULD HAVE BEEN 1a (for argon); these are now reversed.
+N2 blow dry.
+Purge RTA 10 min at 4.2l/min argon.
+RTA in Argon 20s at 700C.
+Result:  brown film on top. darker at edges.  nonhomogeneous; lighter
+region 3mm teardrop near center.
+
+#7a: Only blow clean.  2 min 120C hotplate dry.
+RTA Argon 20s 700C.
+
+#3a: only ~1min purge in RTA (accident--should be 10)  
+RTA Argon 20s 700C (much worse:  purple at edges).
+
+#6a: as #7a but rinse in isopropanol first, then blow, 1min hotplate.  
+It slid partially off the support wafer during RTA.  
+looks like #7a (pretty good)
+
+Hypothesis--maybe the brown is a Ti/Si oxide. The two worst: #1a may have had 
+some water vapor.#3a didn't purge.
+
+#5a: process as #6a (acetone/DI/dry/isopropyl/dry/hotplate). 
+Add a second anneal:  20s at 850C.
+
+#8a and 
+#9a as in 7a (only blow clean with UHP N2).
+Add a second anneal:  20s at 850C.
+
+
+**Argon anneal (mistake, should have been nitrogen)
+
+CLEAN:
+#3 and
+#5 and
+#6:
+cleaned as #6a (first part done as a batch).
+
+#1a and
+#7 and
+#8 and
+#9:
+blow clean.
+
+#6 and
+#8 and
+#1a:
+purge and RTA 700C 20s argon 
+Etch*  NH4OH/H2O2/DI 10ml:20ml:70ml @29C.
+RTA 850C 20s argon
+
+#3 and
+#5 and
+#7 and
+#9:
+RTA 700C 20s argon, then 850C 20s argon.
+NOTE: #3 has brown around edges.
+
+
+**Nitrogen anneal (finally)
+
+CLEAN:
+#4
+#4a
+#4b (cleaved from #4a)
+blow clean
+
+#4
+#4a (not argon)
+purge and RTA 700C nitrogen
+RTA 850C nitrogen.
+
+#4b:
+purge and RTA 700C 20s nitrogen 
+Etch*  NH4OH/H2O2/DI 10ml:20ml:70ml @30C.
+RTA 850C 20s argon
+purge and RTA 700C 20s nitrogen
+
+
+later: Auger analysis for silicide.
+TUrns out TiSi on wafer was rough, on order of hundreds of angstroms deep pits.
+Nitrogen annealed did not form silicide.
+
+*Ref: N. Brun, J. Electrochem Soc 142,6, 1987 (1995).
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+REAL SAMPLES
+Preprocessing:  5 min HF dip, 5 in DI dip, light blowoff.   300A Ti a 1x10-7 torr (320V, 300mA, 240mTorr Ar.)
+
+7/30/96 auger analysis not back, but process samples.  4 are broken
+(leave 2 on right edge of tape), 5 good ones. 
+
+Make wafer boat for RTA:  take strips of wafer w/ about 1300A oxide,
+face down on clean carrier wafer.  RTA argon 1200C 200s.  One strip is bonded.
+Move others slightly, and redo at 1220 100s.  No furter bonding, but not moving,
+so use as is.
+
+Clean samples; had been mounted to a wafer with carbon dag. 
+Soak in petri dish of TCA 5 min takes of carbon dag.  transfer to a wipe.
+clean TCA 5 min.  Actone soak 5 minutes.  Dip in clean acetone and then let dry.
+One more BROKEN in cleaning (flipped over).
+
+Check proceedure with One bad one with no purge @ 700C 20s in Ar.  OK.  
+Place third from right on tape.
+
+Anneal two more bad ones:  purge Ar 15 minutes at flow of 35 on scale.  
+Anneal  them @700C for 20s in Ar. Then @850C for 20s in Ar.
+Place as 4th and 5th from right on tape.
+
+Anneal two good ones:  purge Ar  15 minutes at flow of 35 on scale.  
+Anneal  them @700C for 20s in Ar. Then @850C for 20s in Ar.
+Place as 1st and 2nd  from left on tape.
+
+Anneal two good ones:  purge N2  15 minutes at flow of 65 on scale.  
+(After 5 min of purge, heat 2s at 300C to drive off any water vapor).
+Anneal  them @700C for 20s in N2 flow 35 on scale.  
+Remove one and etch as * above.  Rinse 3x by petri dish soak in DI + 1x in acetone.
+Purge 15 min in N2.  
+(After 5 min of purge, heat 2s at 300C to drive off any water vapor).
+Anneal both @850C for 20s in N2.
+Place unetched one as 3rd from left on tape.
+Place etched one as 4th from left on tape. 
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+9/17/96 Jim and Leon
+Clean 7 samples:  5 min soak in TCA, transfer to wipe, soak 5 min in acetone,
+dip in clean acetone, transfer to wipe, air dry.
+
+New support wafer for RCA (n-type 3-5 ohm; previous was p-type), and new
+support strips.
+
+Purge #1, #2 in Argon 15 minutes.	
+Anneal in argon 700C 20s (note, it took longer than normal to reach
+800C, about 9 seconds--seemed to stick at 600C for about 4  seconds,
+however it went the full 20s at 700C)
+then anneal in argon  at 850c for 20 s.
+
+Purge #3, #4, #5 in Argon 15 minutes and anneal as above at 700 and 850C.
+#5 flipped over.  Same glitch at 600C on the way up to 700C.
+
+#3, #4 then etched in NH4OH/H2O2/DI 10ml:20ml:70ml @30C for 5 min (as * above),
+and re-annealed at 850C for 20s.
+
+Purge #6, #7 with NITROGEN.
+Anneal in nitrogen at 700C 20s.
+Etch #7 only in NH4OH/H2O2/DI 10ml:20ml:70ml @30C for 5 min (as * above),
+aneal #6 and #7 at 850C for 20s.
+#7 flipped over during anneal (? or before?).
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++
+4/23/97 with Leon.
+Clean 9 samples; 5min TCA, xfer to wipe, 5 min acetone soak, dip clean acetone, xfer to wipe, air dry.  lost one in clean.  
+Plan:  3 samples Ar only, 2 samples ar, etch, N2, 3 samples N2, etch, N2.
+
+All purges are 15 minutes @35 on gauge  in gas used for anneal.
+Etch is  NH4OH/H2O2/DI 10ml:20ml:70ml @29C, then rinse DI 5 min, 10 sec DI, 
+dip second rinse, dip in acetone (less residue since can't blow dry).
+Used a new wafer with 2800A oxide as platform in RTA. 
+Put Si strips on it to hold samples in place.
+
+#1-5 purge, 700C 20s Ar anneal, then 850C 20s Ar anneal.
+#1-3 are done.
+#4,5  etch 5 min  then 850 N2. 
+
+#7-9 purge, 700C 20s N2, etch, 850C 20s Ar. 

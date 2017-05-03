@@ -1,0 +1,20 @@
+Jacob Halbrooks/Garmire: Pattern glass substrate for modeshaping
+SUBSTRATE: Use 2" glass substrate cgl stock (note, variaton in thickness of
+these three substrates from one to the next is less than 100
+microns (one 2/3 turn).
+CLEAN: 3 min acetone ultrasonic, acetone rinse, propanol rinse, blow dry.
+PRIME: HMDS 10s, PR spin cycle
+RESIST:  S1813 PR 
+BAKE:  5 min bake on hotplate set to 110C (surface gets to 100C)
+EXPOSURE: 8 s.  DEV 60 s.
+(The mask, an old one from Lashmore group, didn't have bubble defect eliminaton,
+so follow this by  1s blanket exposure in soft contact mode and 30s develop)
+BAKE: 5 min bake hotplate 110C
+Wipe back w/ ACTto be sure no PR there.
+ETCH: 10% BHF etch (old...slow...7 min gives only 1750angstroms).  Problem
+may be in type of glass (unknown).  After 22 minutes PR started to peel.Take 
+remaining two samples and:
+BAKE 10 min hotplate @150C (sample about 125), then 5 min at 170C (sample
+got to 140C as indicated by spot check on top of similar substrate).
+ETCH:
+STRIP: ACT 30s room T.

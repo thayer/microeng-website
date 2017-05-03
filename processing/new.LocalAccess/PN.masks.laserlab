@@ -1,0 +1,15 @@
+Dolan dark field.
+Laser lab used 15 points darker than normal in printing.
+They say OD 4.8 or so rather than OD4 or so.
+Chrome Mask:
+30s exposure, 30s develop.
+Left with a few "spots" of PR in clear regions.
+additional 30s develop clears up all the small spots but leaves
+a few large ones, and also creates some round colored spots in
+the dark region.  These colored spots are near the outside of the
+mask; none near the center of the mask.  
+50micron light channel-->36microns from laserlab -->40microns on mask.
+
+On light field test pattern mask, try 10s exposure.  40s develop.  Still spots in
+the clear region.
+

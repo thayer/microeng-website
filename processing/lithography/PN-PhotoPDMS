@@ -1,0 +1,95 @@
+From cgl@nimbus.dartmouth.edu  Thu Jan 17 11:32:08 2002
+Return-Path: <cgl@nimbus.dartmouth.edu>
+Received: from nimbus.dartmouth.edu (nimbus.dartmouth.edu [129.170.16.33])
+	by thayer.dartmouth.edu (8.11.6/8.11.6) with ESMTP id g0HGW8622969
+	for <microeng@thayer.dartmouth.edu>; Thu, 17 Jan 2002 11:32:08 -0500
+Received: (from cgl@localhost)
+	by nimbus.dartmouth.edu (8.9.3/8.9.3) id LAA23624
+	for microeng@thayer.dartmouth.edu; Thu, 17 Jan 2002 11:32:07 -0500
+Received: from kronos.mems-exchange.org (kronos.mems-exchange.org [132.151.8.1])
+	by nimbus.dartmouth.edu (8.9.3/8.9.3) with ESMTP id JAA25662
+	for <cgl@coos.dartmouth.edu>; Thu, 17 Jan 2002 09:38:43 -0500
+Received: from localhost ([127.0.0.1] helo=kronos.mems-exchange.org)
+	by kronos.mems-exchange.org with esmtp (Exim 3.12 #1)
+	id 16RDgD-0008Tg-00; Thu, 17 Jan 2002 09:38:13 -0500
+Received: from utep.el.utwente.nl ([130.89.30.10] ident=root) by
+  kronos.mems-exchange.org with esmtp (Exim 3.12 #1) id 16R8Yu-0005oj-00
+  for mems-talk@memsnet.org; Thu, 17 Jan 2002 04:10:20 -0500
+Received: from bio126 (bio126.el.utwente.nl [130.89.30.126]) by
+  utep.el.utwente.nl (8.9.3/8.9.3) with ESMTP id KAA21185 for
+  <mems-talk@memsnet.org>; Thu, 17 Jan 2002 10:12:38 +0100
+From: "Heiko van der Linden" <h.j.vanderlinden@el.utwente.nl>
+To: <mems-talk@memsnet.org>
+Organization: MESA+ Research Institute, Twente University
+Message-ID: <000501c19f36$fcea52f0$7e1e5982@bio126>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+X-Mailer: Microsoft Outlook, Build 10.0.2616
+X-Converted-To-Plain-Text: from multipart/alternative by demime 0.98e
+X-Converted-To-Plain-Text: Alternative section used was text/plain
+Subject: [mems-talk] Photocurable PDMS
+Sender: mems-talk-admin@memsnet.org
+Errors-To: mems-talk-admin@memsnet.org
+X-BeenThere: mems-talk@memsnet.org
+X-Mailman-Version: 2.0.5
+Precedence: bulk
+Reply-To: mems-talk@memsnet.org
+X-Reply-To: <h.j.vanderlinden@el.utwente.nl>
+List-Help: <mailto:mems-talk-request@memsnet.org?subject=help>
+List-Post: <mailto:mems-talk@memsnet.org>
+List-Subscribe: <http://mail.mems-exchange.org/mailman/listinfo/mems-talk>,
+	<mailto:mems-talk-request@memsnet.org?subject=subscribe>
+List-Id: General MEMS discussion <mems-talk.memsnet.org>
+List-Unsubscribe: <http://mail.mems-exchange.org/mailman/listinfo/mems-talk>,
+	<mailto:mems-talk-request@memsnet.org?subject=unsubscribe>
+List-Archive: <http://mail.mems-exchange.org/pipermail/mems-talk/>
+Date: Thu, 17 Jan 2002 10:11:46 +0100
+X-Status: 
+X-Keywords:                  
+X-UID: 5
+Status: O
+
+Hi All,
+ 
+Recently (10th of january) I replied to a question about a supplier of
+photocurable PDMS. I told then that 
+such a compound is RMS-033 from ABCR chemie in Karlsruhe (Germany). I
+got a mail from Jordan Berg 
+who suggested that this compound is not photocurable.
+I realize now that I made a mistake and because maybe other people are
+interested in photocurable PDMS
+and are unable to find this at the ABCR website (because they don't sell
+it) I have written the method to make
+the RMS-033 photocurable.
+The PDMS is made photosensitive by adding a UV sensitive photoinitiator.
+The compound that we have used 
+for this is 2,2-dimethoxy- 2-phenylacetophenone. This compound can be
+ordered easily from ACROS or any 
+other big chemicals supplier. We dissolve the DMPAP in a bit of xylenes
+and then we dissolve this solution in 
+the PDMS. The composition is like this:        RMS-033: 10g
+                                                                 DMPAP:
+200mg
+ 
+xylenes: 400mg
+ 
+I think that it is possible to make a lot of PDMS types photosensitive
+by adding the photoinitiator. I myself have 
+tested the method with Sylgard 184 (Dow Corning) and it works. The
+exposure time was very long though compared 
+to the RMS-033 mixture.
+ 
+The RMS033 is used in our group because it has a high elasticity. We use
+PDMS bump as mechanical springs in an accelerometer. If you don't need
+high elasticity you can use other PDMS compounds. 
+ 
+If you have questions then ask me.
+ 
+Kind Regards,
+Heiko van der Linden
+_______________________________________________
+mems-talk@memsnet.org mailing list: to unsubscribe or change your list
+options, visit http://mail.mems-exchange.org/mailman/listinfo/mems-talk
+Hosted by the MEMS Exchange, providers of MEMS processing services.
+Visit us at http://www.mems-exchange.org/
+

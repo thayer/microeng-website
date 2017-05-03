@@ -1,0 +1,10 @@
+The SKPM may also be used to image dopant profiles in semiconductors.  The
+scans shown above are from attempts to image dopant profiles in an n-channel
+MOSFET.  The sample was stripped down to bare silicon.  The raised areas in
+the vdW signal are channels of two adjacent transistors.  The lower areas
+are source/drain implants, and via remnants may be seen.  The EPD signal
+clearly shows the doped regions of the source/drain.  There is also a ridge
+seen in the transition between source/drain and channel, which we attribute
+to LDD.  Two anomalous features were also imaged in the channel of one
+transistor, but we have not attributed them to any specific electrical
+feature as of this time.

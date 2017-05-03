@@ -1,0 +1,12 @@
+AuthUserFile /dev/null
+AuthGroupFile /dev/null
+AuthName ExampleAllowFromNCSA
+AuthType Basic
+
+<Limit GET>
+order deny,allow
+deny from all
+allow from .dartmouth.edu
+allow from 129.170
+</Limit>
+Options Indexes

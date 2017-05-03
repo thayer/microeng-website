@@ -1,0 +1,11 @@
+AuthType Basic
+AuthName restricted
+Require valid-user
+Order deny,allow
+Deny from all
+Allow from .dartmouth.edu
+Allow from 129.170.
+Allow from 10
+Satisfy Any
+
+Options +Indexes

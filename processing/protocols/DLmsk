@@ -1,0 +1,11 @@
+11/95
+film from laserlab had smaller space than line (about 45 micron line
+to 25 micron space).  Wanted equal.
+
+1.  as in WKSHPmsk.  Glass plate still over msk for 2s exposure.
+get about 40 micron space, 30 micron line.
+
+2.  as above but expose for 16s then 2s.
+close to equal, though some lines are wider than others (laserlab problem
+or design?)
+

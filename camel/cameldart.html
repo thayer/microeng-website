@@ -1,0 +1,134 @@
+<html>
+<head><title>CaMEL</title></head>
+<body>
+<h1><center>Using CaMEL at Dartmouth</center></h1>
+CaMEL consists of parameterized and nonparameterized cell libraries.
+<p>
+The <a href=#unpme>nonparameterized cell library</a> is a 
+database of MEMS designs from a
+a variety of sources in the MEMS community.  Some are complete devices, some are
+cells of structures you may find useful as building blocks. Information is
+also given on device yield.  Your favorite
+structures can be added to this library using 
+<a href="camel/mc5#2.2">DBSubmit</a> (but 
+please clear them with the Chris Levey or Al Henning first).  These designs come in fixed sizes,
+(though you can scale the entire cell in L-Edit, or by editing the CIF file).
+<p>
+The <a href=#pme>parameterized library</a> (PME) includes generators which create customized layout
+for many common MEMS components that use a surface micromachined process
+technology such as the MUMPS process.  The PME library is more flexible
+than the nonparameterized library because
+the user can specify parameters such as
+inner and outer radius, rotation angle.  The generators support CIF 
+and GDSII mask formats, as well as PostScript for printing.
+<p>
+At Dartmouth, you can access both libraries through programs running
+on germain, the same HP workstation that runs <a href="ledit.html">L-Edit</a>.
+<hr>
+<a name="unpme"></a>
+<h2><center>Accessing the <i>nonparameterized</i> CaMEL MEMS library</center></h2><p>
+<ol>
+<li>Use an xterm window from any northstar machine, or a DarTerminal window
+from a Macintosh to connect to germain and login under
+your northstar account.  If you are using an xterm window, you would
+make the connection by typing:
+<pre>
+telnet germain.dartmouth.edu
+</pre>
+<li><a name="addpath"></a>
+Add the camel directory to your PATH by appending the following to
+your .cshrc.local file:
+<pre>
+set path = ( $path /usr/camel/bin)
+</pre>
+Now either logout and back in, start a new shell, or type:
+<pre>
+source .cshrc.local
+</pre>
+You need complete this step only once; it will be automatic each
+successive time you login.
+<p>
+<li>Now you need only type the following whenever you want to access the
+unparameterized database:
+<pre>
+DBRead
+</pre>
+The DBRead program (perl script) is self explanatory.  When you are done, it will send
+mail to MCNC with your request for a CIF file.  You'll receive an email
+response shortly thereafter with the CIF file enclosed.  Be sure that
+you run DBRead from your account, so the response is sent to you!
+<p>
+DBRead keeps a list of current cells in /tmp/DOC.  This list is killed
+once a week, and also whenever germain is rebooted.  The next time DBRead 
+is run, it automatically
+downloads a new list from MCNC (which makes it seem slow to start up).  
+This means that the list of cells can be up to a week out of date.
+If you want to be sure you have the most recent
+list of cells (at the expense of startup speed in DBRead), you can delete
+the /tmp/DOC directory before running DBRead as follows:
+<pre>
+rm -rf /tmp/DOC
+DBRead
+</pre>   
+(if you get errors in the rm, it may be that another user is running DBRead
+and accessing the files).
+</ol>
+<hr>
+<a name="pme"></a>
+<h2><center>Accessing the <i>parameterized</i> CaMEL PME library</center></h2><p>
+<ol>
+<li>Use an xterm window from any northstar machine, or a DarTerminal window
+from a Macintosh to connect to germain and login under
+your northstar account.  If you are using an xterm window, you would
+make the connection by typing:
+<pre>
+telnet germain.dartmouth.edu
+</pre>
+<p>
+<li>If you haven't already done so, add the /usr/camel/bin to your path
+as <a href=#addpath>above</a>.
+<li>Edit a file containing the desired pme commands.  For example, 
+following <a href="camel/mc6.html#3.4.2">section 3.4.2</a>, you
+could build a motor with a pme file which does the following:  
+<ul>
+<li><a href="camel/mc6.html#declare">declare</a> two PME objects, p1 and p2, 
+<li><a href="camel/mc6.html#define">define</a> p1 as a rotary side drive motor of outer radius 80 microns (
+<a href="camel/mc7.html#rsdm">rsdm1</a>)
+<li>define p2 as a central journal bearing (
+<a href="camel/mc8.html#bearing">bearing1</a>)
+<li>place an <a href="camel/mc6.html#instance">instance</a> of each of these, centered at 0,0.
+</ul>
+The pme file called mymotor.pme would look like this:
+<pre>
+PME p1, p2;
+p1=rsdm1(21.0,27.0,51.0,53.0,80.0,18.0,27.0,18.0,12.0,0.0,rsdma);
+p2=bearing1(14.0,10.0,27.0,jnla);
+instance(p1,'*',0.0,0.0,0.0);
+instance(p2,'*',0.0,0.0,0.0);
+</pre>
+<li>Create a CIF file from your pme file (continuing the example above):
+<pre>
+cifpme  mymotor.pme >mymotor.cif
+</pre>
+<li>If you want to use the file on Macintosh or PC, you will need to get it with
+an ftp program such as Fetch.
+<li>To load your CIF file into L-Edit, you must first have a compatible technology
+file defined.  The file 
+<a href="ledit.html#mpmems">mpmems.tdb</a>
+ from MCNC is almost a match, but the layer
+Conn is defined as FOO instead of MPT.  You can edit this definition to
+match the camel definition:  under the Setup menu, select CIF.  Where you
+see the layer Conn, select FOO and type MPT.  Click OK to dismiss the window.  
+Now you can use the open command under the
+file menu to load your CIF file.  Be sure to click the CIF button.
+</ol>
+<h2>WARNINGS on using CaMEL with <a href="ledit.html">L-Edit</a></h2>
+The CaMEL library will instance cells at 45 degrees and
+at odd angles.  L-Edit doesn't know how to read such cells yet.
+Also, it generates curves as polygons which do not maintain Manhattan
+geometry.  L-Edit will not generate layers from such polygons.
+<hr>
+<h2><a href="camel.html">CaMEL User's Guide</a></h2>
+<hr>
+</body></html>
+<p><ADDRESS>Christopher.G.Levey@dartmouth.edu</ADDRESS>

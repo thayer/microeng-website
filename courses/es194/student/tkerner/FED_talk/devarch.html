@@ -1,0 +1,96 @@
+<title> III.   Architecture of FED Device </title><H2>
+<DT> <A NAME = "FEDpack">   A.  Basic FED Package  </H2> </A>
+   <DL> <H3>
+     <DT>  1.  Field Emitter Array (FEA)  <A HREF = "sources.html#12"> #12 </A> <P>
+         <img src = "FED-FEA.GIF"> <P>
+         <DL>
+               <DT> a.  D. Temple/H. Gray Group (MCNC and Naval Research Lab)
+                <DT> b.   Regular Matrix of Pyramids  (4 - 13 um spacing)
+            <DT> c.  232,630 tips on 4-in Si wafer (3E+6 tips/cm^2)
+                   <DT> d.  Many simultaneous electron beams
+                  <DT> e.  Jan 1995,  maximum of 18 mA for 6648 tip array  
+         </DL> <P>
+    <DT> 2.  Illuminating the Phosphors  <P>
+          <DL> 
+             <img src = "FEA-SCRE.GIF"> <P>
+             <DT> a.   100's to 1000's of tips behind each phosphor
+             <DT> b.  Simultaneous beams illuminate phosphor
+             <DT> c.  Even if some tips broken, still works
+         </DL> <P>
+
+   <DT> 3.  Simple row-column matrix addressing  <P>
+   <img src = "ROWCOL.GIF"> <P>
+        <DL>
+              <DT> a.   can turn on single element by accessing given row/column
+              <DT> b.   no active matrix necessary
+        </DL>
+  </DL> <P> <P>
+
+<H2>
+<DT> <A NAME = "FEDdev"> B.  Typical FED Devices </H2> </A> <H3>
+    <DL>
+           <DT>  1.  Charles Spindt Prototype  (SRI International)   <A HREF = "sources.html#10"> #10 </A>
+                 <DL>
+                      <DT>  a.  FEA on 4.9" Si wafer baseplate     <P>
+                               <img src = "Spindtwf.gif"> <P>
+                      <DT>  b.  Address line contacts on sides
+                      <DT>  c.   338 X 338 pixel array
+                      <DT>  d.   4 mm thick in total <P>
+                               <img src = "Spindtpx.gif"> <P>
+                     <DT>  e.   100 tips per color element (redundancy)
+                     <DT>  f.   3 elements: R, G, B  per pixel
+                     <DT>  g.   250 um square pixel size  <P>
+               <DT> h. 50 - 150 Volt Pixel Driving Range
+                <DT>  i.  Base: metal strips (175 um wide, 250 um centers)
+                  <DT>  j. Base:  orthogonal gate films (40 um wide, 66 um centers)
+                      <DT>   k.  Clear conducting indium tin oxide  (ITO) on screen
+                    <DT>   l.  ITO has RGB strips over gate film strips
+                    <DT>   m.   Pillars:  50 X 50 X 75 um
+                <DT>   n.  Inner tube evacuated: 10^-9 Torr (turbomolecular pump)
+     
+        </DL> <P>
+
+       <DT>  2.  Micron Display Technology, Inc.'s  Prototype <A HREF = "sources.html#1"> #1 </A> 
+         <DL>
+             <DT>  a.  Like AMLCD, uses GLASS substrate <P>
+                       <img src = "micron.gif"> <P>
+             <DT>  b.  0.7 Inch Diagonal Screen Size
+             <DT>  c.  700 pixels/inch (Monochrome/Color models) <P>
+                      <img src = "FEDimag.gif"> <P>
+             <DT>  d.  Completely sealed
+             <DT>  e.  Own built-in driver chips
+          </DL>
+ </DL>
+
+<P>
+<H2>
+<DT> <A NAME = "DFEDpack"> C.  Basic Diamond FED Package </H2> </A>  <H3>
+    <DL> <P>     
+           <DT>  1.  Patches of Diamond Films Instead of Pyramids          <P>
+                      <img src = "DFEDXY.gif"> <P>      
+           <DT>  2.  Similar matrix addressing and phosphor screen
+        </DL>
+<P>
+<H2>
+<DT> <A NAME = "DFEDdev"> D.  Typical DFED Device (Si Diamond Technology) </H2> </A>  <H3>
+    <DL>
+                 <DT>  1.  1 square inch monochrone display  <A HREF = "sources.html#5"> #5 </A><P>
+                              <img src = "DFEDdev.gif"> <img src = "DFEDimag.gif"> <P>           
+                  <DT> 2.  48 X 48  and 125 X 125 pixel models (50, 125 lines/inch)
+                  <DT> 3.  350 um wide address lines, pitch size 500 um
+                  <DT> 4. +/- 200 to 300 Volt driving pixels
+                  <DT> 5. Soda-lime glass plate substrate
+                  <DT> 6.  Diamond films on chromium lines (rows)
+                  <DT> 7.  ZnO powder phosphors on ITO lines  on screen (cols)
+                  <DT> 8.  25 um high nickel spacers btw base/screen
+                  <DT> 9.  Sealed with Torrseal epoxy
+                  <DT> 10.  Evacuated with activated getter pump
+                  <DT> 11.  Minimum feature size 100 um (1 um for AMLCD)
+    </DL>
+
+<P>
+<P>
+<P>
+<LI> <A HREF = "main.html"> Main Outline </A> 
+<LI> <A HREF = "microfab.html"> IV.  Microfabricating FED's </A> 
+<LI> <A HREF = "sources.html"> Sources </A> 

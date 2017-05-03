@@ -1,0 +1,45 @@
+From: putnam@msc.cornell.edu (Albert M. Putnam)
+Newsgroups: sci.materials
+Subject: Re: Smooth thin films?
+Date: 26 Oct 1994 05:51:59 GMT
+Organization: Cornell Materials Science Center
+
+In 1988 we were trying to make smooth gold films 
+(as were requested in the original post)
+for use as substates in the STM imaging of biological specimens.
+
+We wanted surface roughness of below 10 angstoms over areas 1000x1000A.
+The whole business is VERY tricky.
+You have to stike a happy medium between "epitaxy" and "random laydown".
+We embarked on a program of plating gold on mica.
+The coordination of gold and mica is fairly good and we hoped
+we could build up mono-layers by SLOW hot evaporation.
+That does not work. Islands "bead up".
+
+Likewise fast evaporation on a cold surface does not work
+you get a simple square-root of N variation in surface height where
+N is the number of monolayers you put down (where they hit they stick).
+
+Gold films that are too thin (<100A?) will often not conduct.
+
+To make months of research a short story, you have to balance
+evaporation speed (sputtering is thought to be hopeless - due to the energy/momentum 
+distribution of the arriving particles - might work on another system?), 
+the substrate (mica) temperature (as a function of time - 
+you need to consider annealling time),
+vacuum, surface preparation of the mica, and so on.
+Phase space for this problem is large and not well understood.
+You have a competition between - smoothing and island formation.
+both due to restructuring on the surface during and after deposition.
+
+BUT we published our the formula for a smooth surface:
+A.M.Putnam, B.L.Blackford, M.H.Jericho and M.O.Watanabe
+Surface Science 217 (1989) p276-288
+
+It's pretty empirical, but it might serve needs.
+
+Albert Putnam
+putnam@msc.cornell.edu
+Cornell Materials Science Center
+
+

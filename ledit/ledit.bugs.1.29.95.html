@@ -1,0 +1,112 @@
+<html><head><!-- This document was created from RTF source by rtftohtml version
+2.7.2 --></head><body>
+<h1>L-Edit MAC 5b4.1 feedback and bugs</h1>
+<p>
+Chris Levey,  Thayer School of Engineering, Dartmouth College
+<p>
+January 29, 1995
+<p>
+CROSS SECTION:    The cross section doesn't  work properly.  Most layers are
+exactly
+reverse of what they should be (e.g. poly looks  like a poly cut)!  The cross
+section is an
+extremely valuable teaching tool.   This is THE MAJOR BUG FOR US.  PLEASE FIX
+THIS ASAP.
+<p>
+COPY CELL:  when a new name is entered for the cell to be copied, the new cell
+still has 
+the old name (at least when copying from one file to another).
+<p>
+COPY CELL:  When duplicate cell exists, asked to Rename.  Responding OK always
+causes a CRASH of L-Edit (error type 1).
+<p>
+TECHNOLOGY UNITS:  Changing the unit sizes in the Technology Parameters
+ dialog box causes the Macintosh to BOMB.  E.g. start with 1IU=1 micron, then
+change to 1IU=1/10 lambda.  Mouse freezes as one exits the dialog box.
+<p>
+HIGH PERFORMANCE GRAPHICS cause a BOMB of a powerbook 165c
+<p>
+COMMAND CLICK PALLET should report e.g. "show poly" below the pallet.  It says
+nothing.
+<p>
+CONTROL CLICK doesn't add vertices to a polygon as documented.
+<p>
+ADD/EDIT:  use of control key to get "add/edit" button"--the label doesn't
+change to indicate use.
+<p>
+REDRAW:  When switching between programs on Mac, the window shade function
+ (system 7.5) will leave an empty L-Edit window.
+<p>
+L-EDIT MAC/PC TDB FILE INCOMPATABLE:  We get a format error when trying to
+read a TDB file written by the MAC on the PC student version.  THis is a
+particular
+ problem because the student version won't read any other format than TDB.
+
+PAN:  The "hand" here operates exactly opposite to the way it does in all other
+macintosh
+programs.  The convention is for the hand to drag the objects, not to move the
+window.  If 
+you want to move the window, use another icon.
+<p>
+SNAP TO GRID:  Why not implement on the mac?
+<p>
+POSTSCRIPT PRINTING:  Why not implement on the mac?  We need to get the highest
+
+possible quality output for making low resolution masks from a printer.  In
+this regard, it 
+would be great to have a "print true scale" option, or "print n* scale" (for
+photographic reduction).
+<p>
+ABORT:  IS there a way to abort a generate layers command?  There should be 
+an abort button for any command that takes more than half a minute!
+<p>
+CROSS SECTION FILES:  Opening .XST file--only works if in same directory as
+device 
+(though the dialog box recognizes files in other directories and indicates that
+they should
+open (not grey), it won't open them).
+<p>
+SUGGESTION:  When a dialog box allows the user to select a layer from the
+pallet, put
+a button around the word "layer".  Clicking the button could then inform the
+user that the pallet is live.
+<p>
+SUGGESTION:  I really got stuck trying to figure out how to copy from one file
+to 
+another.  It's not intuitive for a mac user.  WHy not do the following:
+When the copy buffer has a cell from another file, the paste command should
+bring up a 
+warning dialog box (with optional cancel) allowing the user to verify that all
+instanced 
+cells will also be copied, then do the copy.  If that's too hard for this
+version, it should at 
+least bring up an explanation of how to do a copy from one file to another.
+<p>
+SUGGESTION--ROTATE:  An arbitrary angle rotate (such as in ClarisCAD)
+would be nice.
+<p>
+SUGGESTION--DONGLE:  It would be more convenient if the dongle check
+ happened only at application startup, not also at system startup.  If I bring
+the dongle to another person's machine, we must restart the machine before
+using L-Edit.  
+That's a real pain.
+<p>
+SUGGESTION--CROSS SECTION:  It would be nice if there was a way to print
+ a cross section
+(not just a screen dump), or better, to copy it to the clipboard.  The first
+thing we wanted
+to do with L-Edit was generate cross section graphics for some undergraduate
+lab
+writeups.  We ended up doing them from scratch in ClarisCAD instead...
+<p>
+NON MANHATTAN GEOMETRY:  The lack of processing in L-Edit for any non 
+manhattan geometry is a major disappointment for us.  Circles and polygons with
+odd 
+angles can be drawn, but they can not be used to generate layers or  cross
+sections. 
+I have written a Macintosh application to generate staircase (Manhattan
+geometry)
+circles, annuli, spokes, and teeth for L-Edit, but use of these many sided
+polygons
+slows down L-Edit.
+</body></html>

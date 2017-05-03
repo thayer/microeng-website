@@ -1,0 +1,29 @@
+<PRE>
+#FLOOPS source file for simulation of wet oxidation
+#Based on "~hoyle/public_html/floops/test/oxide/oned/ox1d.wet"
+#Rob McLennan  15 Oct 1995
+
+plot.xy min = {1 0.0} max = {14400 1.6}  x.axis=Time_in_seconds y.axis=Oxide_thickness
+
+foreach temp { 1155 1050 945 } {
+    line x loc=0.0 tag=top spacing=0.02
+    line x loc=1.0 spacing=0.1 tag=bot 
+
+    region silicon xlo=top xhi=bot 
+
+    init  
+
+    #plot the oxide thickness as a function of time
+    point.xy x = 0.0 y = 0.0 name = Thick$temp move
+    diffuse temp= $temp wet quiet time=240 movie = {
+	set bot [interface oxide /silicon]
+	set top [interface oxide /gas]
+	set thick [expr $bot - $top]
+	point.xy x = $time y = $thick name = Thick$temp
+    }
+}
+</PRE>
+<hr>
+<A HREF="lab_main.html">Back to main lab page</A><P><P>
+<i>November 20, 1995</i>
+

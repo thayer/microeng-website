@@ -1,0 +1,9 @@
+4/5/96 w/ Max Chernuschenko
+design LEDIT (100 micron TC lines) to eps to Pretech Color positive film.
+(original had disk locator bars--where did they go on lino film?)
+Mask: 8s exp, 30s dev, 2s blanket, 15s dev.
+Sapphire:1000A Ni by ebeam.  RT substrate.  1A/s.   2x10-6torr base, 9x10-6 dep.
+Shipley1813PR, 5min hotplate softbake 120C.
+6s expose, 60s develop, 60s rinse, 8min hardbake hotplate 120C
+11s etch metal etch 3:3:1:1 (7 sec clear)
+

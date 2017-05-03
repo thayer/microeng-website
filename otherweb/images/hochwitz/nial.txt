@@ -1,0 +1,7 @@
+Images from scans of an alloy of nickel and aluminum.  The alloy has been
+doped with boron for analysis with TEM.  The vdW signal indicates a surface
+with very little relief other than a small crack in the top right corner.
+In comparison to an SEM scan, the EPD images clearly show the grains of the
+alloy.  The dark spots imaged are the boron impurities. Similar variations
+in WFD due to grain orientation have been imaged with copper, nickel, and
+poly-silicon.

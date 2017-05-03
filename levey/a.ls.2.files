@@ -1,0 +1,2 @@
+done all files in ssml.  to do: subdir.
+ ls | awk '{print $1 " >/tmp/hold/"$1}' | grep html | sed "s/^/sed -f sed1 /" > doit

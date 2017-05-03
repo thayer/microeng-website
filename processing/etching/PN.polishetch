@@ -1,0 +1,245 @@
+From cgl@coos.dartmouth.edu Thu Mar 30 16:02:14 1995
+Received: from coos.dartmouth.edu by northstar.dartmouth.edu (8.6.8.1/4.2)
+	id QAA21889; Thu, 30 Mar 1995 16:02:08 -0500
+Received: by coos.dartmouth.edu (5.65/DEC-Ultrix/4.3)
+	id AA13549; Thu, 30 Mar 1995 16:02:02 -0500
+From: cgl@coos.dartmouth.edu (Christopher G. Levey)
+Message-Id: <9503302102.AA13549@coos.dartmouth.edu>
+Subject: no subject (file transmission)
+To: sslab@northstar.dartmouth.edu
+Date: Thu, 30 Mar 1995 16:02:01 -0500 (EST)
+Reply-To: c.levey@Dartmouth.EDU
+X-Mailer: ELM [version 2.4 PL23beta2]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 8204      
+Status: RO
+
+>From Chia-Lun.Tsai@dartvax.dartmouth.edu  Wed Mar 29 17:20:07 1995
+Received: from blitzen.Dartmouth.EDU (blitzen.dartmouth.edu [129.170.208.5]) by dartvax.dartmouth.edu (8.6.11-DND/8.6.9) with SMTP id RAA11706 for <cgl@coos.dartmouth.edu>; Wed, 29 Mar 1995 17:20:06 -0500
+Message-Id: <14594401@blitzen.Dartmouth.EDU>
+Date: 29 Mar 95 17:20:00 EST
+From: Chia-Lun.Tsai@Dartmouth.EDU (Chia-Lun Tsai)
+Subject: Silicon polishing infos
+To: Albert.K.Henning@Dartmouth.EDU (Albert K. Henning), cgl@coos.dartmouth.edu
+Status: OR
+
+   Enclosed a file with some collections about silicon polishing  discussion
+that I collected through the  sci.engr.semicondutors newsgroup.  
+Regards,
+chia-lun
+
+Path:
+dartvax.dartmouth.edu!news.bu.edu!news3.near.net!news2.near.net!news.mathworks.c
+om!udel!news.sprintlink.net!howland.reston.ans.net!math.ohio-state.edu!jussieu.f
+r!univ-lyon1.fr!swidir.switch.ch!scsing.switch.ch!news.rccn.net!master.di.fc.ul.
+pt!semicon.cc.fc.ul.pt!fserra
+From: fserra@skull.cc.fc.ul.pt (Jo$E3o Serra)
+Newsgroups: sci.engr.semiconductors
+Subject: Silicon polishing
+Date: Thu, 23 Mar 1995 17:00:33
+Organization: Dep Fisica-FCUL
+Lines: 10
+Distribution: world
+Message-ID: <fserra.1.001102DE@skull.cc.fc.ul.pt>
+NNTP-Posting-Host: semicon.cc.fc.ul.pt
+X-Newsreader: Trumpet for Windows [Version 1.0 Rev A]
+
+We are facing a problem when we try to polish a silicon wafer using a 
+solution of HF:HNO3:CH3COOH. After the polish we rinse the wafer in DI water. 
+Sometimes it happens that the wafer gets a sort of opaque layer that we don't 
+manage to remove.
+Does anyone know what might be the problem?
+Thanks in advance
+
+J.M.Serra
+fserra@skull.cc.fc.ul.pt
+
+
+==========================================================================
+
+Path:
+dartvax.dartmouth.edu!news.bu.edu!news3.near.net!noc.near.net!paperboy.wellfleet
+.com!news-feed-1.peachnet.edu!usenet.eel.ufl.edu!news.mathworks.com!uunet!in1.uu
+.net!fdn.fr!jussieu.fr!univ-lyon1.fr!news
+From: lpm@insa.insa-lyon.fr (LPM)
+Newsgroups: sci.engr.semiconductors
+Subject: Re: Silicon polishing
+Date: 24 Mar 1995 10:35:04 GMT
+Organization: laboratoire de physique de la matiere, INSA-LYON.
+Lines: 22
+Distribution: world
+Message-ID: <3ku78o$2us@cismsun.univ-lyon1.fr>
+References: <fserra.1.001102DE@skull.cc.fc.ul.pt>
+NNTP-Posting-Host: pc502-02.insa-lyon.fr
+Mime-Version: 1.0
+X-Newsreader: WinVN 0.93.10
+
+In article <fserra.1.001102DE@skull.cc.fc.ul.pt>, fserra@skull.cc.fc.ul.pt 
+says...
+>
+>We are facing a problem when we try to polish a silicon wafer using a 
+>solution of HF:HNO3:CH3COOH. After the polish we rinse the wafer in DI 
+water. 
+>Sometimes it happens that the wafer gets a sort of opaque layer that we 
+don't 
+>manage to remove.
+>Does anyone know what might be the problem?
+>Thanks in advance
+>
+>J.M.Serra
+>fserra@skull.cc.fc.ul.pt
+>
+
+Your layer may be oxide coming from your DI water... So don't rinse your 
+wafer with DI water, use 10% HF solution, your sample must be dry after 
+removing from this solution...
+
+Bye
+
+
+==========================================================================
+
+Path:
+dartvax.dartmouth.edu!news.bu.edu!news3.near.net!news2.near.net!news.mathworks.c
+om!news.alpha.net!uwm.edu!vixen.cso.uiuc.edu!howland.reston.ans.net!newsjunkie.a
+ns.net!tmpsu003.tmpprv.allied.com!caess8.cae.aro.allied.com!venus.batc.allied.co
+m!jbmck
+From: jbmck@mec.allied.com (JB_McKitterick)
+Newsgroups: sci.engr.semiconductors
+Subject: Re: Silicon polishing
+Date: 24 Mar 1995 12:44:26 GMT
+Organization: MTC AlliedSignal Aerospace
+Lines: 21
+Distribution: world
+Message-ID: <3kuera$23d@caess8.cae.aro.allied.com>
+References: <fserra.1.001102DE@skull.cc.fc.ul.pt>
+Reply-To: jbmck@mec.allied.com
+NNTP-Posting-Host: venus.cae.aro.allied.com
+
+In article 001102DE@skull.cc.fc.ul.pt, fserra@skull.cc.fc.ul.pt (Jo$E3o Serra)
+writes:
+> We are facing a problem when we try to polish a silicon wafer using a 
+> solution of HF:HNO3:CH3COOH. After the polish we rinse the wafer in DI water. 
+> Sometimes it happens that the wafer gets a sort of opaque layer that we don't 
+> manage to remove.
+> Does anyone know what might be the problem?
+> Thanks in advance
+> 
+
+Probably a sub-oxide of silicon. Is it reddish or brownish? It can be removed
+by fully oxidizing it and then etching it with HF. The oxidation can be done
+chemically or thermally.
+
+
+John McKitterick                         jbmck@batc.allied.com
+AlliedSignal Microelectronics and Technology Center
+Columbia, MD                             (410) 964-4068
+
+
+
+
+
+
+
+==========================================================================
+
+Path:
+dartvax.dartmouth.edu!news.bu.edu!transfer.stratus.com!news.mathworks.com!news.u
+ltranet.com!news.sprintlink.net!howland.reston.ans.net!ix.netcom.com!netnews
+From: ssmw@ix.netcom.com (Gil Gruber)
+Newsgroups: sci.engr.semiconductors
+Subject: Re: Silicon polishing
+Date: 27 Mar 1995 22:40:12 GMT
+Organization: Netcom
+Lines: 44
+Distribution: world
+Message-ID: <3l7esc$31l@ixnews3.ix.netcom.com>
+References: <fserra.1.001102DE@skull.cc.fc.ul.pt>
+NNTP-Posting-Host: ix-sj13-26.ix.netcom.com
+
+In <fserra.1.001102DE@skull.cc.fc.ul.pt> fserra@skull.cc.fc.ul.pt (Jo$E3o 
+Serra) writes: 
+
+>In article titled "Silicon Polishing" fserra@skull.cc.fc.ul.pt (J. 
+Serra) wrote:
+>We are facing a problem when we try to polish a silicon wafer using a 
+>solution of HF:HNO3:CH3COOH. After the polish we rinse the wafer in DI 
+water. 
+>Sometimes it happens that the wafer gets a sort of opaque layer that we 
+don't 
+>manage to remove.
+>Does anyone know what might be the problem?
+>Thanks in advance
+>
+>J.M.Serra
+>fserra@skull.cc.fc.ul.pt
+>
+>
+The staining problem you are having is due to exposing the partially 
+etched wafers to air for too long a time.  The stain can be brownish or 
+whitish.  This can be avoided by quenching (diluting the etch before 
+exposing the wafers to air) either very quickly with water or with conc. 
+nitric acid or with acetic acid.  Nitric acid works best.  The water 
+quench must be done quickly and you must use a volume of water equal to 
+the amount of etch.  When quenching with acid, you must use about half 
+the volume of acid as you have in the etch.
+
+When you want to finish the etch, leave the wafers in the acid.  Then 
+quickly pour the quenching liquid (water or acid) into the etch.  Then 
+quickly remove the wafers and place them immediately into running d.i. 
+water.
+
+Of course, you must use all of the appropriate safety precautions when 
+working with acids, etc.
+
+If you do get a stain, it can usually be removed by boiling the wafers 
+in water.  This oxidizes the stain on the surface of the wafer.
+
+ssmw@ix.netcom.com  Gil Gruber
+Solid State Measurements, Inc.
+San Jose, CA (408) 578-2035
+
+
+
+
+==========================================================================
+
+Path:
+dartvax.dartmouth.edu!news.bu.edu!transfer.stratus.com!news.mathworks.com!uunet!
+news.sprintlink.net!howland.reston.ans.net!vixen.cso.uiuc.edu!uwm.edu!lll-winken
+.llnl.gov!fnnews.fnal.gov!unixhub!news.Stanford.EDU!not-for-mail
+From: kuehne@leland.Stanford.EDU (Stephen Kuehne)
+Newsgroups: sci.engr.semiconductors
+Subject: Re: Silicon polishing
+Date: 28 Mar 1995 16:37:19 -0800
+Organization: Stanford University, CA 94305, USA
+Lines: 21
+Message-ID: <3laa40$leu@elaine46.Stanford.EDU>
+References: <fserra.1.001102DE@skull.cc.fc.ul.pt>
+NNTP-Posting-Host: elaine46.stanford.edu
+
+In article <fserra.1.001102DE@skull.cc.fc.ul.pt>,
+Jo$E3o Serra <fserra@skull.cc.fc.ul.pt> wrote:
+>We are facing a problem when we try to polish a silicon wafer using a 
+>solution of HF:HNO3:CH3COOH. After the polish we rinse the wafer in DI water. 
+>Sometimes it happens that the wafer gets a sort of opaque layer that we don't 
+>manage to remove.
+>Does anyone know what might be the problem?
+>Thanks in advance
+>
+>J.M.Serra
+>fserra@skull.cc.fc.ul.pt
+
+A thesis I read part of (forgot whose, but I might be able to find out)
+used the HNA etch to remove p+ Si.  They reported a brown stain after
+the etch, which they attributed to the presence of porous silicon.  To
+remove the stain, they used 97:3 HNO3:HF (this is a Si etch) for 15 seconds.
+FWIW, if your stain is, in fact, porous Si, the oxidation methods others
+have mentioned should also work.
+
+Good luck,
+steve k
+
+

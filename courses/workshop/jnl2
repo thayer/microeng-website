@@ -1,0 +1,193 @@
+From cgl@coos.dartmouth.edu Wed Jul 12 12:17:36 1995
+Received: from coos.dartmouth.edu by northstar.dartmouth.edu (8.6.8.1/4.2)
+	id MAA06754; Wed, 12 Jul 1995 12:17:33 -0400
+Received: by coos.dartmouth.edu (5.65/DEC-Ultrix/4.3)
+	id AA25320; Wed, 12 Jul 1995 12:17:32 -0400
+From: cgl@coos.dartmouth.edu (Christopher G. Levey)
+Message-Id: <9507121617.AA25320@coos.dartmouth.edu>
+Subject: journal club (fwd)
+To: cgl@northstar.dartmouth.edu
+Date: Wed, 12 Jul 1995 12:17:32 -0400 (EDT)
+Reply-To: c.levey@Dartmouth.EDU
+X-Mailer: ELM [version 2.4 PL23beta2]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 655       
+Status: O
+
+Forwarded message:
+>From Weldon.Cordell.Knighton@dartvax.dartmouth.edu  Tue Jul 11 11:44:47 1995
+Message-Id: <8718343@cupid.Dartmouth.EDU>
+Date: 11 Jul 95 11:44:48 EDT
+From: Weldon.Cordell.Knighton@Dartmouth.EDU (Weldon Cordell Knighton)
+Subject: journal club
+To: cgl@coos.dartmouth.edu (Christopher Levey)
+
+   Simone and I did the same artcle so she did the write up for both of us.  If
+this is a problem, let me know. The July 7 journal club is the one I am
+referring to in this letter.
+
+
+-- 
+--Chris Levey
+  Solid State Microengineering Lab
+  Thayer School, Dartmouth College
+  email: chris.levey@Dartmouth.EDU
+  http://hypatia.dartmouth.edu/levey.html
+
+From cgl@coos.dartmouth.edu Wed Jul 12 12:16:48 1995
+Received: from coos.dartmouth.edu by northstar.dartmouth.edu (8.6.8.1/4.2)
+	id MAA06745; Wed, 12 Jul 1995 12:16:44 -0400
+Received: by coos.dartmouth.edu (5.65/DEC-Ultrix/4.3)
+	id AA25209; Wed, 12 Jul 1995 12:16:43 -0400
+From: cgl@coos.dartmouth.edu (Christopher G. Levey)
+Message-Id: <9507121616.AA25209@coos.dartmouth.edu>
+Subject: Re: Friday Journal Club (fwd)
+To: cgl@northstar.dartmouth.edu
+Date: Wed, 12 Jul 1995 12:16:43 -0400 (EDT)
+Reply-To: c.levey@Dartmouth.EDU
+X-Mailer: ELM [version 2.4 PL23beta2]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 1704      
+Status: O
+
+Forwarded message:
+>From Nicholas.C.Fuller@dartvax.dartmouth.edu  Tue Jul 11 14:20:58 1995
+Message-Id: <6488279@schlitzen.Dartmouth.EDU>
+Date: 11 Jul 95 14:20:55 EDT
+From: Nicholas.C.Fuller@Dartmouth.EDU (Nicholas C. Fuller)
+Subject: Re: Friday Journal Club
+To: cgl@coos.dartmouth.edu (Christopher Levey)
+
+My most recent article came from the International Journal of Radiation,
+Oncology, Biology, and Physics entitled "Evaluation of an ingestible telemetric
+temperature sensor for deep hyperthermia applications".  This article discussed
+the use of a temperature sensitive quartz crystal to monitor temperatures in
+regions of the body where heat is being applied to treat tumors.  The device
+known as a radio pill is 2cm in length and icm in diameter and as such is
+unable to treat areas where it would have to pass through the blood stream. The
+functioning of the device can be deduced from its nomenclature.  The device
+contains a temperature sensitive crystal which is coupled to an inductor.  This
+circuit, powered by a siver oxide battery, functions like a L.R.C. circuit
+producing radio waves as it oscillates.  The output signal is detected by a
+receiver outside of the body.  Several factors, such as, elctrmagnetic
+interference, ionizing radiation doses were studied to test the efficiency of
+the crystal.  Future work for the device would be centered around the
+decreasing the size of the device and on improving the accuracy of its results
+which, up to that time, fell below theH.P.C.'s alllowed experimental error
+0.2%.
+Nick
+
+
+-- 
+--Chris Levey
+  Solid State Microengineering Lab
+  Thayer School, Dartmouth College
+  email: chris.levey@Dartmouth.EDU
+  http://hypatia.dartmouth.edu/levey.html
+
+From cgl@coos.dartmouth.edu Wed Jul 12 12:16:26 1995
+Received: from coos.dartmouth.edu by northstar.dartmouth.edu (8.6.8.1/4.2)
+	id MAA06740; Wed, 12 Jul 1995 12:16:24 -0400
+Received: by coos.dartmouth.edu (5.65/DEC-Ultrix/4.3)
+	id AA25170; Wed, 12 Jul 1995 12:16:23 -0400
+From: cgl@coos.dartmouth.edu (Christopher G. Levey)
+Message-Id: <9507121616.AA25170@coos.dartmouth.edu>
+Subject: Re: Friday Journal Club (fwd)
+To: cgl@northstar.dartmouth.edu
+Date: Wed, 12 Jul 1995 12:16:22 -0400 (EDT)
+Reply-To: c.levey@Dartmouth.EDU
+X-Mailer: ELM [version 2.4 PL23beta2]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 1145      
+Status: O
+
+Forwarded message:
+>From Zahid.Maqsud@dartvax.dartmouth.edu  Tue Jul 11 14:45:17 1995
+Message-Id: <2209406@prancer.Dartmouth.EDU>
+Date: 11 Jul 95 14:45:15 EDT
+From: Zahid.Maqsud@Dartmouth.EDU (Zahid Maqsud)
+Subject: Re: Friday Journal Club
+To: cgl@coos.dartmouth.edu (Christopher Levey)
+
+Dr. Levey:
+
+	On June 30 I had discussed the following paper: Flexible, Dry-Released
+Process for Aluminum Electrostatic Actuators by Christopher W. Storment, David
+A. Borkholder, Victor Westerlind, John W. Suh, Nadim I. Maluf, Gregory T. A.
+Kovacs. It appeared in the Journal of Microelectromechanical Systems, Vol 3,
+No. 3, September 1994.
+
+	On July 7 I had discussed the following paper: A Computer-Aided Design
+System for Microelectromechanical Systems (MEMCAD) by Stephen D. Senturia,
+Robert M. Harris, Brian P. Johnson, Songmin Kim, Kieth Nabors, Matthew A.
+Shulman, Jacob K. White. It appeared in the Journal of Microelectromechanical
+Systems, Vol 1, No. 1, March 1992.
+
+Zahid Maqsud  
+
+
+-- 
+--Chris Levey
+  Solid State Microengineering Lab
+  Thayer School, Dartmouth College
+  email: chris.levey@Dartmouth.EDU
+  http://hypatia.dartmouth.edu/levey.html
+
+From cgl@coos.dartmouth.edu Wed Jul 12 12:16:05 1995
+Received: from coos.dartmouth.edu by northstar.dartmouth.edu (8.6.8.1/4.2)
+	id MAA06735; Wed, 12 Jul 1995 12:16:02 -0400
+Received: by coos.dartmouth.edu (5.65/DEC-Ultrix/4.3)
+	id AA25137; Wed, 12 Jul 1995 12:15:58 -0400
+From: cgl@coos.dartmouth.edu (Christopher G. Levey)
+Message-Id: <9507121615.AA25137@coos.dartmouth.edu>
+Subject: Re: jnl club (fwd)
+To: cgl@northstar.dartmouth.edu
+Date: Wed, 12 Jul 1995 12:15:55 -0400 (EDT)
+Reply-To: c.levey@Dartmouth.EDU
+X-Mailer: ELM [version 2.4 PL23beta2]
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 1171      
+Status: O
+
+Forwarded message:
+>From Carla.N.Shelton@dartvax.dartmouth.edu  Wed Jul 12 10:44:53 1995
+Message-Id: <8731710@cupid.Dartmouth.EDU>
+Date: 12 Jul 95 10:44:52 EDT
+From: Carla.N.Shelton@Dartmouth.EDU (Carla N. Shelton)
+Subject: Re: jnl club
+To: cgl@coos.dartmouth.edu (Christopher Levey)
+
+  Title: Metallic Microstructures  Fabricated Using Photosensitive Polyimide
+Electroplating molds
+
+	Authors:  A. Bruno Frazier and Mark G. Allen, member, IEEE
+
+	Source:  Journal of Microelectromechanical systems, Vol 2, No 2, June
+1993
+
+	Comments:  This article discusses the use of photosensitive polyimide
+electroplating molds in the fabrication of metallic microstructures (eg.
+microactuators or micromotors)
+
+	This article outlines the basic process which illuminates the
+advantages of using Photosensitve polyimide electroplaing molds in comparison
+with the LIGA process.  I chose this particular article because it outlines a
+process  similar to the one we are using in our exploration of micromachine
+technology.
+
+
+-- 
+--Chris Levey
+  Solid State Microengineering Lab
+  Thayer School, Dartmouth College
+  email: chris.levey@Dartmouth.EDU
+  http://hypatia.dartmouth.edu/levey.html
+

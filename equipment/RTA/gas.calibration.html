@@ -1,0 +1,19 @@
+<html>
+<title>Gas Flow Calculation</title>
+<center><h1>Gas Flow Calculation</h1></center>
+Flowmeters are calibrated for a specific gas (e.g. nitrogen
+for the RTA).  To calculate the flow rate of another gas,
+multiply the reading by the ratio of the conversion factor or the
+desired gas to the conversion factor for the calibration gas.
+For example on the RTA (calibrated for nitrogen), if the indication 
+is 200 ml/min and the gas is Argon, the actual flow rate is 
+200 * 1.443=288 ml/min.
+<pre>
+GAS         FACTOR
+Nitrogen    1.00
+Oxygen      .996
+Argon       1.443
+Air         1.00
+Helium      1.454
+Water Vapor 0.817
+</pre>

@@ -1,0 +1,52 @@
+<html><head>
+<title>Unix L-Edit GIF screen capture</title>
+<link rev="made" href="mail to:Christopher.Levey@dartmouth.edu">
+</head>
+<body>
+<p><center><h1>Grabbing a GIF image from L-EDIT/UNIX</h1><p> </center>
+<ol>
+<li>
+Run L-Edit as usual and setup the display you want (including cross-sections).
+<li>
+In an xterm window on your LOCAL machine, type
+<pre>xv &</pre>
+<li>
+Move the resulting window so it is not entirely overlapping the L-Edit
+window (drag with the right mouse button). 
+<li>
+Bring your ledit window to the front (use the left mouse button in its
+title bar), then move the cursor over part of the
+xv window and type control-g (for "grab image").  
+<li>
+Now move the cursor back to the ledit window
+and press the center button (to capture the entire ledit window) or
+press and drag the left button (to capture a portion of the ledit
+window).  A beep/double-beep indicates the capture.
+<li>
+Return the cursor to the xv window and type <i>control-s</i> (hold down the 
+control key and type s, for "save file").
+A dialog box will come up.  Make sure GIF and FUll Color are selected.
+Type a file name for your stored image.
+and return (or click OK).
+<li>
+Other notes:
+<ul>
+<li>
+You can use the center mouse button in the title bar of the xv window
+to quit xv.
+<li>
+You can check your image at any time by typing
+<pre>xv myfilename &</pre>
+<li>
+You can also crop the image or edit colors in xv by pressing the right mouse
+button to bring up the xv controls dialog box.
+<li>
+You can zoom out by factors of two by holding down the <i>control</i> key while
+pressing the left mouse; use <ctrl> right button to zoom out.
+</ul>
+</ol>
+
+<hr> <p>
+<a href="mailto:Christopher.G.Levey@dartmouth.edu"><ADDRESS>Christopher.G.Levey@
+dartmouth.edu</ADDRESS></a>
+</body></html>

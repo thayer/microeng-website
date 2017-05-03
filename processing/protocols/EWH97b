@@ -1,0 +1,29 @@
+
+e-beam litho test for resolution target.
+Plan--gate ebeam in a scan to create lines with sharp edges.
+May try heavy bake and then flow Rhodamine in grooves.
+Also do Ti/Au (or alumina?) liftoff to create grooves.
+
+Substrates:
+#1 1/2 cover slips, uncoated
+ITO glass from Lashmore 
+   measures about 40 ohms over a square
+Ti/Au coated thin (.0075") slide (glass:Harvard, coating:Symma)
+   measures about 20  ohms over a square
+Note: #1 cover slip measures .005", #1 1/2 cover slip measures .0065"
+
+Clean as in EWH97a and spin on 6%PMMA at 4000 RPM.
+bake at 170C 30 minutes.
+
+
+EXPOSURE:  found .10nA best (.05 was clearly undrexposed).
+DEVELOP: 60s in 1:3, 30s in 1:5 (MIBK) as in 93-2p.56.
+(should call and find out if stock developer is already diluted).
+
+Another test specimin--spin on PMMA/R6G and test resistance to
+HF etch (5% in NH4F).  Find that HF hardens the PMMA so it will not come off
+in chlorobenzene or methylene chloride.  Really tough.  Can feel
+increased friction in area with PMMA vs glass.  MIcrostrip at 35C
+nor ACT at RT will take it off either.  Try HF in DI as well; it
+SEEMS OK.  May be that the NH4F is hardening the PMMA?
+

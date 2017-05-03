@@ -1,0 +1,30 @@
+###_webmagic-version: 1
+###_webmagic-format: netsite
+###_webmagic-date: (839279898) Mon Aug  5 17:18:18 1996
+###_webmagic-document: Thayer School of Engineering
+###_webmagic-image: thayermap.jpeg
+
+#
+rect http://www.dartmouth.edu/ 24,211 258,227
+
+#
+rect thayer.html#questions 24,191 255,207
+
+#
+rect thayer.html#groups 24,173 256,190
+
+#
+rect thayer.html#admissions 24,155 255,171
+
+#
+rect thayer.html#academics 23,136 254,152
+
+#
+rect thayer.html#people 22,120 250,135
+
+#
+rect thayer.html#thayer 23,103 254,118
+
+#
+rect thayer.html#events 23,80 251,101
+

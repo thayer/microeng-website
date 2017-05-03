@@ -1,0 +1,6 @@
+The line plot is from the EPD signal of scans made of bipolar structures.
+The two lower figures show cross-sections of the doping profiles for the
+(G)ood and (F)ailing devices.  Both devices were fabricated on p-type
+silicon.  The n-well and outermost n+ implants common to both structures
+are clearly seen.  The inner profiles differ due to the missing p-well
+and p+ implants from the failing device.

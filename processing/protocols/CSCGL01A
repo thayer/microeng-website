@@ -1,0 +1,67 @@
+1/11/01 binary optical elements.  See also CS96a.
+
+Using 1/26/96 mask
+Chris S. suggested design as before, or for 633nm; text 
+printed on mask says 250 and 500nm deep.  Last time we did
+about 600 and 300nm; that's close to 633 and 316nm.  We'll
+aim to repeat 600 and 300nm.
+
+Substrate is E610250, 25.4mm diam, 6.35mm 10' parallelism, 1/4 lambda flat
+window from Esco 800-922-3726.
+
+Mask aligner:  remove wafer chuck, slide out the tray, place
+spinner chuck on bottom.  Then substrate just fits under mask.
+Use contact lever (not sep'n lever) to adjust height for alignment.
+Align first level by focusing just below mask onto wafer and lining up
+the mask rings around the central one with the edge of the substrate.
+Align second level only on the central ring; can see all at once.
+
+
+#1 blow off, spin PR, bake 15 min 120C, expose 4.5s, develop/rinse/dry 
+60/30/30s.   
+#2,3 same but clean in acetone and also use HMDS, and use 5.5s exposure,
+and 10 minute bakes.
+
+Etch 3 minutes, use microswab w/ ACT to take off resist near the edge,
+alpha-step; need 15 s more to get 640 reading (601nm real since alpha
+step reads 6% high).  Etch 15s more and indeed get 640nm (coarse features).  
+Similarly, find 1min 15 sec plus 17 seconds for 320nm second etch.
+
+Find some foggy film on etched surface, not completely removed by ACT.
+A light wipe takes it off. Not sure what it was.
+
+NOTE:  some troubles with photoresist left in exposed regions; is HMDS
+contributing to this problem?
+
+1/18/01
+1-2 3 min, 3-5 5 min acetone ultrasound
+PR1813 (no HMDS). 10 min bakes.
+5.5s exposures.
+mask w/ print on right as in holder.
+Use pattern 4th from R.
+align vertical just inside of 2nd ring,
+horiz about half between two outer rings.
+#1 and #2 etched for three minutes.  #4,5 done final baking, but still need to
+be etched.  The mask is cleaned.  #5 still needs to be exposed.
+
+
+1/25/01 status
+All 5 are etched first pattern.  some yet need the up indicator scratched
+on the side.
+#1good 
+#2 only 4500 angstroms.  weird one--lost the photoresist apparently before done.
+#3 good 6200A
+#4 good 6350A
+#5 good 6000A+15s etch unmeasured.
+#8 etch good and 2nd level litho good, ready for 2nd etch.
+
+#1-5 all aligned and printed second level (finer lines).  All cleaned backside
+by swabing with ACT and rinsing.
+
+
+#6(previously in slot 8 just to keep it separate)  was printed at earlier date. 
+5.5s exposure.  note, #1 spun off before PR spun on...,#2 spun off during
+development...both cleaned with acetone and  redone (possible additional
+contamination).
+#2--when spun with developer, the speed settings were set for the photoresist,
+most likely (not developer).  hope that's okay

@@ -1,0 +1,7 @@
+Images from scans of aluminum lines on a silicon substrate.  The metal lines
+are imaged in the vdW signals, indicating that they are physically present
+on the substrate.  In the first EPD image, only one of the lines is detected,
+an indication that the metal lines are contaminated or covered by oxide.
+Higher resolution scans at the ends of the metal lines indicate that some
+vias are missing, and show gaps in the lines.  These have been attributed
+to the effects of electromigration.

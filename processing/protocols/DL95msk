@@ -1,0 +1,14 @@
+11/95
+FIRST MASK (for Ni only):
+8s exposure, 30s develope, 60s rinse
+2s blanket exposure, 15s develop, 60s rinse
+112s etch (without a bake first) in CR7, strip in ACT
+looks good; many less defects in light field region
+than w/o blanket exposure.
+
+SECOND MASK:
+8s exposure, 30s develop, 60s rinse
+2s blanket exposure (dial at min), 15s develop, 60s rinse
+20 min @120C bake
+112s etch in CR7, strip in ACT
+looks equally good.
