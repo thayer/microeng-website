@@ -3,18 +3,18 @@
 <HEAD>
 <TITLE>Active Micromechanical Elements</TITLE>
 </HEAD>
-<BODY>
+<body><div class="editable">
 <H1>4.  Active Micromechanical Elements</H1>
-<P>This chapter describes the various active micromechanical elements 
-available in the Parameterized Micromechanical Element library. In most 
+<P>This chapter describes the various active micromechanical elements
+available in the Parameterized Micromechanical Element library. In most
 cases, there are two versions of the element which are similar except
 for  the structural layer used. Elements using the first structural
 layer are  designated by a 1 in the name of the element, while those on
 the second  structural layer are designated with a 2 in the name. For
-example, 
+example,
 <B>lcomb1</B> designates a linear comb drive on structural layer 1
-while 
-<B>lcomb2</B> generates a linear comb drive on structural layer 2. The 
+while
+<B>lcomb2</B> generates a linear comb drive on structural layer 2. The
 geometrical parameters passed to the generators are in the following
 units:  µm for length dimensions and degrees for angles. For other
 design  parameters, the units used are specified in the description of
@@ -32,14 +32,14 @@ PME  library:</P>
 rcombu2, rcombu1a, rcombu2a
 </LI>
 <LI>Rotary Side Drives - rsdm1, rsdm2
-</LI> 
+</LI>
 </UL>
 <P>The element calling sequence for each generator shows the sequence
 and  data type of arguments required by the element. Variable and
 function data  types shown in bold letters are for information purposes
 and should be kept  in mind if the library functions are called directly
 from a C program. They  do not have to be explicity included in the
-input file under normal usage by  the average user.</P> 
+input file under normal usage by  the average user.</P>
 <HR>
 <H2>Table of Contents</H2>
 <UL>
@@ -65,7 +65,7 @@ rcombd1, rcombd2</B></A>
 <LI><A HREF="#4.8"><B>4.8   Rotary Side Drive Elements: rsdm1, rsdm2</B></A>
 </LI>
 </UL>
-<HR> 
+<HR>
 <H2><A NAME="4.1">4.1   Harmonic Side Drive Elements: hsdm1, hsdm2</A></H2>
 <P>The <B>hsdm1</B> and <B>hsdm2</B> routines generate the harmonic
 side  drive actuator on structural layer 1 and structural layer 2,
@@ -79,9 +79,9 @@ generator in the order  specified:</P>
   rso:     stator outer radius, µm
   phisp:   stator pole angle, degrees
   phisg:   angular gap between stator poles, degrees
-  name:    name of cell. 
+  name:    name of cell.
 </PRE>
-<P>The relation between the geometry of the structural layer and the 
+<P>The relation between the geometry of the structural layer and the
 element parameters is illustrated in the accompanying figure. The
 actuator  is generated with its local origin at the center of the
 stator. A central  bearing has to be added to complete the harmonic or
@@ -89,15 +89,15 @@ wobble motor. All  lengths are specified in microns and angles in
 degrees.</P>
 <P>Element calling sequence:</P>
 <PRE>
-PME hsdm1(double rri, double rro, double rwidth, double rsi, 
+PME hsdm1(double rri, double rro, double rwidth, double rsi,
           double rso, double phisp, double phisg, char *name)
 PME hsdm2(double rri, double rro, double rwidth, double rsi,
           double rso, double phisp, double phisg, char *name)
 </PRE>
 <P><A HREF="c7.fig.1.gif"><IMG SRC="c7.fig.1.gif"></A></P>
-<P><B>Figure 7.</B>  Parameters used to call the harmonic side drive 
+<P><B>Figure 7.</B>  Parameters used to call the harmonic side drive
 generators <B>hsdm1</B> and <B>hsdm2</B>. The origin of the element is
-at  the center of the stator and is shown marked with cross hairs.</P> 
+at  the center of the stator and is shown marked with cross hairs.</P>
 <H2><A NAME="4.2">4.2 Linear Comb Drive Elements: lcomb1, lcomb2</A></H2>
 <P>The <B>lcomb1</B> and <B>lcomb2</B> elements generate linear comb
 drives  on structural layer 1 and structural layer 2, respectively. The
@@ -113,8 +113,8 @@ order specified:</P>
   rsoverlap: stator-rotor finger overlap, µm
   name:      layout cell name
 </PRE>
-<P>The relation between the geometry of the structural layer and the 
-element parameters is illustrated in the figure below. The comb is 
+<P>The relation between the geometry of the structural layer and the
+element parameters is illustrated in the figure below. The comb is
 generated with its local origin at the center of the rotor yoke.</P>
 <P>Element calling sequence:</P>
 <PRE>
@@ -126,10 +126,10 @@ PME lcomb2(double arwidth, double rywidth, double sywidth,
            double rsoverlap, char *name)
 </PRE>
 <P><A HREF="c7.fig.2.gif"><IMG SRC="c7.fig.2.gif"></A></P>
-<P><B>Figure 8.</B>  Definition of geometric parameters passed to the 
+<P><B>Figure 8.</B>  Definition of geometric parameters passed to the
 <B>lcomb1</B> and <B>lcomb2</B> parameterized elements. The parameters
- apply to the structural layer of the element. The cross hairs mark the 
-location of the origin of the element.</P> 
+ apply to the structural layer of the element. The cross hairs mark the
+location of the origin of the element.</P>
 <H2><A NAME="4.3">4.3   Linear Side Drive Elements: lsdm1, lsdm2</A></H2>
 <P>The <B>lsdm1</B> and <B>lsdm2</B> generators create linear side
 drive  elements on structural layer 1 and structural layer 2,
@@ -161,8 +161,8 @@ PME lsdm2(double mlength, double swidth, double spitch,
           double roffset, char *name)
 </PRE>
 <P><A HREF="c7.fig.3.gif"><IMG SRC="c7.fig.3.gif"></A></P>
-<P><B>Figure 9.</B>  Parameters used to call the <B>lsdm1</B> and 
-<B>lsdm2</B> elements.</P> 
+<P><B>Figure 9.</B>  Parameters used to call the <B>lsdm1</B> and
+<B>lsdm2</B> elements.</P>
 <H2><A NAME="4.4">4.4   Unidirectional Rotary Comb Drive Elements:
 rcombu1, rcombu2</A></H2>
 <P>The <B>rcombu1</B> and <B>rcombu2</B> elements generate
@@ -195,10 +195,10 @@ PME rcombu2(double aclength, double rri, double rsi, double rso,
             double airgap, double trsovlp, char *name)
 </PRE>
 <P><A HREF="c7.fig.4.gif"><IMG SRC="c7.fig.4.gif"></A></P>
-<P><B>Figure 10.</B>  Unidirectional comb element <B>rcombu1</B> or 
+<P><B>Figure 10.</B>  Unidirectional comb element <B>rcombu1</B> or
 <B>rcombu2</B>. The stator outer radius, rso, is adjusted automatically
  to accommodate the specified finger widths and gaps. The air gap is the
- radial distance between adjacent comb fingers.</P> 
+ radial distance between adjacent comb fingers.</P>
 <H2><A NAME="4.5">4.5   Unidirectional Rotary Comb Drive Elements:
 rcombu1a, rcombu2a</A></H2>
 <P>The <B>rcombu1a</B> and <B>rcombu2a</B> elements generate
@@ -219,7 +219,7 @@ generator:</P>
   trsovlp:   angular stator-rotor finger overlap, degrees
   name:      layout cell name
 </PRE>
-<P>The center of the circular fingers is at (xcenter, ycenter) and the 
+<P>The center of the circular fingers is at (xcenter, ycenter) and the
 rotor spoke is aligned with the x-axis.</P>
 <P>Element calling sequence:</P>
 <PRE>
@@ -234,7 +234,7 @@ PME rcombu2a(double xcenter, double ycenter, double aclength,
 </PRE>
 <P><A HREF="c7.fig.5.gif"><IMG SRC="c7.fig.5.gif"></A></P>
 <P><B>Figure 11.</B>  Parameter definition for unidirectional rotary
-comb  drive <B>rcombu1a</B> and <B>rcombu2a</B>.</P> 
+comb  drive <B>rcombu1a</B> and <B>rcombu2a</B>.</P>
 <H2><A NAME="4.6">4.6   Bidirectional Rotary Comb Drive Elements:
 rcombd1, rcombd2</A></H2>
 <P>The <B>rcombd1</B> and <B>rcombd2</B> elements generate
@@ -269,7 +269,7 @@ PME rcombd2(double aclength, double rri, double rsi, double rso,
 </PRE>
 <P><A HREF="c7.fig.6.gif"><IMG SRC="c7.fig.6.gif"></A></P>
 <P><B>Figure 12.</B>  Bidirectional rotary comb drive elements
-generates  two comb segments.</P> 
+generates  two comb segments.</P>
 <H2><A NAME="4.7">4.7   Rotary Comb Drive Elements: rcdm1, rcdm2</A></H2>
 <P>The <B>rcdm1</B> and <B>rcdm2</B> elements generate bidirectional
 rotary  comb drives with four sectors on structural layer 1 and
@@ -300,8 +300,8 @@ PME rcdm2(double rringi, double rringo, double rsi, double rso,
           double sspokew, double sspokeg, double rsovlp, char *name)
 </PRE>
 <P><A HREF="c7.fig.7.gif"><IMG SRC="c7.fig.7.gif"></A></P>
-<P><B>Figure 13.</B>  Salient features of the rotary comb drive motor 
-element with four segments.</P> 
+<P><B>Figure 13.</B>  Salient features of the rotary comb drive motor
+element with four segments.</P>
 <a name="rsdm"> </a>
 <H2><A NAME="4.8">4.8   Rotary Side Drive Elements: rsdm1, rsdm2</A></H2>
 <P>The <B>rsdm1</B> and <B>rsdm2</B> elements generate bidirectional
@@ -321,8 +321,8 @@ required:</P>
   roffset:  angular offset of rotor with repect to stator, degrees
   name:     layout cell name
 </PRE>
-<P>The origin of the cell is located at the center of the rotor ring. 
-With a roffset of zero, the first rotor tooth will be aligned with the 
+<P>The origin of the cell is located at the center of the rotor ring.
+With a roffset of zero, the first rotor tooth will be aligned with the
 first stator electrodes, i.e., the x-axis.</P>
 <P>Element calling sequence:</P>
 <PRE>
@@ -337,5 +337,5 @@ PME rsdm2(double rring, double rri, double rro, double rsi,
 <P><B>Figure 14.</B>  Salient features of the rotary side drive
 element on  the structural layer.</P>
 <P><A NAME="ENDFILE"> </A></P>
-</BODY>
+</div></body>
 </HTML>

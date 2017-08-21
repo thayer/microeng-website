@@ -50,16 +50,16 @@ function buttonDown(i) {
 <font size="+4">H</font>OME <font size="+4">P</font>AGE
 </h1>
 </center>
-<center><h4>Christopher G. Levey, 
+<center><h4>Christopher G. Levey,
 <a href="http://www.dartmouth.edu">Dartmouth College</a>,
 </center></h4>
-Director,  
-<a href="http://engineering.dartmouth.edu/microengineering"> 
+Director,
+<a href="http://engineering.dartmouth.edu/microengineering">
 Microengineering Laboratory</a>, Thayer School of Engineering
 <br>
 Director, Instructional Laboratories, Thayer School of Engineering
 <br>
-Associate Professor of 
+Associate Professor of
 <a href="http://engineering.dartmouth.edu">
 Engineering</a>,
 Adjunct Professor of <a href="http://www.dartmouth.edu/~physics/">Physics</a>
@@ -94,19 +94,19 @@ The Thayer <a href="http://engineering.dartmouth.edu/equipment">Instructional Eq
 The <a href="http://engineering.dartmouth.edu/safety">Thayer Safety</a> Page.
 <br>
 <a href="levey/hanoverx.JPG" onMouseOver="buttonDown(5)" onMouseOut="buttonUp(5)"> <img src="levey/icons/PURPLEPIN.GIF" border=0></a>
-The Upper Valley:   
-<a href="levey/hanoverx.JPG">Aerial View</a> and 
-pages for 
+The Upper Valley:
+<a href="levey/hanoverx.JPG">Aerial View</a> and
+pages for
 <a href="http://www.dartmouth.edu/">Dartmouth</a>,
 <a href="http://www.hanovernh.org/">Hanover</a>,
 <a href="http://www.visitnh.gov/maps.html">New Hampshire</a>,
 and <a href="http://www.state.vt.us/vtmap/vtmap.htm">Vermont</a>.
 <br>
 <a href="http://engineering.dartmouth.edu/~cgl/ball" onMouseOver="buttonDown(6)" onMouseOut="buttonUp(6)"> <img src="levey/icons/PURPLEPIN.GIF" border=0></a>
-Dances I lead:  
+Dances I lead:
 <a href="http://engineering.dartmouth.edu/~cgl/ball">
-Strafford Ball</a>, 
-<a href="http://engineering.dartmouth.edu/~cgl/localECD">English Country Dance</a> in Norwich VT, 
+Strafford Ball</a>,
+<a href="http://engineering.dartmouth.edu/~cgl/localECD">English Country Dance</a> in Norwich VT,
 <a href="http://engineering.dartmouth.edu/~cgl/youthmorris/gmm.html">
 Green Mountain Morris</a> (teenage boy's morris)
 <hr>
@@ -114,16 +114,16 @@ Green Mountain Morris</a> (teenage boy's morris)
 <h2>Dartmouth Courses</h2>
 <ul>
 <li>
-<a href="courses/p43/p43.html"> Physics 43</a> Statistical Physics 
+<a href="courses/p43/p43.html"> Physics 43</a> Statistical Physics
 <li>
-<a href="levey/levey.courses/p73.html"> Physics 73</a> Solid State Physics 
+<a href="levey/levey.courses/p73.html"> Physics 73</a> Solid State Physics
 <li>
 <a href="levey/levey.courses/p122.html"> Physics 122</a> Reduced Dimensionality in Solids
 <li>
-<a href="levey/levey.courses/es63.html"> ENGS 24 </a> Materials Science 
-<!-- 
+<a href="levey/levey.courses/es63.html"> ENGS 24 </a> Materials Science
+<!--
 <li>
-<a href="courses/es65/labwork.html"> ENGS 65 </a> Micromachining  
+<a href="courses/es65/labwork.html"> ENGS 65 </a> Micromachining
 -->
 <li>
 <a href="levey/levey.courses/es85.html"> ENGS 85 </a> Science and Technology of Micromachines
@@ -134,30 +134,30 @@ ENGM 189 Trends in Emerging Technologies (with Hutchinson, Gibson, Gerngross)
 <li>
 ENGS 194 Physics and Chemsitry of Semiconductor Device Fabrication
 <li>
-Summer Micromachining <a href="/courses/workshop/">Workshop</a> 
+Summer Micromachining <a href="/courses/workshop/">Workshop</a>
 </ul>
 <hr>
 <a name="microlinks"></a>
-<h2>Microfabrication, Physics, and Engineering 
+<h2>Microfabrication, Physics, and Engineering
 WWW References</h2>
 <ul>
 <li>The Solid State <a href="../microengineering">Microengineering Lab</a>:
 a cleanroom facility at Dartmouth's Thayer School of Engineering
-<li>The <a href = "http://www-mtl.mit.edu/semisubway.html">Semiconductor Subway </a> 
+<li>The <a href = "http://www-mtl.mit.edu/semisubway.html">Semiconductor Subway </a>
 , and the <a href="http://arsenio.mit.edu/MEMS_Interchange.html">MEMS line</a> for Microelectromechanical devices.
-<li>Microelectromechanical systems <a href = "http://www.memsnet.org">(MEMSnet)</a> 
+<li>Microelectromechanical systems <a href = "http://www.memsnet.org">(MEMSnet)</a>
 <!--<li>Microprobes, micromachining, and MEMS <a href="http://www.ee.surrey.ac.uk/Personal/D.Banks/index.html">Danny Banks</a> references
 -->
-<li><a href = "http://www.memsrus.com/">MEMSCAP/Cronos</a> Multi-user MEMS foundary 
+<li><a href = "http://www.memsrus.com/">MEMSCAP/Cronos</a> Multi-user MEMS foundary
 <a href="http://www.memsrus.com/cronos/svcsmumps.html">MUMPS</a>
 <li>Amateur<a href="http://www.eskimo.com/~billb/amateur/belljar.html">Vacuum Newsletter</a>
 <li><a href="http://www.iucr.org/cww-top/crystal.index.html">Crystallography Online</a>
 <!--<li><a href="http://www.unige.ch/crystal/crystal_index.html">XRD </a> crystal index
- --> 
-<li>Local Labs: <a href="http://www.fluent.com/">Fluent</a> Inc home page (Hanover NH), 
+ -->
+<li>Local Labs: <a href="http://www.fluent.com/">Fluent</a> Inc home page (Hanover NH),
 <a href="http://www.crrel.usace.army.mil/">CRREL</a>-The Army Cold Regions Lab (Hanover NH)
 <li><a href="http://xxx.lanl.gov/">Physics e-Prints</a> (preprint archive sponsored by LANL)
-<li><a href="http://www.aip.org/">AIP</a> (The American Institute of Physics);  
+<li><a href="http://www.aip.org/">AIP</a> (The American Institute of Physics);
 <a href="http://www.aps.org">APS</a> (The American Physical Society), its
 <a href="http://publish.aps.org/">publications</a>, and units(
 <a href="http://www.aps.org/units/dmp">materials physics</a>,
@@ -165,8 +165,8 @@ a cleanroom facility at Dartmouth's Thayer School of Engineering
 <a href="http://aps.org/units/SNENG/index.html"> New England Section</a>)
 <li><a href="http://www.ioppublishing.com/iopwelcome.html">IOP</a>The Institute
 of Physics (London), and their <a href="http://www.ioppublishing.com/Journals/">
-journals</a> 
-<li><a href="http://www.eeel.nist.gov/">NIST GUIDE </a> - ELECTRONICS & ELECTRICAL ENGINEERING LABORATORY 
+journals</a>
+<li><a href="http://www.eeel.nist.gov/">NIST GUIDE </a> - ELECTRONICS & ELECTRICAL ENGINEERING LABORATORY
 <li><a href="http://esc.sysplan.com/esc/index.html">ESC NAVIGATOR</a>
 inventory/search federally-funded <strong>electronics</strong> R&D programs.
 <li>
@@ -175,15 +175,15 @@ Materials Science</a>
 (<a href="http://www.succeed.ufl.edu/content/Russ%20VIMS/Vims.html">alt</a>)
 </ul>
 <p> <p>
-There are several weekly news bulletins of relevance to the <strong>physics</strong> community.  Bob Park's  <a href="http://www.aps.org/WN">What's New</a> is a spicy editorial of relevant events in Washington; Phillip Schewe's 
+There are several weekly news bulletins of relevance to the <strong>physics</strong> community.  Bob Park's  <a href="http://www.aps.org/WN">What's New</a> is a spicy editorial of relevant events in Washington; Phillip Schewe's
 <a href="http://www.aip.org/enews/latest/physnews.htm">
-Physics News Update</a> (and 
+Physics News Update</a> (and
 <a href="http://www.aip.org/physnews/update/">
-PNU back issues</a>)  is a brief review of physics research announcements; the 
-<a href="http://www.osa.org">OSA</a> publishes their own 
+PNU back issues</a>)  is a brief review of physics research announcements; the
+<a href="http://www.osa.org">OSA</a> publishes their own
 <a href="http://www.osa.org/aboutosa/policy/">Washington Watch</a>;
-the 
-<a href="http://www.aip.org/">AIP</a>'s 
+the
+<a href="http://www.aip.org/">AIP</a>'s
 frequent <a href="http://www.aip.org/enews/fyi/">
 FYI</a> news releases summarize science policy developments in Washington affecting the physics and astronomy community; and for physics educators there is the biweekly Physics Educator's News: <a href="http://www.aip.org/enews/pen/">
 PEN</a> which summarizes information on resources, national initiatives, outreach programs, grants, professional development opportunities, and publications related to physics and science education.<p>
@@ -195,17 +195,17 @@ PEN</a> which summarizes information on resources, national initiatives, outreac
 Dartmouth's
 <a href="index.html">Microengineering Lab</a>
 <br><img src="levey/icons/PURPLEPIN.GIF">
-<a href="http://www.dartmouth.edu/"> Dartmouth</a>'s  Home Page 
+<a href="http://www.dartmouth.edu/"> Dartmouth</a>'s  Home Page
 <br><img src="levey/icons/PURPLEPIN.GIF">
 Dartmouth <a href="http://engineering.dartmouth.edu">Thayer School of Engineering</a>
 <br><img src="levey/icons/PURPLEPIN.GIF">
 Dartmouth <a href="http://diglib.dartmouth.edu/eResources/home.php">eResources</a>
 <br><img src="levey/icons/PURPLEPIN.GIF">
-Dartmouth Access to online 
+Dartmouth Access to online
 <a href="http://www.dartmouth.edu/~krescook/collections/journals.shtml">
 science journals</a>
 <br><img src="levey/icons/PURPLEPIN.GIF">
-Dartmouth Engineering and Applied Sciences Literature Search 
+Dartmouth Engineering and Applied Sciences Literature Search
 <a href="http://access.isiproducts.com/Dartmouth/">Portal</a> (trial basis):
 <!--
 <form action='http://wfsa1.isiknowledge.com/webfeat.asp' method='get'
@@ -230,15 +230,15 @@ Dartmouth <a href="http://www.dartmouth.edu/~photov/">photovoltaic system</a> pa
 <img src="levey/icons/PURPLEPIN.GIF">
 <a href="http://www.valley.net/">ValleyNet</a>:  A web server for the Upper Connecticut River Valley of NH and VT.<br>
 <img src="levey/icons/PURPLEPIN.GIF">
-<a href="http://www.exploratorium.edu/imagery/exhibits.html"> Exploratorium Exhibits</a><br> 
+<a href="http://www.exploratorium.edu/imagery/exhibits.html"> Exploratorium Exhibits</a><br>
 <img src="levey/icons/PURPLEPIN.GIF">
-National Public Radio Audio: 
+National Public Radio Audio:
 <a href="http://www.realaudio.com/contentp/npr/atc.html">
-All Things Considered</a>, 
+All Things Considered</a>,
 <a href="http://www.realaudio.com/contentp/npr/me.html">
 Morning Edition</a>,
 <a href="http://www.realaudio.com/contentp/npr/totn.html">
-Talk of the Nation</a>, 
+Talk of the Nation</a>,
 <a href="http://www.realaudio.com/contentp/npr/scifri.html">
 Science Friday</a>
 <br>
@@ -259,4 +259,4 @@ to this home page since January 1995.
 <p>
 <ADDRESS><a href="mailto:Christopher.G.Levey[AT]dartmouth.edu">
 Christopher.G.Levey[AT]dartmouth.edu</a></ADDRESS>
-</body></html>
+</div></body></html>

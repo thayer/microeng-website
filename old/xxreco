@@ -4,7 +4,7 @@
 <link rev="made" href="mail to:Christopher.Levey@dartmouth.edu">
 <BASE HREF="http://engineering.dartmouth.edu/~microeng/">
 </head>
-<body>
+<body><div class="editable">
 <a name="top"></a>
 <center>
 <h1>
@@ -12,24 +12,24 @@
 <img src="icons/microengICON.GIF" ALIGN=LEFT BORDER=0></a>
 Microengineering Cleanroom Laboratory
 <br>
-<a href="http://www.dartmouth.edu"> Dartmouth</a> College 
+<a href="http://www.dartmouth.edu"> Dartmouth</a> College
 <br>
 Thayer School of <a href="http://engineering.dartmouth.edu"> Engineering</a>
-</b> 
+</b>
 <font size="3">
 <br><b>Director: <a href="http://engineering.dartmouth.edu/microengineering/levey.html"> Christopher G. Levey</a></b>
 <br>
-<b>     Founder:</b>  Albert K. Henning 
+<b>     Founder:</b>  Albert K. Henning
 </font>
-</h1> 
+</h1>
 <br clear=left>
    <a href="#top">top</a>
  | <a href="#imagemap">Lab Imagemap</a>
  | <a href="#overview">Overview</a>
  | <a href="#research">Research</a>
  | <a href="facil.html">Facilities/Equipment</a>
- | <a href="procinfo.html">Processing</a> 
- | <a href="processing/protocols">Protocols</a> 
+ | <a href="procinfo.html">Processing</a>
+ | <a href="processing/protocols">Protocols</a>
  | <a href="undergradlab.html">Course Labs</a>
  | <a href="career.html">Career Jobs</a>
  | <a href="links1.html">Related Web Sites</a>
@@ -38,7 +38,7 @@ Thayer School of <a href="http://engineering.dartmouth.edu"> Engineering</a>
 </center>
 <hr size=3 noshade>
 <ul>
-<form name=seek method=GET 
+<form name=seek method=GET
                                      action="http://search.dartmouth.edu/query.html"
    <input type=hidden name=rq value=0>
    <input type=hidden name=qp value="+url:engineering.dartmouth.edu/~microeng">
@@ -59,7 +59,7 @@ Thayer School of <a href="http://engineering.dartmouth.edu"> Engineering</a>
 <a name="imagemap"></a>
 <p>
 <A HREF="lab.map">
-<IMG SRC="labirc.GIF" ALT="Lab Floorplan imagemap" 
+<IMG SRC="labirc.GIF" ALT="Lab Floorplan imagemap"
 ISMAP align="left" hspace=10 border=0></A>
 <!--width=403 height=700 -->
 <small>
@@ -69,37 +69,37 @@ More <a href="map/labjpegs">unmapped images here</a> </h3>
 <hr>
 <a name="overview"></a>
 <h2>Overview</h2>
-The Dartmouth Solid State Microengineering Laboratory 
+The Dartmouth Solid State Microengineering Laboratory
 includes class 100 and 1000
-<a href="class100.1000.html">cleanroom</a> 
-laboratories, 
+<a href="class100.1000.html">cleanroom</a>
+laboratories,
 <a href="getting.here.html">located</a> in
-room 223</a> of  
+room 223</a> of
 Cummings Hall at the Dartmouth College
 Thayer School of <a href="http://engineering.dartmouth.edu">
 Engineering</a>
  in <a href="http://www.hanovernh.org/">Hanover</a>, NH
 03755-8000.
-Currently funded <a href=#research><strong>research</strong></a> includes applications in 
-<strong>microelectronics</strong>, 
-<strong>micromachining</strong>, 
-<strong>MEMS</strong>, and 
-<strong>binary optics</strong>.  
-<a href="summary.html"> Equipment </a> is available 
-for <a href="summary.html#photolithography">photolithography</a>;  
-<a href="summary.html#ebeam">e-beam lithography</a>; 
-<a href="summary.html#wetchem">wet chemical processing</a>; 
-<a href="summary.html#processing">film deposition and processing</a>; 
-<a href="summary.html#analysis">analysis</a>; and 
+Currently funded <a href=#research><strong>research</strong></a> includes applications in
+<strong>microelectronics</strong>,
+<strong>micromachining</strong>,
+<strong>MEMS</strong>, and
+<strong>binary optics</strong>.
+<a href="summary.html"> Equipment </a> is available
+for <a href="summary.html#photolithography">photolithography</a>;
+<a href="summary.html#ebeam">e-beam lithography</a>;
+<a href="summary.html#wetchem">wet chemical processing</a>;
+<a href="summary.html#processing">film deposition and processing</a>;
+<a href="summary.html#analysis">analysis</a>; and
 <a href="summary.html#design">design, layout, and simulation</a>.
 <p>
-The microengineering laboratory is available to qualified 
-members of the Dartmouth community, and by arrangement to other local 
-research interests.   Lab work in the cleanroom is an integral part of 
-several 
-<a href="undergradlab.html">undergraduate courses</a>.  
-Students with projects in the 
-cleanroom range from first year undergraduates to graduate students.  
+The microengineering laboratory is available to qualified
+members of the Dartmouth community, and by arrangement to other local
+research interests.   Lab work in the cleanroom is an integral part of
+several
+<a href="undergradlab.html">undergraduate courses</a>.
+Students with projects in the
+cleanroom range from first year undergraduates to graduate students.
 <p>
 <hr>
 <a name="research"></a>
@@ -113,10 +113,10 @@ Autonomous locomotion in microelectromechanical scratch drives</a>
 </ul>
 <li>Micro-fabricated magnetic components; research of <a href=" http://engineering.dartmouth.edu/thayer/faculty/charlessullivan.html"> Sullivan</a> group; <a href="http://engineering.dartmouth.edu/other/inductor/papers.shtml#uFab">publications</a>.
 <li>
-Switched thin film thermocouple arrays:   
+Switched thin film thermocouple arrays:
 <a href="publications/henning/NNF/DartmouthTCMOSFET.html">NNF fabrication</a>,
-<a href="publications/henning/thermocouple.html">publications</a> list, 
-<a href="otherweb/images/hochwitz/tftc.jpg">example image</a>, and 
+<a href="publications/henning/thermocouple.html">publications</a> list,
+<a href="otherweb/images/hochwitz/tftc.jpg">example image</a>, and
 <a href="http://www.dartmouth.edu/admin/tto/TempSensor.html">patent</a>.
 <li>
 Aberration correcting binary optics for deep scanning confocal microscopy:
@@ -125,14 +125,14 @@ figures</strong></a>
  of a recent publication (Optics Letters);
 <a href="publications/hansen.html">publications</a> list.
 <li>
-Stress engineering in <strong>micromechanical devices</strong>:  
-<a href="20HRES1.jpg">image of cantilevers</a> 
+Stress engineering in <strong>micromechanical devices</strong>:
+<a href="20HRES1.jpg">image of cantilevers</a>
 and <a href="publications/henning/stress.html">publications</a> list.
 <li><a href="courses/es65/projects/dolan/explain.html">Microfluidic</a> devices.
 <li>Movable <a href="courses/es65/projects/cell/explain.html">Biological Cell Impedance Probe</a>
-<li>Other micromechanical devices (flow and viscosity sensors, oscillators, ...) 
+<li>Other micromechanical devices (flow and viscosity sensors, oscillators, ...)
 <li>
- Atomic Force Microscopy and Scanning Kelvin Probe Microscopy:  
+ Atomic Force Microscopy and Scanning Kelvin Probe Microscopy:
 <a href="otherweb/images/hochwitz/">example images</a>
 and <a href="publications/henning/skpm.html">publications</a> list.
 <li>
@@ -161,15 +161,15 @@ Martin Wybourne</a> (Physics)
 <h3>
 <a name="processing"></a>
 <a href="procinfo.html">Processing Information</a>
- and 
+ and
 <a href="procinfo.html#safety">Safety Data</a>
 <a href="msds.LocalAccess/msds.merged">
 <IMG SRC="icons/skull.GIF" ALT="Skull&Cro
 ssbones" WIDTH=31 HEIGHT=31></a>
 </h3><h3>
-<a name="equipment"></a> 
+<a name="equipment"></a>
 <a href="facil.html">Facilities, Equipment</a>
- (including <a href="ledit/ledit.html">layout CAD</a>, 
+ (including <a href="ledit/ledit.html">layout CAD</a>,
 <a href="cad/cadence.html">Cadence tools</a>, ...)
 </h3><h3>
 <a name="labs"></a>
@@ -217,5 +217,5 @@ Christopher.G.Levey@dartmouth.edu</a>
 </ADDRESS>
 
 
-</body>
+</div></body>
 </html>

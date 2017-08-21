@@ -3,9 +3,9 @@
 <HEAD>
 <TITLE>Non-parameterized Micromechanical Element Library</TITLE>
 </HEAD>
-<BODY>
+<body><div class="editable">
 <H1>2. Non-parameterized Micromechanical Element Library</H1>
-<P>The non parameterized element library is a resource of working MEMS 
+<P>The non parameterized element library is a resource of working MEMS
 devices and structures. The intent is to provide the novice MEMS
 designer  easy access to MEMS designs without having to extract
 information from  references and reinvent the wheel. This chapter
@@ -19,7 +19,7 @@ that experienced MEMS designers will contribute  generously to the
 library as it is paramount to the success of the library.  Section 2.3
 and Section 2.4 describe some of the cells currently available  in the
 library. The programs used are written in the Practical Extraction  and
-Report Language, perl. Thus, perl must be available on the machine on 
+Report Language, perl. Thus, perl must be available on the machine on
 which the library programs are installed.</P>
 <HR>
 <H2>Table of Contents</H2>
@@ -58,21 +58,21 @@ quit
 <P>This directory also includes a file named README.DBRead that
 provides  further information about the installation procedure. To run
 the program  type <TT>DBRetrieve</TT> and the rest should be
-self-explanatory. 
+self-explanatory.
 <I>DBRetrieve</I> is written in perl and utilizes a shell forms program
- called sf. The program will query the user for the cells desired then 
+ called sf. The program will query the user for the cells desired then
 send mail to MCNC's cell library manager, which then extracts the design
  or designs and sends the layouts to the user. Designs are emailed to
 the  user in either the CIF (CalTech Intermediate Form) or GDS II mask
 format.
 </P>
-<P><I>DBRetrieve</I> prompts the user for the mask format desired and 
-browsing category. Designs may be browsed according to the process 
-technology or the device design category. It is anticipated that the 
-majority of designs will be for the MCNC MUMPs processes; however, the 
-software is designed to include other processes as well. The design 
-categories are currently test devices, motors, out-of-plane structures, 
-linear actuators, and a miscellaneous category. Once these queries have 
+<P><I>DBRetrieve</I> prompts the user for the mask format desired and
+browsing category. Designs may be browsed according to the process
+technology or the device design category. It is anticipated that the
+majority of designs will be for the MCNC MUMPs processes; however, the
+software is designed to include other processes as well. The design
+categories are currently test devices, motors, out-of-plane structures,
+linear actuators, and a miscellaneous category. Once these queries have
 been answered a sorted list will appear as shown in Figure 1.</P>
 <P></P>
 <P></P>
@@ -100,8 +100,8 @@ Cell NAME:       wobble_6_stator, (MUMPS3)
 SIZE:	Cell Width: 600 um
 Cell Height: 600 um
 DESCRIPTION:
-6 stator wobble motor with a 50 micron radius. The motor was 
-designed with the parameterized library. The dimples may need 
+6 stator wobble motor with a 50 micron radius. The motor was
+designed with the parameterized library. The dimples may need
 to be moved closer to the center.
 SUBMISSION DATE: Wed Jun 1 9:17:00 1994
 AUTHOR: Ramaswamy Mahadevan MCNC
@@ -116,7 +116,7 @@ prompts the user for  information about the designer, fabrication
 process, and design and sets up  a template file. This template file can
 then be edited and used for subsequent submissions. The program, <B><I>DBSubmit</I></B>,
 can be retrieved in the  same manner as described in Section 2.1. It is
-also located in 
+also located in
 <I>pub/MEMS/NPCaMEL</I>and the file README.DBSubmit provides
 installation  information.</P>
 <P>In order to use this program, the <B>$DB_PROC</B> variable in the
@@ -138,16 +138,16 @@ quit
 cd ..
 </PRE>
 <P>Before running the program <B><I>DBSubmit, </I></B>create a CIF or
- GDS II file with the mask layout of the design to be submitted. Do not 
-forget to include definitions of any leaf cells that are called as 
+ GDS II file with the mask layout of the design to be submitted. Do not
+forget to include definitions of any leaf cells that are called as
 instances within the main cell. <B><I>DBSubmit</I></B> is a forms
 based  script that prompts the user for a number of items including
 name, address,  cell descriptions, etc. Once the forms are filled out,
 the software will  send the information to MCNC where the cell is
 entered in the library  database and made available to domestic users. A
-file named 
+file named
 <B><I>cell_name.sbmt </I></B>is saved in the user's directory and can
-be  used for subsequent submissions by modifying the file and typing 
+be  used for subsequent submissions by modifying the file and typing
 <B>DBSubmit cell_name.sbmt</B>. An example of a submission file is
 shown  below with comments added after the pound (#) symbol.</P>
 <PRE># This is a completed template for the CaMEL DBSubmit program. To use
@@ -159,36 +159,36 @@ Replacement file: n 		# Is this replacing another design
 Designer's name: Allen Cowen	# author of the design
 Designer's affiliation: MCNC 	# author's affiliation
 Submitter's name: Allen Cowen 	# submitter of design
-Submitter's phone number: (919) 248-1424 
+Submitter's phone number: (919) 248-1424
 Submitter's email address: cowen@mcnc.org
 Submitter's address: 	# need a blank line after
-MCNC 			# the address 
+MCNC 			# the address
 PO Box 12889
 3021 Cornwallis Road
 Research Triangle Park, NC 27709-2889
 
 Design name: octagon 	# name to describe design
-Cell Width: 126.5 um 
+Cell Width: 126.5 um
 Cell Height: 126.5 um
-Design description: 	# description should be 
+Design description: 	# description should be
 This is an octagon.	# followed by a blank line
 
 Format of data: 1 	# [0-2] 0=CIF 1=GDSII 2=Tanner
-Method of transfer: 2 	# [1-3] 1=ftp from your site	
-			# 2=ftp to our site	
+Method of transfer: 2 	# [1-3] 1=ftp from your site
+			# 2=ftp to our site
 			# 3=email
-Internet path: mcnc.org	# if method of transfer=1 
+Internet path: mcnc.org	# if method of transfer=1
 File path: oct.gds 	# if method of transfer=1
-File name: oct.gds 	# if method of transfer=2 
-File name: oct.gds 	# if method of transfer=3 
+File name: oct.gds 	# if method of transfer=2
+File name: oct.gds 	# if method of transfer=3
 Process Technology: LIGA 		# Name of technology used
 Process Facility: MCNC 	# Name of processing facility
 Device Tested: y 	# Was the device tested?
 Device Performance: 	# If the device was tested
-This device did not do very well. 	# give an explanation of 
+This device did not do very well. 	# give an explanation of
 It went this fast; but it broke down very   # results followed by a blank
 quickly.                                    # line. If not, take out Device
-                                            # Performance line down to	
+                                            # Performance line down to
                                             # blank line.
 Device yield determined: y
 Device yield: 			# Similar to device performance.
@@ -199,14 +199,14 @@ electroplated nickel STREAM layer: 49
 end_of_file
 </PRE>
 <H2><A NAME="2.3">2.3  Cell Index</A></H2>
-<P>This section lists the cells currently in the database. It will be 
+<P>This section lists the cells currently in the database. It will be
 augmented as contributions are received.</P>
 <PRE><B>TABLE 1. Index of cells currently in the library.</B>
 
 ----------------------------------------------------------------------------
 Refnum	name			process categ.	author
 ----------------------------------------------------------------------------
-1	spiral			LIGA	TEST	Allen Cowen	
+1	spiral			LIGA	TEST	Allen Cowen
 2	14v 220 mA fuse		UCB2polyTEST	GK Fedder, JC Chang RT Howe
 3	wobble 6 stator		MUMPS3	MOTORS	Ramaswamy Mahadevan
 4	wobble 12 stator	MUMPS3	MOTORS	Ramaswamy Mahadevan
@@ -226,7 +226,7 @@ lines the cell number  corresponding to the designs listed above. The
 return email address is  automatically extracted from the header. For
 instance, the following would  return the 12 stator motor,</P>
 <PRE>Please send the following designs in CIF format.
-6 
+6
 </PRE>
 <H2><A NAME="2.4">2.4  Cell Descriptions</A></H2>
 <P>The following subsections show sample manual entries for the various
@@ -235,27 +235,27 @@ instance, the following would  return the 12 stator motor,</P>
 <PRE>NAME: spiral
 Cell NAME: spiral, (LIGA)
 SIZE: 	Cell Width: 107.5 um 	Cell Height: 102.5
-DESCRIPTION: This is a spiral spring with a 5 um beam width and 5 um 
+DESCRIPTION: This is a spiral spring with a 5 um beam width and 5 um
              spacing between turns.
 SUBMISSION DATE: Mon Mar 7 16:55:26 1994
 AUTHOR: Allen Cowen MCNC
 </PRE>
 <H3><A NAME="2.4.2">2.4.2  Fuse</A></H3>
 <PRE>NAME: 14v_220mA_fuse
-Cell NAME: 14v_220mA_fuse, (UCB2poly) 
+Cell NAME: 14v_220mA_fuse, (UCB2poly)
 SIZE: 	Cell Width: unknown 	Cell Height: unknown
-DESCRIPTION: This is a fuse designed to blow at ~ 14 v or ~ 220 mA pulse. 
+DESCRIPTION: This is a fuse designed to blow at ~ 14 v or ~ 220 mA pulse.
              It has 6um allowable displacement in x and no constraint in y.
 SUBMISSION DATE: Tue Mar 8 13:51:54 1994
-AUTHOR: G.K. Fedder, J.C. Chang, R.T. Howe Berkeley Sensors and Actuators 
+AUTHOR: G.K. Fedder, J.C. Chang, R.T. Howe Berkeley Sensors and Actuators
         Center
 </PRE>
 <H3><A NAME="2.4.3">2.4.3  Wobble Motor with Six Stator Electrodes</A></H3>
 <PRE>NAME: wobble_6_stator
-Cell NAME: wobble_6_stator, (MUMPS3) 
+Cell NAME: wobble_6_stator, (MUMPS3)
 SIZE: 	Cell Width: 250 um 	Cell Height: 600 um
-DESCRIPTION: 6 stator wobble motor with a 50 micron radius. The motor was 
-             designed with the parameterized library. The dimples on the 
+DESCRIPTION: 6 stator wobble motor with a 50 micron radius. The motor was
+             designed with the parameterized library. The dimples on the
              rotor could be moved closer to the center.
 SUBMISSION DATE: Wed Jun 1 9:17:00 1994
 AUTHOR: Ramaswamy Mahadevan MCNC
@@ -264,8 +264,8 @@ AUTHOR: Ramaswamy Mahadevan MCNC
 <PRE>NAME: wobble_12_stator
 Cell NAME: wobble_12_stator, (MUMPS3)
 SIZE: 	Cell Width: 250 um 	Cell Height: 600 um
-DESCRIPTION: 12 stator wobble motor with a 50 micron radius. The motor was 
-             designed with the parameterized library. The dimples on the 
+DESCRIPTION: 12 stator wobble motor with a 50 micron radius. The motor was
+             designed with the parameterized library. The dimples on the
              rotor could be moved closer to the center.
 SUBMISSION DATE: Wed Jun 1 15:45:07 1994
 AUTHOR: Ramaswamy Mahadevan MCNC
@@ -274,20 +274,20 @@ AUTHOR: Ramaswamy Mahadevan MCNC
 <PRE>NAME: simple_hinge
 Cell NAME: simple_hinge, (MUMPS3)
 SIZE: 	Cell Width: 30 	Cell Height: 33
-DESCRIPTION: This is the standard hinge that we use to rotate structures 
+DESCRIPTION: This is the standard hinge that we use to rotate structures
              out of the plane of fabrication. Hinge pin is 2um wide poly1.
 
-Yield: Device yield is probably better than 99%. Structure yield can be 
-       substantially lower (e.g. 0%) depending upon the complexity of the 
-       structure. In some cases it _is_ the hinges that actually fail, 
+Yield: Device yield is probably better than 99%. Structure yield can be
+       substantially lower (e.g. 0%) depending upon the complexity of the
+       structure. In some cases it _is_ the hinges that actually fail,
        but this is typically due to a bad structure design.
 
-Device Performance: In general the hinge performance in MUMPS3 is 
-       acceptable, with some caveats. Due to undercut of poly1, a wider 
-       hinge pin may be desirable (3 um drawn seems to work ok). The poly 1 
-       thickness is comparable to the ox1+ox2 thicknesses, leading to 
-       potential problems with the hinge pin sliding under the edges of 
-       the staple and breaking during assembly. If a bit of caution is 
+Device Performance: In general the hinge performance in MUMPS3 is
+       acceptable, with some caveats. Due to undercut of poly1, a wider
+       hinge pin may be desirable (3 um drawn seems to work ok). The poly 1
+       thickness is comparable to the ox1+ox2 thicknesses, leading to
+       potential problems with the hinge pin sliding under the edges of
+       the staple and breaking during assembly. If a bit of caution is
        used during assembly, these problems can be avoided.
 
 SUBMISSION DATE: Thu Jun 2 21:46:35 1994
@@ -297,7 +297,7 @@ AUTHOR: Kris Pister UCLA
 <PRE>NAME: 12_stator_motor
 Cell NAME: 12_stator_motor, (MUMPS3)
 SIZE: 	Cell Width: 710 um 	Cell Height: 710 um
-DESCRIPTION: This is a 12/8 stator/rotor salient pole motor with a 50 
+DESCRIPTION: This is a 12/8 stator/rotor salient pole motor with a 50
              micron rotor radius.
 Device Performance: They worked successfully with excitation under 100 volts.
 SUBMISSION DATE: Wed Jun 8 10:13:57 1994
@@ -307,9 +307,9 @@ AUTHOR: Allen Cowen MCNC
 <PRE>NAME: linear_comb
 Cell NAME: linear_comb, (MUMPS3)
 SIZE: 	Cell Width: 144 	Cell Height: 118
-DESCRIPTION: This is a linear comb drive with 8 fingers on the moveable 
-             part. It has a 4 micron finger width, a 3 micron gap, and 
-             stator-rotor finger overlap of 30 microns. It was designed 
+DESCRIPTION: This is a linear comb drive with 8 fingers on the moveable
+             part. It has a 4 micron finger width, a 3 micron gap, and
+             stator-rotor finger overlap of 30 microns. It was designed
              with the parameterized cell library.
 SUBMISSION DATE: Mon Jun 13 16:59:29 1994
 AUTHOR: Ramaswamy Mahadevan MCNC
@@ -318,9 +318,9 @@ AUTHOR: Ramaswamy Mahadevan MCNC
 <PRE>NAME: 12_stator_wobble_motor
 Cell NAME: 12_stator_wobble_motor, (MUMPS3)
 SIZE: 	Cell Width: 710 um 	Cell Height: 710 um
-DESCRIPTION: This is a 12 stator wobble motor with a 50 micron rotor 
+DESCRIPTION: This is a 12 stator wobble motor with a 50 micron rotor
              radius. The bearing has a 10 micron radius.
-Device Performance: They worked successfully with excitation under 100 
+Device Performance: They worked successfully with excitation under 100
                     volts.
 SUBMISSION DATE: Mon Jun 13 17:04:36 1994
 AUTHOR: Vijay Dhuler MCNC
@@ -329,10 +329,10 @@ AUTHOR: Vijay Dhuler MCNC
 <PRE>NAME: Guckel_rings
 Cell NAME: Guckel_rings, (MUMPS4)
 SIZE: 	Cell Width: unknown 	Cell Height: unknown
-DESCRIPTION: This is a set of Guckel rings used to measure stress in 
-             the MUMPS wafers. They were generated using the parameterized 
-             element library. They have a 20 micron ring width and 10 micron 
-             beam width. The smallest ring has a diameter of 98 microns and 
+DESCRIPTION: This is a set of Guckel rings used to measure stress in
+             the MUMPS wafers. They were generated using the parameterized
+             element library. They have a 20 micron ring width and 10 micron
+             beam width. The smallest ring has a diameter of 98 microns and
              the largest has a diameter of 718 microns.
 SUBMISSION DATE: Tue Jun 14 10:48:46 1994
 AUTHOR: Ramaswamy Mahadevan MCNC
@@ -341,7 +341,7 @@ AUTHOR: Ramaswamy Mahadevan MCNC
 <PRE>NAME: pad
 Cell NAME: pad, (MUMPS4)
 SIZE: 	Cell Width: 118 	Cell Height: 118
-DESCRIPTION: This is a pad to connect from the top metal level to both 
+DESCRIPTION: This is a pad to connect from the top metal level to both
              levels of structural poly and the lowest poly0 layer.
 SUBMISSION DATE: Mon Jun 27 9:49:24 1994
 AUTHOR: Ramaswamy Mahadevan MCNC
@@ -350,13 +350,13 @@ AUTHOR: Ramaswamy Mahadevan MCNC
 <PRE>NAME: resonant_comb_drive
 Cell NAME: resonant_comb_drive, (MUMPS4)
 SIZE: 	Cell Width: 330 	Cell Height: 316
-DESCRIPTION: This is a comb drive resonator with a folded beam suspension. 
-             There are two comb drives with 15 fingers on the rotor. The 
-             finger length is 40 um, width 3 um, air gap 3 um, and overlap 
-             is 20 um. The folded beam suspension has beams 150 microns 
+DESCRIPTION: This is a comb drive resonator with a folded beam suspension.
+             There are two comb drives with 15 fingers on the rotor. The
+             finger length is 40 um, width 3 um, air gap 3 um, and overlap
+             is 20 um. The folded beam suspension has beams 150 microns
              long and 2 microns wide.
 SUBMISSION DATE: Wed Jul 13 9:34:46 1994
 AUTHOR: Allen Cowen MCNC
-</PRE> 
-</BODY>
+</PRE>
+</div></body>
 </HTML>

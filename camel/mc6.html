@@ -3,18 +3,18 @@
 <HEAD>
 <TITLE>Parameterized Micromechanical Element Library</TITLE>
 </HEAD>
-<BODY>
+<body><div class="editable">
 <H1>3. Parameterized Micromechanical Element Library</H1>
-<P>The Parameterized Micromechanical Element (PME) library is a set of 
-generators that allow the user to create micromechanical elements in a 
-quick and easy manner. It also provides a framework for writing cell 
-generators. It enables generators to be relatively process independent 
-and allows limited cell hierarchy. Designs can be generated in Caltech 
-Intermediate Form (CIF), GDS II, or PostScript output formats. Technology 
-dependent design rules are read in from an environment specified technology 
-file. The library provides various geometric primitives and a library of 
-available generators. This chapter discusses the library framework and its 
-usage. Details about the generators themselves are described in subsequent 
+<P>The Parameterized Micromechanical Element (PME) library is a set of
+generators that allow the user to create micromechanical elements in a
+quick and easy manner. It also provides a framework for writing cell
+generators. It enables generators to be relatively process independent
+and allows limited cell hierarchy. Designs can be generated in Caltech
+Intermediate Form (CIF), GDS II, or PostScript output formats. Technology
+dependent design rules are read in from an environment specified technology
+file. The library provides various geometric primitives and a library of
+available generators. This chapter discusses the library framework and its
+usage. Details about the generators themselves are described in subsequent
 chapters.</P>
 <HR>
 <H2>Table of Contents</H2>
@@ -49,51 +49,51 @@ chapters.</P>
 
 <H2><A NAME="3.1">3.1   PME Framework</A></H2>
 <H3><A NAME="3.1.1">3.1.1   Geometry Primitives</A></H3>
-<P>The PME library provides various geometry primitives for use in the 
-creation of generators. Rectangle, circle, sector, and polygon primitives 
-are available. Primitives on structural layers can be generated with etch 
-holes if they are parts of structures that will be released from the 
-substrate. These primitives will generate the appropriate layout depending 
-on the output format selected. Currently, these primitives are not directly 
+<P>The PME library provides various geometry primitives for use in the
+creation of generators. Rectangle, circle, sector, and polygon primitives
+are available. Primitives on structural layers can be generated with etch
+holes if they are parts of structures that will be released from the
+substrate. These primitives will generate the appropriate layout depending
+on the output format selected. Currently, these primitives are not directly
 accessible to the user and are only used within the library of generators.</P>
 
 <H3><A NAME="3.1.2">3.1.2   Process Dependence</A></H3>
-<P>The generators available in the PME library assume a two layer surface 
-micromachined process. The process is assumed to have two structural 
-layers, two sacrificial layers, and two electrical connect layers. Process 
-specific mask levels and layer names are specified through a process file 
-and are compiled into the library. Technology specific design rules are 
-specified through a separate technology file that is accessed at execution 
-time. The technology design rule file to use can be specified by the user 
-through the environment variable <B>PMETECH</B>. The generators have been 
-written to conform to the technology specific design rules specified via 
-the PMETECH file. However, a design rule checker is not a part of the 
-library and <I>all layouts generated should be checked using an external 
+<P>The generators available in the PME library assume a two layer surface
+micromachined process. The process is assumed to have two structural
+layers, two sacrificial layers, and two electrical connect layers. Process
+specific mask levels and layer names are specified through a process file
+and are compiled into the library. Technology specific design rules are
+specified through a separate technology file that is accessed at execution
+time. The technology design rule file to use can be specified by the user
+through the environment variable <B>PMETECH</B>. The generators have been
+written to conform to the technology specific design rules specified via
+the PMETECH file. However, a design rule checker is not a part of the
+library and <I>all layouts generated should be checked using an external
 design rule checker</I>.</P>
 
 <H3><A NAME="3.1.3">3.1.3   Cell Hierarchy</A></H3>
-<P>The library allows a limited cell hierarchy in both the generators and 
-the output layout. The layout generated for any cell is not stored in 
-program memory but is written out in the sequence generated. Hence any 
-leaf cells used inside the top level cell, must be defined before being 
-called. The same applies to instances within generators too, allowing a 
+<P>The library allows a limited cell hierarchy in both the generators and
+the output layout. The layout generated for any cell is not stored in
+program memory but is written out in the sequence generated. Hence any
+leaf cells used inside the top level cell, must be defined before being
+called. The same applies to instances within generators too, allowing a
 generator to be called inside another generator.</P>
 
 <H3><A NAME="3.1.4">3.1.4   Output Formats</A></H3>
-<P>The CaMEL PME library can generate layout in CIF, GDS II, and PostScript 
-output formats from the same PME input file. The programs <B>cifpme</B>, 
-<B>gdspme</B>, and <B>pspme</B> generate the CIF, GDS, and PostScript 
+<P>The CaMEL PME library can generate layout in CIF, GDS II, and PostScript
+output formats from the same PME input file. The programs <B>cifpme</B>,
+<B>gdspme</B>, and <B>pspme</B> generate the CIF, GDS, and PostScript
 outputs, respectively, from the PME input file.</P>
 
 <H2><A NAME="3.2">3.2   Library Usage</A></H2>
 <H3><A NAME="3.2.1">3.2.1   PME Input File</A></H3>
-<P>The PME input is specified in an ascii text file and defines cells and 
-places instances of defined cells at desired locations within the top 
-level cell MAINCELL. The syntax used is similar to C language syntax. The 
-input file should declare PME objects, call desired generators with 
-appropriate parameter lists and assign them to PME objects, and place 
-instances of these objects within MAINCELL. 
-<a name="declare"></a>PME objects are declared 
+<P>The PME input is specified in an ascii text file and defines cells and
+places instances of defined cells at desired locations within the top
+level cell MAINCELL. The syntax used is similar to C language syntax. The
+input file should declare PME objects, call desired generators with
+appropriate parameter lists and assign them to PME objects, and place
+instances of these objects within MAINCELL.
+<a name="declare"></a>PME objects are declared
 first using the statement:</P>
 <PRE>  PME cell1, cell2, etc.;</PRE>
 <a name="define"></a>
@@ -104,47 +104,47 @@ first using the statement:</P>
 <a name="instance"></a>
 <P>Finally, instances are placed at desired locations in the MAINCELL:</P>
 <PRE>  instance(pme_object_name, reflection, rotation, origin_x, origin_y);</PRE>
-<P>Reflection and rotation are performed about the instantiated cell's local 
-coordinate system. Reflection is performed first, rotation is performed 
-second, and the cell is finally translated to place the local origin of 
-the cell instance at the specified location within the MAINCELL. Rotation 
-is specified by passing the desired angular rotation value in degrees. All 
-geometrical length parameters for the generators and locations of instances 
+<P>Reflection and rotation are performed about the instantiated cell's local
+coordinate system. Reflection is performed first, rotation is performed
+second, and the cell is finally translated to place the local origin of
+the cell instance at the specified location within the MAINCELL. Rotation
+is specified by passing the desired angular rotation value in degrees. All
+geometrical length parameters for the generators and locations of instances
 are specified in microns. Permitted values for reflection are:</P>
 <PRE>  '*': no reflection
   'x': changes sign of x values; i.e., reflects about y-axis
   'y': changes sign of y values; i.e., reflects about x-axis</PRE>
 
 <H3><A NAME="3.2.2">3.2.2   Generating Layout</A></H3>
-<P>After the PME input file has been created, layout can be generated 
-in the desired format using one of the three layout generation programs: 
-<B>cifpme</B>, <B>gdspme</B>, or <B>pspme</B>. To generate layout in CIF 
+<P>After the PME input file has been created, layout can be generated
+in the desired format using one of the three layout generation programs:
+<B>cifpme</B>, <B>gdspme</B>, or <B>pspme</B>. To generate layout in CIF
 format run</P>
 <PRE>  cifpme pme_input_file &gt; output_file.cif</PRE>
 <P>Similarly, to generate GDS or PostScript versions of the layout use,</P>
 <PRE>  gdspme pme_input_file &gt; output_file.gds
   pspme pme_input_file &gt; output_file.ps
 </PRE>
-<P>The top level cell in the layout generated will be named MAINCELL. The CIF 
-or GDS layout can then be read into the mask layout editor of choice and 
+<P>The top level cell in the layout generated will be named MAINCELL. The CIF
+or GDS layout can then be read into the mask layout editor of choice and
 modified or assembled with other designs.</P>
 
 <H2><A NAME="3.3">3.3   Parameterized Micromechanical Elements</A></H2>
-<P>A variety of active, passive, and test MEMS structures have been 
-parameterized. In most cases the geometric parameters have been determined 
-by their importance in the overall design of the element. In some cases, 
-physical quantities such as residual strain are also used. The elements in 
-the library are designed to work closely with each other. One or more active 
-elements would typically be used along with one or more passive elements to 
-form a micromechanical system. For instance, a rotary side drive actuator 
-could be combined with a journal bearing to create a rotary variable 
-capacitance motor. Most generators have two versions: one using structural 
-layer 1, and the other using structural layer 2 and are identified by the 
-use of 1 or 2 at the end of the name of the generator. Details about the 
+<P>A variety of active, passive, and test MEMS structures have been
+parameterized. In most cases the geometric parameters have been determined
+by their importance in the overall design of the element. In some cases,
+physical quantities such as residual strain are also used. The elements in
+the library are designed to work closely with each other. One or more active
+elements would typically be used along with one or more passive elements to
+form a micromechanical system. For instance, a rotary side drive actuator
+could be combined with a journal bearing to create a rotary variable
+capacitance motor. Most generators have two versions: one using structural
+layer 1, and the other using structural layer 2 and are identified by the
+use of 1 or 2 at the end of the name of the generator. Details about the
 generators are listed in subsequent chapters of this manual.</P>
 
 <H3><A NAME="3.3.1">3.3.1   Active Micromechanical Elements</A></H3>
-<P>The following active elements are currently available in the CaMEL PME 
+<P>The following active elements are currently available in the CaMEL PME
 library:</P>
 <UL>
 <LI>Harmonic Side Drives - hsdm1, hsdm2
@@ -155,7 +155,7 @@ library:</P>
 </UL>
 
 <H3><A NAME="3.3.2">3.3.2   Passive Micromechanical Elements</A></H3>
-<P>The following passive elements are currently available in the CaMEL PME 
+<P>The following passive elements are currently available in the CaMEL PME
 library:</P>
 
 <UL>
@@ -166,8 +166,8 @@ library:</P>
 </UL>
 
 <H3><A NAME="3.3.3">3.3.3   Test and Electrical Elements</A></H3>
-<P>The following test/measurement elements are currently available and 
-are intended to measure mechanical or electrical characteristics of the 
+<P>The following test/measurement elements are currently available and
+are intended to measure mechanical or electrical characteristics of the
 process:</P>
 
 <UL>
@@ -179,18 +179,18 @@ process:</P>
 </UL>
 
 <H2><A NAME="3.4">3.4   Layout Examples</A></H2>
-<P>The following subsections show sample input files and layouts generated 
-by the PME library for the MUMPS-5 process and design rules. The examples 
-illustrate how elements of the library are used in conjunction with each 
+<P>The following subsections show sample input files and layouts generated
+by the PME library for the MUMPS-5 process and design rules. The examples
+illustrate how elements of the library are used in conjunction with each
 other to generate typical MEMS device.</P>
 
 <H3><A NAME="3.4.1">3.4.1   Example of Instances</A></H3>
-<P>The following PME input file illustrates the use of reflections and 
-rotations of instances inside the MAINCELL. A rotary comb drive is generated 
-with an angular comb length of 60 degrees, rotor inner radius of 50µm, 
-stator inner radius of 60µm, stator outer radius of 150µm, rotor spoke 
-width of 12µm, stator spoke width of 15µm, finger width of 5µm, air 
-gap of 5µm, and a stator-rotor angular overlap of 30 deg. The comb drive 
+<P>The following PME input file illustrates the use of reflections and
+rotations of instances inside the MAINCELL. A rotary comb drive is generated
+with an angular comb length of 60 degrees, rotor inner radius of 50µm,
+stator inner radius of 60µm, stator outer radius of 150µm, rotor spoke
+width of 12µm, stator spoke width of 15µm, finger width of 5µm, air
+gap of 5µm, and a stator-rotor angular overlap of 30 deg. The comb drive
 is generated in a cell named <I>rcombcell1.</I></P>
 <PRE>  /* Declare PME objects */
   PME p1;
@@ -212,20 +212,20 @@ is generated in a cell named <I>rcombcell1.</I></P>
   /* 7 - reflect cell about x-axis and rotate by -45 degrees */
   instance(p1,'y',-45.0,300.0,-100.0);</PRE>
 <P><A HREF="c6.fig.1.gif"><img src="c6.fig.1.gif"></A></P>
-<P><B>Figre 3.</B>  Layout of MAINCELL generated by instances example. Cross 
-hairs have been used to show the origin and orientation of the instantiated 
+<P><B>Figre 3.</B>  Layout of MAINCELL generated by instances example. Cross
+hairs have been used to show the origin and orientation of the instantiated
 cell.</P>
 
 <H3><A NAME="3.4.2">3.4.2   Rotary Side Drive Motor Example</A></H3>
-<P>A rotary side drive motor on the first structural layer is created using 
-the active element <B>rsdm1</B> and the passive element bearing1. The rotary 
-side drive is generated with inner ring radius of 21µm, inner rotor 
-tooth radius of 27µm, outer rotor tooth radius of 51µm, stator inner 
-radius of 53µm, stator outer radius of 80µm, rotor pole angle of 18 deg, 
-rotor gap angle of 27 deg, stator pole angle of 18 deg, and stator gap angle 
-of 12 deg. The rotor is aligned with the first stator pole and the cell is 
-named rsdma. The bearing is created with a cap radius of 14µm, journal 
-rotor inner radius of 10µm, and journal rotor outer radius of 
+<P>A rotary side drive motor on the first structural layer is created using
+the active element <B>rsdm1</B> and the passive element bearing1. The rotary
+side drive is generated with inner ring radius of 21µm, inner rotor
+tooth radius of 27µm, outer rotor tooth radius of 51µm, stator inner
+radius of 53µm, stator outer radius of 80µm, rotor pole angle of 18 deg,
+rotor gap angle of 27 deg, stator pole angle of 18 deg, and stator gap angle
+of 12 deg. The rotor is aligned with the first stator pole and the cell is
+named rsdma. The bearing is created with a cap radius of 14µm, journal
+rotor inner radius of 10µm, and journal rotor outer radius of
 27µm.</P>
 <PRE>  /* Rotary Side Drive Example */
   /* Declare PME Objects */
@@ -238,41 +238,41 @@ rotor inner radius of 10µm, and journal rotor outer radius of
   instance(p1,'*',0.0,0.0,0.0);
   instance(p2,'*',0.0,0.0,0.0);</PRE>
 <P><A HREF="c6.fig.2.gif"><img src="c6.fig.2.gif"></A></P>
-<P><B>Figure 4.</B>  Layout of rotary side drive motor generated by the PME 
-input file shown above. Both cells rsdma and jnla are located at the 
-origin of the MAINCELL in this case. The radii of the rotor ring and 
-journal have been chosen to overlap and provide mechanical interconnection 
+<P><B>Figure 4.</B>  Layout of rotary side drive motor generated by the PME
+input file shown above. Both cells rsdma and jnla are located at the
+origin of the MAINCELL in this case. The radii of the rotor ring and
+journal have been chosen to overlap and provide mechanical interconnection
 of the bearing and rotor ring.</P>
 
 <H3><A NAME="3.4.3">3.4.3   Example of Guckel Ring Test Structures</A></H3>
-<P>A set of guckel ring test structures to measure residual tensile stress 
-in the first structural layer is generated using the <B>grings1</B> 
-test/measurement element. Guckel rings are generated to measure strains 
-from 0.05% to 0.25% in steps of 0.025% using a ring width of 20µm and 
-a beam width of 10µm. The film thickness is specified as 2µm and 
-Poisson's ratio for the film is 0.23. A mechanical model of the ring 
-structure incorporated within the generator is used to calculate the ring 
-radii required for the given critical strain values and generate the 
+<P>A set of guckel ring test structures to measure residual tensile stress
+in the first structural layer is generated using the <B>grings1</B>
+test/measurement element. Guckel rings are generated to measure strains
+from 0.05% to 0.25% in steps of 0.025% using a ring width of 20µm and
+a beam width of 10µm. The film thickness is specified as 2µm and
+Poisson's ratio for the film is 0.23. A mechanical model of the ring
+structure incorporated within the generator is used to calculate the ring
+radii required for the given critical strain values and generate the
 layout accordingly in a cell named <I>rings1</I>.</P>
 <PRE>  /* Guckel Rings Example */
   PME p1;
-  /* 
-    generate rings for critical strains from 0.05% to 0.25% in 
-    steps of 0.025% with a ring width of 20 and beam width of 10, for a 
+  /*
+    generate rings for critical strains from 0.05% to 0.25% in
+    steps of 0.025% with a ring width of 20 and beam width of 10, for a
     film thickness of 2 and Poisson's ratio of 0.23.
   */
   p1 = grings1(0.0005,0.0025,0.00025,20.0,10.0,40.0,2.0,0.23,rings1);
   /* place instance in MAINCELL */
   instance(p1,'*',0.0,0.0,0.0);</PRE>
 <P><A HREF="c6.fig.3.gif"><img src="c6.fig.3.gif"></A></P>
-<P><B>Figure 5.</B>  Guckel ring test structures on the first structural 
+<P><B>Figure 5.</B>  Guckel ring test structures on the first structural
 layer generated by the PME input file shown above.</P>
 
 <H3><A NAME="3.4.4">3.4.4   Linear Comb Resonator Example</A></H3>
-<P>The following example shows a linear comb resonator on the first structural 
-layer created using the <B>lcomb1</B> linear comb drive and <B>lfbs1</B> 
-linear folded beam suspension. The fingers in the comb are 4µm wide with 
-an air gap of 3 µm and the beams in the suspension are 150 µm long and 
+<P>The following example shows a linear comb resonator on the first structural
+layer created using the <B>lcomb1</B> linear comb drive and <B>lfbs1</B>
+linear folded beam suspension. The fingers in the comb are 4µm wide with
+an air gap of 3 µm and the beams in the suspension are 150 µm long and
 4µm wide.</P>
 <PRE>  /* Linear Comb Resonator with Folded Beam Suspension */
   PME p1,p2;
@@ -284,7 +284,7 @@ an air gap of 3 µm and the beams in the suspension are 150 µm long and
   instance(p1,'y',0.0,0.0,-75.0);
   instance(p2,'*',0.0,0.0,0.0);</PRE>
 <P><A HREF="c6.fig.4.gif"><img src="c6.fig.4.gif"></A></P>
-<P><B>Figure 6.</B>  MAINCELL layout generated by the linear comb resonator 
+<P><B>Figure 6.</B>  MAINCELL layout generated by the linear comb resonator
 example PME input file.</P>
-</BODY>
+</div></body>
 </HTML>

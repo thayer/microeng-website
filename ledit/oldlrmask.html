@@ -2,20 +2,20 @@
 <title>Low Resolution Mask Making Procedure</title>
 <link rev="made" href="mail to:Christopher.Levey@dartmouth.edu">
 </head>
-<body><center>
+<body><div class="editable"><center>
 <h1>Low Resolution Mask Making Procedure</h1>
 <p></center>
 The following are instructions for preparing low resolution (25 micron
-minimum feature on a 7 micron grid) masks using LEDIT to generate 
-CIF and using psmask to convert that to postscript, which can be 
+minimum feature on a 7 micron grid) masks using LEDIT to generate
+CIF and using psmask to convert that to postscript, which can be
 printed on film on a 4040dpi printer at http://www.pretech.com.
-minimum feature 9 microns on a, .635 micron grid 8"x10" for $40 
+minimum feature 9 microns on a, .635 micron grid 8"x10" for $40
 <p>
-UPDATE:  We have also made masks with a minimum feature 9 microns 
-on a, .635 micron grid 8"x10" for $40 (or on a .8 micron grid for $25).  Need to convert files.  
+UPDATE:  We have also made masks with a minimum feature 9 microns
+on a, .635 micron grid 8"x10" for $40 (or on a .8 micron grid for $25).  Need to convert files.
 <p>
 <b>
-UPDATE (Sept 2008):  Photoplot store is now closed.  
+UPDATE (Sept 2008):  Photoplot store is now closed.
 New source including 1/50 mil resloution:
 www.fineline-imaging.com.
 </b>
@@ -24,8 +24,8 @@ www.fineline-imaging.com.
 <p>
 Prepare file in LEDIT
 <ul>
-<li> It helps to reduce the size of dark features slightly; our present vendor 
-(PreTech) overexposes the film. Dark features in an interdigitate electrode 
+<li> It helps to reduce the size of dark features slightly; our present vendor
+(PreTech) overexposes the film. Dark features in an interdigitate electrode
 array come out about10 microns larger than designed.  For example, a grating
 with 25 micron lines and spaces should be drawn with 15 micron lines and 35
 micron spaces.
@@ -34,9 +34,9 @@ micron spaces.
 <li> Polygon size is limited by number of characters;
 seems to be about 75 verticies for coordinates specified by large numbers
 (10,000).
-<li> A template is available: 
+<li> A template is available:
 <a href="MASKtemplate.tdb.Hqx">
-MASKtemplate.tdb</a> (for use with L-Edit) or 
+MASKtemplate.tdb</a> (for use with L-Edit) or
 <a href="MASKtemplate.cif">MASKtemplate.cif</a> (may also be used in MAGIC)
 <br>
 The mask plate is 4" square, the exposure is 3" diameter, but best not
@@ -45,8 +45,8 @@ There are two circles on the template which do not print; one at 3" diameter,
 and one at 2.5".
 <li>IMPORTANT:  It is best to use the template.  If you do not, and you do use polyons,
 it seems that you must include at least one rectangle in the file <b>before</b>
-any polygons, or it may print a black page.  There is apparently some 
-initilization problem, presumable with psmask which is solved by 
+any polygons, or it may print a black page.  There is apparently some
+initilization problem, presumable with psmask which is solved by
 including at least one rectangle.  You can delete the resllution marks
 in the template file.
 <li> Only one cell--create single cell as follows:
@@ -55,7 +55,7 @@ in the template file.
    <li> copy that to a new file (temp:myflat), and delete cell0 in that file.
    </ul>
 <li> Rename CIF layers for which mask files are desired to one or more
-of the following:  CPG CCP CAA CCA CMF CMS CVA CSP CSN CWP CWN COG.  
+of the following:  CPG CCP CAA CCA CMF CMS CVA CSP CSN CWP CWN COG.
 However, more than one mask level can be combined into a single printout
 (of CPG for example) as follows:
 <ul>
@@ -68,11 +68,11 @@ to CPG.
 <li> The final file must again contain a single flat cell, with a single layer
 of CIF name CPG.
 </ul>
-<li> Use <a href="http://help.thayer.dartmouth.edu/techsup/ssh.shtml">SSH protocol</a> (e.g. NiftyTelnet or SFTP normal FTP login will probably not be accepted because it allows a clear send of password) to transfer to sunray.dartmouth.edu 
+<li> Use <a href="http://help.thayer.dartmouth.edu/techsup/ssh.shtml">SSH protocol</a> (e.g. NiftyTelnet or SFTP normal FTP login will probably not be accepted because it allows a clear send of password) to transfer to sunray.dartmouth.edu
 [previously sunset.dartmouth.edu] (use TEXT mode).  You need a <a href="northstar/account.html">northstar</a>
 login (northstar is Dartmouth's unix network; it is similar to but independent
-from Thayer's unix network. 
-<li> Login to <strong>sunray.dartmouth.edu</strong>, and type:  
+from Thayer's unix network.
+<li> Login to <strong>sunray.dartmouth.edu</strong>, and type:
 <pre>
 tr "\015" "\012" &lt filename.cif | psmask
 <p>
@@ -80,32 +80,32 @@ tr "\015" "\012" &lt filename.cif | psmask
 </pre>
 <li> Edit file CPG from ps to eps, save as myfile.eps.
 For a bounding box starting at the
-LL corner of the file and extending 8" (576 point) to the right and 
-10.5" (756 point) up, the first two lines should read as follows.  
+LL corner of the file and extending 8" (576 point) to the right and
+10.5" (756 point) up, the first two lines should read as follows.
 <pre>
 %!PS-Adobe-3.0 EPSF-3.0
 %%BoundingBox: 0 0 576 756
 </pre>
 <li>
 <b>If you have text (there is text in the mask template above)</b>:
-To change the text font size from the default 6 point, edit the 6 the line shown below in the file (the division by 2.8e-5 is 
-because the entire file is scaled from points to centi-microns). 
-Note, if you have text, without the EPS box above it may not print.  
+To change the text font size from the default 6 point, edit the 6 the line shown below in the file (the division by 2.8e-5 is
+because the entire file is scaled from points to centi-microns).
+Note, if you have text, without the EPS box above it may not print.
 You also need to tell PreTech to be sure to run the file through the RamPage system.  There are 72 points to the inch;  a point size of 0.7 is just readable by some with the naked eye, easily readable with a magnifying glass.
 <pre>
-/Helvetica findfont 6 2.83e-05 div scalefont setfont 
+/Helvetica findfont 6 2.83e-05 div scalefont setfont
 </pre>
 <li> FETCH or FTP the myfile.eps from sunray (use TEXT mode).
 <li> Verify that it will import into WORD as an eps file, and that
 it prints well on a 600dpi laswerwriter (just drag the eps file onto the printer icon).
 <li> Rename the file namedate.eps (e.g. cgl080195.eps).  The .eps is important.
-<li> Use disk doubler (or stuffit) to create a self expanding archive (SEA).  
+<li> Use disk doubler (or stuffit) to create a self expanding archive (SEA).
 <li> If you're not using Blitzmail, binhex the SEA file so it can be sent over e
 mail (Blitzmail does this automatically when sending off campus).
 <li> Email to info@pretech.com, attention Jim,
-Tell them you want 
+Tell them you want
 <ul>
-<li>8.5X11 inch film output 
+<li>8.5X11 inch film output
 <li>Maximum resolution:  4040 dpi (6.5micron laser spot)
 <li>POSITIVE (or NEGATIVE) film.
 <li>If text is needed: run it through the RamPage system; note, there are <b>two places</b> where 4040 dpi resolution needs to be set.
@@ -113,9 +113,9 @@ Tell them you want
 <li>Follow up with a phone call:  802-296-7737
 </ul>
 </ul>
-If you plan lithography and etching, you probably want positive (on the film features 
+If you plan lithography and etching, you probably want positive (on the film features
 from LEDIT will be dark on a clear field.  Using positive photoresist,
-these features will be protected from etching.)  
+these features will be protected from etching.)
 If you plan to do liftoff, you probably
 want negative film (then features will be clear on a dark field, the field will
 lift off with the positive photoresist, leaving material at the features).
@@ -130,5 +130,5 @@ Processing the film into a chrome mask is detailed in this
 <hr> <p>
 <a href="mailto:Christopher.G.Levey@dartmouth.edu"><ADDRESS>Christopher.G.Levey@
 dartmouth.edu</ADDRESS></a>
-</body></html>
+</div></body></html>
 

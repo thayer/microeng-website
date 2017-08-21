@@ -2,8 +2,8 @@
 <title>Sputtering Tool</title>
 <link rev="made" href="mail to:Christopher.Levey@dartmouth.edu">
 </head>
-<body>
-<p><center><h1>Cooke C71-3M Sputtering Tool</h1></center><p> 
+<body><div class="editable">
+<p><center><h1>Cooke C71-3M Sputtering Tool</h1></center><p>
 <a href="targets.html">targets</a>
 <p>
 <a href="arc">Note on erratic arc</a>
@@ -11,5 +11,5 @@
 <hr> <p>
 <a href="mailto:Christopher.G.Levey@dartmouth.edu"><ADDRESS>Christopher.G.Levey@
 dartmouth.edu</ADDRESS></a>
-</body></html>
+</div></body></html>
 

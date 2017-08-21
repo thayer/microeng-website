@@ -3,19 +3,19 @@
 <HEAD>
 <TITLE>Passive Micromechanical Elements</TITLE>
 </HEAD>
-<BODY>
-<H1>5. Passive Micromechanical Elements</H1> 
-<P>The passive micromechanical elements available in the Parameterized 
-Micromechanical Element library are described in this chapter. Again, 
+<body><div class="editable">
+<H1>5. Passive Micromechanical Elements</H1>
+<P>The passive micromechanical elements available in the Parameterized
+Micromechanical Element library are described in this chapter. Again,
 there are two versions of most elements implemented on each of the first
  and second structural layers. In some cases, like <B>bearing2</B>, the
- element is designed to mechanically interface with a rotary element on 
+ element is designed to mechanically interface with a rotary element on
 structural layer 2 and consists of structures on both structural layers.
- The geometrical parameters passed to the generators use the following 
+ The geometrical parameters passed to the generators use the following
 units: µm for length dimensions and degrees for angles. For other design
- parameters, the units used are specified in the description of the 
+ parameters, the units used are specified in the description of the
 element.</P>
-<P>The following passive elements are currently available in the CaMEL 
+<P>The following passive elements are currently available in the CaMEL
 PME library:</P>
 <UL>
 <LI>Journal Bearings - bearing1, bearing2
@@ -25,7 +25,7 @@ PME library:</P>
 <LI>Linear Folded Beam Suspensions - lfbs1, lfbs2
 </LI>
 <LI>Spiral Springs - spiral1, spiral2
-</LI> 
+</LI>
 </UL>
 <HR>
 <H2>Table of Contents</H2>
@@ -47,7 +47,7 @@ lfbs1, lfbs2</B></A>
 spiral2</B></A>
 </LI>
 </UL>
-<HR> 
+<HR>
 <a name="bearing"> </a>
 <H2><A NAME="5.1">5.1 Journal Bearing Element: bearing1</A></H2>
 <P>The <B>bearing1</B> PME generator generates a journal bearing
@@ -59,7 +59,7 @@ structural layer. The design  parameters are:</P>
   rcap:    radius of cap on central shaft, µm
   rinner:  inner radius of journal rotor, µm
   router:  outer radius of journal rotor, µm
-  name:    name of cell. 
+  name:    name of cell.
 </PRE>
 <P>The outside of the shaft on structural layer 2 is one bearing
 surface  while the inside of the rotor on structural layer 1 is the
@@ -79,7 +79,7 @@ journal  bearing. The cross section illustrates how the spacing between
 the shaft  and rotor is determined by the second sacrificial layer. The
 substrate is  not shown in the cross section; the layers shown are:
 first sacrificial  layer, first structural layer, second sacrificial
-layer, and second  structural layer.</P> 
+layer, and second  structural layer.</P>
 <H2><A NAME="5.2">5.2 Journal Bearing Element: bearing2</A></H2>
 <P>The <B>bearing2</B> PME element generates a journal bearing
 intended  to connect with a rotary element on structural layer 2. The
@@ -88,7 +88,7 @@ design parameters  are:</P>
   rcap:    radius of cap on central shaft, µm
   rinner:  inner radius of journal rotor, µm
   router:  outer radius of journal rotor, µm
-  name:    name of cell. 
+  name:    name of cell.
 </PRE>
 <P>The outside of the shaft on structural layer 2 is one bearing
 surface  while the inside of the rotor on structural layer 1 is the
@@ -106,7 +106,7 @@ PME bearing2(double rcap, double rinner, double router, char *name)
 <P><A HREF="c8.fig.2.gif"><IMG SRC="c8.fig.2.gif"></A></P>
 <P><B>Figure 16.</B> Layout and cross-section of <B>bearing2</B>
 rotary  bearing element. It is similar to a bearing1 element but has
-bushings and  an additional ring on structural layer 2.</P> 
+bushings and  an additional ring on structural layer 2.</P>
 <H2><A NAME="5.3">5.3 Linear Crab Leg Suspension Elements: lcls1,
 lcls2</A></H2>
 <P>The <B>lcls1</B> and <B>lcls2</B> routines generate linear crab
@@ -123,9 +123,9 @@ respectively.  The design parameters used are:</P>
   wanchor:   width of anchor support, µm
   wsyoke:    width of shuttle yoke, µm
   lsyoke:    length of shuttle yoke, µm
-  name:      name of cell. 
+  name:      name of cell.
 </PRE>
-<P>The geometry of the element is illustrated in Figure 17. The local 
+<P>The geometry of the element is illustrated in Figure 17. The local
 origin of the element is at the center of the shuttle mass. Actuators
 can  be connected to the yokes on the shuttle mass.</P>
 <P>Element calling sequence:</P>
@@ -140,8 +140,8 @@ PME lcls2(double lbeam1, double wbeam1, double lbeam2, double wbeam2,
 <P><A HREF="c8.fig.3.gif"><IMG SRC="c8.fig.3.gif"></A></P>
 <P><B>Figure 17.</B> Linear crab leg suspension element. The origin of
  the cell is located at the center of the shuttle mass. Linear actuation
- elements can be connected to the shuttle yokes to create a linear 
-resonator.</P> 
+ elements can be connected to the shuttle yokes to create a linear
+resonator.</P>
 <H2><A NAME="5.4">5.4 Linear Crab Leg Suspension Elements: lcls1b,
 lcls2b</A></H2>
 <P>The <B>lcls1b</B> and <B>lcls2b</B> routines generate linear crab
@@ -158,10 +158,10 @@ respectively. The  design parameters used are:</P>
   wanchor:   width of anchor support, µm
   wsyoke:    width of shuttle yoke, µm
   lsyoke:    length of shuttle yoke, µm
-  name:      name of cell. 
+  name:      name of cell.
 </PRE>
-<P>The geometry of the element is illustrated in Figure 18. The local 
-origin of the element is at the center of the shuttle mass. Actuators 
+<P>The geometry of the element is illustrated in Figure 18. The local
+origin of the element is at the center of the shuttle mass. Actuators
 can be connected to the yokes on the shuttle mass.</P>
 <P>Element calling sequence:</P>
 <PRE>
@@ -176,10 +176,10 @@ PME lcls2b(double lbeam1, double wbeam1, double lbeam2,
 </PRE>
 <P><A HREF="c8.fig.4.gif"><IMG SRC="c8.fig.4.gif"></A></P>
 <P><B>Figure 18.</B> Design parameters for the linear crab leg
-suspensions 
+suspensions
 <B>lcls1b</B> and <B>lcls2b</B>. The origin of the cell is at the
 center of  the shuttle mass and drive elements should be connected to
-the yokes on the  shuttle.</P> 
+the yokes on the  shuttle.</P>
 <H2><A NAME="5.5">5.5   Linear Folded Beam Suspension Elements: lfbs1,
 lfbs2</A></H2>
 <P>The <B>lfbs1</B> and <B>lfbs2</B> routines generate linear folded
@@ -194,11 +194,11 @@ respectively.  The element parameters used are:</P>
   wanchor:  width of anchor support, µm
   wsyoke:   width of shuttle yoke, µm
   lsyoke:   length of shuttle yoke, µm
-  name:     name of cell. 
+  name:     name of cell.
 </PRE>
-<P>The geometry of the element is illustrated in Figure 19. The local 
-origin of the element is at the center of the shuttle mass. Actuators 
-or other mechanical elements can be connected to the yokes at the ends 
+<P>The geometry of the element is illustrated in Figure 19. The local
+origin of the element is at the center of the shuttle mass. Actuators
+or other mechanical elements can be connected to the yokes at the ends
 of the shuttle mass.</P>
 <P>Element calling sequence:</P>
 <PRE>
@@ -213,10 +213,10 @@ PME lfbs2(double lbeam, double wbeam, double beamsep, double wbar,
 <P><B>Figure 19.</B> Salient features of the linear folded beam
 suspension  generated by <B>lfbs1</B> and <B>lfbs2</B>. The origin of
 the cell is  located at the center of the shuttle mass. Drive elements
-should be fixed  to the yokes at either end of the shuttle.</P> 
+should be fixed  to the yokes at either end of the shuttle.</P>
 <H2><A NAME="5.6">5.6   Dual Archimedean Spiral Spring: spiral1,
 spiral2</A></H2>
-<P>The <B>spiral1</B> and <B>spiral2</B> routines generate dual 
+<P>The <B>spiral1</B> and <B>spiral2</B> routines generate dual
 Archimedean spiral springs on structural layer 1 and structural  layer
 2, respectively. A possible application of the spiral spring is  in a
 torsional suspension system. The element parameters used are:</P>
@@ -227,12 +227,12 @@ torsional suspension system. The element parameters used are:</P>
   length:  length of each spiral beam, µm
   width:   width of the spiral beam, µm
   rrotor:  outer radius of rotor support, µm
-  name:    name of cell. 
+  name:    name of cell.
 </PRE>
-<P>The geometry of the element is illustrated in Figure 20. The local 
-origin of the element is at the center of the shaft. Actuators or other 
-mechanical elements can be connected to the rotor supports at the ends 
-of the spiral spring. Parameters such as rinner, router, and length 
+<P>The geometry of the element is illustrated in Figure 20. The local
+origin of the element is at the center of the shaft. Actuators or other
+mechanical elements can be connected to the rotor supports at the ends
+of the spiral spring. Parameters such as rinner, router, and length
 apply to the central axis of the spiral beam.</P>
 <P>Element calling sequence:</P>
 <PRE>
@@ -242,10 +242,10 @@ PME spiral2(double rshaft, double rinner, double router,
             double length, double width, double rrotor, char *name)
 </PRE>
 <P><A HREF="c8.fig.6.gif"><IMG SRC="c8.fig.6.gif"></A></P>
-<P><B>Figure 20.</B> Dual Archimedean spiral spring element. The 
-<I>length</I> parameter of the spiral beam corresponds to the length 
-of the central axis of the beam. The central support shaft is anchored 
+<P><B>Figure 20.</B> Dual Archimedean spiral spring element. The
+<I>length</I> parameter of the spiral beam corresponds to the length
+of the central axis of the beam. The central support shaft is anchored
 to the substrate.</P>
 <P><A NAME="ENDFILE"> </A></P>
-</BODY>
+</div></body>
 </HTML>
