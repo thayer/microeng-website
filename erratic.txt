@@ -1,0 +1,61 @@
+Date: 14 Jan 99 19:36:51 EST
+Subject: RF sputtering
+To: cgl@coos.dartmouth.edu (Christopher Levey)
+
+Hi Chris!
+
+Phil did some work on the glycol flow rates and we seem to be better off than
+we were (apx. 1 GPM which, acc. to ENI RF supply specs should be more than
+enough).  I have done some work on the vacuum system (i.e. new vacuum tubes as
+we discussed and I also replaced the MP oil).  I did a preliminary pump down
+today.  It took about 4min to pump down from ATM to 100mTorr in the chamber
+which is about half the time it took before.  So, we are in better shape there.
+
+I'd like to re-test the RF sputtering of Al2O3 (target currently in the system)
+to see if the cooling glycol will really allow the RF power supply to sputter
+longer w/o overheating.  If I pump down the system in the morning, would you be
+available around 2pm to try an RF sputter again?  Let me know if this time
+works for you of if there is a more convenient time.
+
+Kip
+
+
+From: Kip.D.Coonley@Dartmouth.EDU (Kip D. Coonley)
+Subject: Re: sputtering system
+To: Zoe.R.Courville@Dartmouth.EDU (Zoe R. Courville)
+Cc: Gunnar.Stolze@Dartmouth.EDU (Gunnar Stolze),
+        cgl@coos.dartmouth.edu (Christopher Levey)
+Status: OR
+
+You asked about possible causes for the fluctuating plasma arc in the
+sputtering machine in the cleanroom.  I've had a chance to do some reading and
+look through the manual.
+
+Sometimes when a target is first turned on, regions of high field due to pits
+or edges in the target face can cause local arcing of the plasma.  These arcs
+appear as intermittent flashes of light and current spikes.  After a little
+sputtering, this problem should go away as the target face gets "cleaned".
+Increasing the power level until a steady discharge is obtained in recommended
+in the manual.
+
+Another cause of an erractic plasma arc may be base pressure.  If a low base
+pressure is not reached, atoms or molecules other than the inert gas being
+flowed into the system (usually Argon) can impact the target face with
+difference momenta which can cause a weird plasma arc.
+
+One clear reference to an intermittent plasma in this system occurs on page
+0015 of the cleanroom manual.  The group depositing this film was using an Al
+target.  They had reached a base pressure of 1.5 x 10^--5 Torr before flowing
+Argon.  They took the time later to sputter etch the target and it worked fine
+for a while.  Another reference for this same material appears on page 0041
+where pulsating plasmas were noted.
+
+The magnets in target #1 were replaced at one time (see page 0041 in manual)
+and an arcing problem initially occured until the correct magnet arrangement
+was set-up.  It has worked fine after that and no more arcing was noted.
+
+I hope this helps.  Let me know how things work out or if you need some more
+information.
+
+Kip
+lennier:microeng:sputtering>
