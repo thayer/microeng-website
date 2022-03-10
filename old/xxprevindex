@@ -9,7 +9,7 @@
 <center>
 <h1>
 <a href="http://www.dartmouth.edu/~collage/portraits/img57.html">
-<img src="icons/microengICON.GIF" ALIGN=LEFT BORDER=0></a>
+<img src="icons/microengICON.gif" ALIGN=LEFT BORDER=0></a>
 Microengineering Cleanroom Laboratory
 <br>
 <a href="http://www.dartmouth.edu"> Dartmouth</a> College
@@ -59,7 +59,7 @@ Thayer School of <a href="http://engineering.dartmouth.edu"> Engineering</a>
 <a name="imagemap"></a>
 <p>
 <A HREF="lab.map">
-<IMG SRC="labirc.GIF" ALT="Lab Floorplan imagemap"
+<IMG SRC="labirc.gif" ALT="Lab Floorplan imagemap"
 ISMAP align="left" hspace=10 border=0></A>
 <!--width=403 height=700 -->
 <small>
@@ -166,7 +166,7 @@ Martin Wybourne</a> (Physics)
  and
 <a href="procinfo.html#safety">Safety Data</a>
 <a href="msds.LocalAccess/msds.merged">
-<IMG SRC="icons/skull.GIF" ALT="Skull&Cro
+<IMG SRC="icons/skull.gif" ALT="Skull&Cro
 ssbones" WIDTH=31 HEIGHT=31></a>
 </h3><h3>
 <a name="equipment"></a>
